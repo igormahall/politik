@@ -16,6 +16,7 @@
 {% endif %}{% endfor %}
 {% endif %}
 <h2>📜 Novidades oficiais</h2>
+{% if diario.parcial %}<p class="aviso">⚠️ Tradução parcial hoje — alguns itens ficaram para amanhã.</p>{% endif %}
 {% if diario.sem_traducao %}
 <p class="aviso">⚠️ Tradução indisponível hoje — mostrando textos originais.</p>
 <ul>{% for i in sel.destaques %}<li><a href="{{ i.url }}">{{ i.titulo }}</a> — {{ i.ementa }}</li>{% endfor %}</ul>

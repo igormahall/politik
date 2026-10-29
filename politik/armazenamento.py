@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 from pathlib import Path
 
 from politik.modelos import Item
@@ -13,7 +14,11 @@ def ler_json(caminho: Path, padrao=None):
     caminho = Path(caminho)
     if not caminho.exists():
         return padrao
-    return json.loads(caminho.read_text(encoding="utf-8"))
+    try:
+        return json.loads(caminho.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        print(f"JSON inválido em {caminho}: {e}", file=sys.stderr)
+        return padrao
 
 
 def escrever_json(caminho: Path, obj) -> None:

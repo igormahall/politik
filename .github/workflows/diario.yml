@@ -25,10 +25,10 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     env:
       POLITIK_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-      INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
-      INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false # o token de push só entra no passo de commit
 
       - uses: actions/setup-python@v5
         with:
@@ -37,13 +37,21 @@ jobs:
       - run: pip install -e .
 
       - name: Dia de referência
+        env:
+          DATA_INPUT: ${{ inputs.data }}
         run: |
-          D="${{ inputs.data }}"
+          D="$DATA_INPUT"
           if [ -z "$D" ]; then D=$(python -c "from politik.datas import dia_de_referencia as d; print(d())"); fi
           echo "D=$D" >> "$GITHUB_ENV"
 
-      - run: python -m politik coletar --data "$D"
-      - run: python -m politik filtrar --data "$D"
+      - name: Coletar
+        run: python -m politik coletar --data "$D"
+        env:
+          INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
+          INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
+
+      - name: Filtrar
+        run: python -m politik filtrar --data "$D"
 
       - name: Traduzir com Claude Code
         id: claude
@@ -53,25 +61,38 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: "/traduzir ${{ env.D }}"
+          # o Claude só lê data/ e editorial/ e só escreve em data/
           claude_args: |
             --max-turns 60
-            --allowedTools "Read,Write,Edit,Glob"
+            --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob"
 
       - name: Registrar uso da cota
         if: always()
         run: python -m politik registrar-uso --arquivo "${{ steps.claude.outputs.execution_file }}" --data "$D"
 
-      - run: python -m politik validar --data "$D"
-      - run: python -m politik site --saida site_build
+      - name: Restaurar código (o Claude só pode mudar data/)
+        if: always()
+        run: git checkout HEAD -- politik config editorial .claude .github pyproject.toml
+
+      - name: Validar
+        id: validar
+        run: python -m politik validar --data "$D"
+
+      - name: Gerar site
+        run: python -m politik site --saida site_build
 
       - uses: actions/configure-pages@v5
+        continue-on-error: true
       - uses: actions/upload-pages-artifact@v3
+        continue-on-error: true
         with:
           path: site_build
       - id: deploy
         uses: actions/deploy-pages@v4
+        continue-on-error: true
 
       - name: Enviar no Telegram
+        if: always() && steps.validar.outcome == 'success'
         run: python -m politik enviar --data "$D"
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -79,8 +100,17 @@ jobs:
 
       - name: Salvar histórico
         if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "politik-bot"
           git config user.email "politik-bot@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"
           git add data
-          git diff --cached --quiet || (git commit -m "dados: $D" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "dados: $D"
+          for tentativa in 1 2 3; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push && exit 0
+            sleep 5
+          done
+          exit 1

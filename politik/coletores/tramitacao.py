@@ -15,8 +15,12 @@ def acompanhados(hoje: str, janela_dias: int = 180) -> list[str]:
     ids = []
     for f in sorted((data_dir() / "fichas").glob("*.json")):
         ficha = ler_json(f, {})
+        if not isinstance(ficha, dict):
+            continue
         iid = ficha.get("item_id", "")
-        if iid.startswith(("camara:", "senado:")) and ":votacao:" not in iid and ficha.get("data", "") >= limite:
+        # só o projeto original: fichas de votação/tramitação não são acompanhadas
+        if (iid.startswith(("camara:", "senado:")) and iid.count(":") == 1
+                and ficha.get("data", "") >= limite and iid not in ids):
             ids.append(iid)
     return ids
 

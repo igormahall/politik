@@ -11,5 +11,5 @@ def test_exemplos_seguem_esquema():
 def test_skill_e_guia_existem():
     from pathlib import Path
     skill = Path(".claude/skills/traduzir/SKILL.md").read_text()
-    assert "allowed-tools: Read, Write, Edit, Glob" in skill and "editorial/GUIA.md" in skill
+    assert "Edit(data/**)" in skill and "editorial/GUIA.md" in skill
     assert "segundo apenas" in Path("editorial/GUIA.md").read_text()

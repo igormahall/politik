@@ -11,7 +11,7 @@ def normalizar(s: str) -> str:
 
 def carregar_temas(ativos: bool = True) -> list[dict]:
     temas = [ler_json(p) for p in sorted((data_dir() / "temas").glob("*.json"))]
-    return [t for t in temas if t.get("ativo", True) or not ativos]
+    return [t for t in temas if isinstance(t, dict) and "slug" in t and (t.get("ativo", True) or not ativos)]
 
 
 def casa_tema(item: Item, temas: list[dict]) -> list[str]:
@@ -28,7 +28,7 @@ def marcar_inativos(hoje: str, dias: int) -> list[str]:
     alterados = []
     for p in sorted((data_dir() / "temas").glob("*.json")):
         t = ler_json(p)
-        if t.get("ativo") and t.get("ultima_novidade", hoje) < limite:
+        if isinstance(t, dict) and t.get("ativo") and t.get("ultima_novidade", hoje) < limite:
             t["ativo"] = False
             escrever_json(p, t)
             alterados.append(t["slug"])
