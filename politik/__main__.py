@@ -51,18 +51,36 @@ def cmd_filtrar(args) -> int:
     return 0
 
 
-COMANDOS = {"coletar": cmd_coletar, "filtrar": cmd_filtrar}
+def cmd_validar(args) -> int:
+    from politik.temas import marcar_inativos
+    from politik.validar import validar
+
+    diario = validar(args.data)
+    inativos = marcar_inativos(args.data, carregar_cfg()["inatividade_tema_dias"])
+    print(f"fichas válidas={len(diario['fichas'])} temas={len(diario['temas'])} "
+          f"sem_traducao={diario.get('sem_traducao', False)} inativados={inativos}")
+    return 0
+
+
+# nome -> (função, argumentos extras além de --data)
+COMANDOS = {
+    "coletar": (cmd_coletar, []),
+    "filtrar": (cmd_filtrar, []),
+    "validar": (cmd_validar, []),
+}
 
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="politik")
     sub = p.add_subparsers(dest="comando", required=True)
-    for nome in COMANDOS:
+    for nome, (_, extras) in COMANDOS.items():
         s = sub.add_parser(nome)
         s.add_argument("--data", default=None)
+        for flag, opcoes in extras:
+            s.add_argument(flag, **opcoes)
     args = p.parse_args(argv)
     args.data = args.data or dia_de_referencia()
-    return COMANDOS[args.comando](args)
+    return COMANDOS[args.comando][0](args)
 
 
 if __name__ == "__main__":
