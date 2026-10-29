@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block titulo %}Politik — {{ d }}{% endblock %}
+{% block conteudo %}
+<h1>{{ d }}</h1>
+{% for f in sel.fontes_indisponiveis %}<p class="aviso">⚠️ Fonte {{ f }} indisponível hoje.</p>{% endfor %}
+{% if diario.temas %}
+<h2>🔥 Temas em andamento</h2>
+{% for t in diario.temas %}{% set tema = temas.get(t.slug) %}{% if tema %}
+<article class="cartao">
+  <h3><a href="{{ url_tema(t.slug) }}">{{ tema.nome }}</a></h3>
+  <p><em>Resumo até aqui:</em> {{ tema.resumo_ate_aqui }}</p>
+  <p><em>Novo hoje:</em> {{ t.novo_hoje }}</p>
+  {% if t.aviso_fonte_unica %}<p class="aviso">⚠️ {{ t.aviso_fonte_unica }}</p>{% endif %}
+  <p><a href="{{ url_tema(t.slug, 'linha-do-tempo') }}">🕒 Linha do tempo</a> · <a href="{{ url_tema(t.slug, 'do-zero') }}">❓ Me explica do zero</a></p>
+</article>
+{% endif %}{% endfor %}
+{% endif %}
+<h2>📜 Novidades oficiais</h2>
+{% if diario.sem_traducao %}
+<p class="aviso">⚠️ Tradução indisponível hoje — mostrando textos originais.</p>
+<ul>{% for i in sel.destaques %}<li><a href="{{ i.url }}">{{ i.titulo }}</a> — {{ i.ementa }}</li>{% endfor %}</ul>
+{% else %}
+{% for nivel, rotulo in niveis %}{% set grupo = fichas | selectattr("nivel", "equalto", nivel) | list %}{% if grupo %}
+<h3>{{ rotulo }}</h3>
+<ul>{% for f in grupo %}<li><a href="{{ url_ficha(f.item_id) }}">{{ f.titulo }}</a> <span class="etiqueta">{{ f.situacao }}</span></li>{% endfor %}</ul>
+{% endif %}{% endfor %}
+{% if not fichas %}<p>Nenhuma novidade oficial ontem.</p>{% endif %}
+{% endif %}
+<p><a href="{{ url_menores(d) }}">+ {{ sel.menores | length }} itens menores</a></p>
+{% endblock %}
