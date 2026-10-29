@@ -1,0 +1,98 @@
+# Veículos de linhas editoriais diferentes + agências públicas + Amazonas.
+# texto_completo = true só para fontes abertas, sem paywall.
+
+[[feed]]
+veiculo = "agenciabrasil"
+url = "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml"
+secao = "politica"
+texto_completo = true
+
+[[feed]]
+veiculo = "agenciabrasil-economia"
+url = "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml"
+secao = "economia"
+texto_completo = true
+
+[[feed]]
+veiculo = "agenciacamara"
+url = "https://www.camara.leg.br/noticias/rss/ultimas-noticias"
+secao = "politica"
+texto_completo = true
+
+[[feed]]
+veiculo = "agenciasenado"
+url = "https://www12.senado.leg.br/noticias/rss"
+secao = "politica"
+texto_completo = true
+
+[[feed]]
+veiculo = "g1"
+url = "https://g1.globo.com/rss/g1/politica/"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "g1-economia"
+url = "https://g1.globo.com/rss/g1/economia/"
+secao = "economia"
+texto_completo = false
+
+[[feed]]
+veiculo = "folha"
+url = "https://feeds.folha.uol.com.br/poder/rss091.xml"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "estadao"
+url = "https://www.estadao.com.br/arc/outboundfeeds/feeds/rss/sections/politica/"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "poder360"
+url = "https://www.poder360.com.br/feed/"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "gazetadopovo"
+url = "https://www.gazetadopovo.com.br/feed/rss/republica.xml"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "cartacapital"
+url = "https://www.cartacapital.com.br/politica/feed/"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "oeste"
+url = "https://revistaoeste.com/politica/feed/"
+secao = "politica"
+texto_completo = false
+
+[[feed]]
+veiculo = "g1-amazonas"
+url = "https://g1.globo.com/rss/g1/am/amazonas/"
+secao = "amazonas"
+texto_completo = false
+
+[[feed]]
+veiculo = "acritica"
+url = "https://www.acritica.com/rss"
+secao = "amazonas"
+texto_completo = false
+
+[[feed]]
+veiculo = "d24am"
+url = "https://d24am.com/feed/"
+secao = "amazonas"
+texto_completo = false
+
+[[feed]]
+veiculo = "amazonasatual"
+url = "https://amazonasatual.com.br/feed/"
+secao = "amazonas"
+texto_completo = false
