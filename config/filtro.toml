@@ -1,0 +1,15 @@
+# Regras do filtro. Tudo que não estiver aqui vai para os "menores"
+# (aparecem no site com a ementa original, sem passar pelo Claude).
+
+teto_destaques = 25
+pendente_max_dias = 2
+teto_noticias = 60
+inatividade_tema_dias = 30
+
+# Câmara e Senado
+destaque_siglas_federal = ["PL", "PLP", "PEC", "MPV", "PDL", "PLN", "PLS"]
+# ALEAM e Câmara de Manaus (siglas do SAPL)
+destaque_siglas_local = ["PL", "PLC", "PEC", "PDL", "PRL", "VET", "MSGOV", "PLO", "PLE"]
+destaque_categorias = ["votacao", "tramitacao"]
+dou_destaque_tipos = ["LEI", "LEI COMPLEMENTAR", "DECRETO", "MEDIDA PROVISORIA", "EMENDA CONSTITUCIONAL"]
+norma_sapl_destaque = true
