@@ -62,11 +62,21 @@ def cmd_validar(args) -> int:
     return 0
 
 
+def cmd_site(args) -> int:
+    import os
+
+    from politik.site.gerador import gerar
+
+    gerar(Path(args.saida), args.base_url or os.environ.get("POLITIK_BASE_URL", ""))
+    return 0
+
+
 # nome -> (função, argumentos extras além de --data)
 COMANDOS = {
     "coletar": (cmd_coletar, []),
     "filtrar": (cmd_filtrar, []),
     "validar": (cmd_validar, []),
+    "site": (cmd_site, [("--saida", {"default": "site_build"}), ("--base-url", {"default": None})]),
 }
 
 
