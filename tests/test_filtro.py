@@ -86,3 +86,14 @@ def test_nada_some():
                + [item(id=f"n{k}", categoria="noticia", sigla_tipo="NOTICIA", fonte="imprensa:x") for k in range(5)])
     sel, pend = filtrar(D, mistura, [], CFG, [])
     assert len(sel["destaques"]) + len(sel["noticias"]) + len(sel["menores"]) + len(pend) == 40
+
+
+def test_homenagem_vai_para_menores_mesmo_sendo_pl():
+    it = item(fonte="aleam", nivel="estadual", ementa="Concede o Título de Cidadão do Amazonas ao Senhor X.")
+    assert classificar(it, CFG, []) == "menor"
+    assert classificar(item(fonte="cmm", nivel="municipal", ementa="DENOMINA rua no bairro Y"), CFG, []) == "menor"
+
+
+def test_homenagem_ligada_a_tema_continua_destaque():
+    tema = {"slug": "t", "palavras_chave": ["Vorcaro"]}
+    assert classificar(item(ementa="Concede medalha a Vorcaro"), CFG, [tema]) == "destaque"

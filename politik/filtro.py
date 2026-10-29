@@ -2,7 +2,7 @@ from datetime import date
 from typing import Literal
 
 from politik.modelos import Item
-from politik.temas import casa_tema
+from politik.temas import casa_tema, normalizar
 
 FEDERAL = {"camara", "senado"}
 LOCAL = {"aleam", "cmm"}
@@ -13,6 +13,9 @@ def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque",
         return "noticia"
     if casa_tema(item, temas) or item.categoria in cfg["destaque_categorias"]:
         return "destaque"
+    ementa = normalizar(item.ementa)
+    if any(t in ementa for t in cfg.get("menores_termos_ementa", [])):
+        return "menor"
     if item.fonte == "dou":
         return "destaque" if item.sigla_tipo in cfg["dou_destaque_tipos"] else "menor"
     if item.categoria == "norma" and item.fonte in LOCAL:

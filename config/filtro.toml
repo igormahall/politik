@@ -13,3 +13,8 @@ destaque_siglas_local = ["PL", "PLC", "PEC", "PDL", "PRL", "VET", "MSGOV", "PLO"
 destaque_categorias = ["votacao", "tramitacao"]
 dou_destaque_tipos = ["LEI", "LEI COMPLEMENTAR", "DECRETO", "MEDIDA PROVISORIA", "EMENDA CONSTITUCIONAL"]
 norma_sapl_destaque = true
+
+# Ementas com estes termos vão para os menores mesmo sendo projeto de lei
+# (homenagens, nomes de rua etc.), a não ser que casem com um tema ativo.
+menores_termos_ementa = ["titulo de cidadao", "titulo honorifico", "medalha", "comenda", "denomina", "da denominacao",
+                         "utilidade publica", "mocao de", "voto de aplauso", "voto de pesar", "inclui no calendario"]
