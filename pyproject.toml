@@ -16,3 +16,6 @@ include = ["politik*"]
 
 [tool.setuptools.package-data]
 "politik.site" = ["templates/*.html", "*.css"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
