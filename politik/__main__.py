@@ -71,11 +71,23 @@ def cmd_site(args) -> int:
     return 0
 
 
+def cmd_enviar(args) -> int:
+    import os
+
+    from politik.telegram import compor, enviar
+
+    msgs = compor(args.data, os.environ.get("POLITIK_BASE_URL", ""))
+    enviar(msgs, os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"])
+    print(f"{len(msgs)} mensagens enviadas")
+    return 0
+
+
 # nome -> (função, argumentos extras além de --data)
 COMANDOS = {
     "coletar": (cmd_coletar, []),
     "filtrar": (cmd_filtrar, []),
     "validar": (cmd_validar, []),
+    "enviar": (cmd_enviar, []),
     "site": (cmd_site, [("--saida", {"default": "site_build"}), ("--base-url", {"default": None})]),
 }
 
