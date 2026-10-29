@@ -101,12 +101,23 @@ def cmd_registrar_uso(args) -> int:
     return 0
 
 
+def cmd_validar_tema(args) -> int:
+    from politik.esquemas import erros_tema
+
+    tema = ler_json(data_dir() / "temas" / f"{args.slug}.json")
+    erros = erros_tema(tema) if isinstance(tema, dict) else ["tema não encontrado"]
+    for e in erros:
+        print(f"tema {args.slug}: {e}", file=sys.stderr)
+    return 1 if erros else 0
+
+
 # nome -> (função, argumentos extras além de --data)
 COMANDOS = {
     "coletar": (cmd_coletar, []),
     "filtrar": (cmd_filtrar, []),
     "validar": (cmd_validar, []),
     "enviar": (cmd_enviar, []),
+    "validar-tema": (cmd_validar_tema, [("--slug", {"required": True})]),
     "registrar-uso": (cmd_registrar_uso, [("--arquivo", {"default": ""})]),
     "site": (cmd_site, [("--saida", {"default": "site_build"}), ("--base-url", {"default": None})]),
 }
