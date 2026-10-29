@@ -1,0 +1,86 @@
+name: Politik diário
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 10:00 UTC = 06:00 em Manaus
+  workflow_dispatch:
+    inputs:
+      data:
+        description: "Dia de referência (AAAA-MM-DD). Vazio = ontem."
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency: politik-diario
+
+jobs:
+  diario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      POLITIK_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+      INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
+      INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -e .
+
+      - name: Dia de referência
+        run: |
+          D="${{ inputs.data }}"
+          if [ -z "$D" ]; then D=$(python -c "from politik.datas import dia_de_referencia as d; print(d())"); fi
+          echo "D=$D" >> "$GITHUB_ENV"
+
+      - run: python -m politik coletar --data "$D"
+      - run: python -m politik filtrar --data "$D"
+
+      - name: Traduzir com Claude Code
+        id: claude
+        continue-on-error: true
+        timeout-minutes: 30
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: "/traduzir ${{ env.D }}"
+          claude_args: |
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,Glob"
+
+      - name: Registrar uso da cota
+        if: always()
+        run: python -m politik registrar-uso --arquivo "${{ steps.claude.outputs.execution_file }}" --data "$D"
+
+      - run: python -m politik validar --data "$D"
+      - run: python -m politik site --saida site_build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site_build
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Enviar no Telegram
+        run: python -m politik enviar --data "$D"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Salvar histórico
+        if: always()
+        run: |
+          git config user.name "politik-bot"
+          git config user.email "politik-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || (git commit -m "dados: $D" && git push)
