@@ -1,0 +1,51 @@
+name: Carga de tema
+
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Identificador do tema (ex.: caso-master)"
+        required: true
+      nome:
+        description: "Nome do tema (ex.: Caso Master)"
+        required: true
+      descricao:
+        description: "Descrição curta (ex.: Banco Master e Daniel Vorcaro)"
+        required: true
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency: politik-diario
+
+jobs:
+  carga:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e .
+
+      - name: Montar linha do tempo com Claude Code
+        id: claude
+        timeout-minutes: 45
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: '/carga-tema ${{ inputs.slug }} "${{ inputs.nome }}" "${{ inputs.descricao }}"'
+          claude_args: |
+            --max-turns 60
+            --allowedTools "Read,Write,Edit,Glob,WebSearch,WebFetch"
+
+      - run: python -m politik validar-tema --slug "${{ inputs.slug }}"
+
+      - name: Salvar tema
+        run: |
+          git config user.name "politik-bot"
+          git config user.email "politik-bot@users.noreply.github.com"
+          git add data/temas
+          git diff --cached --quiet || (git commit -m "tema: ${{ inputs.slug }} (carga)" && git push)
