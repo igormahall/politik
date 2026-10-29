@@ -1,0 +1,14 @@
+{
+  "slug": "caso-master",
+  "nome": "Caso Master",
+  "inicio": "2026-10-20",
+  "ativo": true,
+  "ultima_novidade": "2026-10-28",
+  "palavras_chave": ["Banco Master", "Vorcaro"],
+  "resumo_ate_aqui": "Exemplo fictício para teste: o banco está sob investigação e o Senado discute uma comissão sobre o caso.",
+  "explica_do_zero": "Exemplo fictício usado só nos testes automáticos do Politik.",
+  "linha_do_tempo": [
+    {"data": "2026-10-20", "fato": "Exemplo fictício de fato.", "fontes": [{"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/exemplo"}], "fonte_unica": true},
+    {"data": "2026-10-28", "fato": "Exemplo fictício de novidade.", "fontes": [{"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/exemplo"}], "fonte_unica": false}
+  ]
+}
