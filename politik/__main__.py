@@ -82,12 +82,32 @@ def cmd_enviar(args) -> int:
     return 0
 
 
+def cmd_registrar_uso(args) -> int:
+    import json
+
+    reg = {"data": args.data, "num_turns": None, "duration_ms": None, "sucesso": False}
+    try:
+        eventos = json.loads(Path(args.arquivo).read_text(encoding="utf-8"))
+        res = next(e for e in reversed(eventos) if e.get("type") == "result")
+        reg.update(num_turns=res.get("num_turns"), duration_ms=res.get("duration_ms"),
+                   sucesso=not res.get("is_error", True))
+    except (OSError, ValueError, StopIteration, AttributeError, TypeError):
+        pass
+    caminho = data_dir() / "uso.jsonl"
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    with caminho.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(reg, ensure_ascii=False) + "\n")
+    print(reg)
+    return 0
+
+
 # nome -> (função, argumentos extras além de --data)
 COMANDOS = {
     "coletar": (cmd_coletar, []),
     "filtrar": (cmd_filtrar, []),
     "validar": (cmd_validar, []),
     "enviar": (cmd_enviar, []),
+    "registrar-uso": (cmd_registrar_uso, [("--arquivo", {"default": ""})]),
     "site": (cmd_site, [("--saida", {"default": "site_build"}), ("--base-url", {"default": None})]),
 }
 
