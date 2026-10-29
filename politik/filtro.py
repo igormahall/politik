@@ -77,5 +77,6 @@ def filtrar(data: str, itens: list[Item], pendentes: list[dict], cfg: dict,
     noticias = noticias[:cfg["teto_noticias"]]
 
     selecionados = {"data": data, "destaques": destaques, "noticias": noticias,
-                    "menores": menores, "fontes_indisponiveis": []}
+                    "menores": menores, "fontes_indisponiveis": [],
+                    "primeira_vez": {it.id: pv for it, pv in candidatos[:teto]}}
     return selecionados, novos_pendentes

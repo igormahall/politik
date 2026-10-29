@@ -1,7 +1,7 @@
 ---
 name: traduzir
 description: Traduz os destaques de um dia do Politik em fichas em linguagem simples e atualiza os temas em andamento. Uso: /traduzir AAAA-MM-DD
-allowed-tools: Read, Write, Edit, Glob
+allowed-tools: Read(data/**), Read(editorial/**), Edit(data/**), Glob
 ---
 
 # Traduzir o dia
@@ -22,7 +22,8 @@ não acesse a internet, não use conhecimento próprio sem fonte.
    a mudança daquele projeto. Se um destaque não tiver informação suficiente para uma ficha honesta,
    escreva a ficha com o que há, dizendo claramente o que a fonte não informa.
 5. Temas: usando destaques **e** notícias,
-   - atualize temas existentes que tenham novidade (acrescente na `linha_do_tempo`, reescreva
+   - atualize temas existentes que tenham novidade (acrescente na `linha_do_tempo`; se já houver entradas
+     com data D — o dia está sendo refeito —, substitua essas entradas em vez de acrescentar de novo; reescreva
      `resumo_ate_aqui` e `explica_do_zero`, `ultima_novidade = D`, inclua os ids em `temas` das fichas ligadas);
    - crie temas novos só pelas regras do guia (§4).
 6. **Por último**, escreva `data/diario/D.json` listando todas as fichas escritas e os temas com novidade hoje.

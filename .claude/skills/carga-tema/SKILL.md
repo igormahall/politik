@@ -1,7 +1,7 @@
 ---
 name: carga-tema
 description: Monta (ou completa) a linha do tempo de um tema do Politik desde o primeiro fato relevante, com fonte em tudo. Uso: /carga-tema <slug> "<nome>" "<descrição curta>"
-allowed-tools: Read, Write, Edit, Glob, WebSearch, WebFetch
+allowed-tools: Read(data/**), Read(editorial/**), Edit(data/temas/**), Glob, WebSearch, WebFetch
 ---
 
 # Carga inicial de tema

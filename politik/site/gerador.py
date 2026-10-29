@@ -29,12 +29,13 @@ def url_dia(data: str, base: str) -> str:
 
 
 def _carregar(pasta: Path) -> dict[str, dict]:
-    return {p.stem: ler_json(p) for p in sorted(pasta.glob("*.json"))}
+    lidos = {p.stem: ler_json(p) for p in sorted(pasta.glob("*.json"))}
+    return {k: v for k, v in lidos.items() if isinstance(v, dict)}
 
 
 def gerar(saida: Path, base_url: str) -> None:
     base = data_dir()
-    fichas = {f["item_id"]: f for f in _carregar(base / "fichas").values()}
+    fichas = {f["item_id"]: f for f in _carregar(base / "fichas").values() if "item_id" in f}
     temas = _carregar(base / "temas")
     diarios = _carregar(base / "diario")
     env = Environment(loader=PackageLoader("politik.site", "templates"), autoescape=select_autoescape(["html"]))

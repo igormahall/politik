@@ -23,6 +23,6 @@ def test_validar_tema_inexistente(tmp_data):
 
 def test_skill_e_workflow_de_carga():
     skill = Path(".claude/skills/carga-tema/SKILL.md").read_text()
-    assert "allowed-tools: Read, Write, Edit, Glob, WebSearch, WebFetch" in skill
+    assert "Edit(data/temas/**)" in skill and "WebFetch" in skill
     wf = yaml.safe_load(Path(".github/workflows/carga-tema.yml").read_text())
     assert set(wf[True]["workflow_dispatch"]["inputs"]) == {"slug", "nome", "descricao"}

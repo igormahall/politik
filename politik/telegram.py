@@ -20,6 +20,11 @@ def _frases(texto: str, n: int) -> str:
     return " ".join(re.split(r"(?<=[.!?])\s+", texto.strip())[:n])
 
 
+def _curto(texto: str, limite: int = 200) -> str:
+    texto = " ".join(texto.split())
+    return texto if len(texto) <= limite else texto[:limite].rsplit(" ", 1)[0] + "…"
+
+
 def _dividir(texto: str) -> list[str]:
     partes, atual = [], ""
     for linha in texto.split("\n"):
@@ -50,6 +55,8 @@ def compor(data: str, base_url: str) -> list[dict]:
         cab.append(f"⚠️ {escape(NOMES_FONTES.get(f, f))} indisponível hoje.")
     if diario.get("sem_traducao"):
         cab.append("⚠️ Tradução indisponível hoje — mostrando textos originais.")
+    if diario.get("parcial"):
+        cab.append("⚠️ Tradução parcial hoje — alguns itens ficaram para amanhã.")
     blocos.append(("\n".join(cab), None))
 
     temas = [(t, ler_json(base / "temas" / f"{t['slug']}.json")) for t in diario.get("temas", [])]
@@ -70,17 +77,18 @@ def compor(data: str, base_url: str) -> list[dict]:
 
     nov = ["\n<b>📜 Novidades oficiais</b>"]
     if diario.get("sem_traducao"):
-        itens = [(i["nivel"], i["url"], i["titulo"]) for i in sel["destaques"]]
+        itens = [(i["nivel"], i["url"], i["titulo"], i.get("ementa", "")) for i in sel["destaques"]]
     else:
         fichas = [ler_json(base / "fichas" / f"{id_seguro(i)}.json") for i in diario.get("fichas", [])]
-        itens = [(f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"]) for f in fichas if f]
+        itens = [(f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"], "") for f in fichas if f]
     if not itens:
         nov.append("Nenhuma novidade oficial ontem.")
     for nivel, rotulo in NIVEIS:
-        grupo = [(u, t) for n, u, t in itens if n == nivel]
+        grupo = [(u, t, e) for n, u, t, e in itens if n == nivel]
         if grupo:
             nov.append(f"\n{rotulo}")
-            nov += [f'• <a href="{escape(u)}">{escape(t)}</a>' for u, t in grupo]
+            nov += [f'• <a href="{escape(u)}">{escape(t)}</a>' + (f" — {escape(_curto(e))}" if e else "")
+                    for u, t, e in grupo]
     nov.append(f'\n<a href="{url_menores(data, base_url)}">+ {len(sel["menores"])} itens menores</a>')
     blocos.append(("\n".join(nov), None))
 

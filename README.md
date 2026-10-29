@@ -71,7 +71,7 @@ python -m venv .venv && .venv/bin/pip install -e .[dev]
 .venv/bin/pytest
 .venv/bin/python -m politik coletar --data 2026-10-28
 .venv/bin/python -m politik filtrar --data 2026-10-28
-claude -p "/traduzir 2026-10-28" --allowedTools "Read,Write,Edit,Glob" --max-turns 60
+claude -p "/traduzir 2026-10-28" --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob" --max-turns 60
 .venv/bin/python -m politik validar --data 2026-10-28
 .venv/bin/python -m politik site --saida site_build --base-url "file://$PWD/site_build"
 ```
