@@ -36,3 +36,35 @@ def test_filtrar_marca_indisponiveis_e_serializa(tmp_data, monkeypatch):
     assert [i["id"] for i in sel["destaques"]] == ["camara:1"]
     assert [i["id"] for i in sel["menores"]] == ["camara:2"]
     assert ler_json(tmp_data / "pendentes.json") == []
+
+
+def _telegram_falso(monkeypatch):
+    from politik import telegram
+    from politik.carrossel import render
+
+    enviadas = {"mensagens": [], "album": None}
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "T")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "42")
+    monkeypatch.setattr(telegram, "enviar", lambda msgs, token, chat: enviadas["mensagens"].extend(msgs))
+    monkeypatch.setattr(telegram, "enviar_album", lambda imgs, token, chat: enviadas.__setitem__("album", imgs))
+    monkeypatch.setattr(render, "renderizar", lambda modelo, saida: [saida / f"{n:02d}.png" for n in (1, 2, 3)])
+    return enviadas
+
+
+def test_carrossel_sem_conteudo_avisa(tmp_data, monkeypatch):
+    enviadas = _telegram_falso(monkeypatch)
+    assert main(["carrossel", "--data", D]) == 0
+    assert enviadas["mensagens"] == [{"text": "🖼️ Sem carrossel hoje.", "reply_markup": None}]
+    assert enviadas["album"] is None
+
+
+def test_carrossel_renderiza_e_envia_album_e_legenda(tmp_data, monkeypatch, tmp_path):
+    from politik.armazenamento import escrever_json
+    from tests.helpers import escrever_ficha, FICHA_OK
+
+    enviadas = _telegram_falso(monkeypatch)
+    escrever_ficha(tmp_data, {**FICHA_OK, "titulo": "A & B"})
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1"]})
+    assert main(["carrossel", "--data", D, "--saida", str(tmp_path / "c")]) == 0
+    assert [a.name for a in enviadas["album"]] == ["01.png", "02.png", "03.png"]
+    assert len(enviadas["mensagens"]) == 1 and enviadas["mensagens"][0]["text"].startswith("Politik · ")

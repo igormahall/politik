@@ -20,7 +20,9 @@ Todo dia às 10:13 UTC (6h13 em Manaus), com repescagem às 12:13 UTC se a prime
 4. `validar`: confere o que o Claude escreveu; o que estiver errado volta para a fila
 5. `site`: gera o site → GitHub Pages
 6. `enviar`: manda o resumo no Telegram
-7. salva `data/` no repositório (é o histórico)
+7. `carrossel`: desenha o carrossel do Instagram (1080×1350, até 8 slides) e manda no mesmo chat do Telegram,
+   como álbum de fotos + legenda pronta para copiar. Se falhar, o resumo e o histórico não são afetados.
+8. salva `data/` no repositório (é o histórico)
 
 Se uma fonte cai ou a cota do Claude acaba, o resumo sai do mesmo jeito, com um aviso.
 
@@ -93,6 +95,8 @@ python -m venv .venv && .venv/bin/pip install -e .[dev]
 claude -p "/traduzir 2026-10-28" --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob" --max-turns 60
 .venv/bin/python -m politik validar --data 2026-10-28
 .venv/bin/python -m politik site --saida site_build --base-url "file://$PWD/site_build"
+# carrossel (precisa de: pip install -e .[carrossel] && playwright install chromium; envia ao Telegram)
+TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... .venv/bin/python -m politik carrossel --data 2026-10-28
 ```
 
 ## Avisos
