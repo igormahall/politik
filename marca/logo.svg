@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Politik — os fatos lado a lado">
+  <clipPath id="politik-logo-circulo"><circle cx="32" cy="32" r="32"/></clipPath>
+  <g clip-path="url(#politik-logo-circulo)">
+    <rect width="64" height="64" fill="#c9a266"/>
+    <path d="M0 0H39C30 12 43 22 33 34S29 54 37 64H0Z" fill="#2a1f1a"/>
+  </g>
+  <text x="80" y="38" font-family="'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="-0.6" fill="#2a1f1a">politik</text>
+  <text x="81" y="56" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#6b5640">Os fatos lado a lado.</text>
+</svg>

@@ -4,10 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block titulo %}Politik{% endblock %}</title>
+<link rel="icon" type="image/svg+xml" href="{{ base }}/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&display=swap">
 <link rel="stylesheet" href="{{ base }}/estilo.css">
 </head>
 <body>
-<header><a class="marca" href="{{ base }}/index.html">Politik</a> <a href="{{ base }}/arquivo.html">Arquivo</a></header>
+<div class="topo"><header>
+  <a class="marca" href="{{ base }}/index.html"><img src="{{ base }}/favicon.svg" alt=""><b>politik</b></a>
+  <span class="slogan">Os fatos lado a lado.</span>
+  <nav><a href="{{ base }}/arquivo.html">Arquivo</a></nav>
+</header></div>
 <main>{% block conteudo %}{% endblock %}</main>
 <footer>Resumo sem opinião do que o poder público publicou. Sempre confira a fonte original.</footer>
 </body>

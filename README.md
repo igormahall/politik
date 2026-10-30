@@ -1,4 +1,4 @@
-# Politik
+# <img src="marca/simbolo.svg" width="32" alt=""> Politik
 
 **O que o poder público fez ontem, explicado em linguagem simples e sem opinião.**
 
@@ -92,3 +92,4 @@ As regras completas estão no [guia editorial](editorial/GUIA.md).
 
 O código, os critérios e todo o histórico gerado são públicos neste repositório.
 Detalhes técnicos, configuração e operação estão em [`docs/OPERACAO.md`](docs/OPERACAO.md).
+A identidade visual (símbolo, cores, fontes e regras de uso) está em [`marca/`](marca/README.md).
