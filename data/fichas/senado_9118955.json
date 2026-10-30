@@ -1,0 +1,12 @@
+{"item_id": "senado:9118955", "nivel": "federal", "tipo_simples": "Projeto de decreto legislativo",
+ "situacao": "Aprovada na Câmara",
+ "titulo": "Acordo do Mercosul faria medidas de proteção a mulheres valerem em outros países",
+ "o_que_e": "É um PDL (projeto de decreto legislativo, o tipo de texto que o Congresso usa para aprovar acordos internacionais). Aprova o acordo sobre o reconhecimento mútuo de medidas de proteção às mulheres em situação de violência de gênero, entre países do Mercosul e países associados. O acordo foi assinado em Assunção em 20 de julho de 2022.",
+ "quem_propos": "Câmara dos Deputados (o texto veio da Câmara)",
+ "o_que_muda": "Ainda não muda nada: o Senado precisa aprovar. Se for aprovado, uma medida de proteção dada a uma mulher em um país do acordo passaria a ser reconhecida pelos outros países participantes.",
+ "proximo_passo": "O texto está aberto para receber emendas no Senado. Depois segue para análise nas comissões e votação.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176152"},
+  {"nome": "Texto do projeto", "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5fb9395c-908b-4cc4-9ad2-643eccc74547"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 2}

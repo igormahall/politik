@@ -1,0 +1,12 @@
+{"item_id": "senado:9118843", "nivel": "federal", "tipo_simples": "Pedido de processo disciplinar",
+ "situacao": "Aguardando formação da comissão",
+ "titulo": "Cidadão pede abertura de processo disciplinar contra o senador Flávio Bolsonaro",
+ "o_que_e": "Um cidadão apresentou ao Senado uma denúncia pedindo a abertura de procedimento disciplinar contra o senador Flávio Bolsonaro. O pedido cita a Constituição (art. 55, inciso II) e o Código de Ética e Decoro Parlamentar do Senado. A fonte não informa os motivos apresentados na denúncia.",
+ "quem_propos": "Olímpio de Moraes Rocha, cidadão (partido não se aplica; não é parlamentar)",
+ "o_que_muda": "Ainda não muda nada: é só um pedido. Se for aceito, abre-se um procedimento disciplinar contra o senador no Senado.",
+ "proximo_passo": "A situação registrada é \"aguardando designação de membros da comissão\": o Senado ainda precisa escolher os integrantes da comissão que vai analisar o pedido.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176146"},
+  {"nome": "Texto da denúncia", "url": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/40530e28-673d-4901-9e7d-4be351c3929e"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 3}
