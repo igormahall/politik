@@ -132,3 +132,20 @@ def test_diario_sem_mundo_igual_a_antes(tmp_data):
     _diario(tmp_data, [], [_ficha(tmp_data, "camara:1")])
     m = montar(D)
     assert m["capa"]["mundo"] == 0 and "Mundo" not in [g["nivel"] for g in m["fichas"]["grupos"]]
+
+
+def test_slide_de_fichas_alterna_entre_os_niveis(tmp_data):
+    federais = [_ficha(tmp_data, f"camara:{i}") for i in range(6)]
+    manaus = [_ficha(tmp_data, f"cmm:materia:{i}", "municipal") for i in range(6)]
+    amazonas = [_ficha(tmp_data, "aleam:materia:1", "estadual")]
+    _diario(tmp_data, [], federais + manaus + amazonas, mundo=_mundos(tmp_data, 2))
+    grupos = {g["nivel"]: len(g["itens"]) for g in montar(D)["fichas"]["grupos"]}
+    assert grupos == {"Federal": 1, "Amazonas": 1, "Manaus": 1, "Mundo": 2}
+
+
+def test_niveis_alternados_sem_mundo(tmp_data):
+    federais = [_ficha(tmp_data, f"camara:{i}") for i in range(6)]
+    manaus = [_ficha(tmp_data, f"cmm:materia:{i}", "municipal") for i in range(6)]
+    _diario(tmp_data, [], federais + manaus)
+    grupos = {g["nivel"]: len(g["itens"]) for g in montar(D)["fichas"]["grupos"]}
+    assert grupos == {"Federal": 3, "Manaus": 2}

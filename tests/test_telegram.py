@@ -157,3 +157,12 @@ def test_compor_sem_mundo_nao_tem_secao(tmp_data):
     escrever_ficha(tmp_data, FICHA_OK)
     _diario(tmp_data, ["camara:1"])
     assert "🌍 Mundo" not in _texto(compor(D, B))
+
+
+def test_tema_no_telegram_e_curto_e_remete_aos_botoes(tmp_data):
+    escrever_selecionados(tmp_data, D)
+    escrever_json(tmp_data / "temas/caso-master.json", {**load("exemplo_saida/tema.json"), "inicio": "2025-03-28"})
+    _diario(tmp_data, [], load("exemplo_saida/diario.json")["temas"])
+    t = _texto(compor(D, B))
+    assert "Resumo até aqui" not in t
+    assert "<b>Caso Master</b> · desde mar/2025" in t and "Exemplo fictício de novidade." in t

@@ -12,11 +12,9 @@
   <ol class="lista-capa">
     {% for t in m.capa.temas %}<li>{{ t.nome }}{% if t.linha %}<span>{{ t.linha }}</span>{% endif %}</li>{% endfor %}
   </ol>
-  {% if m.capa.mais %}<p class="mais-capa">Mais {{ movimentacoes(m.capa.mais) }}</p>{% endif %}
-  {% if m.capa.mundo %}<p class="mais-capa">{{ fatos_do_mundo(m.capa.mundo) }}</p>{% endif %}
+  {% if m.capa.niveis %}<p class="mais-capa">Também hoje: {{ m.capa.niveis|join(" · ") }}</p>{% endif %}
   {% else %}
-  {% if m.capa.mais %}<p class="grande">Hoje: {{ movimentacoes(m.capa.mais) }}</p>{% endif %}
-  {% if m.capa.mundo %}<p class="grande">{{ "E " if m.capa.mais else "Hoje: " }}{{ fatos_do_mundo(m.capa.mundo) }}</p>{% endif %}
+  <p class="grande">Hoje no Politik</p>
   <p>{{ m.capa.niveis|join(" · ") }}</p>
   {% endif %}
 </div>
