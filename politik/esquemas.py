@@ -104,3 +104,21 @@ def erros_diario(d: dict) -> list[str]:
         if t.get("aviso_fonte_unica") is not None and not isinstance(t["aviso_fonte_unica"], str):
             erros.append(f"temas[{i}].aviso_fonte_unica: texto ou null")
     return erros
+
+
+NOME_CURTO_MAX = 40
+LINHA_CAPA_MAX = 80
+
+
+def limpar_capa(d: dict) -> list[str]:
+    """Campos da capa do carrossel são opcionais: o inválido sai sozinho, sem invalidar o diário."""
+    avisos = []
+    temas = d.get("temas") if isinstance(d, dict) else None
+    for i, t in enumerate(temas if isinstance(temas, list) else []):
+        if not isinstance(t, dict):
+            continue
+        for campo, limite in (("nome_curto", NOME_CURTO_MAX), ("linha_capa", LINHA_CAPA_MAX)):
+            if campo in t and (not isinstance(t[campo], str) or not t[campo].strip() or len(t[campo]) > limite):
+                del t[campo]
+                avisos.append(f"temas[{i}].{campo}: removido (texto de 1 a {limite} caracteres)")
+    return avisos

@@ -47,3 +47,14 @@ def test_marcar_inativos(tmp_data):
     escrever_tema(tmp_data, {**TEMA_OK, "slug": "b", "ultima_novidade": "2026-10-20"})
     assert marcar_inativos("2026-10-28", 30) == ["a"]
     assert ler_json(tmp_data / "temas/a.json")["ativo"] is False
+
+
+def test_capa_invalida_nao_derruba_o_diario(tmp_data):
+    escrever_selecionados(tmp_data, D)
+    escrever_tema(tmp_data, TEMA_OK)
+    tema = {"slug": "caso-master", "novo_hoje": "x", "aviso_fonte_unica": None, "nome_curto": "", "linha_capa": "ok"}
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "fichas": [], "temas": [tema]})
+    main(["validar", "--data", D])
+    diario = ler_json(tmp_data / f"diario/{D}.json")
+    assert "sem_traducao" not in diario and "parcial" not in diario
+    assert "nome_curto" not in diario["temas"][0] and diario["temas"][0]["linha_capa"] == "ok"

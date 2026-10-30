@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 from politik.armazenamento import data_dir, escrever_json, id_seguro, ler_json
-from politik.esquemas import erros_diario, erros_ficha, erros_tema
+from politik.esquemas import erros_diario, erros_ficha, erros_tema, limpar_capa
 
 
 def _restaurar_ou_remover(caminho: Path) -> None:
@@ -45,6 +45,8 @@ def validar(data: str) -> dict:
     # 2. diário
     caminho_diario = base / "diario" / f"{data}.json"
     diario = ler_json(caminho_diario)
+    for aviso in limpar_capa(diario) if isinstance(diario, dict) else []:
+        print(f"diário: {aviso}", file=sys.stderr)
     if diario is None or erros_diario(diario):
         if diario is not None:
             print(f"diário inválido: {erros_diario(diario)}", file=sys.stderr)

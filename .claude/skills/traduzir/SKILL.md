@@ -28,6 +28,9 @@ não acesse a internet, não use conhecimento próprio sem fonte.
      `resumo_ate_aqui` e `explica_do_zero`, `ultima_novidade = D`, inclua os ids em `temas` das fichas ligadas);
    - crie temas novos só pelas regras do guia (§4).
 6. **Por último**, escreva `data/diario/D.json`, com `fichas` ordenadas da mais para a menos importante, listando todas as fichas escritas e os temas com novidade hoje.
+   Para cada tema do diário, escreva também os campos da capa do carrossel do Instagram:
+   `nome_curto` (até 40 caracteres: o nome do tema como cabe numa capa) e `linha_capa` (até 80 caracteres:
+   o fato do dia numa frase curta, sem adjetivo de juízo, seguindo o `editorial/GUIA.md`).
 
 Trabalhe em lotes: leia tudo uma vez, escreva os arquivos em sequência, sem reler o que já escreveu.
 
@@ -51,7 +54,8 @@ Tema:
 
 Diário:
 ```json
-{"data": "D", "temas": [{"slug": "caso-master", "novo_hoje": "...", "aviso_fonte_unica": "Lista divulgada só pelo veículo X." }],
+{"data": "D", "temas": [{"slug": "caso-master", "novo_hoje": "...", "aviso_fonte_unica": "Lista divulgada só pelo veículo X.",
+            "nome_curto": "Caso Master", "linha_capa": "Fachin mantém o caso na Presidência do STF"}],
  "fichas": ["camara:123", "aleam:materia:9"]}
 ```
 `aviso_fonte_unica` é `null` quando não houver.
