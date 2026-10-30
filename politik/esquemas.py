@@ -44,6 +44,9 @@ def erros_ficha(d: dict) -> list[str]:
         erros.append("fonte_unica: precisa ser booleano")
     if not isinstance(d.get("temas"), list):
         erros.append("temas: precisa ser lista")
+    imp = d.get("importancia")
+    if imp is not None and (type(imp) is not int or imp not in (1, 2, 3)):
+        erros.append("importancia: 1 (alta), 2 (média) ou 3 (baixa)")
     return erros
 
 

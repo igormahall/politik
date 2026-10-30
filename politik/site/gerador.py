@@ -62,7 +62,8 @@ def gerar(saida: Path, base_url: str) -> None:
     for d in dias:
         diario = diarios[d]
         sel = ler_json(base / "selecionados" / f"{d}.json", {"destaques": [], "menores": [], "fontes_indisponiveis": []})
-        itens_dia = [fichas[i] for i in diario.get("fichas", []) if i in fichas]
+        itens_dia = sorted((fichas[i] for i in diario.get("fichas", []) if i in fichas),
+                           key=lambda f: f.get("importancia") or 2)
         ctx = dict(d=d, diario=diario, sel=sel, temas=temas, fichas=itens_dia)
         escrever(f"dia/{d}.html", "dia.html", **ctx)
         escrever(f"menores/{d}.html", "menores.html", d=d, menores=sel.get("menores", []))

@@ -46,11 +46,9 @@ def compor(data: str, base_url: str) -> list[dict]:
                    {"destaques": [], "noticias": [], "menores": [], "fontes_indisponiveis": []})
     diario = ler_json(base / "diario" / f"{data}.json", {"temas": [], "fichas": [], "sem_traducao": True})
     d = date.fromisoformat(data)
-    n_total = len(sel["destaques"]) + len(sel.get("noticias", [])) + len(sel["menores"])
 
     blocos: list[tuple[str, dict | None]] = []
-    cab = [f"📋 <b>Politik — {DIAS[d.weekday()]}, {d.day:02d}/{MESES[d.month - 1]}</b>",
-           f"{n_total} itens · {len(sel['destaques'])} em destaque"]
+    cab = [f"📋 <b>Politik — {DIAS[d.weekday()]}, {d.day:02d}/{MESES[d.month - 1]}</b>"]
     for f in sel.get("fontes_indisponiveis", []):
         cab.append(f"⚠️ {escape(NOMES_FONTES.get(f, f))} indisponível hoje.")
     if diario.get("sem_traducao"):
@@ -77,18 +75,27 @@ def compor(data: str, base_url: str) -> list[dict]:
 
     nov = ["\n<b>📜 Novidades oficiais</b>"]
     if diario.get("sem_traducao"):
-        itens = [(i["nivel"], i["url"], i["titulo"], i.get("ementa", "")) for i in sel["destaques"]]
+        itens = [(i["nivel"], i["url"], i["titulo"], i.get("ementa", ""), 2) for i in sel["destaques"]]
     else:
         fichas = [ler_json(base / "fichas" / f"{id_seguro(i)}.json") for i in diario.get("fichas", [])]
-        itens = [(f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"], "") for f in fichas if f]
+        itens = [(f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"], "", f.get("importancia") or 2)
+                 for f in fichas if f]
+        itens.sort(key=lambda i: i[4])  # estável: mantém a ordem do Claude dentro da mesma importância
     if not itens:
         nov.append("Nenhuma novidade oficial ontem.")
+    def linha(u, t, e):
+        return f'• <a href="{escape(u)}">{escape(t)}</a>' + (f" — {escape(_curto(e))}" if e else "")
+
+    principais = [i for i in itens if i[4] == 1]
+    if principais:
+        emoji = dict(NIVEIS)
+        nov.append("\n<b>⭐ Mais importantes</b>")
+        nov += [f"{emoji[n].split()[0]} " + linha(u, t, e)[2:] for n, u, t, e, _ in principais]
     for nivel, rotulo in NIVEIS:
-        grupo = [(u, t, e) for n, u, t, e in itens if n == nivel]
+        grupo = [(u, t, e) for n, u, t, e, imp in itens if n == nivel and imp != 1]
         if grupo:
             nov.append(f"\n{rotulo}")
-            nov += [f'• <a href="{escape(u)}">{escape(t)}</a>' + (f" — {escape(_curto(e))}" if e else "")
-                    for u, t, e in grupo]
+            nov += [linha(u, t, e) for u, t, e in grupo]
     nov.append(f'\n<a href="{url_menores(data, base_url)}">+ {len(sel["menores"])} itens menores</a>')
     blocos.append(("\n".join(nov), None))
 

@@ -21,12 +21,13 @@ não acesse a internet, não use conhecimento próprio sem fonte.
    e `url`/`url_documento` do item. Itens de `tramitacao` com `extra.item_origem`: a ficha explica
    a mudança daquele projeto. Se um destaque não tiver informação suficiente para uma ficha honesta,
    escreva a ficha com o que há, dizendo claramente o que a fonte não informa.
+   Siga à risca as regras de **titulo** (§3) e dê a **importancia** pelos critérios da §5 do guia (`"importancia"`: 1, 2 ou 3).
 5. Temas: usando destaques **e** notícias,
    - atualize temas existentes que tenham novidade (acrescente na `linha_do_tempo`; se já houver entradas
      com data D — o dia está sendo refeito —, substitua essas entradas em vez de acrescentar de novo; reescreva
      `resumo_ate_aqui` e `explica_do_zero`, `ultima_novidade = D`, inclua os ids em `temas` das fichas ligadas);
    - crie temas novos só pelas regras do guia (§4).
-6. **Por último**, escreva `data/diario/D.json` listando todas as fichas escritas e os temas com novidade hoje.
+6. **Por último**, escreva `data/diario/D.json`, com `fichas` ordenadas da mais para a menos importante, listando todas as fichas escritas e os temas com novidade hoje.
 
 Trabalhe em lotes: leia tudo uma vez, escreva os arquivos em sequência, sem reler o que já escreveu.
 
@@ -37,7 +38,7 @@ Ficha:
 {"item_id": "camara:123", "nivel": "federal|estadual|municipal", "tipo_simples": "Projeto de lei",
  "situacao": "Proposta apresentada", "titulo": "...", "o_que_e": "...", "quem_propos": "Dep. Fulano (PT–AM)",
  "o_que_muda": "...", "proximo_passo": "...", "fontes": [{"nome": "Câmara dos Deputados", "url": "https://..."}],
- "fonte_unica": false, "temas": ["slug"], "data": "D"}
+ "fonte_unica": false, "temas": ["slug"], "data": "D", "importancia": 2}
 ```
 
 Tema:
