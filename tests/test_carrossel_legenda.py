@@ -36,3 +36,17 @@ def test_legenda_respeita_limite():
 def test_legenda_singular():
     assert "• Mais 1 movimentação oficial\n" in legenda(_modelo([{"nome": "A", "linha": None}], mais=1))
     assert "• 1 movimentação oficial (Federal)" in legenda(_modelo([], mais=1))
+
+
+def test_legenda_com_mundo():
+    m = _modelo([{"nome": "A", "linha": None}], mais=2)
+    assert "• 1 fato do mundo" in legenda({**m, "capa": {**m["capa"], "mundo": 1}})
+    t = legenda({**m, "capa": {**m["capa"], "mundo": 3}})
+    assert t.index("• Mais 2 movimentações oficiais") < t.index("• 3 fatos do mundo")
+
+
+def test_legenda_so_mundo_sem_movimentacoes():
+    t = legenda(
+        _modelo([], mais=0, niveis=("Mundo",)) | {"capa": {"temas": [], "mais": 0, "niveis": ["Mundo"], "mundo": 3}}
+    )
+    assert "• 3 fatos do mundo" in t and "movimentaç" not in t
