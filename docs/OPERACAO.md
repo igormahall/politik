@@ -12,11 +12,13 @@ Todo dia às 10:13 UTC (6h13 em Manaus), com repescagem às 12:13 UTC se a prime
 
 1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 16 feeds de imprensa
    e as tramitações de projetos já acompanhados → `data/brutos/<dia>/` (temporário, fora do git).
+   Para a seção Mundo, também os feeds internacionais de `config/mundo.toml` (BBC, DW e Agência Brasil –
+   Internacional).
    As votações da Câmara são agrupadas pelo projeto votado.
 2. `filtrar`: separa destaques (até 25), notícias (até 60) e itens menores → `data/selecionados/<dia>.json`
    (guarda todos os itens do dia; é o registro bruto que fica no histórico)
-3. **Claude Code** (sua assinatura) roda `/traduzir <dia>` → fichas (com `importancia` 1–3), temas e diário
-   em `data/`. Ele só pode ler `data/` e `editorial/` e só pode escrever em `data/`.
+3. **Claude Code** (sua assinatura) roda `/traduzir <dia>` → fichas (com `importancia` 1–3), fichas do Mundo
+   (`data/mundo/`, só fatos confirmados por duas organizações), temas e diário em `data/`. Ele só pode ler `data/` e `editorial/` e só pode escrever em `data/`.
 4. `validar`: confere o que o Claude escreveu; o que estiver errado volta para a fila
 5. `site`: gera o site → GitHub Pages
 6. `enviar`: manda o resumo no Telegram
