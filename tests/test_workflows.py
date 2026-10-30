@@ -124,3 +124,7 @@ def test_lista_de_coletados_nao_pode_ser_editada_pelo_claude():
     restaura = _passo(wf, "diario", "Restaurar código (o Claude só pode mudar data/)")["run"]
     assert "selecionados/$D.json" in guarda and "selecionados/$D.json" in restaura
     assert nomes.index("Filtrar") < nomes.index("Guardar selecionados") < nomes.index("Traduzir com Claude Code")
+
+
+def test_guia_proibe_citar_fontes_no_corpo():
+    assert "Não cite as fontes no corpo do texto" in Path("editorial/GUIA.md").read_text()
