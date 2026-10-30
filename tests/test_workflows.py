@@ -95,3 +95,11 @@ def test_diario_tem_repescagem_que_nao_duplica():
 def test_skill_traduzir_pede_campos_da_capa():
     skill = Path(".claude/skills/traduzir/SKILL.md").read_text()
     assert '"nome_curto"' in skill and '"linha_capa"' in skill
+
+
+def test_carrossel_nao_derruba_o_diario():
+    wf = _wf("diario.yml")
+    p = _passo(wf, "diario", "Carrossel do Instagram")
+    assert p["continue-on-error"] is True and "steps.validar.outcome == 'success'" in p["if"]
+    nomes = [s.get("name") for s in wf["jobs"]["diario"]["steps"]]
+    assert nomes.index("Enviar no Telegram") < nomes.index("Carrossel do Instagram") < nomes.index("Salvar histórico")

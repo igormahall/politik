@@ -85,6 +85,28 @@ def cmd_enviar(args) -> int:
     return 0
 
 
+def cmd_carrossel(args) -> int:
+    import os
+    from html import escape
+
+    from politik import telegram
+    from politik.carrossel import render
+    from politik.carrossel.conteudo import montar
+    from politik.carrossel.legenda import legenda
+
+    token, chat = os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"]
+    modelo = montar(args.data)
+    if modelo is None:
+        telegram.enviar([{"text": "🖼️ Sem carrossel hoje.", "reply_markup": None}], token, chat)
+        print("carrossel: nada hoje")
+        return 0
+    imagens = render.renderizar(modelo, Path(args.saida))
+    telegram.enviar_album(imagens, token, chat)
+    telegram.enviar([{"text": escape(legenda(modelo)), "reply_markup": None}], token, chat)
+    print(f"carrossel: {len(imagens)} slides enviados")
+    return 0
+
+
 def cmd_registrar_uso(args) -> int:
     import json
 
@@ -121,6 +143,7 @@ COMANDOS = {
     "filtrar": (cmd_filtrar, []),
     "validar": (cmd_validar, []),
     "enviar": (cmd_enviar, []),
+    "carrossel": (cmd_carrossel, [("--saida", {"default": "carrossel_build"})]),
     "validar-tema": (cmd_validar_tema, [("--slug", {"required": True})]),
     "registrar-uso": (cmd_registrar_uso, [("--arquivo", {"default": ""})]),
     "site": (cmd_site, [("--saida", {"default": "site_build"}), ("--base-url", {"default": None})]),

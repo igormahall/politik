@@ -4,3 +4,4 @@ __pycache__/
 site_build/
 *.egg-info/
 data/brutos/
+carrossel_build/
