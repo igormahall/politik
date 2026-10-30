@@ -2,6 +2,7 @@ name: Testes
 
 on:
   push:
+    branches: [main]
     paths-ignore: ["data/**"] # os commits diários de dados não precisam rodar a suíte
   pull_request:
 
