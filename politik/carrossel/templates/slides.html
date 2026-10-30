@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<style>{{ css|safe }}</style>
+</head>
+<body class="{{ tipo }}">
+{% if tipo == "capa" %}
+<div class="topo"><div class="etiqueta">{{ m.data_extenso }}</div><h1>O dia na política</h1></div>
+<div class="corpo">
+  {% if m.capa.temas %}
+  <ol class="lista-capa">
+    {% for t in m.capa.temas %}<li>{{ t.nome }}{% if t.linha %}<span>{{ t.linha }}</span>{% endif %}</li>{% endfor %}
+    {% if m.capa.mais %}<li>Mais {{ m.capa.mais }} movimentações oficiais</li>{% endif %}
+  </ol>
+  {% else %}
+  <p class="grande">Hoje: {{ m.capa.mais }} movimentações oficiais</p>
+  <p>{{ m.capa.niveis|join(" · ") }}</p>
+  {% endif %}
+</div>
+{% elif tipo == "tema" %}
+<div class="topo"><div class="etiqueta">{{ t.etiqueta }}</div><h1>{{ t.nome }}</h1></div>
+<div class="corpo">
+  <p class="rotulo">Novo hoje</p>
+  <p class="novo-hoje">{{ t.novo_hoje }}</p>
+  {% if t.aviso %}<p class="aviso">⚠ {{ t.aviso }}</p>{% endif %}
+  <div class="para-entender"><p class="rotulo">Para entender</p><p>{{ t.para_entender }}</p></div>
+</div>
+{% elif tipo == "fichas" %}
+<div class="topo"><div class="etiqueta">Movimentações oficiais</div><h1>Também hoje</h1></div>
+<div class="corpo">
+  {% for g in m.fichas.grupos %}
+  <p class="nivel">{{ g.nivel }}</p>
+  <ul class="fichas">
+    {% for i in g.itens %}<li><small>{{ i.situacao }}{% if i.fonte_unica %} · <span class="unica">⚠ fonte única</span>{% endif %}</small>{{ i.titulo }}</li>{% endfor %}
+  </ul>
+  {% endfor %}
+  {% if m.fichas.mais %}<p class="mais">e mais {{ m.fichas.mais }} no link da bio</p>{% endif %}
+</div>
+{% else %}
+<div class="topo"><div class="etiqueta">politik</div><h1>Os fatos lado a lado</h1></div>
+<div class="corpo">
+  <p class="grande">Cada item explicado do zero, com a linha do tempo e as fontes.</p>
+  <p>Link na bio · boletim diário grátis no Telegram</p>
+</div>
+{% endif %}
+<div class="rodape"><span class="marca">{{ simbolo|safe }}politik · os fatos lado a lado</span><span class="pagina">{{ n }}/{{ m.total }}</span></div>
+<script>
+// Encaixe: sem "Para entender" → texto menor (até 75%) → corta o "novo hoje" em frase inteira. O aviso nunca é cortado.
+function cabe(c) { return c.scrollHeight <= c.clientHeight; }
+function encaixar() {
+  const c = document.querySelector(".corpo");
+  if (cabe(c)) return;
+  const pe = c.querySelector(".para-entender");
+  if (pe) { pe.remove(); if (cabe(c)) return; }
+  for (let e = 0.95; e >= 0.749; e -= 0.05) { c.style.setProperty("--escala", e.toFixed(2)); if (cabe(c)) return; }
+  const nh = c.querySelector(".novo-hoje");
+  if (!nh) return;
+  const frases = nh.textContent.match(/[^.!?]+[.!?]+\s*/g) || [nh.textContent];
+  while (frases.length > 1 && !cabe(c)) { frases.pop(); nh.textContent = frases.join("").trim() + " …"; }
+}
+</script>
+</body>
+</html>
