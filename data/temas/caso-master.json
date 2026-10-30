@@ -3,10 +3,10 @@
   "nome": "Caso Master",
   "inicio": "2025-03-28",
   "ativo": true,
-  "ultima_novidade": "2026-10-16",
-  "palavras_chave": ["Banco Master", "Vorcaro", "Compliance Zero", "BRB", "Conglomerado Master", "Will Financeira", "Fictor", "Letsbank"],
-  "resumo_ate_aqui": "O Banco Central liquidou o Banco Master em novembro de 2025 e a Polícia Federal prendeu o dono, Daniel Vorcaro, na operação Compliance Zero, que já teve ao menos seis fases. Vorcaro foi preso de novo em 4 de março de 2026. Em outubro de 2026, segundo o Midiamax, os processos no STF estavam sob a relatoria do presidente da Corte, Edson Fachin, e paralisados.",
-  "explica_do_zero": "Em março de 2025, o BRB (Banco de Brasília) pediu ao Banco Central para comprar parte das ações do Banco Master. O Cade aprovou em junho e a Câmara Legislativa do DF em agosto. Em setembro de 2025, o Banco Central rejeitou a compra.\n\nEm 17 de novembro de 2025, o grupo Fictor anunciou a compra do Master com investidores dos Emirados Árabes Unidos. No dia seguinte, 18 de novembro, o Banco Central decretou a liquidação extrajudicial (o fim das atividades do banco, com um liquidante cuidando dos bens) de empresas do conglomerado. O motivo citado foi uma grave crise de liquidez e graves violações às normas do sistema financeiro. Os bens dos controladores e ex-administradores ficaram indisponíveis.\n\nNo mesmo dia, a PF abriu a operação Compliance Zero e prendeu Daniel Vorcaro, fundador do banco. Em 28 de novembro, o TRF-1 mandou soltá-lo, com tornozeleira eletrônica. Em 8 de janeiro de 2026, a Justiça de falências da Flórida (EUA) reconheceu a liquidação e bloqueou ativos do grupo no país.\n\nEm 12 de fevereiro de 2026, o ministro Dias Toffoli deixou a relatoria do caso no STF, em decisão que o tribunal disse ser unânime. Em 23 de fevereiro, o ministro André Mendonça aparecia como novo relator.\n\nEm 4 de março de 2026, na 3ª fase, a PF prendeu Vorcaro de novo, por ordem de Mendonça. A PF o aponta como líder de uma organização criminosa investigada por ameaça, corrupção, lavagem de dinheiro e invasão de dispositivos. A defesa nega as acusações. Em 14 de maio, a 6ª fase prendeu o pai dele, Henrique Vorcaro.\n\nEm setembro de 2026, o relatório da PF sobre Vorcaro foi tornado público. Em 12 de setembro, a relatoria passou a Edson Fachin, presidente do STF. Segundo o Midiamax, em 16 de outubro os casos estavam parados e a defesa esperava que Fachin devolvesse os processos a Mendonça depois do segundo turno das eleições.",
+  "ultima_novidade": "2026-10-29",
+  "palavras_chave": ["Banco Master", "Vorcaro", "Compliance Zero", "BRB", "Conglomerado Master", "Will Financeira", "Fictor", "Letsbank", "Felipe Vorcaro", "Fabiano Zettel"],
+  "resumo_ate_aqui": "O Banco Central liquidou o Banco Master em novembro de 2025 e a Polícia Federal prendeu o dono, Daniel Vorcaro, na operação Compliance Zero, que já teve ao menos seis fases. Vorcaro foi preso de novo em 4 de março de 2026. Desde 12 de setembro de 2026 o caso está na Presidência do STF, com Edson Fachin. Em 29 de outubro, Fachin devolveu o caso INSS a André Mendonça, mas manteve o Master com ele, só para decisões urgentes.",
+  "explica_do_zero": "Em março de 2025, o BRB (Banco de Brasília) pediu ao Banco Central para comprar parte das ações do Banco Master. O Cade aprovou em junho e a Câmara Legislativa do DF em agosto. Em setembro de 2025, o Banco Central rejeitou a compra.\n\nEm 17 de novembro de 2025, o grupo Fictor anunciou a compra do Master com investidores dos Emirados Árabes Unidos. No dia seguinte, 18 de novembro, o Banco Central decretou a liquidação extrajudicial (o fim das atividades do banco, com um liquidante cuidando dos bens) de empresas do conglomerado. O motivo citado foi uma grave crise de liquidez e graves violações às normas do sistema financeiro. Os bens dos controladores e ex-administradores ficaram indisponíveis.\n\nNo mesmo dia, a PF abriu a operação Compliance Zero e prendeu Daniel Vorcaro, fundador do banco. Em 28 de novembro, o TRF-1 mandou soltá-lo, com tornozeleira eletrônica. Em 8 de janeiro de 2026, a Justiça de falências da Flórida (EUA) reconheceu a liquidação e bloqueou ativos do grupo no país.\n\nEm 12 de fevereiro de 2026, o ministro Dias Toffoli deixou a relatoria do caso no STF, em decisão que o tribunal disse ser unânime. Em 23 de fevereiro, o ministro André Mendonça aparecia como novo relator.\n\nEm 4 de março de 2026, na 3ª fase, a PF prendeu Vorcaro de novo, por ordem de Mendonça. A PF o aponta como líder de uma organização criminosa investigada por ameaça, corrupção, lavagem de dinheiro e invasão de dispositivos. A defesa nega as acusações. Em 14 de maio, a 6ª fase prendeu o pai dele, Henrique Vorcaro.\n\nEm setembro de 2026, o relatório da PF sobre Vorcaro foi tornado público. Em 12 de setembro, a relatoria passou a Edson Fachin, presidente do STF. Segundo o Midiamax, em 16 de outubro os casos estavam parados e a defesa esperava que Fachin devolvesse os processos a Mendonça depois do segundo turno das eleições.\n\nEm 29 de outubro, Fachin devolveu a Mendonça os inquéritos do INSS, mas manteve o caso Master na Presidência do STF, só para decisões urgentes, como a revisão de prisões.",
   "linha_do_tempo": [
     {
       "data": "2025-03-28",
@@ -29,8 +29,11 @@
     {
       "data": "2025-11-18",
       "fato": "O Banco Central (ato nº 1.373, assinado pelo presidente Gabriel Galípolo) decretou a liquidação extrajudicial do Banco Master S/A, Banco Master de Investimento, Banco Letsbank e Master Corretora, e o regime especial de administração temporária (RAET) no Banco Master Múltiplo, que controla a Will Financeira. O BC citou grave crise de liquidez e graves violações às normas do sistema financeiro. Os bens de controladores e ex-administradores ficaram indisponíveis. O liquidante nomeado é a EFB Regimes Especiais de Empresas.",
-      "fontes": [{"nome": "Poder360", "url": "https://www.poder360.com.br/poder-economia/banco-central-decreta-liquidacao-extrajudicial-do-banco-master/"}],
-      "fonte_unica": true
+      "fontes": [
+        {"nome": "Poder360", "url": "https://www.poder360.com.br/poder-economia/banco-central-decreta-liquidacao-extrajudicial-do-banco-master/"},
+        {"nome": "CNN Brasil", "url": "https://www.cnnbrasil.com.br/economia/negocios/banco-central-decreta-liquidacao-extrajudicial-do-banco-master/"}
+      ],
+      "fonte_unica": false
     },
     {
       "data": "2025-11-18",
@@ -54,6 +57,12 @@
       "fonte_unica": true
     },
     {
+      "data": "2026-01-21",
+      "fato": "O Banco Central decretou a liquidação extrajudicial da Will Financeira S.A., do grupo Master (ato nº 1.376), segundo apenas o Congresso em Foco.",
+      "fontes": [{"nome": "Congresso em Foco", "url": "https://www.congressoemfoco.com.br/amp/noticia/117317/bc-decreta-liquidacao-do-banco-master-multiplo"}],
+      "fonte_unica": true
+    },
+    {
       "data": "2026-02-12",
       "fato": "O ministro Dias Toffoli deixou a relatoria do caso Master no STF. Segundo a nota do STF, os 10 ministros assinaram a decisão, que a nota diz não ser por suspeição ou impedimento, e sim por \"altos interesses institucionais\".",
       "fontes": [{"nome": "Poder360", "url": "https://www.poder360.com.br/poder-justica/toffoli-deixa-relatoria-do-caso-master/"}],
@@ -68,8 +77,26 @@
     {
       "data": "2026-03-04",
       "fato": "Na 3ª fase da Compliance Zero, a PF prendeu Vorcaro em São Paulo por ordem do ministro André Mendonça (4 mandados de prisão preventiva e 15 de busca, em SP e MG). A PF investiga ameaça, corrupção, lavagem de dinheiro e invasão de dispositivos por organização criminosa, com núcleos financeiro, de corrupção institucional (servidores do Banco Central), de ocultação patrimonial e de intimidação. Foram ordenados bloqueios de bens de até R$ 22 bilhões. A defesa nega \"categoricamente\" as acusações e diz que ele colaborou com as investigações.",
-      "fontes": [{"nome": "Poder360", "url": "https://www.poder360.com.br/poder-justica/operacao-da-pf-prende-daniel-vorcaro-fundador-do-banco-master/"}],
+      "fontes": [
+        {"nome": "Poder360", "url": "https://www.poder360.com.br/poder-justica/operacao-da-pf-prende-daniel-vorcaro-fundador-do-banco-master/"},
+        {"nome": "DG ABC", "url": "https://www.dgabc.com.br/Noticia/4288498/pf-cumpre-prisao-de-vorcaro-por-ordem-de-mendonca-em-nova-fase-de-operacao-sobre-banco-master"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-03-04",
+      "fato": "A Justiça Federal em São Paulo manteve a prisão preventiva de Vorcaro e de Fabiano Zettel, cunhado dele, após a audiência de custódia (audiência em que o preso é ouvido por um juiz logo após a prisão). Segundo apenas a Itatiaia, ambos seriam levados ao CDP 2 de Guarulhos.",
+      "fontes": [{"nome": "Itatiaia", "url": "https://www.itatiaia.com.br/politica/prisao-preventiva-de-vorcaro-e-mantida-apos-audiencia-de-custodia/"}],
       "fonte_unica": true
+    },
+    {
+      "data": "2026-03-17",
+      "fato": "O Banco Central decretou a liquidação extrajudicial do Banco Master Múltiplo S.A., que estava em regime de administração especial (Raet) desde 18/11/2025. O BC disse que, com a liquidação da Will Financeira, \"não mais subsistem motivos\" para manter o Raet. A indisponibilidade dos bens dos controladores e administradores foi mantida.",
+      "fontes": [
+        {"nome": "Istoé Dinheiro", "url": "https://istoedinheiro.com.br/bc-decreta-liquidacao-extrajudicial-de-mais-um-banco-do-conglomerado-master"},
+        {"nome": "Congresso em Foco", "url": "https://www.congressoemfoco.com.br/amp/noticia/117317/bc-decreta-liquidacao-do-banco-master-multiplo"}
+      ],
+      "fonte_unica": false
     },
     {
       "data": "2026-05-14",
@@ -90,10 +117,31 @@
       "fonte_unica": true
     },
     {
+      "data": "2026-09-14",
+      "fato": "Por ordem de Edson Fachin, André Mendonça retirou o sigilo do processo sobre a rede de pagamentos ligada a Vorcaro (54 linhas de investigação da Compliance Zero). Segundo apenas o DG ABC, o relatório da PF, tornado público no início de setembro, traz 52 mensagens que os investigadores dizem ter sido enviadas por Vorcaro ao ministro Alexandre de Moraes entre 2023 e 17/11/2025, e cita contrato de R$ 131 milhões entre o Master e escritório da mulher do ministro. Segundo o relatório, os investigadores não recuperaram as respostas de Moraes. A PGR pediu ao STF a anulação do relatório, por considerá-lo produzido de forma irregular. Moraes pediu a Fachin investigação contra Mendonça por abuso de autoridade, improbidade e crime de responsabilidade; o pedido foi pautado para 23/09.",
+      "fontes": [{"nome": "DG ABC", "url": "https://www.dgabc.com.br/Noticia/4346835/mendonca-retira-sigilo-de-processo-sobre-rede-de-pagamentos-de-vorcaro"}],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-09-21",
+      "fato": "A defesa de Felipe Vorcaro, primo de Daniel, que a PF aponta como operador financeiro do esquema e que está preso em Minas Gerais desde 7 de maio, pediu a Fachin que devolvesse o caso a Mendonça. Segundo a defesa, a decisão de 12/09 impede a análise do pedido de revogação da prisão, feito em 22/06. Segundo apenas o SBT News.",
+      "fontes": [{"nome": "SBT News", "url": "https://sbtnews.sbt.com.br/noticia/politica/primo-de-vorcaro-pede-a-fachin-devolucao-de-acao-a-mendonca"}],
+      "fonte_unica": true
+    },
+    {
       "data": "2026-10-16",
       "fato": "Segundo o Midiamax (citando o Metrópoles), os casos estavam paralisados no STF desde antes do primeiro turno; uma sessão sobre abrir investigação contra Moraes terminou em pedido de vista do ministro Flávio Dino. Fachin pediu à PF relatório sobre as referências a ministros e disse aguardar manifestação da PGR na PET 16704. A defesa de Vorcaro avalia que Fachin devolverá os processos a Mendonça após o segundo turno (25/10/2026).",
       "fontes": [{"nome": "Midiamax", "url": "https://midiamax.com.br/brasil/2026/defesa-vorcaro-avalia-fachin-entregara-relatoria-caso-master-apos-2-turno/"}],
       "fonte_unica": true
+    },
+    {
+      "data": "2026-10-29",
+      "fato": "Fachin devolveu a Mendonça a relatoria dos inquéritos do INSS (Operação Sem Desconto), mas manteve a Compliance Zero (caso Master) na Presidência do STF, apenas para decisões urgentes, como a revisão periódica de prisões. Segundo a Gazeta do Povo, o prazo máximo é de 90 dias contados de 12/09; segundo o Correio Braziliense, a decisão ainda será submetida ao plenário. O motivo citado é que os relatórios policiais mencionam autoridade com foro no STF. Fachin disse que o parecer da PGR contra o pedido de Moraes \"esvaziou a justificativa\" de manter o caso INSS na Presidência.",
+      "fontes": [
+        {"nome": "Correio Braziliense", "url": "https://www.correiobraziliense.com.br/politica/2026/10/7530631-fachin-fica-com-inquerito-sobre-master-e-devolve-caso-inss-a-mendonca.html"},
+        {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/fachin-devolve-inqueritos-do-inss-a-mendonca-mas-mantem-caso-master/"}
+      ],
+      "fonte_unica": false
     }
   ]
 }
