@@ -6,6 +6,7 @@ dependencies = ["httpx", "feedparser", "jinja2"]
 
 [project.optional-dependencies]
 dev = ["pytest", "pyyaml", "ruff"]
+carrossel = ["playwright==1.63.0"]
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -16,6 +17,7 @@ include = ["politik*"]
 
 [tool.setuptools.package-data]
 "politik.site" = ["templates/*.html", "*.css", "*.svg"]
+"politik.carrossel" = ["templates/*.html", "*.css", "fontes/*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
