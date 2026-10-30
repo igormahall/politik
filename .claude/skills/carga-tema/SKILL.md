@@ -19,13 +19,22 @@ Leia `editorial/GUIA.md` antes de tudo. Ele manda em tudo abaixo, especialmente 
   Ministério Público), agências públicas (Agência Brasil, Agência Câmara, Agência Senado) e veículos de acesso aberto.
 - **Nunca** tente contornar paywall. Página bloqueada = ignore.
 - Fato encontrado em uma fonte só → `fonte_unica: true`.
+- **Não concentre num veículo só**: cada fato deve, sempre que possível, ter uma segunda fonte de outro
+  veículo ou órgão. Prefira, para fatos oficiais (liquidação, prisão, decisão), a página do próprio órgão
+  (bcb.gov.br, gov.br/pf, portal.stf.jus.br) ou da Agência Brasil.
 - Busque fontes de linhas editoriais diferentes quando o fato for disputado. Registre declarações como declarações
   ("X disse que …"), sem tomar lado.
 
 ## Passos
 
-1. Se `data/temas/<slug>.json` já existe, leia-o: você vai **continuar** de onde parou (preencher lacunas de período,
-   acrescentar fatos que faltam), sem apagar o que já tem fonte.
+1. Se `data/temas/<slug>.json` já existe, leia-o: você vai **continuar** de onde parou, sem apagar o que já tem fonte.
+   Nesse caso, a ordem de trabalho é:
+   a. **Confirmar com uma segunda fonte** os fatos marcados `fonte_unica: true`, de preferência um órgão
+      oficial ou uma agência pública, e de outro veículo que não o já citado. Confirmou → acrescente a
+      fonte em `fontes` e mude para `fonte_unica: false`.
+   b. **Preencher lacunas**: procure períodos de mais de ~2 meses sem fatos na `linha_do_tempo` e marcos
+      citados no `resumo_ate_aqui` ou no `explica_do_zero` que não têm entrada própria; pesquise e acrescente.
+   c. Só então busque fatos novos posteriores à `ultima_novidade`.
 2. Pesquise o tema do começo até hoje. Descubra o primeiro fato relevante e os marcos principais (decisões oficiais,
    operações, prisões, julgamentos, CPIs, normas publicadas).
 3. Monte a `linha_do_tempo` em ordem crescente de data, um fato por entrada.

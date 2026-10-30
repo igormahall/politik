@@ -21,7 +21,10 @@
 <p class="aviso">⚠️ Tradução indisponível hoje — mostrando textos originais.</p>
 <ul>{% for i in sel.destaques %}<li><a href="{{ i.url }}">{{ i.titulo }}</a> — {{ i.ementa }}</li>{% endfor %}</ul>
 {% else %}
-{% for nivel, rotulo in niveis %}{% set grupo = fichas | selectattr("nivel", "equalto", nivel) | list %}{% if grupo %}
+{% set principais = fichas | selectattr("importancia", "equalto", 1) | list %}
+{% if principais %}<h3>⭐ Mais importantes</h3>
+<ul>{% for f in principais %}<li><a href="{{ url_ficha(f.item_id) }}">{{ f.titulo }}</a> <span class="etiqueta">{{ f.situacao }}</span></li>{% endfor %}</ul>{% endif %}
+{% for nivel, rotulo in niveis %}{% set grupo = fichas | selectattr("nivel", "equalto", nivel) | rejectattr("importancia", "equalto", 1) | list %}{% if grupo %}
 <h3>{{ rotulo }}</h3>
 <ul>{% for f in grupo %}<li><a href="{{ url_ficha(f.item_id) }}">{{ f.titulo }}</a> <span class="etiqueta">{{ f.situacao }}</span></li>{% endfor %}</ul>
 {% endif %}{% endfor %}

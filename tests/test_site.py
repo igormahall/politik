@@ -52,3 +52,14 @@ def test_urls():
     assert url_tema("caso-master", "do-zero", base="https://x") == "https://x/tema/caso-master.html#do-zero"
     assert url_ficha("imprensa:g1/a", base="https://x/") == "https://x/ficha/imprensa_g1_a.html"
     assert url_menores(D, base="https://x") == f"https://x/menores/{D}.html"
+
+
+def test_site_dia_ordena_por_importancia(tmp_data, tmp_path):
+    from tests.helpers import FICHA_OK, escrever_ficha
+    escrever_selecionados(tmp_data, D, destaques=[item("camara:1"), item("camara:2")])
+    escrever_ficha(tmp_data, {**FICHA_OK, "item_id": "camara:1", "titulo": "Menos importante", "importancia": 3})
+    escrever_ficha(tmp_data, {**FICHA_OK, "item_id": "camara:2", "titulo": "Mais importante", "importancia": 1})
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1", "camara:2"]})
+    main(["site", "--saida", str(tmp_path), "--base-url", "https://x"])
+    dia = (tmp_path / f"dia/{D}.html").read_text()
+    assert dia.index("⭐ Mais importantes") < dia.index("Mais importante") < dia.index("Menos importante")

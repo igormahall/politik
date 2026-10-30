@@ -11,6 +11,8 @@ LOCAL = {"aleam", "cmm"}
 def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque", "menor", "noticia"]:
     if item.categoria == "noticia":
         return "noticia"
+    if item.categoria == "votacao" and item.extra.get("proposicao", True) is None and not casa_tema(item, temas):
+        return "menor"  # votação sem projeto identificado não diz nada ao leitor
     if casa_tema(item, temas) or item.categoria in cfg["destaque_categorias"]:
         return "destaque"
     ementa = normalizar(item.ementa)

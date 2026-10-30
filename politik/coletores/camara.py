@@ -46,6 +46,39 @@ def parse_votacoes(json: dict, data: str) -> list[Item]:
     ]
 
 
+def agrupar_votacoes(votos: list[Item], detalhes: dict[str, dict]) -> list[Item]:
+    """Junta as votações de um mesmo projeto no dia num item só, com o assunto do projeto.
+
+    A lista de votações da Câmara não diz o que foi votado; o detalhe de cada uma traz
+    `proposicoesAfetadas`. Votação sem projeto identificado fica sozinha, com proposicao=None.
+    """
+    grupos: dict[int, Item] = {}
+    soltas = []
+    for v in votos:
+        afetadas = detalhes.get(v.id, {}).get("proposicoesAfetadas") or []
+        if not afetadas:
+            v.extra["proposicao"] = None
+            soltas.append(v)
+            continue
+        p = afetadas[0]
+        if p["id"] not in grupos:
+            grupos[p["id"]] = Item(
+                id=f"camara:votacao:{p['id']}:{v.data}",
+                fonte="camara",
+                nivel="federal",
+                categoria="votacao",
+                sigla_tipo="VOTACAO",
+                titulo=f"{p['siglaTipo']} {p['numero']}/{p['ano']}",
+                ementa=(p.get("ementa") or "").strip(),
+                data=v.data,
+                url=f"https://www.camara.leg.br/propostas-legislativas/{p['id']}",
+                extra={"proposicao": p["id"], "votacoes": [], "siglaOrgao": "PLEN"},
+            )
+        grupos[p["id"]].extra["votacoes"].append(
+            {"descricao": v.titulo, "aprovacao": v.extra.get("aprovacao"), "url": v.url})
+    return list(grupos.values()) + soltas
+
+
 def parse_deputado(json: dict) -> Autor:
     s = json["dados"]["ultimoStatus"]
     return Autor(s["nome"], s.get("siglaPartido"), s.get("siglaUf"))
@@ -90,5 +123,11 @@ def coletar(data: str, cliente: httpx.Client | None = None) -> list[Item]:
         if it.sigla_tipo in SIGLAS_COM_AUTORES:
             it.autores = _autores(cliente, it.id.split(":")[1], cache)
     # a API trata dataFim como exclusiva para votações
-    votos = _paginar(cliente, f"{BASE}/votacoes?dataInicio={data}&dataFim={seguinte}&itens=200")
-    return itens + parse_votacoes({"dados": votos}, data)
+    votos = parse_votacoes({"dados": _paginar(
+        cliente, f"{BASE}/votacoes?dataInicio={data}&dataFim={seguinte}&itens=200")}, data)
+    detalhes = {}
+    for v in votos:
+        r = cliente.get(f"{BASE}/votacoes/{v.id.split(':')[-1]}")
+        if r.status_code == 200:
+            detalhes[v.id] = r.json()["dados"]
+    return itens + agrupar_votacoes(votos, detalhes)
