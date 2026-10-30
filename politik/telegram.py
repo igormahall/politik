@@ -8,7 +8,7 @@ from pathlib import Path
 import httpx
 
 from politik.armazenamento import data_dir, id_seguro, ler_json
-from politik.site.gerador import NIVEIS, NOMES_FONTES, url_ficha, url_menores, url_tema
+from politik.site.gerador import NIVEIS, NOMES_FONTES, url_ficha, url_menores, url_mundo, url_tema
 
 LIMITE = 4096
 DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
@@ -108,6 +108,11 @@ def compor(data: str, base_url: str) -> list[dict]:
         if grupo:
             nov.append(f"\n{rotulo}")
             nov += [linha(u, t, e) for u, t, e in grupo]
+    mundo = [ler_json(base / "mundo" / f"{id_seguro(i)}.json") for i in diario.get("mundo", [])]
+    mundo = [f for f in mundo if f]
+    if mundo:
+        nov.append("\n<b>🌍 Mundo</b>")
+        nov += [linha(url_mundo(f["item_id"], base_url), f["titulo"], "") for f in mundo]
     nov.append(f'\n<a href="{url_menores(data, base_url)}">+ {len(sel["menores"])} itens menores</a>')
     blocos.append(("\n".join(nov), None))
 
