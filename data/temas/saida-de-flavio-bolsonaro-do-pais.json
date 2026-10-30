@@ -1,0 +1,98 @@
+{
+  "slug": "saida-de-flavio-bolsonaro-do-pais",
+  "nome": "Saída de Flávio Bolsonaro do país após a eleição",
+  "inicio": "2026-10-25",
+  "ativo": true,
+  "ultima_novidade": "2026-10-28",
+  "palavras_chave": ["Flávio Bolsonaro", "passaportes de Flávio", "carta de Flávio Bolsonaro", "Willer Tomaz", "Alexandre de Moraes passaportes"],
+  "resumo_ate_aqui": "Depois de perder o segundo turno para Lula em 25 de outubro, o senador Flávio Bolsonaro (PL) deixou o Brasil e chegou a Miami, nos EUA, na manhã de 28 de outubro, apesar de uma ordem do STF para entregar os passaportes. No mesmo dia ele divulgou uma carta em que diz, sem apresentar provas, que a eleição foi fraudada. A Polícia Federal informou que investiga as circunstâncias da saída do país.",
+  "explica_do_zero": "No domingo (25 de outubro), foi o segundo turno da eleição para presidente. Segundo a Agência Brasil, Lula teve 64 milhões de votos e Flávio Bolsonaro (PL), pouco mais de 59 milhões.\n\nFlávio é investigado em dois inquéritos no Supremo Tribunal Federal (STF). Num deles, é suspeito, junto com o advogado Willer Tomaz, de lavagem de dinheiro por meio de plataformas de apostas (bets). O outro apura o financiamento do filme Dark Horse. Ele e o advogado negam irregularidades, segundo a Agência Brasil.\n\nNa noite do domingo, a Polícia Federal (PF) pediu ao STF medidas para impedir que ele saísse do país. O ministro Alexandre de Moraes mandou que Flávio entregasse os passaportes e proibiu a saída do país. A PF diz que os passaportes foram cancelados e que foi inserido um alerta migratório.\n\nSegundo a Agência Brasil, Flávio cruzou a fronteira com a Argentina às 22h50 de terça-feira (27), por Foz do Iguaçu. Às 23h30 a família embarcou em um avião particular rumo ao Equador e, de lá, aos Estados Unidos. Eles chegaram a Miami na manhã de quarta-feira (28).\n\nNo dia 28, Flávio divulgou uma carta nas redes sociais. Numa primeira versão, ele se declarava o \"presidente eleito\"; meia hora depois o texto foi trocado por \"líder do Brasil\". Na carta, ele afirma, sem provas, que houve fraude. O TSE, que organiza a eleição, reconheceu o resultado, e seu presidente disse, segundo o g1, que a eleição transcorreu com \"absoluta normalidade\". O senador Rogério Marinho (PL-RN), coordenador da campanha de Flávio, disse que não há provas de fraude.\n\nAinda no dia 28, a PF informou que investiga as circunstâncias da saída de Flávio e disse que a decisão judicial sobre os passaportes não autorizava prisão nem vigilância permanente. Moraes autorizou uma visita do presidente do PL, Valdemar Costa Neto, a Jair Bolsonaro, que cumpre prisão domiciliar.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-10-25",
+      "fato": "Segundo turno da eleição presidencial: Lula (PT) teve 64 milhões de votos e Flávio Bolsonaro (PL), pouco mais de 59 milhões, segundo a Agência Brasil. O TSE reconheceu o resultado.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga"},
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/partido-de-flavio-bolsonaro-e-aliados-ja-reconheceram-vitoria-de-lula.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-25",
+      "fato": "A Polícia Federal pediu ao STF, na noite do segundo turno, medidas para impedir que Flávio Bolsonaro saísse do país. O ministro Alexandre de Moraes atendeu: mandou entregar os passaportes pessoal e diplomático e proibiu a saída do país. Os passaportes foram cancelados.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pf-investiga-circunstancias-da-fuga-de-flavio-bolsonaro-do-brasil"},
+        {"nome": "g1", "url": "https://g1.globo.com/podcast/o-assunto/noticia/2026/10/28/a-rota-de-fuga-de-flavio-bolsonaro-o-assunto-1834.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-27",
+      "fato": "Flávio Bolsonaro, a mulher e as duas filhas cruzaram a fronteira com a Argentina às 22h50, por Foz do Iguaçu, e às 23h30 embarcaram em avião particular rumo ao Equador, segundo a Agência Brasil.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "Flávio Bolsonaro e a família chegaram a Miami (EUA) na manhã de quarta-feira. Segundo apenas o g1, ele entrou nos EUA com o passaporte diplomático cancelado, e o registro da alfândega americana indica permanência autorizada até 27 de outubro de 2027.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga"},
+        {"nome": "g1", "url": "https://g1.globo.com/mundo/noticia/2026/10/28/flavio-bolsonaro-usou-passaporte-diplomatico-cancelado-para-entrar-nos-eua.ghtml"},
+        {"nome": "g1", "url": "https://g1.globo.com/mundo/noticia/2026/10/28/flavio-bolsonaro-recebeu-autorizacao-para-ficar-1-ano-nos-eua.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "Flávio Bolsonaro divulgou uma carta nas redes sociais. A primeira versão o chamava de \"presidente eleito\"; meia hora depois foi trocada por \"líder do Brasil\". Na carta ele afirma, sem apresentar provas, que a eleição foi fraudada, critica a decisão do STF que estendeu a votação até as 19h e agradece a Javier Milei e Donald Trump. Diz que vai liderar a oposição a partir dos EUA.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga"},
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/apos-fugir-do-brasil-flavio-fala-em-fraude-na-eleicao-e-se-autoproclama-presidente.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "O senador Rogério Marinho (PL-RN), coordenador da campanha de Flávio, disse em coletiva no Senado: \"O PL não pode fazer essa afirmação [de fraude], nem eu posso fazer essa afirmação, porque não há provas nesse sentido\". Segundo apenas a Agência Brasil.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/coordenador-de-campanha-do-pl-admite-nao-ter-prova-de-fraude-eleitoral"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "O presidente do TSE, ministro Kassio Nunes Marques, disse que a Justiça Eleitoral entregou o pleito com segurança e que as eleições \"transcorreram dentro da mais absoluta normalidade\". Segundo apenas o g1.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/presidente-do-tse-diz-que-entregou-pleito-com-seguranca-e-que-as-eleicoes-2026-transcorreram-dentro-da-mais-absoluta-normalidade.ghtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "A PF informou, em nota, que investiga as circunstâncias da saída de Flávio do país e que não encontrou registro de passagem dele por posto de controle migratório brasileiro. A PF também disse que a decisão sobre os passaportes não autorizava prisão, vigilância permanente ou outras medidas contra o senador.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/pf-investiga-circunstancias-da-fuga-de-flavio-bolsonaro-do-brasil"},
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/pf-diz-que-restricoes-a-passaportes-de-flavio-nao-autorizavam-prisao-vigilancia-permanente-ou-outras-medidas-contra-o-senador.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "No Plenário da Câmara, deputados do governo e da oposição discursaram sobre a saída de Flávio. Governistas disseram que ele abandonou a liderança da oposição; oposicionistas disseram que ele foi aos EUA a convite do governo americano e que sofre perseguição política. Segundo apenas a Agência Câmara.",
+      "fontes": [
+        {"nome": "Agência Câmara", "url": "https://www.camara.leg.br/noticias/1314703-reeleicao-de-lula-e-viagem-de-flavio-bolsonaro-aos-eua-repercutem-no-plenario"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "O ministro Alexandre de Moraes autorizou uma visita do presidente do PL, Valdemar Costa Neto, ao ex-presidente Jair Bolsonaro, que está em prisão domiciliar. O pedido foi feito pela defesa de Bolsonaro. Segundo apenas o g1.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/alexandre-de-moraes-autoriza-que-valdemar-costa-neto-visite-bolsonaro-em-prisao-domiciliar.ghtml"}
+      ],
+      "fonte_unica": true
+    }
+  ]
+}
