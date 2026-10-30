@@ -1,0 +1,12 @@
+{"item_id": "cmm:materia:53132", "nivel": "municipal", "tipo_simples": "Projeto de lei",
+ "situacao": "Proposta apresentada",
+ "titulo": "Proposta cria fundo municipal para proteção de animais em Manaus",
+ "o_que_e": "Propõe criar o Fundo Municipal de Proteção Animal. Um fundo é uma verba reservada para uma finalidade específica. A ementa não diz de onde viria o dinheiro nem como seria usado; o texto completo está no PDF oficial.",
+ "quem_propos": "Vereador Jaildo Oliveira (PV–AM)",
+ "o_que_muda": "Ainda não muda nada: é só uma proposta. Se aprovada, a cidade de Manaus passaria a ter um fundo municipal para proteção animal.",
+ "proximo_passo": "Vai para análise nas comissões da Câmara Municipal e depois para votação no plenário.",
+ "fontes": [
+  {"nome": "Câmara Municipal de Manaus", "url": "https://sapl.cmm.am.gov.br/materia/53132"},
+  {"nome": "Texto do projeto", "url": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53132/pl_832_2026_jaildo_oliveira_fundo_protecao_animal.pdf"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 3}

@@ -1,0 +1,11 @@
+{"item_id": "senado:9118916:sit:2026-10-29", "nivel": "federal", "tipo_simples": "Mudança na tramitação",
+ "situacao": "Aguardando despacho (ainda sem comissões definidas)",
+ "titulo": "Proposta que pune retaliação por voto no trabalho está no Senado",
+ "o_que_e": "A tramitação é do projeto que trata do assédio eleitoral no trabalho e em contratos em que uma pessoa depende economicamente da outra. Cria o crime de retaliação por motivação ideológico-eleitoral e prevê que quem for punido perca acesso a contratos, fundos e incentivos públicos.",
+ "quem_propos": "Sen. Randolfe Rodrigues (PT–AP)",
+ "o_que_muda": "Ainda não muda nada: é só uma proposta, que está no início da tramitação. Se virar lei, quem retaliar um trabalhador por causa do voto poderia responder por crime.",
+ "proximo_passo": "Aguarda despacho, que define as comissões do Senado que vão analisar o projeto. Depois precisa ser aprovado no Senado e na Câmara.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176148"}
+ ],
+ "fonte_unica": false, "temas": ["violencia-e-assedio-eleitoral-2026"], "data": "2026-10-29", "importancia": 2}
