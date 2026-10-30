@@ -7,7 +7,7 @@ import pytest
 from politik.armazenamento import escrever_json
 from politik.telegram import compor, enviar, enviar_album
 from tests.conftest import load
-from tests.helpers import D, escrever_ficha, escrever_selecionados, FICHA_OK, item
+from tests.helpers import D, escrever_ficha, escrever_mundo, escrever_selecionados, FICHA_OK, item, MUNDO_OK
 
 B = "https://x"
 
@@ -138,3 +138,22 @@ def test_enviar_album_rejeita_mais_de_10_ou_nenhuma(tmp_path):
         enviar_album(_pngs(tmp_path, 11), "T", "42")
     with pytest.raises(ValueError):
         enviar_album([], "T", "42")
+
+
+def test_compor_secao_mundo(tmp_data):
+    escrever_selecionados(tmp_data, D, destaques=[item("camara:1")])
+    escrever_ficha(tmp_data, FICHA_OK)
+    escrever_mundo(tmp_data, {**MUNDO_OK, "titulo": "Tarifa & aço"})
+    escrever_json(
+        tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1"], "mundo": [MUNDO_OK["item_id"]]}
+    )
+    t = _texto(compor(D, B))
+    assert t.index("📜 Novidades oficiais") < t.index("🌍 Mundo") < t.index("itens menores")
+    assert f'<a href="{B}/mundo/mundo_2026-10-28_1.html">Tarifa &amp; aço</a>' in t
+
+
+def test_compor_sem_mundo_nao_tem_secao(tmp_data):
+    escrever_selecionados(tmp_data, D, destaques=[item("camara:1")])
+    escrever_ficha(tmp_data, FICHA_OK)
+    _diario(tmp_data, ["camara:1"])
+    assert "🌍 Mundo" not in _texto(compor(D, B))
