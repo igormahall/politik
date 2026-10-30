@@ -7,7 +7,11 @@ from politik.carrossel.render import paginas_html, renderizar
 AVISO = "Só o veículo X divulgou o pedido de asilo."
 MODELO = {
     "data_extenso": "quarta-feira, 28 de outubro de 2026",
-    "capa": {"temas": [{"nome": "Caso Master", "linha": "Fachin mantém o caso no STF"}], "mais": 1, "niveis": []},
+    "capa": {
+        "temas": [{"nome": "Caso Master", "linha": "Fachin mantém o caso no STF"}],
+        "mais": 1,
+        "niveis": ["Federal", "Mundo"],
+    },
     "temas": [
         {
             "etiqueta": "Tema em andamento · dia 5",
@@ -51,7 +55,8 @@ def test_paginas_html_ordem_e_textos():
     p = paginas_html(MODELO)
     assert len(p) == 5
     assert "O dia na política" in p[0] and "quarta-feira, 28 de outubro de 2026" in p[0]
-    assert "Fachin mantém o caso no STF" in p[0] and "Mais 1 movimentação oficial" in p[0]
+    assert "Fachin mantém o caso no STF" in p[0] and "Também hoje: Federal · Mundo" in p[0]
+    assert "movimentaç" not in p[0] and "fatos do mundo" not in p[0]
     assert AVISO in p[1] and "Também hoje" in p[3] and "e mais 2 no link da bio" in p[3] and "fonte única" in p[3]
     assert "Os fatos lado a lado" in p[-1] and "Link na bio · boletim diário grátis no Telegram" in p[-1]
     assert "5/5" in p[-1] and "1/5" in p[0]
@@ -61,7 +66,7 @@ def test_paginas_html_ordem_e_textos():
 def test_capa_dia_sem_temas():
     m = {**MODELO, "capa": {"temas": [], "mais": 3, "niveis": ["Federal", "Amazonas"]}, "temas": [], "total": 3}
     capa = paginas_html(m)[0]
-    assert "Hoje: 3 movimentações oficiais" in capa and "Federal · Amazonas" in capa
+    assert "Hoje no Politik" in capa and "Federal · Amazonas" in capa and "movimentaç" not in capa
 
 
 def test_texto_escapado():
@@ -141,14 +146,6 @@ def test_frase_unica_gigante_corta_por_palavra_e_mantem_aviso():
     assert cabe and aviso.endswith(AVISO) and texto.endswith("…")
 
 
-def test_singular_de_movimentacao_e_mais_fora_da_lista_numerada():
-    um = {**MODELO, "capa": {**MODELO["capa"], "mais": 1}}
-    capa = paginas_html(um)[0]
-    assert "Mais 1 movimentação oficial" in capa and "<li>Mais" not in capa
-    sem_temas = {**MODELO, "capa": {"temas": [], "mais": 1, "niveis": ["Federal"]}, "temas": [], "total": 3}
-    assert "Hoje: 1 movimentação oficial" in paginas_html(sem_temas)[0]
-
-
 def test_divisao_de_frases_respeita_numeros_brasileiros():
     p, navegador = _chromium()
     try:
@@ -161,17 +158,6 @@ def test_divisao_de_frases_respeita_numeros_brasileiros():
         p.stop()
 
 
-def test_capa_mostra_fatos_do_mundo():
-    capa = paginas_html({**MODELO, "capa": {**MODELO["capa"], "mundo": 2}})[0]
-    assert "2 fatos do mundo" in capa
-
-
-def test_capa_sem_temas_so_mundo():
-    m = {**MODELO, "capa": {"temas": [], "mais": 0, "niveis": ["Mundo"], "mundo": 3}, "temas": [], "total": 3}
-    capa = paginas_html(m)[0]
-    assert "3 fatos do mundo" in capa and "movimentaç" not in capa
-
-
 def test_etiqueta_do_slide_de_fichas_conforme_o_conteudo():
     so_oficiais = paginas_html(MODELO)[3]
     assert "Movimentações oficiais" in so_oficiais
@@ -180,3 +166,8 @@ def test_etiqueta_do_slide_de_fichas_conforme_o_conteudo():
     assert "Oficiais e mundo" in paginas_html(misto)[3]
     so_mundo = {**MODELO, "fichas": {"grupos": [mundo], "mais": 0}}
     assert ">Mundo</div>" in paginas_html(so_mundo)[3]
+
+
+def test_capa_nao_numera_o_que_aponta_para_o_resto():
+    capa = paginas_html(MODELO)[0]
+    assert "<li>Também" not in capa

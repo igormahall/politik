@@ -85,6 +85,12 @@ def filtrar(
         else:
             menores.append(it)
 
+    # projeto apresentado hoje já ganha ficha própria: a tramitação dele no mesmo dia repetiria a notícia
+    novos = {it.id for it, _ in candidatos}
+    repetidas = [c for c in candidatos if c[0].categoria == "tramitacao" and c[0].extra.get("item_origem") in novos]
+    candidatos = [c for c in candidatos if c not in repetidas]
+    menores += [it for it, _ in repetidas]
+
     # sort é estável: pendentes (que vêm antes) ganham empates
     candidatos.sort(key=lambda c: prioridade(c[0], temas))
     teto = cfg["teto_destaques"]

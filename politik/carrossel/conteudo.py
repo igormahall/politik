@@ -3,28 +3,27 @@ from datetime import date
 from politik.armazenamento import data_dir, id_seguro, ler_json
 from politik.esquemas import organizacao
 from politik.site.gerador import data_br, NIVEIS
-from politik.telegram import _frases, MESES
+from politik.telegram import _frases, duracao_tema
 
 MAX_TEMAS = 5
 MAX_FICHAS = 5
 MAX_MUNDO_GARANTIDO = 2  # o Mundo nunca some do slide "Também hoje" num dia cheio
-DIAS_ATE_DESDE = 60  # tema mais antigo que isso: "desde mmm/aaaa" em vez de "dia N"
-
-
-def movimentacoes(n: int) -> str:
-    return "1 movimentação oficial" if n == 1 else f"{n} movimentações oficiais"
-
-
-def fatos_do_mundo(n: int) -> str:
-    return "1 fato do mundo" if n == 1 else f"{n} fatos do mundo"
 
 
 def _etiqueta(inicio: str, dia: date) -> str:
-    i = date.fromisoformat(inicio)
-    n = (dia - i).days + 1
-    if n > DIAS_ATE_DESDE:
-        return f"Tema em andamento · desde {MESES[i.month - 1]}/{i.year}"
-    return f"Tema em andamento · dia {n}"
+    return f"Tema em andamento · {duracao_tema(inicio, dia)}"
+
+
+def _alternar_niveis(fichas: list[dict], vagas: int) -> list[dict]:
+    """Uma ficha de cada nível por vez (Federal, Amazonas, Manaus), na ordem do diário dentro do nível:
+    um dia cheio de Brasília não pode esconder o Amazonas e Manaus."""
+    filas = [[f for f in fichas if f["nivel"] == nivel] for nivel, _ in NIVEIS]
+    escolhidas = []
+    while len(escolhidas) < vagas and any(filas):
+        for fila in filas:
+            if fila and len(escolhidas) < vagas:
+                escolhidas.append(fila.pop(0))
+    return escolhidas
 
 
 def montar(data: str) -> dict | None:
@@ -60,7 +59,7 @@ def montar(data: str) -> dict | None:
     if not temas and not fichas and not mundo:
         return None
     garantido = min(len(mundo), MAX_MUNDO_GARANTIDO)
-    mostradas = fichas[: MAX_FICHAS - garantido]
+    mostradas = _alternar_niveis(fichas, MAX_FICHAS - garantido)
     mundo_mostrado = mundo[: MAX_FICHAS - len(mostradas)]
     grupos = []
     for nivel, rotulo in NIVEIS:

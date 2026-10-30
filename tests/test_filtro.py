@@ -102,3 +102,12 @@ def test_mundo_vai_para_balde_proprio_com_rodizio():
     orgs = [i.extra["organizacao"] for i in sel["mundo"]]
     assert orgs.count("DW") == 10 and orgs.count("Agência Brasil") == 5
     assert not sel["menores"] and not sel["noticias"] and not sel["destaques"]
+
+
+def test_tramitacao_de_projeto_apresentado_no_mesmo_dia_nao_vira_ficha_repetida():
+    novo = item("senado:1", fonte="senado", sigla_tipo="PL")
+    tram_mesmo_dia = item("senado:1:sit:x", fonte="senado", categoria="tramitacao", extra={"item_origem": "senado:1"})
+    tram_antigo = item("senado:2:sit:x", fonte="senado", categoria="tramitacao", extra={"item_origem": "senado:2"})
+    sel, _ = filtrar(D, [novo, tram_mesmo_dia, tram_antigo], [], CFG, [])
+    assert {i.id for i in sel["destaques"]} == {"senado:1", "senado:2:sit:x"}
+    assert "senado:1:sit:x" in [i.id for i in sel["menores"]]

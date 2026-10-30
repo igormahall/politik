@@ -15,6 +15,15 @@ DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
 
 
+DIAS_ATE_DESDE = 60  # tema mais antigo que isso: "desde mmm/aaaa" em vez de "dia N"
+
+
+def duracao_tema(inicio: str, dia: date) -> str:
+    i = date.fromisoformat(inicio)
+    n = (dia - i).days + 1
+    return f"desde {MESES[i.month - 1]}/{i.year}" if n > DIAS_ATE_DESDE else f"dia {n}"
+
+
 def _frases(texto: str, n: int) -> str:
     return " ".join(re.split(r"(?<=[.!?])\s+", texto.strip())[:n])
 
@@ -63,10 +72,9 @@ def compor(data: str, base_url: str) -> list[dict]:
     if temas:
         blocos.append(("\n<b>🔥 Temas em andamento</b>", None))
     for t, tema in temas:
-        dias = (d - date.fromisoformat(tema["inicio"])).days + 1
+        # curto de propósito: o contexto todo fica nos botões (linha do tempo e "me explica do zero")
         linhas = [
-            f"<b>{escape(tema['nome'])}</b> · dia {dias}",
-            f"<i>Resumo até aqui:</i> {escape(_frases(tema['resumo_ate_aqui'], 3))}",
+            f"<b>{escape(tema['nome'])}</b> · {duracao_tema(tema['inicio'], d)}",
             f"<i>Novo hoje:</i> {escape(t['novo_hoje'])}",
         ]
         if t.get("aviso_fonte_unica"):

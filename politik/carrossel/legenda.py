@@ -1,5 +1,3 @@
-from politik.carrossel.conteudo import fatos_do_mundo, movimentacoes
-
 LIMITE_INSTAGRAM = 2200
 FECHO = "Os fatos lado a lado. Cada item explicado do zero, com fontes, no link da bio."
 HASHTAGS = "#política #congresso #brasil #amazonas #manaus #politik"
@@ -9,15 +7,9 @@ def legenda(modelo: dict) -> str:
     """Texto puro para colar no Instagram; corta temas do fim se passar do limite."""
     capa = modelo["capa"]
     temas = [f"• {t['nome']}: {t['linha']}" if t["linha"] else f"• {t['nome']}" for t in capa["temas"]]
-    nacionais = [n for n in capa["niveis"] if n != "Mundo"]
-    if not capa["mais"]:
-        extra = []
-    elif not capa["temas"]:
-        extra = [f"• {movimentacoes(capa['mais'])} ({' · '.join(nacionais)})"]
-    else:
-        extra = [f"• Mais {movimentacoes(capa['mais'])}"]
-    if capa.get("mundo"):
-        extra.append(f"• {fatos_do_mundo(capa['mundo'])}")
+    # sem contagens ("mais N…"): no Instagram não há link para elas; o texto diz o que está no carrossel
+    niveis = " · ".join(capa["niveis"])
+    extra = [f"• {'Também hoje' if capa['temas'] else 'Hoje'}: {niveis}"] if niveis else []
 
     def compor(linhas):
         corpo = "\n".join(linhas + extra)
