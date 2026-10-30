@@ -82,3 +82,11 @@ def test_skill_e_guia_existem():
     skill = Path(".claude/skills/traduzir/SKILL.md").read_text()
     assert "Edit(data/**)" in skill and "editorial/GUIA.md" in skill
     assert "segundo apenas" in Path("editorial/GUIA.md").read_text()
+
+
+def test_diario_tem_repescagem_que_nao_duplica():
+    wf = _wf("diario.yml")
+    crons = [c["cron"] for c in wf[True]["schedule"]]
+    assert len(crons) == 2 and not any(c.startswith("0 ") for c in crons)  # minuto :00 é descartado sob carga
+    assert wf["jobs"]["diario"]["needs"] == "checar"
+    assert "data/diario/$D.json" in wf["jobs"]["checar"]["steps"][1]["run"]

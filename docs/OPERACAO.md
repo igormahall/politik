@@ -8,7 +8,7 @@ O que é o Politik e seus critérios estão no [README](../README.md).
 
 ## Como funciona
 
-Todo dia às 10:00 UTC (6h em Manaus) o GitHub Actions roda `.github/workflows/diario.yml`:
+Todo dia às 10:13 UTC (6h13 em Manaus), com repescagem às 12:13 UTC se a primeira não rodar, o GitHub Actions roda `.github/workflows/diario.yml`:
 
 1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 16 feeds de imprensa
    e as tramitações de projetos já acompanhados → `data/brutos/<dia>/` (temporário, fora do git).
