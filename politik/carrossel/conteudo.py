@@ -1,8 +1,8 @@
 from datetime import date
 
 from politik.armazenamento import data_dir, id_seguro, ler_json
-from politik.site.gerador import NIVEIS, data_br
-from politik.telegram import MESES, _frases
+from politik.site.gerador import data_br, NIVEIS
+from politik.telegram import _frases, MESES
 
 MAX_TEMAS = 5
 MAX_FICHAS = 5

@@ -19,7 +19,11 @@ def _ficha(d, iid, nivel="federal", importancia=2, **extra):
 def test_montar_dia_normal(tmp_data):
     escrever_tema(tmp_data, TEMA_OK)
     escrever_tema(tmp_data, {**TEMA_OK, "slug": "outro", "nome": "Outro tema"})
-    fichas = [_ficha(tmp_data, "camara:1", importancia=1), _ficha(tmp_data, "aleam:materia:5", "estadual"), _ficha(tmp_data, "camara:3", importancia=3)]
+    fichas = [
+        _ficha(tmp_data, "camara:1", importancia=1),
+        _ficha(tmp_data, "aleam:materia:5", "estadual"),
+        _ficha(tmp_data, "camara:3", importancia=3),
+    ]
     _diario(
         tmp_data,
         [
@@ -86,7 +90,8 @@ def test_sem_carrossel(tmp_data):
 
 def test_arquivos_faltando_sao_ignorados(tmp_data):
     escrever_tema(tmp_data, TEMA_OK)
-    _diario(tmp_data, [_tema_do_dia("sumiu"), _tema_do_dia("caso-master")], ["camara:404", _ficha(tmp_data, "camara:1")])
+    fichas = ["camara:404", _ficha(tmp_data, "camara:1")]
+    _diario(tmp_data, [_tema_do_dia("sumiu"), _tema_do_dia("caso-master")], fichas)
     m = montar(D)
     assert [t["nome"] for t in m["temas"]] == ["Caso Master"]
     assert [i["titulo"] for g in m["fichas"]["grupos"] for i in g["itens"]] == ["Muda o saque do FGTS"]
