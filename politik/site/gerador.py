@@ -61,6 +61,10 @@ def url_ficha(item_id: str, base: str) -> str:
     return f"{_b(base)}/ficha/{id_seguro(item_id)}.html"
 
 
+def url_mundo(item_id: str, base: str) -> str:
+    return f"{_b(base)}/mundo/{id_seguro(item_id)}.html"
+
+
 def url_tema(slug: str, ancora: str | None = None, base: str = "") -> str:
     return f"{_b(base)}/tema/{slug}.html" + (f"#{ancora}" if ancora else "")
 
@@ -81,12 +85,14 @@ def _carregar(pasta: Path) -> dict[str, dict]:
 def gerar(saida: Path, base_url: str) -> None:
     base = data_dir()
     fichas = {f["item_id"]: f for f in _carregar(base / "fichas").values() if "item_id" in f}
+    mundo = {f["item_id"]: f for f in _carregar(base / "mundo").values() if "item_id" in f}
     temas = _carregar(base / "temas")
     diarios = _carregar(base / "diario")
     env = Environment(loader=PackageLoader("politik.site", "templates"), autoescape=select_autoescape(["html"]))
     env.globals.update(
         base=_b(base_url),
         url_ficha=lambda i: url_ficha(i, base_url),
+        url_mundo=lambda i: url_mundo(i, base_url),
         url_tema=lambda s, a=None: url_tema(s, a, base_url),
         url_menores=lambda d: url_menores(d, base_url),
         url_dia=lambda d: url_dia(d, base_url),
@@ -107,6 +113,8 @@ def gerar(saida: Path, base_url: str) -> None:
 
     for iid, f in fichas.items():
         escrever(f"ficha/{id_seguro(iid)}.html", "ficha.html", f=f, temas=temas)
+    for iid, f in mundo.items():
+        escrever(f"mundo/{id_seguro(iid)}.html", "mundo.html", f=f)
     for slug, t in temas.items():
         escrever(
             f"tema/{slug}.html", "tema.html", t=t, fichas=[f for f in fichas.values() if slug in f.get("temas", [])]
@@ -121,7 +129,8 @@ def gerar(saida: Path, base_url: str) -> None:
         itens_dia = sorted(
             (fichas[i] for i in diario.get("fichas", []) if i in fichas), key=lambda f: f.get("importancia") or 2
         )
-        ctx = dict(d=d, diario=diario, sel=sel, temas=temas, fichas=itens_dia)
+        mundo_dia = [mundo[i] for i in diario.get("mundo", []) if i in mundo]
+        ctx = dict(d=d, diario=diario, sel=sel, temas=temas, fichas=itens_dia, mundo=mundo_dia)
         escrever(f"dia/{d}.html", "dia.html", **ctx)
         escrever(f"menores/{d}.html", "menores.html", d=d, menores=sel.get("menores", []))
         if d == dias[0]:

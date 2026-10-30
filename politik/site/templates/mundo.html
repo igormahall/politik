@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block titulo %}{{ f.titulo }} — Politik{% endblock %}
+{% block conteudo %}
+<p><span class="etiqueta">🌍 Mundo</span></p>
+<h1>{{ f.titulo }}</h1>
+<h2>O que aconteceu</h2><p>{{ f.o_que_aconteceu }}</p>
+{% if f.importa_para_o_brasil %}<h2>Por que importa para o Brasil</h2><p>{{ f.importa_para_o_brasil }}</p>{% endif %}
+<h2>Fontes</h2>
+<p class="discreto">Fato confirmado por duas organizações diferentes.</p>
+<ul>{% for fo in f.fontes %}<li><a href="{{ fo.url | seguro }}">{{ fo.nome }}</a></li>{% endfor %}</ul>
+{% if f.fontes_impacto %}<h2>Fontes do impacto</h2>
+<ul>{% for fo in f.fontes_impacto %}<li><a href="{{ fo.url | seguro }}">{{ fo.nome }}</a></li>{% endfor %}</ul>{% endif %}
+<p class="discreto">Publicado no Politik em {{ f.data | data_br(curta=True) }}.</p>
+{% endblock %}
