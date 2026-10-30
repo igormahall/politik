@@ -1,7 +1,11 @@
+import json
+import re
+
 import httpx
+import pytest
 
 from politik.armazenamento import escrever_json
-from politik.telegram import compor, enviar
+from politik.telegram import compor, enviar, enviar_album
 from tests.conftest import load
 from tests.helpers import D, escrever_ficha, escrever_selecionados, FICHA_OK, item
 
@@ -92,3 +96,45 @@ def test_enviar_tenta_de_novo_em_429():
         espera=0,
     )
     assert len(chamadas) == 2 and "/botT/sendMessage" in str(chamadas[0].url)
+
+
+def _pngs(pasta, n):
+    arqs = []
+    for i in range(n):
+        a = pasta / f"{i:02d}.png"
+        a.write_bytes(b"\x89PNG falso")
+        arqs.append(a)
+    return arqs
+
+
+def test_enviar_album_monta_media_group(tmp_path):
+    chamadas = []
+
+    def h(req):
+        chamadas.append(req)
+        return httpx.Response(200, json={"ok": True})
+
+    enviar_album(_pngs(tmp_path, 3), "T", "42", cliente=httpx.Client(transport=httpx.MockTransport(h)), espera=0)
+    assert len(chamadas) == 1 and "/botT/sendMediaGroup" in str(chamadas[0].url)
+    corpo = chamadas[0].read().decode("latin-1")
+    media = json.loads(re.search(r'name="media"\r\n\r\n(.*?)\r\n', corpo).group(1))
+    assert [m["media"] for m in media] == ["attach://f0", "attach://f1", "attach://f2"]
+    assert {m["type"] for m in media} == {"photo"}
+    assert 'name="f2"' in corpo and 'name="chat_id"' in corpo
+
+
+def test_enviar_album_erro_nao_vaza_token(tmp_path):
+    def h(req):
+        return httpx.Response(400, json={"ok": False, "description": "bad"})
+
+    cliente = httpx.Client(transport=httpx.MockTransport(h))
+    with pytest.raises(RuntimeError) as e:
+        enviar_album(_pngs(tmp_path, 2), "SEGREDO", "42", cliente=cliente, espera=0)
+    assert "400" in str(e.value) and "SEGREDO" not in str(e.value)
+
+
+def test_enviar_album_rejeita_mais_de_10_ou_nenhuma(tmp_path):
+    with pytest.raises(ValueError):
+        enviar_album(_pngs(tmp_path, 11), "T", "42")
+    with pytest.raises(ValueError):
+        enviar_album([], "T", "42")

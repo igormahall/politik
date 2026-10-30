@@ -3,6 +3,7 @@ import re
 import time
 from datetime import date
 from html import escape
+from pathlib import Path
 
 import httpx
 
@@ -126,6 +127,31 @@ def compor(data: str, base_url: str) -> list[dict]:
     return msgs
 
 
+def _postar(cliente: httpx.Client, token: str, metodo: str, espera: float, **kwargs) -> None:
+    """POST na API do Telegram: uma nova tentativa em 429/5xx; erros nunca levam o token (que vai na URL)."""
+    for tentativa in range(2):
+        try:
+            r = cliente.post(f"https://api.telegram.org/bot{token}/{metodo}", **kwargs)
+        except httpx.HTTPError as e:
+            # a URL leva o token: nunca deixar a exceção original chegar ao log
+            raise RuntimeError(f"Telegram inacessível: {type(e).__name__}") from None
+        if (r.status_code == 429 or r.status_code >= 500) and tentativa == 0:
+            if espera:
+                try:
+                    pedido = float(r.json().get("parameters", {}).get("retry_after", 0))
+                except ValueError:
+                    pedido = 0
+                time.sleep(max(espera, pedido))
+            continue
+        if r.status_code != 200:
+            try:
+                motivo = r.json().get("description", "")
+            except ValueError:
+                motivo = ""
+            raise RuntimeError(f"Telegram respondeu {r.status_code}: {motivo}") from None
+        return
+
+
 def enviar(
     mensagens: list[dict], token: str, chat_id: str, cliente: httpx.Client | None = None, espera: float = 1
 ) -> None:
@@ -134,24 +160,18 @@ def enviar(
         corpo = {"chat_id": chat_id, "text": m["text"], "parse_mode": "HTML", "disable_web_page_preview": True}
         if m.get("reply_markup"):
             corpo["reply_markup"] = json.dumps(m["reply_markup"])
-        for tentativa in range(2):
-            try:
-                r = cliente.post(f"https://api.telegram.org/bot{token}/sendMessage", data=corpo)
-            except httpx.HTTPError as e:
-                # a URL leva o token: nunca deixar a exceção original chegar ao log
-                raise RuntimeError(f"Telegram inacessível: {type(e).__name__}") from None
-            if (r.status_code == 429 or r.status_code >= 500) and tentativa == 0:
-                if espera:
-                    try:
-                        pedido = float(r.json().get("parameters", {}).get("retry_after", 0))
-                    except ValueError:
-                        pedido = 0
-                    time.sleep(max(espera, pedido))
-                continue
-            if r.status_code != 200:
-                try:
-                    motivo = r.json().get("description", "")
-                except ValueError:
-                    motivo = ""
-                raise RuntimeError(f"Telegram respondeu {r.status_code}: {motivo}") from None
-            break
+        _postar(cliente, token, "sendMessage", espera, data=corpo)
+
+
+def enviar_album(
+    imagens: list[Path], token: str, chat_id: str, cliente: httpx.Client | None = None, espera: float = 1
+) -> None:
+    """Álbum de fotos (sendMediaGroup), na ordem dada; o Telegram aceita de 2 a 10 por álbum."""
+    if not 2 <= len(imagens) <= 10:
+        raise ValueError(f"álbum precisa de 2 a 10 imagens, recebeu {len(imagens)}")
+    cliente = cliente or httpx.Client(timeout=60)
+    media = [{"type": "photo", "media": f"attach://f{i}"} for i in range(len(imagens))]
+    arquivos = {f"f{i}": (a.name, a.read_bytes(), "image/png") for i, a in enumerate(imagens)}
+    _postar(
+        cliente, token, "sendMediaGroup", espera, data={"chat_id": chat_id, "media": json.dumps(media)}, files=arquivos
+    )
