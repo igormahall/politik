@@ -1,0 +1,11 @@
+{"item_id": "senado:9118369:sit:2026-10-29", "nivel": "federal", "tipo_simples": "Projeto de lei",
+ "situacao": "Proposta apresentada, aguardando despacho",
+ "titulo": "Divórcio pode ser decidido logo no início do processo",
+ "o_que_e": "O projeto muda o Código de Processo Civil (a lei que organiza como funcionam os processos na Justiça civil). Permite o julgamento liminar do pedido de divórcio, ou seja, uma decisão logo no começo do processo.",
+ "quem_propos": "A fonte não informa o autor.",
+ "o_que_muda": "Ainda não muda nada: é só uma proposta. Se virar lei, o juiz poderia decidir o divórcio logo no início do processo. A fonte não detalha em quais casos.",
+ "proximo_passo": "Está aguardando despacho no Senado, isto é, a definição de quais comissões vão analisá-lo. Depois precisa ser votado no Senado e na Câmara.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176151"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 2}
