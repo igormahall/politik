@@ -21,7 +21,7 @@ concurrency: politik-diario
 
 jobs:
   checar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       rodar: ${{ steps.checar.outputs.rodar }}
     steps:
@@ -44,7 +44,7 @@ jobs:
   diario:
     needs: checar
     if: needs.checar.outputs.rodar == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     environment:
       name: github-pages
@@ -107,7 +107,7 @@ jobs:
       - name: Gerar site
         run: python -m politik site --saida site_build
 
-      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
         continue-on-error: true
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         continue-on-error: true
