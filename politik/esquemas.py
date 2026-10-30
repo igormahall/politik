@@ -1,4 +1,5 @@
 from datetime import date
+from urllib.parse import urlparse
 
 NIVEIS = {"federal", "estadual", "municipal"}
 
@@ -81,6 +82,8 @@ def erros_tema(d: dict) -> list[str]:
         if chave in vistos:
             erros.append(f"linha_do_tempo[{i}]: fato repetido")
         vistos.add(chave)
+        if d.get("internacional") is True and len(_organizacoes(f.get("fontes"))) < 2:
+            erros.append(f"linha_do_tempo[{i}]: tema internacional precisa de duas organizações nas fontes")
     datas = [str(f.get("data", "")) for f in lt]
     if datas != sorted(datas):
         erros.append("linha_do_tempo: fora de ordem de data")
@@ -122,3 +125,41 @@ def limpar_capa(d: dict) -> list[str]:
                 del t[campo]
                 avisos.append(f"temas[{i}].{campo}: removido (texto de 1 a {limite} caracteres)")
     return avisos
+
+
+# Seção Mundo: as organizações que podem confirmar um fato, por domínio (BBC PT e EN contam como uma).
+ORGANIZACOES = {"bbc.co.uk": "BBC", "bbc.com": "BBC", "dw.com": "DW", "agenciabrasil.ebc.com.br": "Agência Brasil"}
+TEXTOS_MUNDO = ["item_id", "titulo", "o_que_aconteceu", "data"]
+
+
+def organizacao(url: str) -> str | None:
+    host = (urlparse(str(url)).hostname or "").lower()
+    return next((org for dominio, org in ORGANIZACOES.items() if host == dominio or host.endswith("." + dominio)), None)
+
+
+def _organizacoes(fontes) -> set[str]:
+    return {organizacao(f.get("url")) for f in fontes or [] if isinstance(f, dict)} - {None}
+
+
+def erros_mundo(d: dict, urls_mundo: set[str] | None = None, urls_impacto: set[str] | None = None) -> list[str]:
+    """Ficha do Mundo. Com os conjuntos de URLs do dia, só vale fonte que o Politik coletou."""
+    if not isinstance(d, dict):
+        return ["ficha do mundo: precisa ser objeto"]
+    erros = _textos(d, TEXTOS_MUNDO) + _datas(d, ["data"]) + _fontes(d.get("fontes"), "")
+    if len(_organizacoes(d.get("fontes"))) < 2:
+        erros.append("fontes: o fato precisa de duas organizações diferentes (BBC, DW, Agência Brasil)")
+    imp = d.get("importancia")
+    if type(imp) is not int or imp not in (1, 2, 3):
+        erros.append("importancia: 1 (alta), 2 (média) ou 3 (baixa)")
+    tem_impacto = d.get("importa_para_o_brasil") is not None
+    if tem_impacto != (d.get("fontes_impacto") is not None):
+        erros.append("importa_para_o_brasil e fontes_impacto: um não existe sem o outro")
+    if tem_impacto:
+        erros += _textos(d, ["importa_para_o_brasil"]) + _fontes(d.get("fontes_impacto"), "impacto.")
+    for campo, urls in (("fontes", urls_mundo), ("fontes_impacto", urls_impacto)):
+        if urls is None:
+            continue
+        for f in d.get(campo) or []:
+            if isinstance(f, dict) and f.get("url") not in urls:
+                erros.append(f"{campo}: url não coletada hoje {f.get('url')!r}")
+    return erros

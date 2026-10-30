@@ -1,7 +1,17 @@
 from politik.__main__ import main
 from politik.armazenamento import escrever_json, ler_json
 from politik.temas import marcar_inativos
-from tests.helpers import D, escrever_ficha, escrever_selecionados, escrever_tema, FICHA_OK, item, TEMA_OK
+from tests.helpers import (
+    D,
+    escrever_ficha,
+    escrever_mundo,
+    escrever_selecionados,
+    escrever_tema,
+    FICHA_OK,
+    item,
+    MUNDO_OK,
+    TEMA_OK,
+)
 
 
 def test_validar_sem_diario_reenfileira(tmp_data):
@@ -58,3 +68,52 @@ def test_capa_invalida_nao_derruba_o_diario(tmp_data):
     diario = ler_json(tmp_data / f"diario/{D}.json")
     assert "sem_traducao" not in diario and "parcial" not in diario
     assert "nome_curto" not in diario["temas"][0] and diario["temas"][0]["linha_capa"] == "ok"
+
+
+def _coletados_do_mundo():
+    mundo = [
+        item(f"mundo:x:{i}", url=f["url"], categoria="mundo", nivel="mundo") for i, f in enumerate(MUNDO_OK["fontes"])
+    ]
+    noticias = [item("imprensa:ab:1", categoria="noticia", url=MUNDO_OK["fontes_impacto"][0]["url"])]
+    return mundo, noticias
+
+
+def test_validar_remove_mundo_invalido_e_mantem_diario(tmp_data):
+    mundo, noticias = _coletados_do_mundo()
+    escrever_selecionados(tmp_data, D, mundo=mundo, noticias=noticias)
+    escrever_mundo(tmp_data, MUNDO_OK)
+    ruim = {
+        **MUNDO_OK,
+        "item_id": "mundo:2026-10-28:2",
+        "fontes": [*MUNDO_OK["fontes"][:1], {"nome": "DW", "url": "https://www.dw.com/inventada"}],
+    }
+    escrever_mundo(tmp_data, ruim)
+    escrever_json(
+        tmp_data / f"diario/{D}.json",
+        {"data": D, "temas": [], "fichas": [], "mundo": [MUNDO_OK["item_id"], ruim["item_id"]]},
+    )
+    main(["validar", "--data", D])
+    diario = ler_json(tmp_data / f"diario/{D}.json")
+    assert diario["mundo"] == [MUNDO_OK["item_id"]]
+    assert not (tmp_data / "mundo/mundo_2026-10-28_2.json").exists()
+    assert "sem_traducao" not in diario
+
+
+def test_validar_limita_mundo_a_cinco(tmp_data):
+    mundo, noticias = _coletados_do_mundo()
+    escrever_selecionados(tmp_data, D, mundo=mundo, noticias=noticias)
+    ids = []
+    for n in range(7):
+        f = {**MUNDO_OK, "item_id": f"mundo:2026-10-28:{n}"}
+        escrever_mundo(tmp_data, f)
+        ids.append(f["item_id"])
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": [], "mundo": ids})
+    main(["validar", "--data", D])
+    assert ler_json(tmp_data / f"diario/{D}.json")["mundo"] == ids[:5]
+
+
+def test_validar_diario_sem_mundo_continua_igual(tmp_data):
+    escrever_selecionados(tmp_data, D)
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": []})
+    main(["validar", "--data", D])
+    assert "mundo" not in ler_json(tmp_data / f"diario/{D}.json")

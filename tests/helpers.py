@@ -62,7 +62,7 @@ def item(id="camara:1", **kw):
     )
 
 
-def escrever_selecionados(d, data, destaques=(), noticias=(), menores=(), indisponiveis=()):
+def escrever_selecionados(d, data, destaques=(), noticias=(), menores=(), indisponiveis=(), mundo=()):
     escrever_json(
         d / f"selecionados/{data}.json",
         {
@@ -70,6 +70,7 @@ def escrever_selecionados(d, data, destaques=(), noticias=(), menores=(), indisp
             "destaques": [i.to_dict() for i in destaques],
             "noticias": [i.to_dict() for i in noticias],
             "menores": [i.to_dict() for i in menores],
+            "mundo": [i.to_dict() for i in mundo],
             "fontes_indisponiveis": list(indisponiveis),
         },
     )
@@ -81,3 +82,22 @@ def escrever_ficha(d, ficha):
 
 def escrever_tema(d, tema):
     escrever_json(d / f"temas/{tema['slug']}.json", tema)
+
+
+MUNDO_OK = {
+    "item_id": "mundo:2026-10-28:1",
+    "titulo": "EUA anunciam tarifa sobre o aço",
+    "o_que_aconteceu": "O governo dos EUA anunciou uma tarifa sobre o aço importado.",
+    "importa_para_o_brasil": "A CNI disse, segundo a Agência Brasil, que as exportações de aço podem cair.",
+    "fontes": [
+        {"nome": "BBC", "url": "https://www.bbc.com/portuguese/articles/a1"},
+        {"nome": "DW", "url": "https://www.dw.com/pt-br/a-2"},
+    ],
+    "fontes_impacto": [{"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/economia/x"}],
+    "importancia": 1,
+    "data": D,
+}
+
+
+def escrever_mundo(d, ficha):
+    escrever_json(d / "mundo" / f"{id_seguro(ficha['item_id'])}.json", ficha)

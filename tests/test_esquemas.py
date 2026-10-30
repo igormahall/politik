@@ -1,5 +1,5 @@
-from politik.esquemas import erros_diario, erros_ficha, erros_tema, limpar_capa
-from tests.helpers import FICHA_OK, TEMA_OK
+from politik.esquemas import erros_diario, erros_ficha, erros_mundo, erros_tema, limpar_capa
+from tests.helpers import FICHA_OK, MUNDO_OK, TEMA_OK
 
 
 def test_ficha_ok():
@@ -60,3 +60,40 @@ def test_limpar_capa_remove_so_campos_ruins():
     assert "nome_curto" not in d["temas"][2]
     assert len(avisos) == 3
     assert erros_diario(d) == []
+
+
+def test_mundo_ok():
+    assert erros_mundo(MUNDO_OK) == []
+
+
+def test_mundo_mesma_organizacao_duas_vezes_e_invalida():
+    fontes = [
+        {"nome": "BBC", "url": "https://www.bbc.com/news/a"},
+        {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/b"},
+    ]
+    assert any("duas organizações" in e for e in erros_mundo({**MUNDO_OK, "fontes": fontes}))
+
+
+def test_mundo_url_nao_coletada_e_invalida():
+    erros = erros_mundo(MUNDO_OK, urls_mundo={"https://outra"}, urls_impacto=set())
+    assert any("não coletada" in e for e in erros)
+    urls = {f["url"] for f in MUNDO_OK["fontes"]}
+    impacto = {MUNDO_OK["fontes_impacto"][0]["url"]}
+    assert erros_mundo(MUNDO_OK, urls_mundo=urls, urls_impacto=urls | impacto) == []
+
+
+def test_mundo_agencia_brasil_nacional_nao_confirma_fato():
+    # mesma organização por domínio, mas a URL veio da imprensa nacional, não do feed internacional
+    fontes = [MUNDO_OK["fontes"][0], {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/y"}]
+    urls_mundo = {MUNDO_OK["fontes"][0]["url"]}
+    erros = erros_mundo({**MUNDO_OK, "fontes": fontes}, urls_mundo=urls_mundo, urls_impacto=set())
+    assert any("não coletada" in e for e in erros)
+
+
+def test_mundo_impacto_sem_fonte_e_invalido():
+    assert erros_mundo({k: v for k, v in MUNDO_OK.items() if k != "fontes_impacto"})
+
+
+def test_tema_internacional_exige_duas_organizacoes():
+    assert erros_tema({**TEMA_OK, "internacional": True})
+    assert erros_tema(TEMA_OK) == []
