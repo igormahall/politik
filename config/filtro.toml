@@ -4,6 +4,7 @@
 teto_destaques = 25
 pendente_max_dias = 2
 teto_noticias = 60
+teto_mundo = 80
 inatividade_tema_dias = 30
 
 # Câmara e Senado

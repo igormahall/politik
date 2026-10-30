@@ -1,0 +1,28 @@
+# Seção Mundo: só imprensa, feeds abertos e oficiais dos próprios veículos (testados em 30/10/2026).
+# Um fato só entra se duas ORGANIZAÇÕES diferentes o relatam (BBC em português e em inglês contam como uma).
+# A Agência Brasil – Internacional é a porta de entrada da Reuters e da EFE.
+
+[[feed]]
+organizacao = "BBC"
+veiculo = "bbc-brasil"
+url = "https://feeds.bbci.co.uk/portuguese/rss.xml"
+
+[[feed]]
+organizacao = "BBC"
+veiculo = "bbc-world"
+url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+
+[[feed]]
+organizacao = "DW"
+veiculo = "dw-brasil"
+url = "https://rss.dw.com/rdf/rss-br-all"
+
+[[feed]]
+organizacao = "DW"
+veiculo = "dw-world"
+url = "https://rss.dw.com/rdf/rss-en-world"
+
+[[feed]]
+organizacao = "Agência Brasil"
+veiculo = "agenciabrasil-internacional"
+url = "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml"

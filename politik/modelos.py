@@ -1,8 +1,8 @@
 from dataclasses import asdict, dataclass, field
 from typing import Literal
 
-Nivel = Literal["federal", "estadual", "municipal"]
-Categoria = Literal["proposicao", "norma", "votacao", "tramitacao", "noticia"]
+Nivel = Literal["federal", "estadual", "municipal", "mundo"]
+Categoria = Literal["proposicao", "norma", "votacao", "tramitacao", "noticia", "mundo"]
 
 
 @dataclass
