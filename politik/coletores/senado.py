@@ -31,8 +31,11 @@ def parse_processos(lista: list[dict]) -> list[Item]:
             url=f"https://www25.senado.leg.br/web/atividade/materias/-/materia/{p['codigoMateria']}",
             url_documento=p.get("urlDocumento"),
             autores=parse_autoria(p.get("autoria", "")),
-            extra={"tipoDocumento": p.get("tipoDocumento"), "situacaoAtual": p.get("situacaoAtual"),
-                   "codigoMateria": p.get("codigoMateria")},
+            extra={
+                "tipoDocumento": p.get("tipoDocumento"),
+                "situacaoAtual": p.get("situacaoAtual"),
+                "codigoMateria": p.get("codigoMateria"),
+            },
         )
         for p in lista
     ]

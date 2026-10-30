@@ -38,8 +38,11 @@ def parse_votacoes(json: dict, data: str) -> list[Item]:
             ementa=v.get("descricao") or "",
             data=v["data"],
             url=v["uri"],
-            extra={"siglaOrgao": v["siglaOrgao"], "aprovacao": v.get("aprovacao"),
-                   "uriProposicaoObjeto": v.get("uriProposicaoObjeto")},
+            extra={
+                "siglaOrgao": v["siglaOrgao"],
+                "aprovacao": v.get("aprovacao"),
+                "uriProposicaoObjeto": v.get("uriProposicaoObjeto"),
+            },
         )
         for v in json["dados"]
         if v["siglaOrgao"] == "PLEN" and v["data"] == data
@@ -75,7 +78,8 @@ def agrupar_votacoes(votos: list[Item], detalhes: dict[str, dict]) -> list[Item]
                 extra={"proposicao": p["id"], "votacoes": [], "siglaOrgao": "PLEN"},
             )
         grupos[p["id"]].extra["votacoes"].append(
-            {"descricao": v.titulo, "aprovacao": v.extra.get("aprovacao"), "url": v.url})
+            {"descricao": v.titulo, "aprovacao": v.extra.get("aprovacao"), "url": v.url}
+        )
     return list(grupos.values()) + soltas
 
 
@@ -91,7 +95,7 @@ def _paginar(cliente: httpx.Client, url: str) -> list[dict]:
         r.raise_for_status()
         j = r.json()
         dados += j["dados"]
-        url = next((l["href"] for l in j.get("links", []) if l["rel"] == "next"), None)
+        url = next((lk["href"] for lk in j.get("links", []) if lk["rel"] == "next"), None)
     return dados
 
 
@@ -115,16 +119,16 @@ def _autores(cliente: httpx.Client, pid: str, cache: dict) -> list[Autor]:
 def coletar(data: str, cliente: httpx.Client | None = None) -> list[Item]:
     cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"})
     seguinte = (date.fromisoformat(data) + timedelta(days=1)).isoformat()
-    props = _paginar(cliente, f"{BASE}/proposicoes?dataApresentacaoInicio={data}"
-                              f"&dataApresentacaoFim={data}&itens=100")
+    props = _paginar(cliente, f"{BASE}/proposicoes?dataApresentacaoInicio={data}&dataApresentacaoFim={data}&itens=100")
     itens = parse_proposicoes({"dados": props})
     cache: dict = {}
     for it in itens:
         if it.sigla_tipo in SIGLAS_COM_AUTORES:
             it.autores = _autores(cliente, it.id.split(":")[1], cache)
     # a API trata dataFim como exclusiva para votações
-    votos = parse_votacoes({"dados": _paginar(
-        cliente, f"{BASE}/votacoes?dataInicio={data}&dataFim={seguinte}&itens=200")}, data)
+    votos = parse_votacoes(
+        {"dados": _paginar(cliente, f"{BASE}/votacoes?dataInicio={data}&dataFim={seguinte}&itens=200")}, data
+    )
     detalhes = {}
     for v in votos:
         r = cliente.get(f"{BASE}/votacoes/{v.id.split(':')[-1]}")

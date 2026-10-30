@@ -3,14 +3,8 @@ from unittest.mock import ANY
 from politik import coletores
 from politik.__main__ import main
 from politik.armazenamento import carregar_itens, ler_json
-from politik.modelos import Item
-
-D = "2026-10-28"
-
-
-def _item(id="camara:1", **kw):
-    return Item(**{**dict(id=id, fonte="camara", nivel="federal", categoria="proposicao", sigla_tipo="PL",
-                          titulo="t", ementa="", data=D, url="u"), **kw})
+from tests.helpers import D
+from tests.helpers import item as _item
 
 
 def boom(data):

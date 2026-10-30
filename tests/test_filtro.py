@@ -1,17 +1,5 @@
-import tomllib
-from pathlib import Path
-
 from politik.filtro import classificar, filtrar
-from politik.modelos import Item
-
-CFG = tomllib.loads(Path("config/filtro.toml").read_text())
-D = "2026-10-28"
-
-
-def item(**kw):
-    base = dict(id="camara:1", fonte="camara", nivel="federal", categoria="proposicao", sigla_tipo="PL",
-                titulo="t", ementa="", data=D, url="u")
-    return Item(**{**base, **kw})
+from tests.helpers import CFG, D, item
 
 
 def test_requerimento_vai_para_menores():
@@ -82,8 +70,11 @@ def test_noticias_teto_e_tema_primeiro():
 
 
 def test_nada_some():
-    mistura = ([item(id=f"p{k}") for k in range(30)] + [item(id=f"r{k}", sigla_tipo="REQ") for k in range(5)]
-               + [item(id=f"n{k}", categoria="noticia", sigla_tipo="NOTICIA", fonte="imprensa:x") for k in range(5)])
+    mistura = (
+        [item(id=f"p{k}") for k in range(30)]
+        + [item(id=f"r{k}", sigla_tipo="REQ") for k in range(5)]
+        + [item(id=f"n{k}", categoria="noticia", sigla_tipo="NOTICIA", fonte="imprensa:x") for k in range(5)]
+    )
     sel, pend = filtrar(D, mistura, [], CFG, [])
     assert len(sel["destaques"]) + len(sel["noticias"]) + len(sel["menores"]) + len(pend) == 40
 

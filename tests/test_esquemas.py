@@ -31,6 +31,14 @@ def test_tema_fato_sem_fonte():
 
 
 def test_diario():
-    assert erros_diario({"data": "2026-10-28", "temas": [{"slug": "a", "novo_hoje": "x", "aviso_fonte_unica": None}],
-                         "fichas": ["camara:1"]}) == []
+    assert (
+        erros_diario(
+            {
+                "data": "2026-10-28",
+                "temas": [{"slug": "a", "novo_hoje": "x", "aviso_fonte_unica": None}],
+                "fichas": ["camara:1"],
+            }
+        )
+        == []
+    )
     assert erros_diario({"data": "2026-10-28", "temas": [{"slug": "a"}], "fichas": []})

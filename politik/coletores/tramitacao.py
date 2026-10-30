@@ -19,8 +19,12 @@ def acompanhados(hoje: str, janela_dias: int = 180) -> list[str]:
             continue
         iid = ficha.get("item_id", "")
         # só o projeto original: fichas de votação/tramitação não são acompanhadas
-        if (iid.startswith(("camara:", "senado:")) and iid.count(":") == 1
-                and ficha.get("data", "") >= limite and iid not in ids):
+        if (
+            iid.startswith(("camara:", "senado:"))
+            and iid.count(":") == 1
+            and ficha.get("data", "") >= limite
+            and iid not in ids
+        ):
             ids.append(iid)
     return ids
 

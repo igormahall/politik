@@ -4,8 +4,17 @@ from politik.temas import carregar_temas, casa_tema
 
 
 def _it(**kw):
-    base = dict(id="x", fonte="dou", nivel="federal", categoria="norma", sigla_tipo="PORTARIA",
-                titulo="", ementa="", data="2026-10-28", url="u")
+    base = dict(
+        id="x",
+        fonte="dou",
+        nivel="federal",
+        categoria="norma",
+        sigla_tipo="PORTARIA",
+        titulo="",
+        ementa="",
+        data="2026-10-28",
+        url="u",
+    )
     return Item(**{**base, **kw})
 
 

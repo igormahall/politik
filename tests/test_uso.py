@@ -11,8 +11,9 @@ def _ultima(tmp_data):
 
 def test_registrar_uso(tmp_data, tmp_path):
     f = tmp_path / "exec.json"
-    f.write_text(json.dumps([{"type": "system"}, {"type": "result", "num_turns": 12, "duration_ms": 9000,
-                                                  "is_error": False}]))
+    f.write_text(
+        json.dumps([{"type": "system"}, {"type": "result", "num_turns": 12, "duration_ms": 9000, "is_error": False}])
+    )
     assert main(["registrar-uso", "--arquivo", str(f), "--data", D]) == 0
     assert _ultima(tmp_data) == {"data": D, "num_turns": 12, "duration_ms": 9000, "sucesso": True}
 

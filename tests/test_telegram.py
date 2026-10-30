@@ -3,7 +3,7 @@ import httpx
 from politik.armazenamento import escrever_json
 from politik.telegram import compor, enviar
 from tests.conftest import load
-from tests.helpers import D, FICHA_OK, escrever_ficha, escrever_selecionados, item
+from tests.helpers import D, escrever_ficha, escrever_selecionados, FICHA_OK, item
 
 B = "https://x"
 
@@ -30,7 +30,10 @@ def test_compor_formato_c(tmp_data):
     assert "🔥 Temas em andamento" in _texto(msgs)
     botoes = [b for m in msgs if m["reply_markup"] for row in m["reply_markup"]["inline_keyboard"] for b in row]
     assert {"🕒 Linha do tempo", "❓ Me explica do zero"} <= {b["text"] for b in botoes}
-    assert {b["url"] for b in botoes} == {f"{B}/tema/caso-master.html#linha-do-tempo", f"{B}/tema/caso-master.html#do-zero"}
+    assert {b["url"] for b in botoes} == {
+        f"{B}/tema/caso-master.html#linha-do-tempo",
+        f"{B}/tema/caso-master.html#do-zero",
+    }
     t = _texto(msgs)
     assert t.index("🔥 Temas") < t.index("📜 Novidades oficiais") < t.index("🇧🇷 Federal") < t.index("🌳 Amazonas")
     assert f'<a href="{B}/ficha/camara_1.html">Muda o saque do FGTS</a>' in t
@@ -81,5 +84,11 @@ def test_enviar_tenta_de_novo_em_429():
         chamadas.append(req)
         return httpx.Response(429 if len(chamadas) == 1 else 200, json={"ok": True})
 
-    enviar([{"text": "oi", "reply_markup": None}], "T", "42", cliente=httpx.Client(transport=httpx.MockTransport(h)))
+    enviar(
+        [{"text": "oi", "reply_markup": None}],
+        "T",
+        "42",
+        cliente=httpx.Client(transport=httpx.MockTransport(h)),
+        espera=0,
+    )
     assert len(chamadas) == 2 and "/botT/sendMessage" in str(chamadas[0].url)

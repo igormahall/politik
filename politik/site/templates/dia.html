@@ -2,7 +2,7 @@
 {% block titulo %}Politik — {{ d }}{% endblock %}
 {% block conteudo %}
 <h1>{{ d }}</h1>
-{% for f in sel.fontes_indisponiveis %}<p class="aviso">⚠️ Fonte {{ f }} indisponível hoje.</p>{% endfor %}
+{% for f in sel.fontes_indisponiveis %}<p class="aviso">⚠️ {{ f | nome_fonte }} indisponível hoje.</p>{% endfor %}
 {% if diario.temas %}
 <h2>🔥 Temas em andamento</h2>
 {% for t in diario.temas %}{% set tema = temas.get(t.slug) %}{% if tema %}
@@ -19,7 +19,7 @@
 {% if diario.parcial %}<p class="aviso">⚠️ Tradução parcial hoje — alguns itens ficaram para amanhã.</p>{% endif %}
 {% if diario.sem_traducao %}
 <p class="aviso">⚠️ Tradução indisponível hoje — mostrando textos originais.</p>
-<ul>{% for i in sel.destaques %}<li><a href="{{ i.url }}">{{ i.titulo }}</a> — {{ i.ementa }}</li>{% endfor %}</ul>
+<ul>{% for i in sel.destaques %}<li><a href="{{ i.url | seguro }}">{{ i.titulo }}</a> — {{ i.ementa }}</li>{% endfor %}</ul>
 {% else %}
 {% set principais = fichas | selectattr("importancia", "equalto", 1) | list %}
 {% if principais %}<h3>⭐ Mais importantes</h3>

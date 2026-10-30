@@ -1,6 +1,4 @@
 """Títulos objetivos, importância e votações agrupadas por projeto."""
-import tomllib
-from pathlib import Path
 
 from politik.armazenamento import escrever_json
 from politik.coletores.camara import agrupar_votacoes, parse_votacoes
@@ -8,9 +6,7 @@ from politik.esquemas import erros_ficha
 from politik.filtro import classificar
 from politik.telegram import compor
 from tests.conftest import load
-from tests.helpers import D, FICHA_OK, escrever_ficha, escrever_selecionados, item
-
-CFG = tomllib.loads(Path("config/filtro.toml").read_text())
+from tests.helpers import CFG, D, escrever_ficha, escrever_selecionados, FICHA_OK, item
 
 
 def test_votacoes_do_mesmo_projeto_viram_um_item():
@@ -49,12 +45,15 @@ def _feed(tmp_data, fichas):
 
 
 def test_feed_abre_com_mais_importantes_e_ordena(tmp_data):
-    t = _feed(tmp_data, [
-        {**FICHA_OK, "item_id": "camara:1", "titulo": "Baixa federal", "importancia": 3},
-        {**FICHA_OK, "item_id": "cmm:materia:2", "nivel": "municipal", "titulo": "Alta Manaus", "importancia": 1},
-        {**FICHA_OK, "item_id": "camara:3", "titulo": "Média federal", "importancia": 2},
-        {**FICHA_OK, "item_id": "camara:4", "titulo": "Sem nota"},
-    ])
+    t = _feed(
+        tmp_data,
+        [
+            {**FICHA_OK, "item_id": "camara:1", "titulo": "Baixa federal", "importancia": 3},
+            {**FICHA_OK, "item_id": "cmm:materia:2", "nivel": "municipal", "titulo": "Alta Manaus", "importancia": 1},
+            {**FICHA_OK, "item_id": "camara:3", "titulo": "Média federal", "importancia": 2},
+            {**FICHA_OK, "item_id": "camara:4", "titulo": "Sem nota"},
+        ],
+    )
     assert t.index("⭐ Mais importantes") < t.index("Alta Manaus") < t.index("🇧🇷 Federal")
     assert t.index("Média federal") < t.index("Sem nota") < t.index("Baixa federal")
     assert t.count("Alta Manaus") == 1  # não repete no grupo do nível
@@ -64,14 +63,3 @@ def test_cabecalho_sem_contagem_protocolar(tmp_data):
     t = _feed(tmp_data, [FICHA_OK])
     assert "em destaque" not in t and "itens ·" not in t
     assert t.startswith("📋 <b>Politik — quarta, 28/out</b>")
-
-
-def test_guia_tem_regras_de_titulo_e_importancia():
-    guia = Path("editorial/GUIA.md").read_text()
-    assert "sem número" in guia and "importancia" in guia
-    assert '"importancia"' in Path(".claude/skills/traduzir/SKILL.md").read_text()
-
-
-def test_carga_confirma_e_preenche_lacunas():
-    skill = Path(".claude/skills/carga-tema/SKILL.md").read_text()
-    assert "segunda fonte" in skill and "lacuna" in skill

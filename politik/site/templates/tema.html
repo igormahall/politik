@@ -10,7 +10,7 @@
 <h2 id="linha-do-tempo">🕒 Linha do tempo</h2>
 <ol class="linha">{% for f in t.linha_do_tempo | reverse %}
 <li><strong>{{ f.data }}</strong> — {{ f.fato }}{% if f.fonte_unica %} <span class="aviso">(fonte única)</span>{% endif %}
-<br><small>{% for fo in f.fontes %}<a href="{{ fo.url }}">{{ fo.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</small></li>
+<br><small>{% for fo in f.fontes %}<a href="{{ fo.url | seguro }}">{{ fo.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</small></li>
 {% endfor %}</ol>
 {% if fichas %}<h2>Documentos oficiais ligados</h2>
 <ul>{% for f in fichas %}<li><a href="{{ url_ficha(f.item_id) }}">{{ f.titulo }}</a></li>{% endfor %}</ul>{% endif %}

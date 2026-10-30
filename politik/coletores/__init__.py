@@ -14,10 +14,12 @@ def registrar(nome: str):
     def deco(fn):
         COLETORES[nome] = fn
         return fn
+
     return deco
 
 
 def carregar_todos() -> dict[str, Callable[[str], list[Item]]]:
     # importa os módulos para que se registrem
     from politik.coletores import camara, dou, imprensa, sapl, senado, tramitacao  # noqa: F401
+
     return COLETORES

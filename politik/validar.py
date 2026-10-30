@@ -49,8 +49,11 @@ def validar(data: str) -> dict:
         if diario is not None:
             print(f"diário inválido: {erros_diario(diario)}", file=sys.stderr)
         # aproveita fichas válidas de hoje escritas antes de o Claude parar
-        feitas = [i for i in destaques if ficha_valida(i)
-                  and ler_json(base / "fichas" / f"{id_seguro(i)}.json", {}).get("data") == data]
+        feitas = [
+            i
+            for i in destaques
+            if ficha_valida(i) and ler_json(base / "fichas" / f"{id_seguro(i)}.json", {}).get("data") == data
+        ]
         diario = {"data": data, "temas": [], "fichas": feitas}
         diario["parcial" if feitas else "sem_traducao"] = True
 
