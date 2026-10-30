@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 28" role="img" aria-label="politik · os fatos lado a lado">
+  <g opacity="0.85">
+    <clipPath id="politik-dagua-circulo"><circle cx="14" cy="14" r="12"/></clipPath>
+    <g clip-path="url(#politik-dagua-circulo)">
+      <rect x="2" y="2" width="24" height="24" fill="#c9a266"/>
+      <path d="M2 2H16.6C13.3 6.5 18.1 10.3 14.4 14.8S12.9 22.3 15.9 26H2Z" fill="#2a1f1a"/>
+    </g>
+    <text x="34" y="19" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif" font-size="13" fill="currentColor">politik · os fatos lado a lado</text>
+  </g>
+</svg>

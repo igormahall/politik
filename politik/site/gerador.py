@@ -71,7 +71,8 @@ def gerar(saida: Path, base_url: str) -> None:
         destino.write_text(env.get_template(tpl).render(**ctx), encoding="utf-8")
 
     saida.mkdir(parents=True, exist_ok=True)
-    shutil.copy(Path(__file__).parent / "estilo.css", saida / "estilo.css")
+    for estatico in ("estilo.css", "favicon.svg"):
+        shutil.copy(Path(__file__).parent / estatico, saida / estatico)
 
     for iid, f in fichas.items():
         escrever(f"ficha/{id_seguro(iid)}.html", "ficha.html", f=f, temas=temas)
