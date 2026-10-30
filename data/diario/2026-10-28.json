@@ -1,6 +1,38 @@
 {
   "data": "2026-10-28",
-  "temas": [],
-  "fichas": [],
-  "sem_traducao": true
+  "temas": [
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Flávio Bolsonaro chegou a Miami e divulgou uma carta em que diz, sem provas, que houve fraude na eleição. A PF informou que investiga as circunstâncias da saída dele do país.",
+      "aviso_fonte_unica": "A declaração de Rogério Marinho, a fala do presidente do TSE, o debate no Plenário da Câmara e a visita de Valdemar Costa Neto a Jair Bolsonaro aparecem em um só veículo cada (Agência Brasil, g1 e Agência Câmara)."
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O governo disse acompanhar 45 casos de violência política, com 10 mortes, e anunciou reforço nas investigações. Deputados apresentaram projetos sobre discriminação política e assédio eleitoral no trabalho.",
+      "aviso_fonte_unica": "A nova onda de denúncias ao Ministério Público do Trabalho foi relatada só pelo g1."
+    }
+  ],
+  "fichas": [
+    "camara:votacao:2620905-56",
+    "camara:votacao:2620905-53",
+    "camara:votacao:2620905-48",
+    "camara:votacao:2645996-7",
+    "camara:votacao:2647742-7",
+    "camara:2649124",
+    "camara:2649196",
+    "camara:2649212",
+    "camara:2649214",
+    "camara:2649215",
+    "camara:2649328",
+    "camara:2649364",
+    "camara:2649418",
+    "camara:2649422",
+    "camara:2649423",
+    "senado:9118102",
+    "senado:9118369",
+    "aleam:materia:185067",
+    "aleam:materia:185069",
+    "aleam:materia:185070",
+    "cmm:materia:53131"
+  ]
 }

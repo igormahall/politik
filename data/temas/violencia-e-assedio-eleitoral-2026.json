@@ -1,0 +1,39 @@
+{
+  "slug": "violencia-e-assedio-eleitoral-2026",
+  "nome": "Violência política e assédio eleitoral após o segundo turno de 2026",
+  "inicio": "2026-10-28",
+  "ativo": true,
+  "ultima_novidade": "2026-10-28",
+  "palavras_chave": ["violência política", "assédio eleitoral", "Guilherme Boulos violência política", "Ministério Público do Trabalho assédio eleitoral"],
+  "resumo_ate_aqui": "Em 28 de outubro, o governo federal disse acompanhar 45 casos de violência política ocorridos entre sábado (24) e domingo (25), com 10 mortes atribuídas à intolerância por posição eleitoral, e anunciou reforço nas investigações. No mesmo dia, deputados apresentaram na Câmara projetos para proibir discriminação por opinião política e criar o crime de assédio eleitoral no trabalho.",
+  "explica_do_zero": "Em 28 de outubro de 2026, três dias depois do segundo turno da eleição presidencial, o governo federal fez uma coletiva de imprensa. O ministro da Secretaria-Geral da Presidência, Guilherme Boulos, e integrantes do Ministério da Justiça e Segurança Pública apresentaram um balanço.\n\nSegundo a Agência Brasil, o governo contabilizou 45 episódios de violência atribuída à intolerância por posição eleitoral, com 10 homicídios e 47 vítimas, entre sábado (24) e a noite de domingo (25). Segundo o ministro, as vítimas seriam apoiadores de Lula e os autores, apoiadores do candidato derrotado, Flávio Bolsonaro. Paraná, São Paulo, Mato Grosso do Sul, Minas Gerais e Santa Catarina lideram o número de ocorrências.\n\nO governo anunciou a abertura de inquéritos pela Polícia Federal, o envio de denúncias à Procuradoria-Geral da República e o acionamento das corregedorias das polícias e dos Ministérios Públicos estaduais quando houver policiais envolvidos. O secretário-executivo do Ministério da Justiça, Ademar Borges, disse que já há dezenas de inquéritos abertos.\n\nSegundo o g1, publicações de políticos e influenciadores defendem demitir ou não contratar quem votou em Lula, e o Ministério Público do Trabalho (MPT) recebeu uma nova onda de denúncias de assédio eleitoral e aponta violações.\n\nNo mesmo dia, deputados apresentaram na Câmara projetos de lei sobre o tema: um para proibir discriminação por convicção política, partido ou voto em relações de consumo e de trabalho (PL 5676/2026), um para vedar discriminação política no emprego e a exigência de acesso a redes sociais privadas (PL 5677/2026) e um para criar o crime de assédio eleitoral no trabalho (PL 5679/2026). São só propostas e ainda precisam passar pela Câmara e pelo Senado.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-10-28",
+      "fato": "O governo federal disse acompanhar 45 casos de violência política ocorridos entre sábado (24) e domingo (25), com 10 homicídios e 47 vítimas, e anunciou reforço das investigações: inquéritos da PF, envio de denúncias à PGR e acionamento de corregedorias de polícias e Ministérios Públicos estaduais. O ministro Guilherme Boulos disse que os casos teriam como vítimas apoiadores de Lula.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/governo-reforcara-investigacoes-de-violencia-politica-no-segundo-turno"},
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/10/28/governo-diz-acompanhar-45-casos-de-violencia-politica-nas-eleicoes-e-promete-cobrar-punicoes.ghtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "Segundo apenas o g1, publicações de políticos e influenciadores passaram a defender a demissão e a recusa de contratação de quem votou em Lula, e o Ministério Público do Trabalho recebeu uma nova onda de denúncias de assédio eleitoral.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/28/politicos-e-influenciadores-incentivam-demissao-e-boicote-a-quem-votou-em-lula-mpt-aponta-violacoes.ghtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-10-28",
+      "fato": "Foram apresentados na Câmara os projetos PL 5676/2026 (Dep. Rubens Pereira Júnior, PT–MA), PL 5677/2026 (Dep. Maria do Rosário, PT–RS) e PL 5679/2026 (Dep. Prof. Reginaldo Veras, PV–DF), sobre discriminação por opinião política e assédio eleitoral no trabalho.",
+      "fontes": [
+        {"nome": "Câmara dos Deputados", "url": "https://www.camara.leg.br/propostas-legislativas/2649124"},
+        {"nome": "Câmara dos Deputados", "url": "https://www.camara.leg.br/propostas-legislativas/2649196"},
+        {"nome": "Câmara dos Deputados", "url": "https://www.camara.leg.br/propostas-legislativas/2649214"}
+      ],
+      "fonte_unica": false
+    }
+  ]
+}
