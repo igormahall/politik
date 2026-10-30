@@ -115,3 +115,12 @@ def test_skill_e_guia_cobrem_o_mundo():
 def test_traducao_tem_folga_de_turnos_para_o_mundo():
     args = _passo(_wf("diario.yml"), "diario", "claude")["with"]["claude_args"]
     assert "--max-turns 80" in args
+
+
+def test_lista_de_coletados_nao_pode_ser_editada_pelo_claude():
+    wf = _wf("diario.yml")
+    nomes = [s.get("name") or s.get("id") for s in wf["jobs"]["diario"]["steps"]]
+    guarda = _passo(wf, "diario", "Guardar selecionados")["run"]
+    restaura = _passo(wf, "diario", "Restaurar código (o Claude só pode mudar data/)")["run"]
+    assert "selecionados/$D.json" in guarda and "selecionados/$D.json" in restaura
+    assert nomes.index("Filtrar") < nomes.index("Guardar selecionados") < nomes.index("Traduzir com Claude Code")
