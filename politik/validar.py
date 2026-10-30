@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 from politik.armazenamento import data_dir, escrever_json, id_seguro, ler_json
-from politik.esquemas import erros_diario, erros_ficha, erros_tema, limpar_capa
+from politik.esquemas import erros_diario, erros_ficha, erros_mundo, erros_tema, limpar_capa
 
 
 def _restaurar_ou_remover(caminho: Path) -> None:
@@ -26,6 +26,30 @@ def _limpar_invalidos(pasta: Path, erros_fn, acao) -> set[str]:
             acao(p)
             invalidos.add(p.stem)
     return invalidos
+
+
+MAX_MUNDO = 5
+
+
+def _validar_mundo(base: Path, data: str, sel: dict, ids) -> list[str]:
+    """Fichas do Mundo do dia: só URLs coletadas hoje; as inválidas saem sem derrubar o diário."""
+    urls_mundo = {i["url"] for i in sel.get("mundo", [])}
+    urls_impacto = urls_mundo | {i["url"] for i in sel.get("noticias", [])}
+    validos = []
+    for p in sorted((base / "mundo").glob("*.json")):
+        ficha = ler_json(p)
+        do_dia = isinstance(ficha, dict) and ficha.get("data") == data
+        erros = (
+            (erros_mundo(ficha, urls_mundo, urls_impacto) if do_dia else erros_mundo(ficha))
+            if ficha is not None
+            else ["JSON inválido"]
+        )
+        if erros:
+            print(f"{p.name} inválido: {erros}", file=sys.stderr)
+            p.unlink()
+        elif do_dia:
+            validos.append(ficha["item_id"])
+    return [i for i in (ids if isinstance(ids, list) else []) if i in validos][:MAX_MUNDO]
 
 
 def validar(data: str) -> dict:
@@ -60,6 +84,8 @@ def validar(data: str) -> dict:
         diario["parcial" if feitas else "sem_traducao"] = True
 
     diario["fichas"] = [i for i in diario["fichas"] if ficha_valida(i)]
+    if "mundo" in diario:
+        diario["mundo"] = _validar_mundo(base, data, sel, diario["mundo"])
     diario["temas"] = [t for t in diario["temas"] if (base / "temas" / f"{t['slug']}.json").exists()]
     escrever_json(caminho_diario, diario)
 
