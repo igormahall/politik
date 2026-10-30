@@ -41,13 +41,13 @@ def cmd_filtrar(args) -> int:
     falhas = ler_json(pasta / "_falhas.json", {})
     sel, pend = filtrar(args.data, itens, ler_json(data_dir() / "pendentes.json", []), carregar_cfg(), carregar_temas())
     sel["fontes_indisponiveis"] = sorted(falhas)
-    for chave in ("destaques", "noticias", "menores"):
+    for chave in ("destaques", "noticias", "mundo", "menores"):
         sel[chave] = [i.to_dict() for i in sel[chave]]
     escrever_json(data_dir() / "selecionados" / f"{args.data}.json", sel)
     escrever_json(data_dir() / "pendentes.json", pend)
     print(
         f"destaques={len(sel['destaques'])} noticias={len(sel['noticias'])} "
-        f"menores={len(sel['menores'])} pendentes={len(pend)}"
+        f"mundo={len(sel['mundo'])} menores={len(sel['menores'])} pendentes={len(pend)}"
     )
     return 0
 

@@ -15,6 +15,7 @@ NOMES_FONTES = {
     "dou": "Diário Oficial da União",
     "imprensa": "Imprensa",
     "tramitacao": "Tramitações",
+    "mundo": "Imprensa internacional",
 }
 
 

@@ -88,3 +88,17 @@ def test_homenagem_vai_para_menores_mesmo_sendo_pl():
 def test_homenagem_ligada_a_tema_continua_destaque():
     tema = {"slug": "t", "palavras_chave": ["Vorcaro"]}
     assert classificar(item(ementa="Concede medalha a Vorcaro"), CFG, [tema]) == "destaque"
+
+
+def _mundo(i, org):
+    return item(f"mundo:{org}:{i}", fonte="mundo", nivel="mundo", categoria="mundo", extra={"organizacao": org})
+
+
+def test_mundo_vai_para_balde_proprio_com_rodizio():
+    itens = [_mundo(i, "BBC") for i in range(100)] + [_mundo(i, "DW") for i in range(10)]
+    itens += [_mundo(i, "Agência Brasil") for i in range(5)]
+    sel, _ = filtrar(D, itens, [], CFG, [])
+    assert len(sel["mundo"]) == 80
+    orgs = [i.extra["organizacao"] for i in sel["mundo"]]
+    assert orgs.count("DW") == 10 and orgs.count("Agência Brasil") == 5
+    assert not sel["menores"] and not sel["noticias"] and not sel["destaques"]

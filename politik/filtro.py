@@ -8,9 +8,9 @@ FEDERAL = {"camara", "senado"}
 LOCAL = {"aleam", "cmm"}
 
 
-def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque", "menor", "noticia"]:
-    if item.categoria == "noticia":
-        return "noticia"
+def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque", "menor", "noticia", "mundo"]:
+    if item.categoria in ("noticia", "mundo"):
+        return item.categoria
     if item.categoria == "votacao" and item.extra.get("proposicao", True) is None and not casa_tema(item, temas):
         return "menor"  # votação sem projeto identificado não diz nada ao leitor
     if casa_tema(item, temas) or item.categoria in cfg["destaque_categorias"]:
@@ -39,6 +39,19 @@ def prioridade(item: Item, temas: list[dict]) -> int:
     return {"federal": 4, "estadual": 5, "municipal": 6}[item.nivel]
 
 
+def _rodizio(itens: list[Item], teto: int) -> list[Item]:
+    """Um de cada organização por vez, na ordem de chegada: nenhuma toma o teto sozinha."""
+    filas: dict[str, list[Item]] = {}
+    for it in itens:
+        filas.setdefault(it.extra.get("organizacao", ""), []).append(it)
+    saida = []
+    while len(saida) < teto and any(filas.values()):
+        for fila in filas.values():
+            if fila and len(saida) < teto:
+                saida.append(fila.pop(0))
+    return saida
+
+
 def _idade(data: str, primeira_vez: str) -> int:
     return (date.fromisoformat(data) - date.fromisoformat(primeira_vez)).days
 
@@ -48,6 +61,7 @@ def filtrar(
 ) -> tuple[dict, list[dict]]:
     menores: list[Item] = []
     noticias: list[Item] = []
+    mundo: list[Item] = []
     candidatos: list[tuple[Item, str]] = []  # (item, primeira_vez)
 
     for p in pendentes:
@@ -66,6 +80,8 @@ def filtrar(
             candidatos.append((it, data))
         elif tipo == "noticia":
             noticias.append(it)
+        elif tipo == "mundo":
+            mundo.append(it)  # o excedente some: imprensa estrangeira não vai para os menores
         else:
             menores.append(it)
 
@@ -83,6 +99,7 @@ def filtrar(
         "data": data,
         "destaques": destaques,
         "noticias": noticias,
+        "mundo": _rodizio(mundo, cfg.get("teto_mundo", 80)),
         "menores": menores,
         "fontes_indisponiveis": [],
         "primeira_vez": {it.id: pv for it, pv in candidatos[:teto]},

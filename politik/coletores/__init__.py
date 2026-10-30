@@ -20,6 +20,6 @@ def registrar(nome: str):
 
 def carregar_todos() -> dict[str, Callable[[str], list[Item]]]:
     # importa os módulos para que se registrem
-    from politik.coletores import camara, dou, imprensa, sapl, senado, tramitacao  # noqa: F401
+    from politik.coletores import camara, dou, imprensa, mundo, sapl, senado, tramitacao  # noqa: F401
 
     return COLETORES
