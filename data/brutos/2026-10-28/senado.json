@@ -1,0 +1,394 @@
+[
+  {
+    "id": "senado:9117975",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 725/2026",
+    "ementa": "Requer informações à Senhora Janine Mello, Ministra de Estado dos Direitos Humanos e da Cidadania, sobre a atuação da Pasta e do Conselho Nacional dos Direitos da Pessoa com Deficiência – Conade no monitoramento das dificuldades de acesso ao Benefício de Prestação Continuada – BPC pelas pessoas com deficiência.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176113",
+    "autores": [
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/0db9f712-3c65-4e3c-b713-f4e6dfe0b8e6",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESIGNAÇÃO DO RELATOR",
+      "codigoMateria": 176113
+    }
+  },
+  {
+    "id": "senado:9117978",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "REQ",
+    "titulo": "REQ 369/2026 - CDIR",
+    "ementa": "Requer licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus\npara o Senado Federal",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176112",
+    "autores": [
+      {
+        "nome": "Jorge Seif",
+        "partido": "PL",
+        "uf": "SC"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/c62a2d13-f998-4f16-8690-3944b60d4bc7",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "DEFERIDA",
+      "codigoMateria": 176112
+    }
+  },
+  {
+    "id": "senado:9117985",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "REQ",
+    "titulo": "REQ 370/2026 - CDIR",
+    "ementa": "Requer licença para desempenhar missão política ou cultural de interesse parlamentar, sem ônus\npara o Senado Federal.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176114",
+    "autores": [
+      {
+        "nome": "Jorge Seif",
+        "partido": "PL",
+        "uf": "SC"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/6599d1ec-ebb9-424f-b8a4-0b3455e4f6ab",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "DEFERIDA",
+      "codigoMateria": 176114
+    }
+  },
+  {
+    "id": "senado:9118001",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 726/2026",
+    "ementa": "Requer informações ao Senhor Wellington Dias, Ministro de Estado do Desenvolvimento e Assistência Social, Família e Combate à Fome, sobre a gestão e a execução orçamentária do Benefício de Prestação Continuada (BPC), incluindo a fila de requerimentos e indeferimentos.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176115",
+    "autores": [
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/f5b41bae-1e7b-48be-9fda-0ad46283f835",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESIGNAÇÃO DO RELATOR",
+      "codigoMateria": 176115
+    }
+  },
+  {
+    "id": "senado:9118021",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 727/2026",
+    "ementa": "Requer informações ao Senhor Wolney Queiroz, Ministro de Estado da Previdência Social, sobre a operacionalização do auxílio-inclusão à pessoa com deficiência pelo Instituto Nacional do Seguro Social (INSS), especialmente quanto às concessões, aos indeferimentos, à conversão automática do BPC e aos controles administrativos.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176116",
+    "autores": [
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/213c1416-e054-42fd-ae28-fb9726dacc28",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESIGNAÇÃO DO RELATOR",
+      "codigoMateria": 176116
+    }
+  },
+  {
+    "id": "senado:9118032",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 728/2026",
+    "ementa": "Requer informações ao Senhor Wellington Dias, Ministro de Estado do Desenvolvimento e Assistência Social, Família e Combate à Fome, sobre a implementação, a gestão, a articulação institucional, a execução orçamentária e os resultados do auxílio-inclusão à pessoa com deficiência.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176117",
+    "autores": [
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/60a2bc3f-52f6-4f96-8e4f-57a2d36ca868",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESIGNAÇÃO DO RELATOR",
+      "codigoMateria": 176117
+    }
+  },
+  {
+    "id": "senado:9118102",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "PL",
+    "titulo": "PL 5649/2026",
+    "ementa": "Autoriza a concessão de apoio financeiro aos produtores independentes de cana-de-açúcar da Região Nordeste no exercício de 2026 e a destinação de recursos a linhas de financiamento reembolsável para a renovação de frota; altera as Leis nºs 9.818, de 23 de agosto de 1999, 11.540, de 12 de novembro de 2007, e 14.947, de 2 de agosto de 2024; e dá outras providências.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176118",
+    "autores": [
+      {
+        "nome": "Câmara dos Deputados",
+        "partido": null,
+        "uf": null
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/18fbe455-fdf8-4e23-a05b-c9e390114871",
+    "extra": {
+      "tipoDocumento": "Projeto de Lei Ordinária",
+      "situacaoAtual": "REMETIDA À SANÇÃO",
+      "codigoMateria": 176118
+    }
+  },
+  {
+    "id": "senado:9118281",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 729/2026",
+    "ementa": "Requer a realização de Sessão Especial destinada a celebrar o Dia do Síndico.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176119",
+    "autores": [
+      {
+        "nome": "Izalci Lucas",
+        "partido": "PL",
+        "uf": "DF"
+      },
+      {
+        "nome": "Esperidião Amin",
+        "partido": "PP",
+        "uf": "SC"
+      },
+      {
+        "nome": "Sargento Reginauro",
+        "partido": "PSDB",
+        "uf": "CE"
+      },
+      {
+        "nome": "Astronauta Marcos Pontes",
+        "partido": "PL",
+        "uf": "SP"
+      },
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      },
+      {
+        "nome": "Jorge Seif",
+        "partido": "PL",
+        "uf": "SC"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/2f0734e7-d208-4de2-a1c1-1a642d7bd8bd",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESPACHO",
+      "codigoMateria": 176119
+    }
+  },
+  {
+    "id": "senado:9118318",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 730/2026",
+    "ementa": "Requer urgência para o Projeto de Lei nº 5.649, de 2026, nos termos dos arts. 336, III, e 338, III, do Regimento Interno do Senado Federal. ",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176120",
+    "autores": [
+      {
+        "nome": "Líder do Bloco Parlamentar da Resistência Democrática Eliziane Gama",
+        "partido": "PSD",
+        "uf": "MA"
+      },
+      {
+        "nome": "Líder do Bloco Parlamentar Pelo Brasil Weverton",
+        "partido": "PDT",
+        "uf": "MA"
+      },
+      {
+        "nome": "Líder do Governo Teresa Leitão",
+        "partido": "PT",
+        "uf": "PE"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/4aea49a6-40c4-4da8-9c78-fafd30ce3729",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "APROVADA",
+      "codigoMateria": 176120
+    }
+  },
+  {
+    "id": "senado:9118347",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "REQ",
+    "titulo": "REQ 96/2026 - CCT",
+    "ementa": "Requer, nos termos do art. 58, § 2º, II, da Constituição Federal e do art. 93, II, do Regimento Interno do Senado Federal, a realização de audiência pública, com o objetivo de debater sobre o programa nacional de drones, em continuidade à audiência pública objeto do REQ 87/2026-CCT.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176123",
+    "autores": [
+      {
+        "nome": "Astronauta Marcos Pontes",
+        "partido": "PL",
+        "uf": "SP"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a0e542b7-3699-4513-a968-74285b53b100",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "AGUARDANDO DESPACHO",
+      "codigoMateria": 176123
+    }
+  },
+  {
+    "id": "senado:9118369",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "PL",
+    "titulo": "PL 3303/2025",
+    "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para permitir o julgamento liminar de pedidos de divórcio.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176151",
+    "autores": [
+      {
+        "nome": "Câmara dos Deputados",
+        "partido": null,
+        "uf": null
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5752b529-c253-4424-827f-1c24a3c6508c",
+    "extra": {
+      "tipoDocumento": "Projeto de Lei Ordinária",
+      "situacaoAtual": "AGUARDANDO DESPACHO",
+      "codigoMateria": 176151
+    }
+  },
+  {
+    "id": "senado:9118407",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 731/2026",
+    "ementa": "Requer, pela Liderança do PL, destaque para votação em separado da Emenda nº 2 ao Projeto de Lei nº 5649/2026.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176125",
+    "autores": [
+      {
+        "nome": "Líder do PL Carlos Portinho",
+        "partido": "PL",
+        "uf": "RJ"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/f03517f1-f1e5-4805-9316-2f2612d5b2eb",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "RETIRADA PELO AUTOR",
+      "codigoMateria": 176125
+    }
+  },
+  {
+    "id": "senado:9118438",
+    "fonte": "senado",
+    "nivel": "federal",
+    "categoria": "proposicao",
+    "sigla_tipo": "RQS",
+    "titulo": "RQS 732/2026",
+    "ementa": "Requer a realização de Sessão Especial destinada a homenagear grandes nomes do esporte brasileiro em alusão ao Dia do Atleta.",
+    "data": "2026-10-28",
+    "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176127",
+    "autores": [
+      {
+        "nome": "Leany Lemos",
+        "partido": "PSB",
+        "uf": "DF"
+      },
+      {
+        "nome": "Paulo Paim",
+        "partido": "PT",
+        "uf": "RS"
+      },
+      {
+        "nome": "Mara Gabrilli",
+        "partido": "PSD",
+        "uf": "SP"
+      },
+      {
+        "nome": "Esperidião Amin",
+        "partido": "PP",
+        "uf": "SC"
+      },
+      {
+        "nome": "Professora Dorinha Seabra",
+        "partido": "UNIÃO",
+        "uf": "TO"
+      },
+      {
+        "nome": "Flávio Arns",
+        "partido": "PSB",
+        "uf": "PR"
+      },
+      {
+        "nome": "Damares Alves",
+        "partido": "REPUBLICANOS",
+        "uf": "DF"
+      },
+      {
+        "nome": "Alessandro Vieira",
+        "partido": "MDB",
+        "uf": "SE"
+      },
+      {
+        "nome": "Humberto Costa",
+        "partido": "PT",
+        "uf": "PE"
+      },
+      {
+        "nome": "Efraim Filho",
+        "partido": "PL",
+        "uf": "PB"
+      }
+    ],
+    "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/9e2170d7-77a9-49dc-9628-a2e9e60d252e",
+    "extra": {
+      "tipoDocumento": "Requerimento",
+      "situacaoAtual": "APROVADA",
+      "codigoMateria": 176127
+    }
+  }
+]

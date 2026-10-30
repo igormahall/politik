@@ -1,0 +1,483 @@
+[
+  {
+    "item": {
+      "id": "camara:votacao:2620905-56",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+      "ementa": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+      "data": "2026-10-28",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "siglaOrgao": "PLEN",
+        "aprovacao": 1,
+        "uriProposicaoObjeto": null
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2620905-53",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+      "ementa": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+      "data": "2026-10-28",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "siglaOrgao": "PLEN",
+        "aprovacao": 1,
+        "uriProposicaoObjeto": null
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2620905-48",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "Rejeitado o Requerimento.",
+      "ementa": "Rejeitado o Requerimento.",
+      "data": "2026-10-28",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "siglaOrgao": "PLEN",
+        "aprovacao": 0,
+        "uriProposicaoObjeto": null
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2645996-7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "ementa": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "data": "2026-10-28",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "siglaOrgao": "PLEN",
+        "aprovacao": 1,
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996"
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2647742-7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "ementa": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "data": "2026-10-28",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "siglaOrgao": "PLEN",
+        "aprovacao": 1,
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742"
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649124",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5676/2026",
+      "ementa": "Dispõe sobre a vedação de práticas discriminatórias motivadas por convicção política, filiação partidária ou voto nas relações de consumo e de trabalho, e dá outras providências.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649124",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649196",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5677/2026",
+      "ementa": "Altera os arts. 1º e 2º da Lei nº 9.029, de 13 de abril de 1995, para vedar práticas discriminatórias fundadas em convicções políticas e eleitorais e proibir a exigência ou devassa de redes sociais privadas de empregados ou candidatos a emprego.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649196",
+      "autores": [
+        {
+          "nome": "Maria do Rosário",
+          "partido": "PT",
+          "uf": "RS"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649212",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5678/2026",
+      "ementa": "Altera a Lei nº 13.656, de 30 de abril de 2018, para isentar do pagamento de taxa de inscrição em concursos públicos federais os candidatos de baixa renda que tenham cursado o ensino médio na rede pública ou em situação equiparada.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649212",
+      "autores": [
+        {
+          "nome": "Dr. Francisco",
+          "partido": "PT",
+          "uf": "PI"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649214",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5679/2026",
+      "ementa": "Altera a Lei nº 9.029, de 13 de abril de 1995, para tipificar o crime de assédio eleitoral nas relações de trabalho e estabelecer medidas de proteção às vítimas.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649214",
+      "autores": [
+        {
+          "nome": "Prof. Reginaldo Veras",
+          "partido": "PV",
+          "uf": "DF"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649215",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5680/2026",
+      "ementa": "Dispõe sobre a proibição de criação de contas de crianças em redes sociais classificadas como de alto risco para crianças.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649215",
+      "autores": [
+        {
+          "nome": "Jorge Goetten",
+          "partido": "REPUBLICANOS",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649328",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5681/2026",
+      "ementa": "Dispõe sobre a proibição de fixação de material de campanha e rostos de candidatos, bem como de propaganda político-partidária explícita nas dependências de instituições de ensino, regulamentando o debate político e filosófico, e dá outras providências.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649328",
+      "autores": [
+        {
+          "nome": "Marcelo Álvaro Antônio",
+          "partido": "PL",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649364",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5682/2026",
+      "ementa": "Altera o Decreto-Lei nº 986, de 21 de outubro de 1969, e a Lei nº 8.078, de 11 de setembro de 1990, para aprimorar as regras de rotulagem, apresentação e comercialização de alimentos industrializados, a fim de ampliar a transparência ao consumidor e evitar indução a erro quanto à composição efetiva dos produtos.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649364",
+      "autores": [
+        {
+          "nome": "Coronel Chrisóstomo",
+          "partido": "PL",
+          "uf": "RO"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649418",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5683/2026",
+      "ementa": "Institui o Plano de Desenvolvimento Agropecuário e Agroindustrial do Polo SEALBA (PDAA/SEALBA) e dispõe sobre sua governança, seus instrumentos e seu financiamento.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649418",
+      "autores": [
+        {
+          "nome": "Luciano Amaral",
+          "partido": "PSD",
+          "uf": "AL"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649422",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 275/2026",
+      "ementa": "Altera a Lei Complementar nº 235, de 27 de agosto de 2026, para preservar o critério de cálculo e de atualização do aporte anual da União ao Fundo Constitucional do Distrito Federal (FCDF).",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649422",
+      "autores": [
+        {
+          "nome": "Julio Cesar Ribeiro",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "camara:2649423",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5684/2026",
+      "ementa": "Dispõe sobre o limite do custo total das operações de crédito e estabelece medidas de proteção contra a cobrança excessiva de juros e encargos.",
+      "data": "2026-10-28",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649423",
+      "autores": [
+        {
+          "nome": "Paulo Teixeira",
+          "partido": "PT",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "senado:9118102",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5649/2026",
+      "ementa": "Autoriza a concessão de apoio financeiro aos produtores independentes de cana-de-açúcar da Região Nordeste no exercício de 2026 e a destinação de recursos a linhas de financiamento reembolsável para a renovação de frota; altera as Leis nºs 9.818, de 23 de agosto de 1999, 11.540, de 12 de novembro de 2007, e 14.947, de 2 de agosto de 2024; e dá outras providências.",
+      "data": "2026-10-28",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176118",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/18fbe455-fdf8-4e23-a05b-c9e390114871",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "REMETIDA À SANÇÃO",
+        "codigoMateria": 176118
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "senado:9118369",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 3303/2025",
+      "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para permitir o julgamento liminar de pedidos de divórcio.",
+      "data": "2026-10-28",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176151",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5752b529-c253-4424-827f-1c24a3c6508c",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176151
+      }
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185067",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 614 de 2026",
+      "ementa": "ALTERA a Lei nº 2.713, de 28 de dezembro de 2001, que dispõe sobre a política de proteção à fauna aquática e de desenvolvimento da pesca e\nda aquicultura sustentável no Estado do Amazonas, para incluir medidas voltadas à redução de perdas na cadeia produtiva do pescado.",
+      "data": "2026-10-28",
+      "url": "https://sapl.al.am.leg.br/materia/185067",
+      "autores": [
+        {
+          "nome": "Rozenha",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185067/pl_43461.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185069",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 615 de 2026",
+      "ementa": "Estabelece requisitos de segurança para a instalação, a fixação, a manutenção e o uso de traves de gol em estabelecimentos de ensino e espaços esportivos e recreativos de uso coletivo no Estado do Amazonas",
+      "data": "2026-10-28",
+      "url": "https://sapl.al.am.leg.br/materia/185069",
+      "autores": [
+        {
+          "nome": "Cabo Maciel",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185069/pl_043477.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185070",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 616 de 2026",
+      "ementa": "INSTITUI o Dia Estadual do Orientador Educacional e dá outras providências.",
+      "data": "2026-10-28",
+      "url": "https://sapl.al.am.leg.br/materia/185070",
+      "autores": [
+        {
+          "nome": "Cabo Maciel",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185070/pl_043481.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53131",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 831 de 2026",
+      "ementa": "INSTITUI a Política Municipal de Promoção da Atividade Física e das Práticas Corporais na Atenção Primária à Saúde, voltada ao fortalecimento da oferta de ações de atividade física na rede do Sistema Único de Saúde e à preservação do custeio federal de que trata o Incentivo de Atividade Física — IAF, no Município de Manaus, e dá outras providências.",
+      "data": "2026-10-28",
+      "url": "https://sapl.cmm.am.gov.br/materia/53131",
+      "autores": [
+        {
+          "nome": "GILMAR NASCIMENTO",
+          "partido": "AVANTE",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53131/pl_831_2026_gilmar_nascimento_promocao_da_atividade_fisica.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-10-28"
+  }
+]
