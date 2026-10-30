@@ -86,3 +86,35 @@ No máximo ~5 itens com importância 1 por dia.
 - **resumo_ate_aqui**: 2 a 3 frases com o estado atual da história.
 - **explica_do_zero**: até ~6 parágrafos curtos, do começo, só com fatos da linha do tempo.
 - **novo_hoje** (no diário): 1 a 2 frases com o que há de novo hoje.
+
+## 7. Mundo
+
+Os principais fatos internacionais do dia, com ênfase no que afeta o Brasil. As regras das seções 1 e 2
+valem inteiras; estas são mais rígidas, porque as fontes são poucas e estrangeiras.
+
+- **Duas organizações, sempre.** Um fato só entra se **pelo menos duas organizações diferentes** entre
+  BBC, DW e Agência Brasil o relatam, nos itens de `mundo`. A fonte conta pela organização: BBC em português
+  e BBC em inglês são uma só. A Agência Brasil vale como ela mesma; quando a matéria for da Reuters ou da
+  EFE, cite as duas ("Agência Brasil/Reuters"). Fato com uma organização só **não entra** (no Mundo não
+  existe "fonte única"). Detalhe do fato que só uma das fontes traz também não entra no texto.
+- **Impacto sempre atribuído, nunca previsto pelo Politik.** O campo `importa_para_o_brasil` só existe quando
+  alguém disse algo sobre o efeito no Brasil, e sempre com o dono da afirmação e o veículo:
+  "O Itamaraty disse, segundo a Agência Brasil, que …". Uma fonte basta para cada declaração, e ela pode vir
+  da imprensa brasileira dos itens de `noticias`; essas fontes vão em `fontes_impacto` e **nunca** contam
+  como segunda organização do fato. Exemplo do tom certo:
+  > O Itamaraty disse que vai buscar diálogo com o novo governo. Analistas ouvidos pela Reuters e pelo
+  > Financial Times preveem pressão sobre o dólar; a Confederação Nacional da Indústria citou risco para
+  > as exportações de aço.
+  Errado: "A vitória de Fulano deve encarecer o dólar." Grande acontecimento sem ligação com o Brasil:
+  deixe o campo de fora; nunca invente uma ligação.
+- **Seleção: de 3 a 5 fatos.** Primeiro os que afetam o Brasil (segundo as fontes), depois os grandes
+  acontecimentos: destaque em pelo menos duas organizações e que envolvem vidas, guerra ou paz, eleição,
+  decisão de chefe de Estado de país relevante ou o mercado mundial. Dia fraco pode ter menos de 3:
+  **nunca** complete com fato menor. Variedades, esporte e celebridades não entram.
+- **Fronteira com o nacional:** se o fato principal acontece no exterior ou é um ato de governo, organismo
+  ou empresa estrangeira — inclusive sobre o Brasil (tarifa dos EUA sobre o Brasil, Lula discursando na
+  ONU, acordo Mercosul–UE) —, é Mundo. Se é um ato de instituição brasileira no Brasil (o Congresso votar a
+  ratificação do acordo), é nacional. Um mesmo fato não vira as duas coisas.
+- **Temas internacionais** (ex. a eleição americana) levam `"internacional": true`, recebem só fatos do
+  Mundo, e cada entrada da `linha_do_tempo` precisa de duas organizações nas fontes. Temas nacionais não
+  recebem fatos do Mundo.

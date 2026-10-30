@@ -103,3 +103,15 @@ def test_carrossel_nao_derruba_o_diario():
     assert p["continue-on-error"] is True and "steps.validar.outcome == 'success'" in p["if"]
     nomes = [s.get("name") for s in wf["jobs"]["diario"]["steps"]]
     assert nomes.index("Enviar no Telegram") < nomes.index("Carrossel do Instagram") < nomes.index("Salvar histórico")
+
+
+def test_skill_e_guia_cobrem_o_mundo():
+    skill = Path(".claude/skills/traduzir/SKILL.md").read_text()
+    guia = Path("editorial/GUIA.md").read_text()
+    assert "data/mundo/" in skill and '"mundo"' in skill and "fontes_impacto" in skill
+    assert "## 7. Mundo" in guia and "duas organizações" in guia and "segundo a Agência Brasil" in guia
+
+
+def test_traducao_tem_folga_de_turnos_para_o_mundo():
+    args = _passo(_wf("diario.yml"), "diario", "claude")["with"]["claude_args"]
+    assert "--max-turns 80" in args

@@ -27,7 +27,13 @@ não acesse a internet, não use conhecimento próprio sem fonte.
      com data D — o dia está sendo refeito —, substitua essas entradas em vez de acrescentar de novo; reescreva
      `resumo_ate_aqui` e `explica_do_zero`, `ultima_novidade = D`, inclua os ids em `temas` das fichas ligadas);
    - crie temas novos só pelas regras do guia (§4).
-6. **Por último**, escreva `data/diario/D.json`, com `fichas` ordenadas da mais para a menos importante, listando todas as fichas escritas e os temas com novidade hoje.
+6. **Mundo** (siga a §7 do guia à risca): leia os itens de `mundo` em `data/selecionados/D.json`, agrupe as
+   matérias que falam do mesmo fato e escolha de 3 a 5 fatos confirmados por duas organizações diferentes
+   (nunca complete para chegar a 3). Para cada um, escreva `data/mundo/mundo_D_<n>.json` (`n` = 1, 2, 3…),
+   com `item_id` `mundo:D:<n>`. Em `fontes`, só URLs de itens de `mundo` (as que confirmam o fato); em
+   `fontes_impacto`, as URLs (de `mundo` ou de `noticias`) de onde vieram as declarações sobre o Brasil.
+   Fato internacional que já é tema em andamento: atualize o tema internacional, como no passo 5.
+7. **Por último**, escreva `data/diario/D.json`, com `fichas` ordenadas da mais para a menos importante, listando todas as fichas escritas e os temas com novidade hoje.
    Para cada tema do diário, escreva também os campos da capa do carrossel do Instagram:
    `nome_curto` (até 40 caracteres: o nome do tema como cabe numa capa) e `linha_capa` (até 80 caracteres:
    o fato do dia numa frase curta, sem adjetivo de juízo, seguindo o `editorial/GUIA.md`).
@@ -52,11 +58,20 @@ Tema:
                      "fonte_unica": false}]}
 ```
 
+Ficha do Mundo (`importa_para_o_brasil` e `fontes_impacto` vêm juntos ou não vêm):
+```json
+{"item_id": "mundo:D:1", "titulo": "...", "o_que_aconteceu": "...",
+ "importa_para_o_brasil": "A CNI disse, segundo a Agência Brasil, que ...",
+ "fontes": [{"nome": "BBC", "url": "https://www.bbc.com/..."}, {"nome": "DW", "url": "https://www.dw.com/..."}],
+ "fontes_impacto": [{"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/..."}],
+ "importancia": 1, "data": "D"}
+```
+
 Diário:
 ```json
 {"data": "D", "temas": [{"slug": "caso-master", "novo_hoje": "...", "aviso_fonte_unica": "Lista divulgada só pelo veículo X.",
             "nome_curto": "Caso Master", "linha_capa": "Fachin mantém o caso na Presidência do STF"}],
- "fichas": ["camara:123", "aleam:materia:9"]}
+ "fichas": ["camara:123", "aleam:materia:9"], "mundo": ["mundo:D:1", "mundo:D:2"]}
 ```
 `aviso_fonte_unica` é `null` quando não houver.
 
