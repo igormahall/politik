@@ -128,3 +128,9 @@ def test_lista_de_coletados_nao_pode_ser_editada_pelo_claude():
 
 def test_guia_proibe_citar_fontes_no_corpo():
     assert "Não cite as fontes no corpo do texto" in Path("editorial/GUIA.md").read_text()
+
+
+def test_traducao_diaria_usa_o_haiku():
+    # comparado com Opus e Sonnet em 30/10/2026: mesma qualidade no ensaio, menos cota e menor custo de API
+    args = _passo(_wf("diario.yml"), "diario", "claude")["with"]["claude_args"]
+    assert "--model claude-haiku-5-5" in args
