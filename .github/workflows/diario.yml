@@ -93,6 +93,7 @@ jobs:
           prompt: "/traduzir ${{ env.D }}"
           # o Claude só lê data/ e editorial/ e só escreve em data/
           claude_args: |
+            --model claude-haiku-5-5
             --max-turns 80
             --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob"
 
