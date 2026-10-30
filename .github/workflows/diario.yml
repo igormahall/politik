@@ -79,6 +79,10 @@ jobs:
       - name: Filtrar
         run: python -m politik filtrar --data "$D"
 
+      - name: Guardar selecionados
+        # é a lista do que foi coletado hoje; a validação das fontes do Mundo confia nela, então o Claude não pode mexer
+        run: cp "data/selecionados/$D.json" "$RUNNER_TEMP/selecionados.json"
+
       - name: Traduzir com Claude Code
         id: claude
         continue-on-error: true
@@ -98,7 +102,9 @@ jobs:
 
       - name: Restaurar código (o Claude só pode mudar data/)
         if: always()
-        run: git checkout HEAD -- politik config editorial .claude .github pyproject.toml
+        run: |
+          git checkout HEAD -- politik config editorial .claude .github pyproject.toml
+          cp "$RUNNER_TEMP/selecionados.json" "data/selecionados/$D.json"
 
       - name: Validar
         id: validar

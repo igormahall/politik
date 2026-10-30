@@ -160,6 +160,6 @@ def erros_mundo(d: dict, urls_mundo: set[str] | None = None, urls_impacto: set[s
         if urls is None:
             continue
         for f in d.get(campo) or []:
-            if isinstance(f, dict) and f.get("url") not in urls:
+            if isinstance(f, dict) and (not isinstance(f.get("url"), str) or f["url"] not in urls):
                 erros.append(f"{campo}: url não coletada hoje {f.get('url')!r}")
     return erros

@@ -117,3 +117,80 @@ def test_validar_diario_sem_mundo_continua_igual(tmp_data):
     escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": []})
     main(["validar", "--data", D])
     assert "mundo" not in ler_json(tmp_data / f"diario/{D}.json")
+
+
+def _sel_e_diario(tmp_data, diario_extra=None):
+    mundo, noticias = _coletados_do_mundo()
+    escrever_selecionados(tmp_data, D, mundo=mundo, noticias=noticias)
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": [], **(diario_extra or {})})
+
+
+def test_validar_mundo_url_que_nao_e_texto_nao_derruba(tmp_data):
+    _sel_e_diario(tmp_data, {"mundo": [MUNDO_OK["item_id"]]})
+    ruim = {**MUNDO_OK, "fontes": [{"nome": "BBC", "url": ["https://www.bbc.com/a"]}, MUNDO_OK["fontes"][1]]}
+    escrever_mundo(tmp_data, ruim)
+    assert main(["validar", "--data", D]) == 0
+    assert not (tmp_data / "mundo/mundo_2026-10-28_1.json").exists()
+
+
+def test_validar_mundo_sem_chave_no_diario_ainda_confere(tmp_data):
+    _sel_e_diario(tmp_data)  # o Claude escreveu a ficha e parou antes do diário
+    inventada = {
+        **MUNDO_OK,
+        "fontes": [{"nome": "BBC", "url": "https://www.bbc.com/x"}, {"nome": "DW", "url": "https://www.dw.com/y"}],
+    }
+    escrever_mundo(tmp_data, inventada)
+    main(["validar", "--data", D])
+    assert not (tmp_data / "mundo/mundo_2026-10-28_1.json").exists()
+    assert "mundo" not in ler_json(tmp_data / f"diario/{D}.json")
+
+
+def test_validar_mundo_id_diferente_do_arquivo_sai(tmp_data):
+    _sel_e_diario(tmp_data, {"mundo": [MUNDO_OK["item_id"]]})
+    escrever_json(tmp_data / "mundo/outro_nome.json", MUNDO_OK)
+    main(["validar", "--data", D])
+    assert not (tmp_data / "mundo/outro_nome.json").exists()
+    assert ler_json(tmp_data / f"diario/{D}.json")["mundo"] == []
+
+
+def test_validar_mundo_de_outro_dia_nao_commitado_sai(tmp_data):
+    _sel_e_diario(tmp_data)
+    escrever_mundo(tmp_data, {**MUNDO_OK, "item_id": "mundo:2026-10-27:1", "data": "2026-10-27"})
+    main(["validar", "--data", D])
+    assert not (tmp_data / "mundo/mundo_2026-10-27_1.json").exists()
+
+
+def test_validar_restaura_diario_de_outro_dia_e_tema_que_perdeu_a_marca(tmp_data, monkeypatch):
+    import json
+
+    from politik import validar as v
+
+    antigo = {"data": "2026-10-27", "temas": [], "fichas": []}
+    tema_commitado = {
+        **TEMA_OK,
+        "internacional": True,
+        "linha_do_tempo": [
+            {
+                **TEMA_OK["linha_do_tempo"][0],
+                "fontes": [
+                    {"nome": "BBC", "url": "https://www.bbc.com/a"},
+                    {"nome": "DW", "url": "https://www.dw.com/b"},
+                ],
+            }
+        ],
+    }
+    commitados = {"diario/2026-10-27.json": antigo, "temas/caso-master.json": tema_commitado}
+
+    def commitado(caminho):
+        for fim, conteudo in commitados.items():
+            if str(caminho).endswith(fim):
+                return json.dumps(conteudo).encode()
+        return None
+
+    monkeypatch.setattr(v, "_versao_commitada", commitado)
+    _sel_e_diario(tmp_data)
+    escrever_json(tmp_data / "diario/2026-10-27.json", {**antigo, "mundo": ["mundo:2026-10-27:9"]})
+    escrever_tema(tmp_data, TEMA_OK)  # o Claude tirou "internacional" e deixou uma fonte só
+    main(["validar", "--data", D])
+    assert ler_json(tmp_data / "diario/2026-10-27.json") == antigo
+    assert ler_json(tmp_data / "temas/caso-master.json")["internacional"] is True
