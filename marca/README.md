@@ -14,6 +14,7 @@ sem se misturar. O símbolo do Politik mostra exatamente isso: duas águas, cada
 | `simbolo-contorno.svg` | Símbolo com contorno Espuma, **obrigatório sobre fundo escuro** (topo do site, modo escuro, posts escuros): sem ele a metade Rio Negro some no fundo. |
 | `logo.svg` | Símbolo + nome + slogan, na horizontal. Cabeçalhos, documentos, apresentações. |
 | `marca-dagua.svg` | Marca d'água para posts e imagens: símbolo pequeno + "politik · os fatos lado a lado". Herda a cor do texto. |
+| `boas-vindas-telegram.png` | Welcome Picture do bot (640×360): aparece acima da descrição, na conversa vazia. |
 | `avatar-512.png` | Foto do bot do Telegram e perfis (quadrado; as redes recortam em círculo). Já traz o contorno claro, para não sumir no tema escuro do app. |
 
 ## Cores
