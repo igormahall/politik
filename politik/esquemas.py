@@ -12,8 +12,18 @@ def _datas(d: dict, campos: list[str]) -> list[str]:
             erros.append(f"{c}: data inválida {d.get(c)!r} (use AAAA-MM-DD)")
     return erros
 
-TEXTOS_FICHA = ["item_id", "tipo_simples", "situacao", "titulo", "o_que_e", "quem_propos",
-                "o_que_muda", "proximo_passo", "data"]
+
+TEXTOS_FICHA = [
+    "item_id",
+    "tipo_simples",
+    "situacao",
+    "titulo",
+    "o_que_e",
+    "quem_propos",
+    "o_que_muda",
+    "proximo_passo",
+    "data",
+]
 TEXTOS_TEMA = ["slug", "nome", "inicio", "ultima_novidade", "resumo_ate_aqui", "explica_do_zero"]
 
 

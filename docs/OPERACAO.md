@@ -11,15 +11,21 @@ O que é o Politik e seus critérios estão no [README](../README.md).
 Todo dia às 10:00 UTC (6h em Manaus) o GitHub Actions roda `.github/workflows/diario.yml`:
 
 1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 16 feeds de imprensa
-   e as tramitações de projetos já acompanhados → `data/brutos/<dia>/`
+   e as tramitações de projetos já acompanhados → `data/brutos/<dia>/` (temporário, fora do git).
+   As votações da Câmara são agrupadas pelo projeto votado.
 2. `filtrar`: separa destaques (até 25), notícias (até 60) e itens menores → `data/selecionados/<dia>.json`
-3. **Claude Code** (sua assinatura) roda `/traduzir <dia>` → fichas, temas e diário em `data/`
+   (guarda todos os itens do dia; é o registro bruto que fica no histórico)
+3. **Claude Code** (sua assinatura) roda `/traduzir <dia>` → fichas (com `importancia` 1–3), temas e diário
+   em `data/`. Ele só pode ler `data/` e `editorial/` e só pode escrever em `data/`.
 4. `validar`: confere o que o Claude escreveu; o que estiver errado volta para a fila
 5. `site`: gera o site → GitHub Pages
 6. `enviar`: manda o resumo no Telegram
 7. salva `data/` no repositório (é o histórico)
 
 Se uma fonte cai ou a cota do Claude acaba, o resumo sai do mesmo jeito, com um aviso.
+
+Outros workflows: **Carga de tema** (`carga-tema.yml`, manual: monta o passado de um tema com pesquisa na web)
+e **Testes** (`testes.yml`, a cada push de código: `ruff` + `pytest`).
 
 ## Configuração (uma vez só)
 
@@ -65,11 +71,23 @@ Se uma fonte cai ou a cota do Claude acaba, o resumo sai do mesmo jeito, com um 
 - **Veículos de imprensa:** `config/imprensa.toml`.
 - **Tom e regras dos textos:** `editorial/GUIA.md`.
 
+## Segurança
+
+- **Segredos** só existem em *GitHub Secrets*; nada sensível é gravado em `data/` ou no site.
+  O histórico do git foi auditado em 30/10/2026 sem nenhuma credencial encontrada.
+- Cada segredo só entra no passo que precisa dele: INLABS no `coletar`, Telegram no `enviar`,
+  token de push só no commit (`persist-credentials: false` no checkout).
+- Erros de envio ao Telegram nunca carregam a URL (que contém o token).
+- O **Claude** lê conteúdo de terceiros (notícias, páginas): por isso só escreve em `data/`, e o código é
+  restaurado do git logo depois do passo dele.
+- Links no site só aceitam `http(s)`; textos são escapados.
+- Actions fixadas por commit (SHA); o Dependabot abre PRs semanais para atualizá-las.
+
 ## Rodando no laptop
 
 ```bash
 python -m venv .venv && .venv/bin/pip install -e .[dev]
-.venv/bin/pytest
+.venv/bin/ruff check . && .venv/bin/ruff format --check . && .venv/bin/pytest
 .venv/bin/python -m politik coletar --data 2026-10-28
 .venv/bin/python -m politik filtrar --data 2026-10-28
 claude -p "/traduzir 2026-10-28" --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob" --max-turns 60

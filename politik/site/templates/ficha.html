@@ -10,8 +10,8 @@
 <h2>Próximo passo</h2><p>{{ f.proximo_passo }}</p>
 {% if f.fonte_unica %}<p class="aviso">⚠️ Informação de uma fonte só.</p>{% endif %}
 <h2>Fontes</h2>
-<ul>{% for fo in f.fontes %}<li><a href="{{ fo.url }}">{{ fo.nome }}</a></li>{% endfor %}
-{% if ":votacao:" in f.item_id %}<li><a href="{{ f.fontes[0].url }}">🗳️ Como votaram</a></li>{% endif %}</ul>
+<ul>{% for fo in f.fontes %}<li><a href="{{ fo.url | seguro }}">{{ fo.nome }}</a></li>{% endfor %}
+{% if ":votacao:" in f.item_id %}<li><a href="{{ f.fontes[0].url | seguro }}">🗳️ Como votaram</a></li>{% endif %}</ul>
 {% if f.temas %}<p>Temas: {% for s in f.temas %}{% if temas.get(s) %}<a href="{{ url_tema(s) }}">{{ temas[s].nome }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}</p>{% endif %}
 <p class="discreto">Publicado no Politik em {{ f.data }}.</p>
 {% endblock %}

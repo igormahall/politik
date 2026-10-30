@@ -39,15 +39,16 @@ def cmd_filtrar(args) -> int:
         if not f.name.startswith("_"):
             itens += carregar_itens(f)
     falhas = ler_json(pasta / "_falhas.json", {})
-    sel, pend = filtrar(args.data, itens, ler_json(data_dir() / "pendentes.json", []),
-                        carregar_cfg(), carregar_temas())
+    sel, pend = filtrar(args.data, itens, ler_json(data_dir() / "pendentes.json", []), carregar_cfg(), carregar_temas())
     sel["fontes_indisponiveis"] = sorted(falhas)
     for chave in ("destaques", "noticias", "menores"):
         sel[chave] = [i.to_dict() for i in sel[chave]]
     escrever_json(data_dir() / "selecionados" / f"{args.data}.json", sel)
     escrever_json(data_dir() / "pendentes.json", pend)
-    print(f"destaques={len(sel['destaques'])} noticias={len(sel['noticias'])} "
-          f"menores={len(sel['menores'])} pendentes={len(pend)}")
+    print(
+        f"destaques={len(sel['destaques'])} noticias={len(sel['noticias'])} "
+        f"menores={len(sel['menores'])} pendentes={len(pend)}"
+    )
     return 0
 
 
@@ -57,8 +58,10 @@ def cmd_validar(args) -> int:
 
     diario = validar(args.data)
     inativos = marcar_inativos(args.data, carregar_cfg()["inatividade_tema_dias"])
-    print(f"fichas válidas={len(diario['fichas'])} temas={len(diario['temas'])} "
-          f"sem_traducao={diario.get('sem_traducao', False)} inativados={inativos}")
+    print(
+        f"fichas válidas={len(diario['fichas'])} temas={len(diario['temas'])} "
+        f"sem_traducao={diario.get('sem_traducao', False)} inativados={inativos}"
+    )
     return 0
 
 
@@ -89,8 +92,9 @@ def cmd_registrar_uso(args) -> int:
     try:
         eventos = json.loads(Path(args.arquivo).read_text(encoding="utf-8"))
         res = next(e for e in reversed(eventos) if e.get("type") == "result")
-        reg.update(num_turns=res.get("num_turns"), duration_ms=res.get("duration_ms"),
-                   sucesso=not res.get("is_error", True))
+        reg.update(
+            num_turns=res.get("num_turns"), duration_ms=res.get("duration_ms"), sucesso=not res.get("is_error", True)
+        )
     except (OSError, ValueError, StopIteration, AttributeError, TypeError):
         pass
     caminho = data_dir() / "uso.jsonl"

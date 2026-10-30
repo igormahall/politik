@@ -1,7 +1,7 @@
 from politik.__main__ import main
 from politik.armazenamento import escrever_json, ler_json
 from politik.temas import marcar_inativos
-from tests.helpers import D, FICHA_OK, TEMA_OK, escrever_ficha, escrever_selecionados, escrever_tema, item
+from tests.helpers import D, escrever_ficha, escrever_selecionados, escrever_tema, FICHA_OK, item, TEMA_OK
 
 
 def test_validar_sem_diario_reenfileira(tmp_data):
@@ -34,8 +34,10 @@ def test_validar_destaque_sem_ficha_volta_para_pendentes(tmp_data):
 def test_validar_tema_invalido_sai_do_diario(tmp_data):
     escrever_selecionados(tmp_data, D)
     escrever_tema(tmp_data, {**TEMA_OK, "resumo_ate_aqui": ""})
-    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "fichas": [],
-                  "temas": [{"slug": "caso-master", "novo_hoje": "x", "aviso_fonte_unica": None}]})
+    escrever_json(
+        tmp_data / f"diario/{D}.json",
+        {"data": D, "fichas": [], "temas": [{"slug": "caso-master", "novo_hoje": "x", "aviso_fonte_unica": None}]},
+    )
     main(["validar", "--data", D])
     assert ler_json(tmp_data / f"diario/{D}.json")["temas"] == []
 

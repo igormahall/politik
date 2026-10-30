@@ -11,7 +11,9 @@ def test_parse_autoria_com_partido():
 
 
 def test_parse_varios_autores():
-    it = parse_processos([{**BASE, "autoria": "Senador Jorge Seif (PL/SC), Senadora Damares Alves (REPUBLICANOS/DF)"}])[0]
+    it = parse_processos([{**BASE, "autoria": "Senador Jorge Seif (PL/SC), Senadora Damares Alves (REPUBLICANOS/DF)"}])[
+        0
+    ]
     assert it.autores == [Autor("Jorge Seif", "PL", "SC"), Autor("Damares Alves", "REPUBLICANOS", "DF")]
 
 

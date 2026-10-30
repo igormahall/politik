@@ -1,35 +1,78 @@
+import tomllib
+from pathlib import Path
+
 from politik.armazenamento import escrever_json, id_seguro
 from politik.modelos import Item
 
 D = "2026-10-28"
+CFG = tomllib.loads(Path("config/filtro.toml").read_text())
 
 FICHA_OK = {
-    "item_id": "camara:1", "nivel": "federal", "tipo_simples": "Projeto de lei",
-    "situacao": "Proposta apresentada", "titulo": "Muda o saque do FGTS",
-    "o_que_e": "Um projeto que muda o saque.", "quem_propos": "Dep. Ana (PT–AM)",
-    "o_que_muda": "Ainda não muda nada: é só uma proposta.", "proximo_passo": "Vai para as comissões.",
+    "item_id": "camara:1",
+    "nivel": "federal",
+    "tipo_simples": "Projeto de lei",
+    "situacao": "Proposta apresentada",
+    "titulo": "Muda o saque do FGTS",
+    "o_que_e": "Um projeto que muda o saque.",
+    "quem_propos": "Dep. Ana (PT–AM)",
+    "o_que_muda": "Ainda não muda nada: é só uma proposta.",
+    "proximo_passo": "Vai para as comissões.",
     "fontes": [{"nome": "Câmara dos Deputados", "url": "https://www.camara.leg.br/x"}],
-    "fonte_unica": False, "temas": [], "data": D,
+    "fonte_unica": False,
+    "temas": [],
+    "data": D,
 }
 
 TEMA_OK = {
-    "slug": "caso-master", "nome": "Caso Master", "inicio": "2025-11-18", "ativo": True,
-    "ultima_novidade": D, "palavras_chave": ["Banco Master"], "resumo_ate_aqui": "Resumo.",
+    "slug": "caso-master",
+    "nome": "Caso Master",
+    "inicio": "2025-11-18",
+    "ativo": True,
+    "ultima_novidade": D,
+    "palavras_chave": ["Banco Master"],
+    "resumo_ate_aqui": "Resumo.",
     "explica_do_zero": "Do zero.",
-    "linha_do_tempo": [{"data": "2025-11-18", "fato": "Fato.", "fontes": [{"nome": "Agência Brasil", "url": "https://a"}],
-                        "fonte_unica": True}],
+    "linha_do_tempo": [
+        {
+            "data": "2025-11-18",
+            "fato": "Fato.",
+            "fontes": [{"nome": "Agência Brasil", "url": "https://a"}],
+            "fonte_unica": True,
+        }
+    ],
 }
 
 
 def item(id="camara:1", **kw):
-    return Item(**{**dict(id=id, fonte="camara", nivel="federal", categoria="proposicao", sigla_tipo="PL",
-                          titulo="PL 1/2026", ementa="Ementa original", data=D, url="https://u"), **kw})
+    return Item(
+        **{
+            **dict(
+                id=id,
+                fonte="camara",
+                nivel="federal",
+                categoria="proposicao",
+                sigla_tipo="PL",
+                titulo="PL 1/2026",
+                ementa="Ementa original",
+                data=D,
+                url="https://u",
+            ),
+            **kw,
+        }
+    )
 
 
 def escrever_selecionados(d, data, destaques=(), noticias=(), menores=(), indisponiveis=()):
-    escrever_json(d / f"selecionados/{data}.json", {
-        "data": data, "destaques": [i.to_dict() for i in destaques], "noticias": [i.to_dict() for i in noticias],
-        "menores": [i.to_dict() for i in menores], "fontes_indisponiveis": list(indisponiveis)})
+    escrever_json(
+        d / f"selecionados/{data}.json",
+        {
+            "data": data,
+            "destaques": [i.to_dict() for i in destaques],
+            "noticias": [i.to_dict() for i in noticias],
+            "menores": [i.to_dict() for i in menores],
+            "fontes_indisponiveis": list(indisponiveis),
+        },
+    )
 
 
 def escrever_ficha(d, ficha):

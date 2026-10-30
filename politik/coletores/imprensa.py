@@ -2,14 +2,14 @@ import hashlib
 import re
 import sys
 import tomllib
-from datetime import datetime, timezone
+from datetime import datetime, UTC
 from html import unescape
 from pathlib import Path
 
 import feedparser
 import httpx
 
-from politik.coletores import registrar
+from politik.coletores import FonteIndisponivel, registrar
 from politik.datas import FUSO
 from politik.modelos import Item
 
@@ -31,21 +31,23 @@ def parse_feed(veiculo: str, secao: str, conteudo: bytes, data: str) -> list[Ite
         quando = e.get("published_parsed") or e.get("updated_parsed")
         if not quando or not e.get("link"):
             continue
-        dia = datetime(*quando[:6], tzinfo=timezone.utc).astimezone(FUSO).date().isoformat()
+        dia = datetime(*quando[:6], tzinfo=UTC).astimezone(FUSO).date().isoformat()
         if dia != data:
             continue
-        itens.append(Item(
-            id=f"imprensa:{veiculo}:{hashlib.sha1(e.link.encode()).hexdigest()[:12]}",
-            fonte=f"imprensa:{veiculo}",
-            nivel="estadual" if secao == "amazonas" else "federal",
-            categoria="noticia",
-            sigla_tipo="NOTICIA",
-            titulo=_sem_tags(e.get("title", "")),
-            ementa=_sem_tags(e.get("summary", ""))[:500],
-            data=dia,
-            url=e.link,
-            extra={"veiculo": veiculo, "secao": secao},
-        ))
+        itens.append(
+            Item(
+                id=f"imprensa:{veiculo}:{hashlib.sha1(e.link.encode()).hexdigest()[:12]}",
+                fonte=f"imprensa:{veiculo}",
+                nivel="estadual" if secao == "amazonas" else "federal",
+                categoria="noticia",
+                sigla_tipo="NOTICIA",
+                titulo=_sem_tags(e.get("title", "")),
+                ementa=_sem_tags(e.get("summary", ""))[:500],
+                data=dia,
+                url=e.link,
+                extra={"veiculo": veiculo, "secao": secao},
+            )
+        )
     return itens
 
 
@@ -59,9 +61,9 @@ def _texto_pagina(cliente: httpx.Client, url: str) -> str:
 
 @registrar("imprensa")
 def coletar(data: str) -> list[Item]:
-    itens = []
+    itens, feeds, falhas = [], carregar_feeds(), 0
     with httpx.Client(timeout=30, follow_redirects=True, headers=UA) as cliente:
-        for f in carregar_feeds():
+        for f in feeds:
             try:
                 r = cliente.get(f["url"])
                 r.raise_for_status()
@@ -74,5 +76,8 @@ def coletar(data: str) -> list[Item]:
                             pass
                 itens += novos
             except Exception as e:  # um feed ruim não derruba os outros
+                falhas += 1
                 print(f"imprensa: feed {f['veiculo']} falhou: {e}", file=sys.stderr)
+    if feeds and falhas == len(feeds):
+        raise FonteIndisponivel("todos os feeds de imprensa falharam")
     return itens

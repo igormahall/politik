@@ -29,7 +29,10 @@ def parse_artigo(xml: bytes) -> Item | None:
     if art is None or not art.get("idMateria"):
         return None
     corpo = art.find("body")
-    texto = lambda tag: (corpo.findtext(tag) or "").strip() if corpo is not None else ""
+
+    def texto(tag: str) -> str:
+        return (corpo.findtext(tag) or "").strip() if corpo is not None else ""
+
     dia, mes, ano = art.get("pubDate", "").split("/")
     ementa = texto("Ementa") or _sem_tags(texto("Texto"))[:300]
     return Item(

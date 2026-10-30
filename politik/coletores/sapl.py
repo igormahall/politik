@@ -92,14 +92,22 @@ def coletar_casa(casa: str, data: str, cliente: httpx.Client | None = None) -> l
     cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"})
     base, _ = CASAS[casa]
     tipos = parse_tipos({"results": _resultados(cliente, f"{base}/api/materia/tipomaterialegislativa/?page_size=100")})
-    materias = parse_materias(casa, {"results": _resultados(
-        cliente, f"{base}/api/materia/materialegislativa/?data_apresentacao={data}&page_size=100")}, tipos)
+    materias = parse_materias(
+        casa,
+        {
+            "results": _resultados(
+                cliente, f"{base}/api/materia/materialegislativa/?data_apresentacao={data}&page_size=100"
+            )
+        },
+        tipos,
+    )
     cache: dict = {}
     for m in materias:
         if m.sigla_tipo in SIGLAS_COM_AUTORES:
             m.autores = _autores(cliente, base, m.id.split(":")[-1], cache)
-    normas = parse_normas(casa, {"results": _resultados(
-        cliente, f"{base}/api/norma/normajuridica/?data={data}&page_size=100")})
+    normas = parse_normas(
+        casa, {"results": _resultados(cliente, f"{base}/api/norma/normajuridica/?data={data}&page_size=100")}
+    )
     return materias + normas
 
 

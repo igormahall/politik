@@ -5,7 +5,7 @@ requires-python = ">=3.12"
 dependencies = ["httpx", "feedparser", "jinja2"]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "pyyaml", "ruff"]
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -19,3 +19,14 @@ include = ["politik*"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["F", "E", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.isort]
+order-by-type = false

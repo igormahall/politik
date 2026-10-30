@@ -43,8 +43,9 @@ def _idade(data: str, primeira_vez: str) -> int:
     return (date.fromisoformat(data) - date.fromisoformat(primeira_vez)).days
 
 
-def filtrar(data: str, itens: list[Item], pendentes: list[dict], cfg: dict,
-            temas: list[dict]) -> tuple[dict, list[dict]]:
+def filtrar(
+    data: str, itens: list[Item], pendentes: list[dict], cfg: dict, temas: list[dict]
+) -> tuple[dict, list[dict]]:
     menores: list[Item] = []
     noticias: list[Item] = []
     candidatos: list[tuple[Item, str]] = []  # (item, primeira_vez)
@@ -75,10 +76,15 @@ def filtrar(data: str, itens: list[Item], pendentes: list[dict], cfg: dict,
     novos_pendentes = [{"item": it.to_dict(), "primeira_vez": pv} for it, pv in candidatos[teto:]]
 
     noticias.sort(key=lambda it: 0 if casa_tema(it, temas) else 1)
-    menores += noticias[cfg["teto_noticias"]:]
-    noticias = noticias[:cfg["teto_noticias"]]
+    menores += noticias[cfg["teto_noticias"] :]
+    noticias = noticias[: cfg["teto_noticias"]]
 
-    selecionados = {"data": data, "destaques": destaques, "noticias": noticias,
-                    "menores": menores, "fontes_indisponiveis": [],
-                    "primeira_vez": {it.id: pv for it, pv in candidatos[:teto]}}
+    selecionados = {
+        "data": data,
+        "destaques": destaques,
+        "noticias": noticias,
+        "menores": menores,
+        "fontes_indisponiveis": [],
+        "primeira_vez": {it.id: pv for it, pv in candidatos[:teto]},
+    }
     return selecionados, novos_pendentes

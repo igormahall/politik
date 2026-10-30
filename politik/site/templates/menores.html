@@ -3,5 +3,5 @@
 {% block conteudo %}
 <h1>Itens menores de {{ d }}</h1>
 <p class="discreto">Requerimentos, homenagens, pareceres, atos de rotina e notícias que não entraram no resumo. Textos originais, sem tradução.</p>
-<ul>{% for i in menores %}<li><a href="{{ i.url }}">{{ i.titulo }}</a> <span class="etiqueta">{{ i.fonte }}</span><br><small>{{ i.ementa }}</small></li>{% endfor %}</ul>
+<ul>{% for i in menores %}<li><a href="{{ i.url | seguro }}">{{ i.titulo }}</a> <span class="etiqueta">{{ i.fonte }}</span><br><small>{{ i.ementa }}</small></li>{% endfor %}</ul>
 {% endblock %}

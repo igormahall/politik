@@ -11,8 +11,12 @@ def popular_exemplo(d, titulo=None, sem_traducao=False):
     ficha = load("exemplo_saida/ficha.json")
     if titulo:
         ficha["titulo"] = titulo
-    escrever_selecionados(d, D, destaques=[item(ID, ementa="Ementa <original>")],
-                          menores=[item("camara:9", sigla_tipo="REQ", titulo="REQ 9/2026", ementa="Requer algo")])
+    escrever_selecionados(
+        d,
+        D,
+        destaques=[item(ID, ementa="Ementa <original>")],
+        menores=[item("camara:9", sigla_tipo="REQ", titulo="REQ 9/2026", ementa="Requer algo")],
+    )
     if sem_traducao:
         escrever_json(d / f"diario/{D}.json", {"data": D, "temas": [], "fichas": [], "sem_traducao": True})
         return
@@ -24,8 +28,15 @@ def popular_exemplo(d, titulo=None, sem_traducao=False):
 def test_site_gera_paginas(tmp_data, tmp_path):
     popular_exemplo(tmp_data)
     assert main(["site", "--saida", str(tmp_path), "--base-url", "https://x.github.io/politik"]) == 0
-    for p in ["index.html", f"dia/{D}.html", "ficha/camara_2649124.html", "tema/caso-master.html",
-              f"menores/{D}.html", "arquivo.html", "estilo.css"]:
+    for p in [
+        "index.html",
+        f"dia/{D}.html",
+        "ficha/camara_2649124.html",
+        "tema/caso-master.html",
+        f"menores/{D}.html",
+        "arquivo.html",
+        "estilo.css",
+    ]:
         assert (tmp_path / p).exists(), p
     ficha = (tmp_path / "ficha/camara_2649124.html").read_text()
     for trecho in ["O que é", "Quem propôs", "O que muda pra você", "Próximo passo", "Proposta apresentada"]:
@@ -55,7 +66,8 @@ def test_urls():
 
 
 def test_site_dia_ordena_por_importancia(tmp_data, tmp_path):
-    from tests.helpers import FICHA_OK, escrever_ficha
+    from tests.helpers import escrever_ficha, FICHA_OK
+
     escrever_selecionados(tmp_data, D, destaques=[item("camara:1"), item("camara:2")])
     escrever_ficha(tmp_data, {**FICHA_OK, "item_id": "camara:1", "titulo": "Menos importante", "importancia": 3})
     escrever_ficha(tmp_data, {**FICHA_OK, "item_id": "camara:2", "titulo": "Mais importante", "importancia": 1})

@@ -7,13 +7,11 @@ from html import escape
 import httpx
 
 from politik.armazenamento import data_dir, id_seguro, ler_json
-from politik.site.gerador import NIVEIS, url_ficha, url_menores, url_tema
+from politik.site.gerador import NIVEIS, NOMES_FONTES, url_ficha, url_menores, url_tema
 
 LIMITE = 4096
 DIAS = ["segunda", "terça", "quarta", "quinta", "sexta", "sábado", "domingo"]
 MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
-NOMES_FONTES = {"camara": "Câmara", "senado": "Senado", "aleam": "Assembleia do AM", "cmm": "Câmara de Manaus",
-                "dou": "Diário Oficial da União", "imprensa": "Imprensa", "tramitacao": "Tramitações"}
 
 
 def _frases(texto: str, n: int) -> str:
@@ -42,8 +40,10 @@ def _dividir(texto: str) -> list[str]:
 
 def compor(data: str, base_url: str) -> list[dict]:
     base = data_dir()
-    sel = ler_json(base / "selecionados" / f"{data}.json",
-                   {"destaques": [], "noticias": [], "menores": [], "fontes_indisponiveis": []})
+    sel = ler_json(
+        base / "selecionados" / f"{data}.json",
+        {"destaques": [], "noticias": [], "menores": [], "fontes_indisponiveis": []},
+    )
     diario = ler_json(base / "diario" / f"{data}.json", {"temas": [], "fichas": [], "sem_traducao": True})
     d = date.fromisoformat(data)
 
@@ -63,14 +63,21 @@ def compor(data: str, base_url: str) -> list[dict]:
         blocos.append(("\n<b>🔥 Temas em andamento</b>", None))
     for t, tema in temas:
         dias = (d - date.fromisoformat(tema["inicio"])).days + 1
-        linhas = [f"<b>{escape(tema['nome'])}</b> · dia {dias}",
-                  f"<i>Resumo até aqui:</i> {escape(_frases(tema['resumo_ate_aqui'], 3))}",
-                  f"<i>Novo hoje:</i> {escape(t['novo_hoje'])}"]
+        linhas = [
+            f"<b>{escape(tema['nome'])}</b> · dia {dias}",
+            f"<i>Resumo até aqui:</i> {escape(_frases(tema['resumo_ate_aqui'], 3))}",
+            f"<i>Novo hoje:</i> {escape(t['novo_hoje'])}",
+        ]
         if t.get("aviso_fonte_unica"):
             linhas.append(f"⚠️ {escape(t['aviso_fonte_unica'])}")
-        botoes = {"inline_keyboard": [[
-            {"text": "🕒 Linha do tempo", "url": url_tema(t["slug"], "linha-do-tempo", base_url)},
-            {"text": "❓ Me explica do zero", "url": url_tema(t["slug"], "do-zero", base_url)}]]}
+        botoes = {
+            "inline_keyboard": [
+                [
+                    {"text": "🕒 Linha do tempo", "url": url_tema(t["slug"], "linha-do-tempo", base_url)},
+                    {"text": "❓ Me explica do zero", "url": url_tema(t["slug"], "do-zero", base_url)},
+                ]
+            ]
+        }
         blocos.append(("\n".join(linhas), botoes))
 
     nov = ["\n<b>📜 Novidades oficiais</b>"]
@@ -78,11 +85,15 @@ def compor(data: str, base_url: str) -> list[dict]:
         itens = [(i["nivel"], i["url"], i["titulo"], i.get("ementa", ""), 2) for i in sel["destaques"]]
     else:
         fichas = [ler_json(base / "fichas" / f"{id_seguro(i)}.json") for i in diario.get("fichas", [])]
-        itens = [(f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"], "", f.get("importancia") or 2)
-                 for f in fichas if f]
+        itens = [
+            (f["nivel"], url_ficha(f["item_id"], base_url), f["titulo"], "", f.get("importancia") or 2)
+            for f in fichas
+            if f
+        ]
         itens.sort(key=lambda i: i[4])  # estável: mantém a ordem do Claude dentro da mesma importância
     if not itens:
         nov.append("Nenhuma novidade oficial ontem.")
+
     def linha(u, t, e):
         return f'• <a href="{escape(u)}">{escape(t)}</a>' + (f" — {escape(_curto(e))}" if e else "")
 
@@ -102,8 +113,12 @@ def compor(data: str, base_url: str) -> list[dict]:
     # junta blocos sem botões em mensagens, respeitando o limite
     msgs: list[dict] = []
     for texto, markup in blocos:
-        if markup is None and msgs and msgs[-1]["reply_markup"] is None \
-                and len(msgs[-1]["text"]) + len(texto) + 1 <= LIMITE:
+        if (
+            markup is None
+            and msgs
+            and msgs[-1]["reply_markup"] is None
+            and len(msgs[-1]["text"]) + len(texto) + 1 <= LIMITE
+        ):
             msgs[-1]["text"] += "\n" + texto
             continue
         for parte in _dividir(texto):
@@ -111,17 +126,32 @@ def compor(data: str, base_url: str) -> list[dict]:
     return msgs
 
 
-def enviar(mensagens: list[dict], token: str, chat_id: str, cliente: httpx.Client | None = None) -> None:
+def enviar(
+    mensagens: list[dict], token: str, chat_id: str, cliente: httpx.Client | None = None, espera: float = 1
+) -> None:
     cliente = cliente or httpx.Client(timeout=30)
     for m in mensagens:
         corpo = {"chat_id": chat_id, "text": m["text"], "parse_mode": "HTML", "disable_web_page_preview": True}
         if m.get("reply_markup"):
             corpo["reply_markup"] = json.dumps(m["reply_markup"])
         for tentativa in range(2):
-            r = cliente.post(f"https://api.telegram.org/bot{token}/sendMessage", data=corpo)
-            if r.status_code == 429 or r.status_code >= 500:
-                if tentativa == 0:
-                    time.sleep(float(r.json().get("parameters", {}).get("retry_after", 1)) if r.status_code == 429 else 1)
-                    continue
-            r.raise_for_status()
+            try:
+                r = cliente.post(f"https://api.telegram.org/bot{token}/sendMessage", data=corpo)
+            except httpx.HTTPError as e:
+                # a URL leva o token: nunca deixar a exceção original chegar ao log
+                raise RuntimeError(f"Telegram inacessível: {type(e).__name__}") from None
+            if (r.status_code == 429 or r.status_code >= 500) and tentativa == 0:
+                if espera:
+                    try:
+                        pedido = float(r.json().get("parameters", {}).get("retry_after", 0))
+                    except ValueError:
+                        pedido = 0
+                    time.sleep(max(espera, pedido))
+                continue
+            if r.status_code != 200:
+                try:
+                    motivo = r.json().get("description", "")
+                except ValueError:
+                    motivo = ""
+                raise RuntimeError(f"Telegram respondeu {r.status_code}: {motivo}") from None
             break

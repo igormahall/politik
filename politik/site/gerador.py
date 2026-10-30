@@ -6,6 +6,21 @@ from jinja2 import Environment, PackageLoader, select_autoescape
 from politik.armazenamento import data_dir, id_seguro, ler_json
 
 NIVEIS = [("federal", "🇧🇷 Federal"), ("estadual", "🌳 Amazonas"), ("municipal", "🏙️ Manaus")]
+NOMES_FONTES = {
+    "camara": "Câmara",
+    "senado": "Senado",
+    "aleam": "Assembleia do AM",
+    "cmm": "Câmara de Manaus",
+    "dou": "Diário Oficial da União",
+    "imprensa": "Imprensa",
+    "tramitacao": "Tramitações",
+}
+
+
+def link_seguro(url: str | None) -> str:
+    """Só http(s): links vindos de feeds e do Claude não podem virar javascript: no site."""
+    u = (url or "").strip()
+    return u if u.lower().startswith(("https://", "http://")) else "#"
 
 
 def _b(base: str) -> str:
@@ -39,10 +54,16 @@ def gerar(saida: Path, base_url: str) -> None:
     temas = _carregar(base / "temas")
     diarios = _carregar(base / "diario")
     env = Environment(loader=PackageLoader("politik.site", "templates"), autoescape=select_autoescape(["html"]))
-    env.globals.update(base=_b(base_url), url_ficha=lambda i: url_ficha(i, base_url),
-                       url_tema=lambda s, a=None: url_tema(s, a, base_url),
-                       url_menores=lambda d: url_menores(d, base_url), url_dia=lambda d: url_dia(d, base_url),
-                       niveis=NIVEIS)
+    env.globals.update(
+        base=_b(base_url),
+        url_ficha=lambda i: url_ficha(i, base_url),
+        url_tema=lambda s, a=None: url_tema(s, a, base_url),
+        url_menores=lambda d: url_menores(d, base_url),
+        url_dia=lambda d: url_dia(d, base_url),
+        niveis=NIVEIS,
+    )
+    env.filters["seguro"] = link_seguro
+    env.filters["nome_fonte"] = lambda f: NOMES_FONTES.get(f, f)
 
     def escrever(rel: str, tpl: str, **ctx):
         destino = saida / rel
@@ -55,15 +76,19 @@ def gerar(saida: Path, base_url: str) -> None:
     for iid, f in fichas.items():
         escrever(f"ficha/{id_seguro(iid)}.html", "ficha.html", f=f, temas=temas)
     for slug, t in temas.items():
-        escrever(f"tema/{slug}.html", "tema.html", t=t,
-                 fichas=[f for f in fichas.values() if slug in f.get("temas", [])])
+        escrever(
+            f"tema/{slug}.html", "tema.html", t=t, fichas=[f for f in fichas.values() if slug in f.get("temas", [])]
+        )
 
     dias = sorted(diarios, reverse=True)
     for d in dias:
         diario = diarios[d]
-        sel = ler_json(base / "selecionados" / f"{d}.json", {"destaques": [], "menores": [], "fontes_indisponiveis": []})
-        itens_dia = sorted((fichas[i] for i in diario.get("fichas", []) if i in fichas),
-                           key=lambda f: f.get("importancia") or 2)
+        sel = ler_json(
+            base / "selecionados" / f"{d}.json", {"destaques": [], "menores": [], "fontes_indisponiveis": []}
+        )
+        itens_dia = sorted(
+            (fichas[i] for i in diario.get("fichas", []) if i in fichas), key=lambda f: f.get("importancia") or 2
+        )
         ctx = dict(d=d, diario=diario, sel=sel, temas=temas, fichas=itens_dia)
         escrever(f"dia/{d}.html", "dia.html", **ctx)
         escrever(f"menores/{d}.html", "menores.html", d=d, menores=sel.get("menores", []))
@@ -71,5 +96,9 @@ def gerar(saida: Path, base_url: str) -> None:
             escrever("index.html", "dia.html", **ctx)
     if not dias:
         escrever("index.html", "arquivo.html", dias=[], temas=temas)
-    escrever("arquivo.html", "arquivo.html", dias=dias,
-             temas=dict(sorted(temas.items(), key=lambda kv: (not kv[1].get("ativo"), kv[1].get("nome", "")))))
+    escrever(
+        "arquivo.html",
+        "arquivo.html",
+        dias=dias,
+        temas=dict(sorted(temas.items(), key=lambda kv: (not kv[1].get("ativo"), kv[1].get("nome", "")))),
+    )
