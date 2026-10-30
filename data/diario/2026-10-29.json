@@ -2,27 +2,47 @@
   "data": "2026-10-29",
   "temas": [
     {
-      "slug": "saida-de-flavio-bolsonaro-do-pais",
-      "novo_hoje": "O presidente do PL, Valdemar Costa Neto, disse que ninguém aprovou a carta de Flávio, e União Brasil, MDB e Tarcísio de Freitas defenderam o resultado da eleição. O governo brasileiro decidiu não reagir à saída do senador.",
-      "aviso_fonte_unica": "O pedido dos EUA para tirar \"presidente eleito\" da carta (g1), o pedido de asilo (Gazeta do Povo), o status migratório temporário (Folha) e o voo pago por intermediário (Estadão) foram divulgados cada um por apenas um veículo."
+      "slug": "caso-master",
+      "novo_hoje": "Fachin devolveu o caso INSS a Mendonça e manteve o caso Master na Presidência do STF. A defesa de Vorcaro disse ao STF que o celular dele foi alterado depois da apreensão.",
+      "aviso_fonte_unica": "Parte das novidades de hoje vem só do g1: a decisão de Fachin sobre a Presidência do STF, o depoimento de Vorcaro e o relatório da PF sobre o BRB.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin mantém o caso Master na Presidência do STF"
     },
     {
       "slug": "violencia-e-assedio-eleitoral-2026",
-      "novo_hoje": "O MPT informou 3.396 denúncias de assédio eleitoral em 2026 e processou a Meta, pedindo a remoção de posts que incentivam demissão por voto e R$ 50 milhões de indenização. Um projeto sobre o tema foi apresentado no Senado.",
-      "aviso_fonte_unica": "A decisão que obrigaria a Meta a excluir os posts foi relatada apenas pela Gazeta do Povo; os outros veículos só citam o pedido do MPT."
+      "novo_hoje": "O MPT informou 3.396 denúncias de assédio eleitoral em 2026 e foi à Justiça contra a Meta, pedindo a retirada de posts em até 24 horas. Um projeto sobre o tema foi apresentado no Senado.",
+      "aviso_fonte_unica": "A decisão que obrigou a Meta a excluir os posts vem só da Gazeta do Povo, e as mensagens do Ministério do Trabalho só da Agência Brasil.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "MPT pede que a Meta retire posts que incentivam demissão por voto"
     },
     {
-      "slug": "caso-master",
-      "novo_hoje": "Fachin devolveu o caso INSS a Mendonça e manteve o caso Master na Presidência do STF, só para decisões urgentes. A defesa de Vorcaro disse ao STF que o celular dele foi alterado após a apreensão.",
-      "aviso_fonte_unica": "O vídeo do depoimento de Vorcaro e o relatório da PF sobre o BRB foram relatados apenas pelo g1."
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "O presidente do PL, Valdemar Costa Neto, disse que ninguém aprovou a carta de Flávio. Partidos reconheceram o resultado da eleição, e o governo decidiu não reagir à saída do senador.",
+      "aviso_fonte_unica": "Algumas novidades de hoje vêm de um só veículo (g1, Folha, Agência Senado ou Gazeta do Povo).",
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "Presidente do PL diz que ninguém aprovou a carta de Flávio"
     }
   ],
   "fichas": [
     "senado:9118916",
+    "senado:9118916:sit:2026-10-29",
     "senado:9118955",
-    "senado:9118102:sit:2026-10-29",
     "senado:9118369:sit:2026-10-29",
+    "cmm:materia:53133",
+    "cmm:materia:53134",
+    "senado:9118843",
+    "senado:9118843:sit:2026-10-29",
+    "senado:9118102:sit:2026-10-29",
     "senado:9118889",
-    "senado:9118843"
+    "senado:9118889:sit:2026-10-29",
+    "senado:9118955:sit:2026-10-29",
+    "cmm:materia:53132",
+    "cmm:materia:53135",
+    "cmm:materia:53136",
+    "cmm:materia:53137"
+  ],
+  "mundo": [
+    "mundo:2026-10-29:1",
+    "mundo:2026-10-29:2"
   ]
 }

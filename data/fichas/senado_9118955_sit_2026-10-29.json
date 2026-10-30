@@ -1,0 +1,11 @@
+{"item_id": "senado:9118955:sit:2026-10-29", "nivel": "federal", "tipo_simples": "Mudança na tramitação",
+ "situacao": "Aberta para receber sugestões de mudança (emendas)",
+ "titulo": "Acordo do Mercosul sobre violência contra mulheres está no Senado",
+ "o_que_e": "A tramitação é de um PDL (projeto de decreto legislativo, o texto que o Congresso usa para aprovar acordos internacionais). O acordo prevê reconhecimento mútuo de medidas de proteção a mulheres em situação de violência de gênero entre países do Mercosul e associados. Foi assinado em Assunção, em 20 de julho de 2022.",
+ "quem_propos": "Câmara dos Deputados (o texto veio da Câmara)",
+ "o_que_muda": "Ainda não muda nada: é só um acordo em análise. Se aprovado, uma medida de proteção dada a uma mulher em um país do acordo passaria a ser reconhecida pelos outros países participantes.",
+ "proximo_passo": "Aguarda emendas (sugestões de mudança) no Senado. Depois segue para as comissões e para votação.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176152"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 2}

@@ -1,0 +1,11 @@
+{"item_id": "senado:9118889:sit:2026-10-29", "nivel": "federal", "tipo_simples": "Mudança na tramitação",
+ "situacao": "Aguardando despacho (ainda sem comissões definidas)",
+ "titulo": "Proposta de checagem de patrimônio de candidatos e agentes públicos está no Senado",
+ "o_que_e": "A tramitação é do projeto que cria regras de transparência sobre o patrimônio de candidatos e agentes públicos e sobre como ele muda ao longo do tempo. Prevê verificar incompatibilidades patrimoniais (bens que não combinam com a renda) e identificar possíveis beneficiários efetivos (quem de fato usufrui) de bens e vantagens indevidas.",
+ "quem_propos": "Sen. Sérgio Petecão (PSD–AC)",
+ "o_que_muda": "Ainda não muda nada: é só uma proposta. Se virar lei, o patrimônio de candidatos e agentes públicos passaria a ser acompanhado e verificado nos termos do texto.",
+ "proximo_passo": "Aguarda despacho, que define as comissões do Senado que vão analisar o projeto. Depois precisa ser aprovado no Senado e na Câmara.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176147"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 3}

@@ -1,0 +1,11 @@
+{"item_id": "senado:9118843:sit:2026-10-29", "nivel": "federal", "tipo_simples": "Mudança na tramitação",
+ "situacao": "Aguardando a escolha dos membros da comissão",
+ "titulo": "Pedido de processo disciplinar contra Flávio Bolsonaro segue no Senado",
+ "o_que_e": "O pedido de procedimento disciplinar contra o senador Flávio Bolsonaro (PL–RJ), apresentado por um cidadão, está na etapa em que o Senado precisa escolher a comissão que vai analisá-lo. A fonte não informa o nome da comissão nem os motivos da denúncia.",
+ "quem_propos": "Cidadão Olímpio de Moraes Rocha (partido não se aplica; não é parlamentar)",
+ "o_que_muda": "Ainda não muda nada: é só um pedido. Se for aceito, o Senado abre procedimento disciplinar contra o senador.",
+ "proximo_passo": "O Senado precisa escolher os integrantes da comissão que vai analisar o pedido.",
+ "fontes": [
+  {"nome": "Senado Federal", "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176146"}
+ ],
+ "fonte_unica": false, "temas": [], "data": "2026-10-29", "importancia": 3}

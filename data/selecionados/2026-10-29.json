@@ -50,6 +50,38 @@
       }
     },
     {
+      "id": "senado:9118843:sit:2026-10-29",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "AGUARDANDO DESIGNAÇÃO MEMBROS COMISSÃO",
+      "ementa": "Requer a abertura de procedimento disciplinar (Denúncia) em face do Senador Flávio Bolsonaro com fundamento no art. 55, inciso II e §§ 1º e 2º, da Constituição Federal e nos arts. 2º,5º,inciso III, 11 e 17 da Resolução do Senado Federal nº 20, de 1993 (Código de Ética e Decoro Parlamentar).",
+      "data": "2026-10-29",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176146",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118843"
+      }
+    },
+    {
+      "id": "senado:9118916:sit:2026-10-29",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "AGUARDANDO DESPACHO",
+      "ementa": "Disciplina o assédio eleitoral nas relações de trabalho e contratuais com dependência econômica e social, tipifica o crime de retaliação e abuso por motivação ideológico-eleitoral, e estabelece vedações a acesso a contratos, fundos e incentivos públicos como sanções administrativas.",
+      "data": "2026-10-29",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176148",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118916"
+      }
+    },
+    {
       "id": "senado:9118102:sit:2026-10-29",
       "fonte": "senado",
       "nivel": "federal",
@@ -79,6 +111,38 @@
       "url_documento": null,
       "extra": {
         "item_origem": "senado:9118369"
+      }
+    },
+    {
+      "id": "senado:9118889:sit:2026-10-29",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "AGUARDANDO DESPACHO",
+      "ementa": "Institui mecanismos de transparência patrimonial e de acompanhamento da evolução patrimonial de candidatos a cargos eletivos e de agentes públicos, estabelece procedimentos de verificação de incompatibilidades patrimoniais e de identificação de possíveis beneficiários efetivos de bens e vantagens indevidas, e altera as Leis nº 9.504, de 30 de setembro de 1997, e nº 8.429, de 2 de junho de 1992.",
+      "data": "2026-10-29",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176147",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118889"
+      }
+    },
+    {
+      "id": "senado:9118955:sit:2026-10-29",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre Estados Partes do Mercosul e Estados Associados, assinado em Assunção, em 20 de julho de 2022.",
+      "data": "2026-10-29",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176152",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118955"
       }
     },
     {
@@ -128,6 +192,126 @@
         "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
         "codigoMateria": 176152
       }
+    },
+    {
+      "id": "cmm:materia:53132",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 832 de 2026",
+      "ementa": "CRIA o Fundo Municipal de Proteção Animal e dá outras providências.",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53132",
+      "autores": [
+        {
+          "nome": "JAILDO OLIVEIRA",
+          "partido": "PV",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53132/pl_832_2026_jaildo_oliveira_fundo_protecao_animal.pdf",
+      "extra": {}
+    },
+    {
+      "id": "cmm:materia:53133",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 833 de 2026",
+      "ementa": "INSTITUI o \"Programa Internet Gratuita\" aos alunos matriculados na rede municipal de ensino, e dá outras providências.",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53133",
+      "autores": [
+        {
+          "nome": "JAILDO OLIVEIRA",
+          "partido": "PV",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53133/pl_833_2026_jaildo_oliveira_programa_internet_gratuita.pdf",
+      "extra": {}
+    },
+    {
+      "id": "cmm:materia:53134",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 834 de 2026",
+      "ementa": "Institui o “Programa Médico nas Escolas Municipais” do ensino fundamental no âmbito do município de Manaus, e dá outras providências.",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53134",
+      "autores": [
+        {
+          "nome": "JAILDO OLIVEIRA",
+          "partido": "PV",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53134/pl_834_2026_jaildo_oliveira_programa_medico_nas_escolas.pdf",
+      "extra": {}
+    },
+    {
+      "id": "cmm:materia:53135",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 835 de 2026",
+      "ementa": "Estabelece diretrizes para a conservação e proteção de monumentos, imagens e demais bens de expressão religiosa localizados em espaços públicos do \r\nMunicípio de Manaus, mediante ações preventivas de segurança e videomonitoramento, e dá outras providências.",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53135",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53135/pl_835_2026_diego_afonso_conservacao_e_protecao_de_monumentos.pdf",
+      "extra": {}
+    },
+    {
+      "id": "cmm:materia:53136",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 836 de 2026",
+      "ementa": "Dispõe sobre a obrigatoriedade de instalação de \"Sistema Anti-Esquecimento\" (dispositivo de alarme de verificação de assentos) nos veículos de \r\ntransporte escolar privado no município de Manaus, e dá outras providências.",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53136",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53136/pl_836_2026_diego_afonso_sistema_anti-esquecimento_transporte_escolar.pdf",
+      "extra": {}
+    },
+    {
+      "id": "cmm:materia:53137",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 837 de 2026",
+      "ementa": "EMENTA: Dispõe sobre requisitos de qualificação, proteção e segurança para projetos sociais esportivos que atendam crianças e adolescentes no Município de Manaus, inclusive os mantidos por entidades privadas, e dá outras providências",
+      "data": "2026-10-29",
+      "url": "https://sapl.cmm.am.gov.br/materia/53137",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53137/pl_837_2026_raulzinho_qualificacao_projetos_sociais_esportivos.pdf",
+      "extra": {}
     }
   ],
   "noticias": [
@@ -138,7 +322,7 @@
       "categoria": "noticia",
       "sigla_tipo": "NOTICIA",
       "titulo": "Campanha orienta trabalhadores sobre denúncias de assédio eleitoral",
-      "ementa": "Trabalhadores que têm a Carteira de Trabalho Digital receberão mensagens com orientações sobre seus direitos à liberdade de escolha política e como denunciar situações de coação, ameaça ou discriminação no ambiente profissional. A medida faz parte da campanha do Ministério do Trabalho e Emprego (MTE) de combate ao assédio eleitoral no trabalho . Notícias relacionadas: MPT vai à Justiça para que Meta apague postagens de assédio eleitoral. Assédio eleitoral: saiba como denunciar crime mesmo após e",
+      "ementa": "Trabalhadores que têm a Carteira de Trabalho Digital receberão mensagens com orientações sobre seus direitos à liberdade de escolha política e como denunciar situações de coação, ameaça ou discriminação no ambiente profissional. A medida faz parte da campanha do Ministério do Trabalho e Emprego (MTE) de combate ao assédio eleitoral no trabalho . Notícias relacionadas: MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral. Assédio eleitoral: saiba como denunciar crime mesmo após el",
       "data": "2026-10-29",
       "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/campanha-orienta-trabalhadores-sobre-denuncias-de-assedio-eleitoral",
       "autores": [],
@@ -150,15 +334,15 @@
       }
     },
     {
-      "id": "imprensa:agenciabrasil:af71268271c1",
+      "id": "imprensa:agenciabrasil:a9752a6409ce",
       "fonte": "imprensa:agenciabrasil",
       "nivel": "federal",
       "categoria": "noticia",
       "sigla_tipo": "NOTICIA",
-      "titulo": "MPT vai à Justiça para que Meta apague postagens de assédio eleitoral",
+      "titulo": "MPT vai à Justiça e pede R$ 50 milhões da Meta por assédio eleitoral",
       "ementa": "O Ministério Público do Trabalho (MPT) acionou a Justiça, nesta quinta-feira (29), para obrigar a Meta a retirar do ar, em até 24 horas, todas as publicações que estimulem empresários a vigiar, expor, deixar de contratar e demitir funcionários por preferências políticas ou voto. O pedido inclui as plataformas Instagram, Facebook e Threads, que pertencem à big tech americana. O MPT aponta a responsabilidade da Meta pelo conteúdo publicado em suas plataformas e pede que o Tribunal Regional do Trab",
       "data": "2026-10-29",
-      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mpt-vai-justica-para-que-meta-apague-postagens-de-assedio-eleitoral",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/mpt-vai-justica-pede-rs-50-milhoes-da-meta-por-assedio-eleitoral",
       "autores": [],
       "url_documento": null,
       "extra": {
@@ -1021,91 +1205,6 @@
       }
     },
     {
-      "id": "imprensa:estadao:9a2b3db316e3",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Voo de Flávio Bolsonaro foi pago por intermediário a partir dos EUA, diz dono de empresa",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/voo-flavio-bolsonaro-pago-intermediario-eua-npr/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:7979a65b4a71",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Justiça nega pedido de Willer Tomaz para obrigar Richarlison a apagar posts sobre ilha",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/justica-nega-pedido-de-willer-tomaz-para-obrigar-richarlison-a-apagar-posts-sobre-ilha-nprp/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:319ef16ff8f5",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Enquanto Flávio Bolsonaro se isola, Tarcísio não quer terceiro turno, mas liderar olhando para 2030",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/carlos-andreazza/enquanto-flavio-bolsonaro-se-isola-tarcisio-nao-quer-terceiro-turno-mas-liderar-olhando-para-2030/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:3a9b7d9d9009",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Defesa de Vorcaro diz que conteúdo de celular apreendido foi adulterado e defende anulação da prova",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/defesa-de-vorcaro-diz-que-conteudo-de-celular-apreendido-foi-adulterado-e-defende-anulacao-da-prova/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:f925d84e69c5",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "TSE ainda vai julgar 29 ações eleitorais de Lula e Flávio Bolsonaro",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/eleicoes/tse-ainda-ira-julgar-acoes-de-lula-e-flavio-bolsonaro-nprp/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
       "id": "imprensa:gazetadopovo:e000e51ed960",
       "fonte": "imprensa:gazetadopovo",
       "nivel": "federal",
@@ -1154,6 +1253,688 @@
       "extra": {
         "veiculo": "gazetadopovo",
         "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:58f617fc0039",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Defesa de Vorcaro contesta provas com laudo que pode favorecer Moraes",
+      "ementa": "Laudo pericial apresentado pela defesa aponta supostas alterações em arquivos do celular de Vorcaro após apreensão pela PF.",
+      "data": "2026-10-29",
+      "url": "https://www.gazetadopovo.com.br/republica/defesa-de-vorcaro-contesta-provas-com-laudo-que-pode-favorecer-moraes/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:c867232c7fd8",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Flávio reúne argumentos para pedir asilo nos EUA e mostrar que sofre perseguição",
+      "ementa": "Especialistas em imigração e analistas internacionais consideram provável que Flávio Bolsonaro obtenha o asilo político de Donald Trump.",
+      "data": "2026-10-29",
+      "url": "https://www.gazetadopovo.com.br/republica/flavio-reune-argumentos-para-pedir-asilo-nos-eua-e-mostrar-que-sofre-perseguicao/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:4330f711b4da",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo Lula confirma “lista suja” de empresas acusadas de assédio eleitoral",
+      "ementa": "Ministério do Trabalho anuncia cadastro de empregadores envolvidos em denúncias de pressão política sobre funcionários. Leia na Gazeta do Povo.",
+      "data": "2026-10-29",
+      "url": "https://www.gazetadopovo.com.br/economia/governo-lula-confirma-lista-suja-empresas-acusadas-assedio-eleitoral/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:d26abeafe26a",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Jornal americano diz que Flávio é alvo de vingança e que Brasil ruma para a autocracia",
+      "ementa": "Editorial do The Wall Street Journal afirmou que no Brasil os derrotados em eleições são processados, em referência a Jair e Flávio Bolsonaro",
+      "data": "2026-10-29",
+      "url": "https://www.gazetadopovo.com.br/mundo/jornal-americano-diz-flavio-alvo-vinganca-brasil-ruma-autocracia/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:658e9dd80573",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo Lula avalia criar “lista suja” de empresas que demitirem por voto político",
+      "ementa": "MPT já recebeu 1.140 denúncias de ameaça e assédio eleitoral após o segundo turno da eleição que deu vitória ao petista. Leia na Gazeta do Povo.",
+      "data": "2026-10-29",
+      "url": "https://www.gazetadopovo.com.br/economia/governo-lula-lista-suja-empresas-demitirem-por-voto-politico/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    }
+  ],
+  "mundo": [
+    {
+      "id": "mundo:bbc-brasil:a5a18b2cc93e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Pragmatismo x ideologia: como Trump vai de fato lidar com as declarações de Flávio Bolsonaro sobre o Brasil?",
+      "ementa": "Em declarações informais, Trump tem demonstrado ambivalência; analistas dizem que secretário de Estado, Marco Rubio, parece mais inclinado a se envolver.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/c64g18gdvqwjo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:82d67546d5e7",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Democratas cobram explicações de Rubio sobre entrada de Flávio nos EUA",
+      "ementa": "Jornal The New York Times informou, com base em autoridades americanas, que Donald Trump e seus assessores teriam ajudado Flávio Bolsonaro a deixar o Brasil e chegar aos Estados Unidos.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/democratas-cobram-explicações-de-rubio-sobre-entrada-de-flávio-nos-eua/live-78393402?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:e81aa545b6fc",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Sob pressão de Trump, Cuba comemora aprovação na ONU contra bloqueio",
+      "ementa": "Mesmo com o placar mais desfavorável a Cuba em 30 anos, o embaixador do país caribenho no Brasil, Victor Manuel Cairo Palomo, comemorou a aprovação , na Assembleia Geral da Organização das Nações Unidas (ONU), da resolução contra o bloqueio econômico dos Estados Unidos (EUA) à ilha, que dura mais de seis décadas. “Em um mundo onde os EUA lideram novas práticas do fascismo, por meio de chantagens e ameaças a países pequenos, imposição de guerras econômicas e tarifas, Cuba manteve o apoio da imens",
+      "data": "2026-10-29",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/sob-pressao-de-trump-cuba-comemora-aprovacao-na-onu-contra-bloqueio",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:fceafe994bc6",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'Brasil não quebra com Lula, mas fica condenado a um crescimento medíocre', diz ex-banqueiro conselheiro da Natura",
+      "ementa": "Fábio Coletti Barbosa se diz a favor das políticas sociais do governo, mas vê a necessidade de um 'pente-fino' para identificar quem recebe os benefícios indevidamente.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/c6d93v3jy8qwo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:eeaef51e4c84",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Plano automotivo \"Made in Europe\" da UE preocupa fornecedores globais",
+      "ementa": "A proposta da União Europeia de vincular subsídios automotivos à produção local busca conter a concorrência chinesa, mas preocupa parceiros estratégicos como Turquia, Marrocos, Japão e Coreia do Sul.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/plano-automotivo-made-in-europe-da-ue-preocupa-fornecedores-globais/a-79799263?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:de294158a541",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Christine Lagarde renuncia à presidência do Banco Central Europeu",
+      "ementa": "A presidente do Banco Central Europeu (BCE), Christine Lagarde, renunciou nesta quinta-feira (29), pondo fim a meses de especulações sobre seu futuro. A decisão ocorre no momento em que a Europa entra em período de crescente volatilidade econômica e de política eleitoral polêmica, especialmente em sua terra natal, a França. Lagarde deixará o cargo em 7 de fevereiro, dando aos atuais líderes da União Europeia (UE) tempo para escolherem seu sucessor antes da eleição presidencial francesa, na qual ",
+      "data": "2026-10-29",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/christine-lagarde-renuncia-presidencia-do-banco-central-europeu",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:7751e90a6463",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'Ele achou que já estava eleito': os erros da campanha de Flávio Bolsonaro no segundo turno apontados por analistas",
+      "ementa": "Arrogância pós-primeiro turno, ironias, dubiedades no discurso, além do peso das acusações na Justiça selaram derrota do senador do PL, apontam analistas e pessoas próximas à campanha",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/cmrryxg991d8o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:002a21500be8",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Inquéritos no STF e faltas no Senado: o que pode acontecer com Flávio após fuga para os EUA",
+      "ementa": "Após deixar o Brasil e se declarar \"líder\" da oposição, senador segue sob investigação da PF. Entenda os possíveis desdobramentos judiciais, políticos e o risco para seu mandato no Senado.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/inquéritos-no-stf-e-faltas-no-senado-o-que-pode-acontecer-com-flávio-após-fuga-para-os-eua/a-79796893?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:0e066c21eefa",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Israel: sem vencedor declarado, partidos discutem coligações",
+      "ementa": "Com a contagem de votos ainda em andamento, não há vencedor definido nas eleições em Israel. Nem o bloco do primeiro-ministro, Benjamin Netanyahu, nem o principal rival, Gadi Eisenkot, conquistaram as 61 cadeiras do Parlamento necessárias para formar maioria. Com 85% das urnas apuradas, a coligação de Netanyahu garantia 54 dos 120 assentos no Parlamento. Já o bloco de Eisenkot somava 49 vagas. Por outro lado, os partidos árabes alcançariam a marca recorde de 17 cadeiras, o que levou o líder da c",
+      "data": "2026-10-29",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israel-sem-vencedor-declarado-partidos-discutem-coligacoes",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:6e8e484ab769",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Qual o futuro do bolsonarismo após Flávio Bolsonaro ir para os EUA?",
+      "ementa": "Cientistas políticos ouvidos pela BBC News Brasil se dividem sobre se movimento continuará forte ou dará espaço para uma direita moderada.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/cw98zmy9gnj8o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:c296788a2e38",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Um ano após massacre no Rio, investigação de ONG revela má conduta da polícia",
+      "ementa": "Human Rights Watch analisou quatro mil horas de vídeos e afirma que houve intenção deliberada de ocultar imagens de câmeras corporais. Desde megaoperação no Rio, Lei Antifacção trouxe avanços, mas também problemas.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/um-ano-após-massacre-no-rio-investigação-de-ong-revela-má-conduta-da-polícia/a-79799868?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:6a2184446142",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Espanha: equipes fazem buscas na esperança de encontrar sobreviventes",
+      "ementa": "Equipes de resgate vasculham vagões destruídos, nesta quinta-feira (29), na esperança de encontrar mais sobreviventes do segundo acidente neste ano na Espanha, envolvendo trens de alta velocidade. Até o momento foram registrados 69 mortos e mais de 100 feridos. Equipes de emergência foram vistas carregando o que parecia ser um corpo, envolto em um cobertor, de um dos trens em uma área rural na província central de Toledo, depois que guindastes trabalharam durante toda a noite para retirar partes",
+      "data": "2026-10-29",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/espanha-equipes-fazem-buscas-na-esperanca-de-encontrar-sobreviventes",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:ec9da6164ef9",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Janones: de cobrador de ônibus a estrategista digital número 1 da esquerda brasileira",
+      "ementa": "Deputado federal reeleito em Minas Gerais, Janones se tornou um dos principais nomes na campanha de Lula no segundo turno, ao administrar o canal no WhatsApp \"Exército do Lula\".",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/watch/cw1l325g5lyqo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:13eefbc6c56e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Como editoras brasileiras vendem a literatura do Brasil para o mundo",
+      "ementa": "Em feiras do livro no exterior, editoras brasileiras buscam ampliar sua presença internacional. Mas expectativas sobre o país, custos de tradução e barreiras comerciais dificultam a conquista de leitores estrangeiros.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/como-editoras-brasileiras-vendem-a-literatura-do-brasil-para-o-mundo/a-79795264?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:a671b6751b39",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "As propostas do presidente Lula para o seu quarto mandato em 8 áreas",
+      "ementa": "Presidente inicia novo mandato em 5 de janeiro de 2027 com propostas para economia, saúde, educação e segurança pública, mas terá de negociar com um Congresso de oposição fortalecido para avançar em sua agenda.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/cm2ke83x1785o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:4d0d2c5faf3e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Aliados de Flávio defendem resultado das eleições após senador divulgar carta falando em fraude",
+      "ementa": "Senador divulgou carta falando em \"fraude eleitoral\", sem apresentar provas. Políticos próximos ao candidato derrotado se distanciaram das declarações. Nunes Marques, presidente do TSE, defendeu lisura do pleito.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/aliados-de-flávio-defendem-resultado-das-eleições-após-senador-divulgar-carta-falando-em-fraude/a-79795142?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:e0bbb82c5c6e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Carta de Flávio: quem são Rui Barbosa, de Gaulle, Guaidó e outros líderes da América Latina citados",
+      "ementa": "Senador derrotado nas eleições de domingo citou figuras históricas ao prometer liderar a oposição ao governo Lula vivendo no exterior.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.com/portuguese/articles/cmwyvkl9yjxeo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:e9177d53d68d",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Menina de 8 anos é atacada por lobo em zoológico na Alemanha",
+      "ementa": "Criança participava de atividade especial dentro da jaula dos animais. Tratadora evitou que outras duas meninas fossem atacadas pela alcateia. Polícia investiga se houve negligência.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/pt-br/menina-de-8-anos-é-atacada-por-lobo-em-zoológico-na-alemanha/a-79794084?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:e7ad0659165b",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Mushroom murderer fails to overturn convictions in Australian court challenge",
+      "ementa": "Erin Patterson argued her trial was unfair due to seven grounds but three appeal judges dismissed them all.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/ck8dz8j5n993o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:bbf9dfc740cf",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "India increases growth forecast for fiscal year",
+      "ementa": "India's Ministry of Finance has increased its growth forecasts for the current fiscal year. But it also warned about inflation, particularly for fuel and energy, amid continued instability in the Middle East.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/en/india-increases-growth-forecast-for-fiscal-year/a-79798971?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:c36b33e7f6c0",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Student-backed election winners demand sweeping resignations in Serbia",
+      "ementa": "Days after ousting Aleksandar Vučić's party from power, Student List MPs call for top figures to stand down.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2dwzp0z0vo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:9ec81bb919a7",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "China leaders demand more loyalty and more initiative",
+      "ementa": "The CCP session emphasized internal discipline, as expected, but left the question of Xi Jinping's successor unanswered. The party seems anxious of any instability as geopolitics heats up and China's economy cools down.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/en/china-leaders-demand-more-loyalty-and-more-initiative/a-79799138?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:ea6b0e8dae73",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "More than 43 million ballots cast so far in midterms early voting surge",
+      "ementa": "Hispanic voters have helped drive the early voting numbers, which appear to outpace overall turnout for previous elections in some battleground counties.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/c30rlxkjv2yko?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:76579d4b0521",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Human trafficking victims stranded in Guinea-Bissau",
+      "ementa": "Dozens of West Africans lured to Guinea-Bissau with promises of jobs and migration to Europe say they were exploited by a suspected trafficking network. Now many cannot afford to return home.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/en/human-trafficking-victims-stranded-in-guinea-bissau/a-79785558?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:52cbfe556150",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Venezuela opposition leader María Machado calls for elections upon return",
+      "ementa": "Machado, who was in exile for nearly a year, said the transition in Venezuela's government would be \"irreversible, organised, pacific\".",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:bc75b8474989",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Can EU and India work together to secure Indo-Pacific?",
+      "ementa": "India and Europe are deepening defense ties, but their clashing perspectives on Russia and differing priorities on China are hampering their joint ambitions on maritime security.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/en/can-eu-and-india-work-together-to-secure-indo-pacific/a-79796195?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:3e2b6591638d",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
+      "ementa": "The leaked tapes appear to show one high-speed train was given clearance to move at normal speed, even though another up ahead had stalled.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:5fa1b50e84cf",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "European Central Bank (ECB) head Christine Lagarde to step down in February, before her term ends",
+      "ementa": "European Central Bank (ECB) President Christine Lagarde is to resign nine months ahead of the end of her 8-year term. European Council President Antonio Costa has said the process to find a successor is underway.",
+      "data": "2026-10-29",
+      "url": "https://www.dw.com/en/european-central-bank-ecb-head-christine-lagarde-to-step-down-in-february-before-her-term-ends/a-79794353?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:e5c5ce358b57",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
+      "ementa": "The defeated presidential candidate says he will lead the opposition from the US.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:a27dd1c839a9",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Watch: Why Australia's mushroom murderer may now die in prison",
+      "ementa": "Judges agreed with the prosecution’s appeal that Erin Patterson’s initial non-parole period of 33 years was insufficient.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/videos/cmlykpd9kpy7o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:da56d0c2c506",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Voter voices: Which issues matter most to Americans?",
+      "ementa": "As part of our Voter Voices series, the BBC asked Americans across the country what issue will influence how they vote.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/videos/cm3wv3njppweo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:d364da2843c6",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Democrats have an identity crisis - it won't be an easy fix",
+      "ementa": "Whatever the result of the midterm elections, the party is facing tough questions over what they stand for and who should represent them.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/cknv08980d3vo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:32fc73a1f7bc",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+      "ementa": "A temporary ceasefire has brought rare quiet to Kherson, offering its residents a glimpse of normal life before fighting resumes.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/ck1l393pyrylo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:06726d2d5fba",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Many Cubans voted for Trump - now they're turning on Republican immigration policies",
+      "ementa": "President Trump's fellow Republicans might feel the brunt of frustration among Cubans at the ballot box, writes the BBC's Will Grant.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/c574p7z1xm8wo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:23d2baaa5d98",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Indians turn to start-ups to care for ageing parents as young become more mobile",
+      "ementa": "Changing family structures in India are driving demand for start-ups offering services for eldercare.",
+      "data": "2026-10-29",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2qr4rp1xeo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
       }
     }
   ],
@@ -1333,91 +2114,6 @@
       }
     },
     {
-      "id": "imprensa:gazetadopovo:58f617fc0039",
-      "fonte": "imprensa:gazetadopovo",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Defesa de Vorcaro contesta provas com laudo que pode favorecer Moraes",
-      "ementa": "Laudo pericial apresentado pela defesa aponta supostas alterações em arquivos do celular de Vorcaro após apreensão pela PF.",
-      "data": "2026-10-29",
-      "url": "https://www.gazetadopovo.com.br/republica/defesa-de-vorcaro-contesta-provas-com-laudo-que-pode-favorecer-moraes/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "gazetadopovo",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:gazetadopovo:c867232c7fd8",
-      "fonte": "imprensa:gazetadopovo",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Flávio reúne argumentos para pedir asilo nos EUA e mostrar que sofre perseguição",
-      "ementa": "Especialistas em imigração e analistas internacionais consideram provável que Flávio Bolsonaro obtenha o asilo político de Donald Trump.",
-      "data": "2026-10-29",
-      "url": "https://www.gazetadopovo.com.br/republica/flavio-reune-argumentos-para-pedir-asilo-nos-eua-e-mostrar-que-sofre-perseguicao/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "gazetadopovo",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:gazetadopovo:4330f711b4da",
-      "fonte": "imprensa:gazetadopovo",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Governo Lula confirma “lista suja” de empresas acusadas de assédio eleitoral",
-      "ementa": "Ministério do Trabalho anuncia cadastro de empregadores envolvidos em denúncias de pressão política sobre funcionários. Leia na Gazeta do Povo.",
-      "data": "2026-10-29",
-      "url": "https://www.gazetadopovo.com.br/economia/governo-lula-confirma-lista-suja-empresas-acusadas-assedio-eleitoral/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "gazetadopovo",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:gazetadopovo:d26abeafe26a",
-      "fonte": "imprensa:gazetadopovo",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Jornal americano diz que Flávio é alvo de vingança e que Brasil ruma para a autocracia",
-      "ementa": "Editorial do The Wall Street Journal afirmou que no Brasil os derrotados em eleições são processados, em referência a Jair e Flávio Bolsonaro",
-      "data": "2026-10-29",
-      "url": "https://www.gazetadopovo.com.br/mundo/jornal-americano-diz-flavio-alvo-vinganca-brasil-ruma-autocracia/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "gazetadopovo",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:gazetadopovo:658e9dd80573",
-      "fonte": "imprensa:gazetadopovo",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Governo Lula avalia criar “lista suja” de empresas que demitirem por voto político",
-      "ementa": "MPT já recebeu 1.140 denúncias de ameaça e assédio eleitoral após o segundo turno da eleição que deu vitória ao petista. Leia na Gazeta do Povo.",
-      "data": "2026-10-29",
-      "url": "https://www.gazetadopovo.com.br/economia/governo-lula-lista-suja-empresas-demitirem-por-voto-politico/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "gazetadopovo",
-        "secao": "politica"
-      }
-    },
-    {
       "id": "imprensa:gazetadopovo:39364c5a49c1",
       "fonte": "imprensa:gazetadopovo",
       "nivel": "federal",
@@ -1537,193 +2233,6 @@
       }
     },
     {
-      "id": "imprensa:cartacapital:079c81972105",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Cármen Lúcia vai relatar ação de André Janones contra Flávio Bolsonaro",
-      "ementa": "O deputado federal pede ao STF que suspenda decisão de André Mendonça no Tribunal Superior Eleitoral que concedeu direito de resposta ao senador",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/justica/carmen-lucia-vai-relatar-acao-de-andre-janones-contra-flavio-bolsonaro/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:826b4dd5fb3f",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Justiça da Argentina manda governo Milei preservar imagens de fuga de Flávio Bolsonaro",
-      "ementa": "O derrotado nas urnas cruzou a ponte que liga Foz do Iguaçu, no Brasil, a Porto Iguaçu, na Argentina, antes de embarcar rumo aos EUA",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/justica-da-argentina-manda-governo-milei-preservar-imagens-de-fuga-de-flavio-bolsonaro/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:04eba5c9e7f8",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Advogados pedem à PF investigação sobre uso de brasão do Brasil em carta de Flávio Bolsonaro",
-      "ementa": "No documento, o senador se autoproclamou 'verdadeiro presidente eleito do Brasil'",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/justica/advogados-pedem-a-pf-investigacao-sobre-uso-de-brasao-do-brasil-em-carta-de-flavio-bolsonaro/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:4bb7015837a6",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Jato que levou Flávio Bolsonaro aos EUA foi providenciado por assessor de Trump, diz ‘NYT’",
-      "ementa": "Donald Trump autorizou a entrada temporária do senador, que deixou o Brasil após perder para Lula e descumpriu ordem para entregar passaportes",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/jato-que-levou-flavio-bolsonaro-aos-eua-foi-providenciado-por-assessor-de-trump-diz-nyt/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:36998b074452",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Trump já espera que Flávio Bolsonaro solicite um green card, diz ‘NY Times’",
-      "ementa": "O candidato derrotado a presidente recebeu um visto para entrar no território norte-americano por supostas 'razões humanitárias'",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/carta-capital/trump-ja-espera-que-flavio-bolsonaro-solicite-um-green-card-diz-ny-times/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:3bc9590bef66",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "A fuga de Flávio Bolsonaro e a resiliência da democracia brasileira",
-      "ementa": "Após três vitórias petistas, contestadas sem fundamentos sólidos pelos derrotados, o País enfrenta novas ameaças à ordem democrática",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/artigo/a-fuga-de-flavio-bolsonaro-e-a-resiliencia-da-democracia-brasileira/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:a541612f7448",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Argentina diz que Flávio Bolsonaro tinha documentação regular e não havia ‘impedimento da Interpol’",
-      "ementa": "A operação desencadeou uma crise diplomática entre os dois países e acirrou a tensão em Buenos Aires",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/mundo/argentina-diz-que-flavio-bolsonaro-tinha-documentacao-regular-e-nao-havia-impedimento-da-interpol/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:0d7057377399",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Vice-líder do governo lança ofensiva para tornar Flávio Bolsonaro inelegível",
-      "ementa": "A representação de Alencar Santana se baseia",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/vice-lider-do-governo-lanca-ofensiva-para-tornar-flavio-bolsonaro-inelegivel/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:84f3eb27438c",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Carta de Flávio Bolsonaro nos EUA pode configurar crime",
-      "ementa": "É preciso apurar se emblema serviu para dar aparência oficial a uma declaração particular, avalia Lenio Streck",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/carta-de-flavio-bolsonaro-nos-eua-pode-configurar-crime/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:oeste:75251838e1e7",
-      "fonte": "imprensa:oeste",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Intelbras demite funcionário que sugeriu fuzilamento das filhas de Flávio",
-      "ementa": "A Intelbras , empresa de tecnologia de Santa Catarina, anunciou nesta quinta-feira, 29, a demissão de Caio Anjo Fernandes. O ex-funcionário publicou no X uma mensagem que faz referência ao fuzilamento das duas filhas do senador Flávio Bolsonaro (PL-RJ) . As meninas têm 12 e 14 anos. A manifestação ocorreu em resposta à publicação de outro usuário sobre as filhas do parlamentar. Fernandes escreveu: “Protocolo Romanov nelas sem mais delongas”. A manifestação ocorreu em resposta à publicação de out",
-      "data": "2026-10-29",
-      "url": "https://revistaoeste.com/politica/intelbras-demite-funcionario-que-sugeriu-fuzilamento-das-filhas-de-flavio/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "oeste",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:oeste:fb211d26e39e",
-      "fonte": "imprensa:oeste",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "PT amplia ofensiva contra opositores com pedidos de apreensão de passaportes",
-      "ementa": "Integrantes do Partido dos Trabalhadores (PT) intensificaram a ofensiva judicial contra adversários políticos depois do segundo turno das eleições , realizado no último domingo, 25. Em quatro dias, representantes da legenda apresentaram ou anunciaram pedidos para restringir a saída do Brasil de Flávio Bolsonaro (PL-RJ), Nikolas Ferreira (PL-MG) e Lucas Pavanato (PL-SP). A ofensiva começou na segunda-feira 26, quando o deputado federal Rogério Correia (PT-MG) anunciou a intenção de pedir a apreen",
-      "data": "2026-10-29",
-      "url": "https://revistaoeste.com/politica/pt-amplia-ofensiva-contra-opositores-com-pedidos-de-apreensao-de-passaportes/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "oeste",
-        "secao": "politica"
-      }
-    },
-    {
       "id": "imprensa:g1-amazonas:a08036e9dc4c",
       "fonte": "imprensa:g1-amazonas",
       "nivel": "estadual",
@@ -1737,23 +2246,6 @@
       "url_documento": null,
       "extra": {
         "veiculo": "g1-amazonas",
-        "secao": "amazonas"
-      }
-    },
-    {
-      "id": "imprensa:amazonasatual:be387fcffe99",
-      "fonte": "imprensa:amazonasatual",
-      "nivel": "estadual",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Vorcaro diz que não fez nada errado e pede voto de confiança e fim da prisão",
-      "ementa": "Em depoimento à delegada Janaína Palazzo, o ex-banqueiro defendeu o arquivamento da investigação e disse que não há provas contra ele O post Vorcaro diz que não fez nada errado e pede voto de confiança e fim da prisão apareceu primeiro em AMAZONAS ATUAL .",
-      "data": "2026-10-29",
-      "url": "https://amazonasatual.com.br/vorcaro-diz-que-nao-fez-nada-errado-e-pede-voto-de-confianca-e-fim-da-prisao/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "amazonasatual",
         "secao": "amazonas"
       }
     },
@@ -1863,60 +2355,6 @@
         "veiculo": "agenciabrasil-economia",
         "secao": "economia",
         "texto": "Em meio a preocupações com o cenário econômico nacional e internacional, o dólar fechou em alta de cerca de 1% nesta quinta-feira (29), aproximando-se de R$ 5,40. A bolsa caiu pouco mais de 1% e encerrou abaixo dos 170 mil pontos, na quarta queda consecutiva. O mercado financeiro foi influenciado pelo avanço da moeda norte-americana frente a divisas de países emergentes, por dados econômicos dos Estados Unidos e pelas incertezas sobre a política fiscal e a composição da equipe econômica do próximo mandato do presidente Luiz Inácio Lula da Silva. Principais números O dólar à vista encerrou o pregão com valorização de 0,76%, cotado a R$ 5,387. Por volta das 15h30, a moeda chegou a R$ 5,43, alta de 1,56% em relação ao fechamento anterior. No cenário internacional, a divulgação de indicadores econômicos dos Estados Unidos contribuiu para o movimento cambial. O Produto Interno Bruto (PIB, soma dos bens e serviços produzidos) estadunidense cresceu 3,4% no terceiro trimestre, acima da projeção de 3,2% de economistas consultados pela Reuters. Os gastos dos consumidores avançaram 0,5% em setembro. O núcleo do índice de preços de despesas de consumo pessoal (PCE), indicador de inflação acompanhado pelo Federal Reserve (Fed), Banco Central dos Estados Unidos, subiu 0,3% no mês, em linha com as expectativas. O índice cheio avançou 0,5%. Após a divulgação dos dados, o dólar ganhou força em relação a moedas de países emergentes, incluindo o peso mexicano, o peso chileno, o rand sul-africano e o real. No Brasil, as atenções também se voltaram às expectativas para o próximo mandato presidencial, como a formação da equipe econômica e futuras medidas na área. A preocupação fiscal também ganhou relevância após dados do Banco Central indicarem que a dívida bruta do setor público chegou a 82,9% do PIB em setembro. A dívida líquida atingiu 70% do PIB, contra 69,3% no mês anterior. No exterior, às 17h07, o índice do dólar, que mede o desempenho da moeda norte-americana frente a uma cesta de seis divisas, recuava 0,16%, aos 101,960 pontos. O Ibovespa caiu 1,06%, aos 169.186,42 pontos, e completou a quarta sessão consecutiva de perdas. Durante o pregão, o principal índice da B3 oscilou entre 168.765,35 e 171.402,97 pontos. Os investidores também acompanharam os dados de inflação dos Estados Unidos e as perspectivas para os juros norte-americanos. Em Nova York, o S&P 500 fechou em baixa de 0,3%, em uma sessão negativa para o setor de tecnologia, após os resultados da Alphabet ampliarem as preocupações com os custos crescentes de investimentos em inteligência artificial. No Brasil, o mercado também repercutiu os dados fiscais divulgados pelo Banco Central. * Com informações da Reuters"
-      }
-    },
-    {
-      "id": "imprensa:agenciabrasil-economia:703e3517dc51",
-      "fonte": "imprensa:agenciabrasil-economia",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "CMN amplia em R$ 2 bi limite de crédito a estados e municípios",
-      "ementa": "Os estados, os municípios e o Distrito Federal terão R$ 2 bilhões adicionais para pegarem emprestados no sistema financeiro até o fim do ano. Em reunião extraordinária, o Conselho Monetário Nacional (CMN) elevou, de R$ 28,625 bilhões para R$ 30,625 bilhões, o limite global de operações de crédito para os governos locais. Em nota, o Ministério da Fazenda informou que a medida busca ampliar a capacidade de estados e municípios de obter empréstimos para financiar projetos e outras despesas autoriza",
-      "data": "2026-10-29",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/cmn-amplia-em-r-2-bi-limite-de-credito-estados-e-municipios",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "agenciabrasil-economia",
-        "secao": "economia",
-        "texto": "Os estados, os municípios e o Distrito Federal terão R$ 2 bilhões adicionais para pegarem emprestados no sistema financeiro até o fim do ano. Em reunião extraordinária, o Conselho Monetário Nacional (CMN) elevou, de R$ 28,625 bilhões para R$ 30,625 bilhões, o limite global de operações de crédito para os governos locais. Em nota, o Ministério da Fazenda informou que a medida busca ampliar a capacidade de estados e municípios de obter empréstimos para financiar projetos e outras despesas autorizadas, tanto com garantia da União quanto sem essa garantia. Segundo o governo, a ampliação foi possível após um levantamento da Secretaria do Tesouro Nacional identificar recursos fiscais nos estados previstos para 2026 que não devem ser usados até o fim do ano. Os limites definidos pelo CMN estabelecem quanto os governos estaduais e municipais podem contratar em operações de crédito dentro das regras fiscais aplicáveis. Na prática, a ampliação permite que esses entes tenham mais espaço para buscar financiamentos, desde que cumpram as exigências legais e fiscais para contratar os empréstimos. Existem duas modalidades principais: A resolução amplia os limites disponíveis para as duas modalidades. A distribuição dos R$ 2 bilhões adicionais ficou definida da seguinte forma: Com isso, os sublimites destinados a essas operações passam a somar R$ 17 bilhões. Os demais limites definidos pelo CMN permanecem inalterados. A ampliação foi baseada em um levantamento da Secretaria do Tesouro Nacional junto aos entes que participam de programas de acompanhamento e ajuste fiscal. O estudo identificou cerca de R$ 7,87 bilhões em espaço fiscal sem perspectiva de utilização até o fim de 2026. Esse espaço corresponde à margem disponível dentro dos limites fiscais e de crédito já estabelecidos. Desse total, R$ 5 bilhões haviam sido destinados anteriormente por meio de duas resoluções do CMN, uma de agosto, que liberou R$ 3 bilhões, e uma de setembro, que liberou R$ 2 bilhões. Restava um saldo estimado de R$ 2,87 bilhões em espaço fiscal. A nova resolução destina mais R$ 2 bilhões desse montante à ampliação dos limites de crédito para estados, Distrito Federal e municípios. Segundo o governo, a mudança ocorre porque os limites disponíveis para as operações de crédito de governos locais estavam praticamente esgotados. A resolução não altera os valores reservados a outras modalidades de crédito e órgãos públicos. Permanecem os seguintes limites: O Novo PAC é o Programa de Aceleração do Crescimento, iniciativa federal que reúne investimentos em infraestrutura e outras áreas. Com o aumento do limite, estados e municípios passam a contar com maior margem para contratar financiamentos ainda em 2026. Isso pode facilitar a obtenção de recursos para investimentos e projetos públicos, conforme as regras aplicáveis a cada operação. A medida, porém, não significa que os R$ 2 bilhões serão transferidos diretamente aos governos regionais. O valor corresponde ao aumento do limite autorizado para operações de crédito. Cada ente ainda precisa contratar o financiamento e atender às exigências legais, fiscais e financeiras. A resolução entra em vigor na data da sua publicação. O Conselho Monetário Nacional é o órgão responsável por estabelecer diretrizes para as políticas monetária, creditícia e cambial do país. Presidido pelo ministro da Fazenda, Dario Durigan, o colegiado também é composto pelo presidente do Banco Central, Gabriel Galípolo, e pelo ministro do Planejamento e Orçamento, Bruno Moretti."
-      }
-    },
-    {
-      "id": "imprensa:agenciabrasil-economia:ac3bb9410249",
-      "fonte": "imprensa:agenciabrasil-economia",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Temporada de cruzeiros começa na sexta com projeção de mais empregos",
-      "ementa": "A temporada brasileira de cruzeiros turísticos 2026/2027 começa nesta sexta-feira (30), com um quarto a mais de leitos e a perspectiva de superar a marca de 72 mil empregos gerados no período passado. As viagens na costa do país se estendem até 9 de abril do ano que vem. O Ministério do Turismo disse nesta quinta-feira (29) que espera uma movimentação de R$ 4,72 bilhões . Isso deve ser possível com o aumento de 24% nos quartos oferecidos pelos navios, que terão um total de 800 mil leitos. A past",
-      "data": "2026-10-29",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/temporada-de-cruzeiros-comeca-na-sexta-com-projecao-de-mais-empregos",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "agenciabrasil-economia",
-        "secao": "economia",
-        "texto": "A temporada brasileira de cruzeiros turísticos 2026/2027 começa nesta sexta-feira (30), com um quarto a mais de leitos e a perspectiva de superar a marca de 72 mil empregos gerados no período passado. As viagens na costa do país se estendem até 9 de abril do ano que vem. O Ministério do Turismo disse nesta quinta-feira (29) que espera uma movimentação de R$ 4,72 bilhões . Isso deve ser possível com o aumento de 24% nos quartos oferecidos pelos navios, que terão um total de 800 mil leitos. A pasta se baseia em informações da Associação Internacional de Cruzeiros Marítimos (Clia, na sigla em inglês). Nesta temporada, serão oito navios dedicados à costa nacional, um a mais do que no ciclo anterior . Os portos de embarque e desembarque incluem Santos, Rio de Janeiro, Salvador, Maceió, Itajaí, Balneário Camboriú e Paranaguá. Haverá ainda embarcações internacionais de passagem. Estão programados 28 navios de longo curso, de 22 companhias diferentes, que realizarão mais de 200 escalas em 32 portos e pontos de parada ao longo do litoral do país. O ministro do Turismo, Gustavo Feliciano, explicou que a temporada de cruzeiros impacta a economia brasileira de ponta a ponta. \"Quando um navio chega a um destino, toda a cadeia de serviços é beneficiada, do transporte à hospedagem, da alimentação ao comércio local. Isso gera oportunidades para pequenos e grandes empreendedores, além de criar empregos e gerar renda para quem recebe os turistas”, afirmou. Um dado importante para o setor é a tendência de aumento da participação de estrangeiros entre os cruzeiristas, que foi de 16,1%, em 2024/2025, para 23,9%, em 2025/2026. Feliciano aponta essa tendência como uma oportunidade para impulsionar a entrada de turistas internacionais. \"Quando o turista desembarca e vivencia a cultura e a hospitalidade local, ele movimenta a economia e se torna um promotor dos destinos. É essa engrenagem que consolida o turismo como um motor definitivo de desenvolvimento, transformando o potencial dos nossos destinos em geração real de negócios, postos de trabalho e crescimento econômico nas cidades\", ressaltou o ministro. Segundo dados da Clia no Brasil, considerando as operações de cabotagem e os navios de longo curso, Santos (SP) lidera a projeção da temporada, com 640 mil leitos previstos e um potencial de injeção de mais de R$ 616 milhões na economia. Na sequência, o Rio de Janeiro (RJ) aguarda 316 mil leitos e impacto de R$ 304 milhões. No Nordeste, Salvador (BA) deve receber cerca de 182 mil leitos, com impacto estimado em R$ 175,2 milhões, enquanto Maceió (AL) tem previsão de 137 mil leitos e R$ 131,9 milhões em movimentação econômica. No Sul, Balneário Camboriú (SC) aparece com 198.071 leitos ofertados e impacto econômico estimado em R$ 190,6 milhões, seguido por Itajaí (SC), com 165.474 leitos movimentando R$ 159,3 milhões. Já Paranaguá (PR) registra 36.356 leitos ofertados, com potencial de impacto econômico de aproximadamente R$ 35 milhões. A grande circulação de turistas na alta temporada requer um cuidado a mais de todos: manter a carteirinha de vacinação em dia. Deve-se ter atenção especial às doenças que podem afetar mais facilmente crianças não vacinadas, como sarampo, hepatites e rubéola."
-      }
-    },
-    {
-      "id": "imprensa:agenciabrasil-economia:95543de2c4a0",
-      "fonte": "imprensa:agenciabrasil-economia",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
-      "ementa": "A incidência dos juros da dívida pública fez a Dívida Pública Federal (DPF) subir em setembro. Segundo números divulgados nesta quinta-feira (29) pelo Tesouro Nacional, a DPF passou de R$ 9,293 trilhões em agosto para R$ 9,383 trilhões no mês passado, alta de 0,97%. Em maio deste ano, o indicador havia superado a barreira de R$ 9 trilhões. Apesar da alta, a dívida pública está abaixo do previsto. Notícias relacionadas: Dívida pública fica em 82,9% do PIB, e déficit soma R$ 5,5 bilhões. Perdão da",
-      "data": "2026-10-29",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-sobe-097-em-setembro-e-encosta-em-r-94-trilhoes",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "agenciabrasil-economia",
-        "secao": "economia",
-        "texto": "A incidência dos juros da dívida pública fez a Dívida Pública Federal (DPF) subir em setembro. Segundo números divulgados nesta quinta-feira (29) pelo Tesouro Nacional, a DPF passou de R$ 9,293 trilhões em agosto para R$ 9,383 trilhões no mês passado, alta de 0,97%. Em maio deste ano, o indicador havia superado a barreira de R$ 9 trilhões. Apesar da alta, a dívida pública está abaixo do previsto. De acordo com o Plano Anual de Financiamento (PAF), apresentado em janeiro e revisado em agosto, o estoque da DPF deve encerrar 2026 entre R$ 9,7 trilhões e R$ 10,3 trilhões . A Dívida Pública Mobiliária (em títulos) interna (DPMFi) avançou 1,04%, passando de R$ 8,944 trilhões em agosto para R$ 9,037 trilhões em setembro. No mês passado, o Tesouro emitiu R$ 3,78 bilhões em títulos a mais do que resgatou, volume baixo para os padrões históricos. A apropriação de R$ 89,29 bilhões em juros, porém, impediu a queda do endividamento. Por meio da apropriação de juros, o governo reconhece, mês a mês, a correção dos juros que incide sobre os títulos e incorpora o valor ao estoque da dívida pública. Com a Taxa Selic (juros básicos da economia) em 13,75% ao ano, a apropriação de juros pressiona o endividamento do governo. No mês passado, o Tesouro emitiu R$ 189,44 bilhões em títulos da DPMFi. Os resgates em setembro somaram R$ 185,66 bilhões , motivados principalmente pelo elevado volume de vencimentos de títulos corrigidos pela Taxa Selic, juros básicos da economia. A Dívida Pública Federal externa (DPFe) caiu 0,82%, passando de R$ 348,26 bilhões em agosto para R$ 345,41 bilhões em setembro. O principal fator foi a estabilidade do dólar no mês passado e o pagamento corrente de cerca de R$ 3 bilhões. Após cair em agosto, o colchão da dívida pública (reserva financeira usada em momentos de turbulência ou de forte concentração de vencimentos) subiu em setembro. Essa reserva passou de R$ 1,208 trilhão em agosto para R$ 1,273 trilhão em setembro. Atualmente, o colchão cobre 7,71 meses de vencimentos da dívida pública. Nos próximos 12 meses, está previsto o vencimento de R$ 1,87 trilhão em títulos federais. Com o forte vencimento de títulos vinculados à Selic, a composição da DPF variou da seguinte forma de agosto para setembro: Revisado em agosto, o PAF prevê que os títulos encerrarão o ano nos seguintes intervalos Normalmente, os papéis prefixados (com taxas definidas no momento da emissão) indicam mais previsibilidade para a dívida pública, porque as taxas são definidas com antecedência. No entanto, em momentos de instabilidade no mercado financeiro, as emissões caem porque os investidores pedem juros muito altos, que comprometeria a administração da dívida do governo. Em relação aos papéis vinculados à Selic (juros básicos da economia), esses títulos estão atraindo o interesse dos compradores por causa dos juros altos definidos pelo Comitê de Política Monetária do Banco Central (Copom). A dívida cambial é composta por antigos títulos da dívida interna corrigidos em dólar e pela dívida externa. O prazo médio da DPF manteve-se estável em 4,1 anos. O Tesouro só fornece a estimativa em anos, não em meses. Esse é o intervalo médio em que o governo leva para renovar (refinanciar) a dívida pública. Prazos maiores indicam mais confiança dos investidores na capacidade do governo de honrar os compromissos. A composição dos detentores da Dívida Pública Federal interna ficou a seguinte: Com a maior tensão no mercado financeiro em setembro, com a guerra no Oriente Médio, a participação dos não residentes (estrangeiros) caiu em relação a agosto, quando estava em 9,91%. Quanto maior a fatia de estrangeiros na dívida interna, maior a confiança no Brasil. Por meio da dívida pública, o governo pega dinheiro emprestado dos investidores para honrar compromissos financeiros. Em troca, compromete-se a devolver os recursos depois de alguns anos, com alguma correção, que pode seguir a taxa Selic (juros básicos da economia), a inflação, o dólar ou ser prefixada (definida"
       }
     },
     {
@@ -3310,6 +3748,23 @@
       }
     },
     {
+      "id": "imprensa:folha:0a8f507d2448",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Empresários retiram doações e pressionam ONGs após vitória de Lula",
+      "ementa": "Na segunda-feira (26), uma ONG que atende crianças com câncer em Sergipe recebeu a negativa de uma empresa de aço que estava disposta a apoiar a causa. No mesmo dia em que o país repercutia a eleição de Luiz Inácio Lula da Silva (PT), em uma reunião agendada muito antes do resultado das urnas, os captadores ouviram um não surpreendente: \"Lula deveria estar ajudando essas organizações\". Leia mais (10/29/2026 - 23h00)",
+      "data": "2026-10-29",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/folha-social-mais/2026/10/empresarios-retiram-doacoes-e-pressionam-ongs-apos-vitoria-de-lula.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
       "id": "imprensa:folha:e6c6cb1c838c",
       "fonte": "imprensa:folha",
       "nivel": "federal",
@@ -3684,142 +4139,6 @@
       }
     },
     {
-      "id": "imprensa:estadao:782ea7d0fcb1",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "TSE mantém inelegível político condenado por agressão contra a mulher em Alagoas",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/tse-mantem-inelegivel-politico-condenado-por-agressao-contra-a-mulher-em-alagoas-nprp/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:ad33d2e6bdee",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Juiz vê exploração do luto como ‘vetor de lucro ilícito’ e manda apreender Porsche de policial",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/juiz-ve-exploracao-do-luto-como-vetor-de-lucro-ilicito-e-manda-apreender-porsche-de-policial/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:46a762c93964",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Fachin devolve caso do INSS para Mendonça, mas mantém controle sobre investigação do Master",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/fachin-devolve-caso-do-inss-para-mendonca-mas-mantem-controle-sobre-investigacao-do-master/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:999734384a81",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "STF arquiva inquérito que investigava Monark por descumprimento de ordem judicial",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/stf-arquiva-o-inquerito-no-qual-monark-era-investigado-por-descumprimento-de-ordem-judicial-nprp/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:0a97934cc405",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "O futuro de Moraes na disputa entre Alcolumbre e o PL",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/raquel-landim/o-futuro-de-moraes-na-disputa-entre-alcolumbre-e-o-pl/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:5d161de9be79",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Rafael Fonteles diz que carta golpista de Flávio é inócua, mas bolsonarismo continua forte no País",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/rafael-fonteles-diz-que-carta-golpista-de-flavio-e-inocua-mas-bolsonarismo-continua-forte-no-pais/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:4c73d0e1b27f",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Lula é orientado por Itamaraty a não dar corda para Milei e Trump no episódio da fuga de Flávio",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/lula-e-orientado-por-itamaraty-a-nao-dar-corda-para-milei-e-trump-no-episodio-da-fuga-de-flavio/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:estadao:a0e6c6424704",
-      "fonte": "imprensa:estadao",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Ao fugir de avião, Flávio deixou seus aliados e eleitores a ver navios",
-      "ementa": "",
-      "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/eliane-cantanhede/ao-fugir-de-aviao-flavio-deixou-seus-aliados-e-eleitores-a-ver-navios/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "estadao",
-        "secao": "politica"
-      }
-    },
-    {
       "id": "imprensa:estadao:789ff76ad712",
       "fonte": "imprensa:estadao",
       "nivel": "federal",
@@ -3837,15 +4156,15 @@
       }
     },
     {
-      "id": "imprensa:estadao:d91d84013583",
+      "id": "imprensa:estadao:fa14c70a33c6",
       "fonte": "imprensa:estadao",
       "nivel": "federal",
       "categoria": "noticia",
       "sigla_tipo": "NOTICIA",
-      "titulo": "Cinco partidos políticos ainda não se manifestaram sobre resultado da eleição",
+      "titulo": "Mãe de Deolane movimentou R$ 7 milhões e comprou Land Rover com renda mensal de R$ 800, diz Coaf",
       "ementa": "",
       "data": "2026-10-29",
-      "url": "https://www.estadao.com.br/politica/eleicoes/cinco-partidos-politicos-ainda-nao-se-manifestaram-sobre-resultado-da-eleicao-nprp/",
+      "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/mae-de-deolane-movimentou-r-7-milhoes-e-comprou-land-rover-com-renda-mensal-de-r-800-diz-coaf/",
       "autores": [],
       "url_documento": null,
       "extra": {
@@ -4228,125 +4547,6 @@
       }
     },
     {
-      "id": "imprensa:cartacapital:25d44ab9b069",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Lula 4 vai enfrentar (de novo) o ‘mercado’ e driblar a mídia",
-      "ementa": "Vitorioso com as ruas e as redes, presidente não irá se render ao arrocho fiscal nem a 'jornalista com má-fé'",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/lula-4-vai-enfrentar-de-novo-o-mercado-e-driblar-a-midia/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:7812c988dbf6",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Apib denuncia violência contra indígenas em MS e SP após a eleição",
-      "ementa": "Em Tacuru (MS), um áudio atribuído a um servidor municipal sugere o envenenamento pela água. Prefeitura informou que afastará o funcionário",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/apib-denuncia-violencia-contra-indigenas-em-ms-e-sp-apos-a-eleicao/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:9438989ad8c2",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Moraes arquiva inquérito sobre juiz que soltou homem responsável por quebrar relógio no 8 de Janeiro",
-      "ementa": "Por outro lado, o ministro determinou a continuidade da apuração da responsabilidade funcional do investigado na esfera administrativa",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/justica/moraes-arquiva-inquerito-sobre-juiz-que-soltou-homem-responsavel-por-quebrar-relogio-no-8-de-janeiro/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:cd093673b595",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Condenado por lesão corporal contra mulher fica inelegível, decide TSE",
-      "ementa": "O advogado João Francisco de Assis Neto queria se candidatar a deputado federal por Alagoas",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/politica/condenado-por-lesao-corporal-contra-mulher-fica-inelegivel-decide-tse/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:a68851d5b515",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Moraes arquiva inquérito contra o influenciador Monark",
-      "ementa": "A decisão acolheu a recomendação da Procuradoria-Geral da República",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/cartaexpressa/moraes-arquiva-inquerito-contra-o-influenciador-monark/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:cartacapital:34e15c735bbd",
-      "fonte": "imprensa:cartacapital",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Fachin arquiva mais investigações ligadas ao Inquérito das Fake News",
-      "ementa": "Em setembro, o presidente do STF assumiu a apuração, inicialmente chefiada por Alexandre Moraes",
-      "data": "2026-10-29",
-      "url": "https://www.cartacapital.com.br/justica/fachin-arquiva-mais-investigacoes-ligadas-ao-inquerito-das-fake-news/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "cartacapital",
-        "secao": "politica"
-      }
-    },
-    {
-      "id": "imprensa:oeste:c1b0dfb9bd01",
-      "fonte": "imprensa:oeste",
-      "nivel": "federal",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Washington Post critica Judiciário brasileiro e alerta para riscos à democracia",
-      "ementa": "O The Washington Post publicou nesta quarta-feira, 28, um editorial crítico à atuação do Judiciário brasileiro, especialmente do Supremo Tribunal Federal (STF) e do ministro Alexandre de Moraes . O jornal ressalta que a concentração de poderes e o enfraquecimento de garantias processuais ameaçam o Estado de Direito e a confiança nas instituições. Judiciário sob suspeita A publicação, tradicionalmente identificada com posições de centro-esquerda no cenário político norte-americano, questiona a at",
-      "data": "2026-10-29",
-      "url": "https://revistaoeste.com/politica/iwashington-post-i-critica-judiciario-brasileiro-e-alerta-para-riscos-a-democracia/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "oeste",
-        "secao": "politica"
-      }
-    },
-    {
       "id": "imprensa:g1-amazonas:c1335ceff8a3",
       "fonte": "imprensa:g1-amazonas",
       "nivel": "estadual",
@@ -4438,7 +4638,7 @@
       "categoria": "noticia",
       "sigla_tipo": "NOTICIA",
       "titulo": "Artistas amazonenses lamentam morte do ator e diretor Matheus Sabbá",
-      "ementa": "Matheus Sabbá era ator e diretor de teatro, e faleceu aos 30 anos. Reprodução/Redes Sociais Artistas e instituições culturais do Amazonas prestaram homenagens a Matheus Domingues Sabbá, ator e diretor amazonense que morreu aos 30 anos, na quarta-feira (28). Em publicações nas redes sociais, amigos relembraram a personalidade e o talento de Matheus, além de suas contribuições para o teatro e artes cênicas no estado. A morte do artista foi confirmada pela Secretaria de Estado de Cultura e Economia",
+      "ementa": "Matheus Sabbá era ator e diretor de teatro, e faleceu aos 30 anos. Reprodução/Redes Sociais Artistas e instituições culturais do Amazonas prestaram homenagens a Matheus Domingues Sabbá, ator e diretor amazonense que morreu aos 30 anos, na quarta-feira (28). Em publicações nas redes sociais, amigos relembraram a personalidade e o talento de Matheus, além de suas contribuições para o teatro e artes cênicas no estado. Quem era Matheus Sabbá, ator e diretor amazonense que morreu aos 30 anos A morte ",
       "data": "2026-10-29",
       "url": "https://g1.globo.com/am/amazonas/noticia/2026/10/29/artistas-amazonenses-lamentam-morte-do-ator-e-diretor-matheus-sabba.ghtml",
       "autores": [],
@@ -4736,53 +4936,28 @@
         "veiculo": "g1-amazonas",
         "secao": "amazonas"
       }
-    },
-    {
-      "id": "imprensa:amazonasatual:f9b8f897361c",
-      "fonte": "imprensa:amazonasatual",
-      "nivel": "estadual",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas",
-      "ementa": "O bloco fica localizado em águas ultraprofundas na costa do estado do Amapá, na Foz do Amazonas, em lâmina d’água de 2.886 metros O post Petrobras anuncia 3ª descoberta de petróleo em poço na Foz do Amazonas apareceu primeiro em AMAZONAS ATUAL .",
-      "data": "2026-10-29",
-      "url": "https://amazonasatual.com.br/petrobras-anuncia-3a-descoberta-de-petroleo-em-poco-na-foz-do-amazonas/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "amazonasatual",
-        "secao": "amazonas"
-      }
-    },
-    {
-      "id": "imprensa:amazonasatual:2c5b1623a7bc",
-      "fonte": "imprensa:amazonasatual",
-      "nivel": "estadual",
-      "categoria": "noticia",
-      "sigla_tipo": "NOTICIA",
-      "titulo": "Morre o ator Patrick Stewart, o Professor Xavier de X-Men",
-      "ementa": "Patrick Stewart, que também foi astro de Star Trek, estava com 86 anos de idade e sofria de Alzheimer e Demência com Corpos de Lewy O post Morre o ator Patrick Stewart, o Professor Xavier de X-Men apareceu primeiro em AMAZONAS ATUAL .",
-      "data": "2026-10-29",
-      "url": "https://amazonasatual.com.br/morre-o-ator-patrick-stewart-o-professor-xavier-de-x-men/",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "veiculo": "amazonasatual",
-        "secao": "amazonas"
-      }
     }
   ],
   "fontes_indisponiveis": [
     "camara",
-    "cmm",
     "dou"
   ],
   "primeira_vez": {
     "senado:9118843": "2026-10-29",
     "senado:9118916": "2026-10-29",
+    "senado:9118843:sit:2026-10-29": "2026-10-29",
+    "senado:9118916:sit:2026-10-29": "2026-10-29",
     "senado:9118102:sit:2026-10-29": "2026-10-29",
     "senado:9118369:sit:2026-10-29": "2026-10-29",
+    "senado:9118889:sit:2026-10-29": "2026-10-29",
+    "senado:9118955:sit:2026-10-29": "2026-10-29",
     "senado:9118889": "2026-10-29",
-    "senado:9118955": "2026-10-29"
+    "senado:9118955": "2026-10-29",
+    "cmm:materia:53132": "2026-10-29",
+    "cmm:materia:53133": "2026-10-29",
+    "cmm:materia:53134": "2026-10-29",
+    "cmm:materia:53135": "2026-10-29",
+    "cmm:materia:53136": "2026-10-29",
+    "cmm:materia:53137": "2026-10-29"
   }
 }
