@@ -9,6 +9,10 @@ MAX_FICHAS = 5
 DIAS_ATE_DESDE = 60  # tema mais antigo que isso: "desde mmm/aaaa" em vez de "dia N"
 
 
+def movimentacoes(n: int) -> str:
+    return "1 movimentação oficial" if n == 1 else f"{n} movimentações oficiais"
+
+
 def _etiqueta(inicio: str, dia: date) -> str:
     i = date.fromisoformat(inicio)
     n = (dia - i).days + 1

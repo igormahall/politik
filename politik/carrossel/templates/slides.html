@@ -11,10 +11,10 @@
   {% if m.capa.temas %}
   <ol class="lista-capa">
     {% for t in m.capa.temas %}<li>{{ t.nome }}{% if t.linha %}<span>{{ t.linha }}</span>{% endif %}</li>{% endfor %}
-    {% if m.capa.mais %}<li>Mais {{ m.capa.mais }} movimentações oficiais</li>{% endif %}
   </ol>
+  {% if m.capa.mais %}<p class="mais-capa">Mais {{ movimentacoes(m.capa.mais) }}</p>{% endif %}
   {% else %}
-  <p class="grande">Hoje: {{ m.capa.mais }} movimentações oficiais</p>
+  <p class="grande">Hoje: {{ movimentacoes(m.capa.mais) }}</p>
   <p>{{ m.capa.niveis|join(" · ") }}</p>
   {% endif %}
 </div>
@@ -46,8 +46,14 @@
 {% endif %}
 <div class="rodape"><span class="marca">{{ simbolo|safe }}politik · os fatos lado a lado</span><span class="pagina">{{ n }}/{{ m.total }}</span></div>
 <script>
-// Encaixe: sem "Para entender" → texto menor (até 75%) → corta o "novo hoje" em frase inteira. O aviso nunca é cortado.
+// Encaixe: sem "Para entender" → texto menor (até 75%) → corta o "novo hoje" em frase inteira (ou, se for uma
+// frase só, em palavra inteira). O aviso nunca é cortado.
 function cabe(c) { return c.scrollHeight <= c.clientHeight; }
+// fim de frase = pontuação seguida de espaço ou do fim: "3.396" e "R$ 1,5" não quebram
+function frases(t) { return t.match(/[\s\S]*?[.!?]+(?:\s+|$)|[\s\S]+$/g).filter(f => f); }
+function cortar(nh, c, partes, sep) {
+  while (partes.length > 1 && !cabe(c)) { partes.pop(); nh.textContent = partes.join(sep).trim() + " …"; }
+}
 function encaixar() {
   const c = document.querySelector(".corpo");
   if (cabe(c)) return;
@@ -56,8 +62,8 @@ function encaixar() {
   for (let e = 0.95; e >= 0.749; e -= 0.05) { c.style.setProperty("--escala", e.toFixed(2)); if (cabe(c)) return; }
   const nh = c.querySelector(".novo-hoje");
   if (!nh) return;
-  const frases = nh.textContent.match(/[^.!?]+[.!?]+\s*/g) || [nh.textContent];
-  while (frases.length > 1 && !cabe(c)) { frases.pop(); nh.textContent = frases.join("").trim() + " …"; }
+  cortar(nh, c, frases(nh.textContent), "");
+  if (!cabe(c)) cortar(nh, c, nh.textContent.replace(/ …$/, "").split(/\s+/), " ");
 }
 </script>
 </body>

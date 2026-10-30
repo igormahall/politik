@@ -100,9 +100,19 @@ def cmd_carrossel(args) -> int:
         telegram.enviar([{"text": "🖼️ Sem carrossel hoje.", "reply_markup": None}], token, chat)
         print("carrossel: nada hoje")
         return 0
-    imagens = render.renderizar(modelo, Path(args.saida))
-    telegram.enviar_album(imagens, token, chat)
-    telegram.enviar([{"text": escape(legenda(modelo)), "reply_markup": None}], token, chat)
+    try:
+        imagens = render.renderizar(modelo, Path(args.saida))
+        telegram.enviar_album(imagens, token, chat)
+        telegram.enviar([{"text": escape(legenda(modelo)), "reply_markup": None}], token, chat)
+    except Exception as e:
+        # só o tipo do erro: a mensagem pode trazer detalhes internos
+        aviso = f"⚠️ O carrossel de hoje falhou ({type(e).__name__}). Detalhes no log do GitHub Actions."
+        print(f"carrossel: falhou ({type(e).__name__})", file=sys.stderr)
+        try:
+            telegram.enviar([{"text": aviso, "reply_markup": None}], token, chat)
+        except RuntimeError:
+            pass  # o próprio Telegram está fora; o passo amarelo no Actions é o aviso
+        return 1
     print(f"carrossel: {len(imagens)} slides enviados")
     return 0
 

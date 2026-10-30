@@ -1,3 +1,5 @@
+from politik.carrossel.conteudo import movimentacoes
+
 LIMITE_INSTAGRAM = 2200
 FECHO = "Os fatos lado a lado. Cada item explicado do zero, com fontes, no link da bio."
 HASHTAGS = "#política #congresso #brasil #amazonas #manaus #politik"
@@ -8,9 +10,9 @@ def legenda(modelo: dict) -> str:
     capa = modelo["capa"]
     temas = [f"• {t['nome']}: {t['linha']}" if t["linha"] else f"• {t['nome']}" for t in capa["temas"]]
     if not capa["temas"]:
-        extra = [f"• {capa['mais']} movimentações oficiais ({' · '.join(capa['niveis'])})"]
+        extra = [f"• {movimentacoes(capa['mais'])} ({' · '.join(capa['niveis'])})"]
     else:
-        extra = [f"• Mais {capa['mais']} movimentações oficiais"] if capa["mais"] else []
+        extra = [f"• Mais {movimentacoes(capa['mais'])}"] if capa["mais"] else []
 
     def compor(linhas):
         corpo = "\n".join(linhas + extra)

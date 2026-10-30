@@ -4,11 +4,14 @@ from pathlib import Path
 
 from jinja2 import Environment, PackageLoader, select_autoescape
 
+from politik.carrossel.conteudo import movimentacoes
+
 PASTA = Path(__file__).parent
 SIMBOLO = (PASTA.parent / "site" / "favicon.svg").read_text(encoding="utf-8")
 LARGURA, ALTURA = 1080, 1350
 
 _env = Environment(loader=PackageLoader("politik.carrossel", "templates"), autoescape=select_autoescape())
+_env.globals["movimentacoes"] = movimentacoes
 
 
 def _fonte(nome: str) -> str:
