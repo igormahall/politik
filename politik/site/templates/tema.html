@@ -2,14 +2,14 @@
 {% block titulo %}{{ t.nome }} — Politik{% endblock %}
 {% block conteudo %}
 <p><span class="etiqueta">{{ "Em andamento" if t.ativo else "Sem novidades há mais de 30 dias" }}</span>
-<span class="etiqueta">desde {{ t.inicio }}</span></p>
+<span class="etiqueta">desde {{ t.inicio | data_br(curta=True) }}</span></p>
 <h1>{{ t.nome }}</h1>
 <p><em>Resumo até aqui:</em> {{ t.resumo_ate_aqui }}</p>
 <h2 id="do-zero">❓ Me explica do zero</h2>
 {% for par in t.explica_do_zero.split("\n") if par.strip() %}<p>{{ par }}</p>{% endfor %}
 <h2 id="linha-do-tempo">🕒 Linha do tempo</h2>
 <ol class="linha">{% for f in t.linha_do_tempo | reverse %}
-<li><strong>{{ f.data }}</strong> — {{ f.fato }}{% if f.fonte_unica %} <span class="aviso">(fonte única)</span>{% endif %}
+<li><strong>{{ f.data | data_br(curta=True) }}</strong> — {{ f.fato }}{% if f.fonte_unica %} <span class="aviso">(fonte única)</span>{% endif %}
 <br><small>{% for fo in f.fontes %}<a href="{{ fo.url | seguro }}">{{ fo.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</small></li>
 {% endfor %}</ol>
 {% if fichas %}<h2>Documentos oficiais ligados</h2>
