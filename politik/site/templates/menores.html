@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% block titulo %}Itens menores — {{ d }}{% endblock %}
+{% block titulo %}Itens menores — {{ d | data_br(curta=True) }}{% endblock %}
 {% block conteudo %}
-<h1>Itens menores de {{ d }}</h1>
+<h1>Itens menores de {{ d | data_br }}</h1>
 <p class="discreto">Requerimentos, homenagens, pareceres, atos de rotina e notícias que não entraram no resumo. Textos originais, sem tradução.</p>
 <ul>{% for i in menores %}<li><a href="{{ i.url | seguro }}">{{ i.titulo }}</a> <span class="etiqueta">{{ i.fonte }}</span><br><small>{{ i.ementa }}</small></li>{% endfor %}</ul>
 {% endblock %}

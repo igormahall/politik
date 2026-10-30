@@ -1,7 +1,7 @@
 {% extends "base.html" %}
-{% block titulo %}Politik — {{ d }}{% endblock %}
+{% block titulo %}Politik — {{ d | data_br(curta=True) }}{% endblock %}
 {% block conteudo %}
-<h1>{{ d }}</h1>
+<h1>{{ d | data_br }}</h1>
 {% for f in sel.fontes_indisponiveis %}<p class="aviso">⚠️ {{ f | nome_fonte }} indisponível hoje.</p>{% endfor %}
 {% if diario.temas %}
 <h2>🔥 Temas em andamento</h2>

@@ -1,4 +1,5 @@
 import shutil
+from datetime import date
 from pathlib import Path
 
 from jinja2 import Environment, PackageLoader, select_autoescape
@@ -15,6 +16,34 @@ NOMES_FONTES = {
     "imprensa": "Imprensa",
     "tramitacao": "Tramitações",
 }
+
+
+DIAS_SEMANA = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]
+MESES = [
+    "janeiro",
+    "fevereiro",
+    "março",
+    "abril",
+    "maio",
+    "junho",
+    "julho",
+    "agosto",
+    "setembro",
+    "outubro",
+    "novembro",
+    "dezembro",
+]
+
+
+def data_br(iso: str, curta: bool = False) -> str:
+    """'2026-10-28' → 'quarta-feira, 28 de outubro de 2026' (ou '28/10/2026' com curta=True)."""
+    try:
+        d = date.fromisoformat(str(iso)[:10])
+    except ValueError:
+        return str(iso)
+    if curta:
+        return d.strftime("%d/%m/%Y")
+    return f"{DIAS_SEMANA[d.weekday()]}, {d.day} de {MESES[d.month - 1]} de {d.year}"
 
 
 def link_seguro(url: str | None) -> str:
@@ -63,6 +92,7 @@ def gerar(saida: Path, base_url: str) -> None:
         niveis=NIVEIS,
     )
     env.filters["seguro"] = link_seguro
+    env.filters["data_br"] = data_br
     env.filters["nome_fonte"] = lambda f: NOMES_FONTES.get(f, f)
 
     def escrever(rel: str, tpl: str, **ctx):
@@ -71,7 +101,7 @@ def gerar(saida: Path, base_url: str) -> None:
         destino.write_text(env.get_template(tpl).render(**ctx), encoding="utf-8")
 
     saida.mkdir(parents=True, exist_ok=True)
-    for estatico in ("estilo.css", "favicon.svg"):
+    for estatico in ("estilo.css", "favicon.svg", "simbolo-contorno.svg"):
         shutil.copy(Path(__file__).parent / estatico, saida / estatico)
 
     for iid, f in fichas.items():

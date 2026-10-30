@@ -5,5 +5,5 @@
 <h2>Temas</h2>
 <ul>{% for slug, t in temas.items() %}<li><a href="{{ url_tema(slug) }}">{{ t.nome }}</a>{% if not t.ativo %} <span class="discreto">(inativo)</span>{% endif %}</li>{% else %}<li>Nenhum tema ainda.</li>{% endfor %}</ul>
 <h2>Dias</h2>
-<ul>{% for d in dias %}<li><a href="{{ url_dia(d) }}">{{ d }}</a></li>{% else %}<li>Nenhum dia ainda.</li>{% endfor %}</ul>
+<ul>{% for d in dias %}<li><a href="{{ url_dia(d) }}">{{ d | data_br }}</a></li>{% else %}<li>Nenhum dia ainda.</li>{% endfor %}</ul>
 {% endblock %}

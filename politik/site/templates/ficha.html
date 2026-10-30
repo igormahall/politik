@@ -13,5 +13,5 @@
 <ul>{% for fo in f.fontes %}<li><a href="{{ fo.url | seguro }}">{{ fo.nome }}</a></li>{% endfor %}
 {% if ":votacao:" in f.item_id %}<li><a href="{{ f.fontes[0].url | seguro }}">🗳️ Como votaram</a></li>{% endif %}</ul>
 {% if f.temas %}<p>Temas: {% for s in f.temas %}{% if temas.get(s) %}<a href="{{ url_tema(s) }}">{{ temas[s].nome }}</a>{% if not loop.last %}, {% endif %}{% endif %}{% endfor %}</p>{% endif %}
-<p class="discreto">Publicado no Politik em {{ f.data }}.</p>
+<p class="discreto">Publicado no Politik em {{ f.data | data_br(curta=True) }}.</p>
 {% endblock %}

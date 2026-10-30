@@ -28,3 +28,26 @@ def test_site_usa_a_marca(tmp_data, tmp_path):
     css = (tmp_path / "estilo.css").read_text()
     assert "--rio-negro: #2a1f1a" in css and "--solimoes: #c9a266" in css
     assert "Bricolage Grotesque" in css and "Source Sans 3" in css
+
+
+def test_simbolo_para_fundo_escuro_tem_contorno_claro():
+    svg = Path("marca/simbolo-contorno.svg").read_text()
+    assert 'stroke="#f4efe7"' in svg
+    assert Path("politik/site/simbolo-contorno.svg").read_text() == svg
+
+
+def test_topo_escuro_usa_simbolo_com_contorno(tmp_data, tmp_path):
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": []})
+    gerar(tmp_path, "https://x")
+    assert 'src="https://x/simbolo-contorno.svg"' in (tmp_path / "index.html").read_text()
+    assert (tmp_path / "simbolo-contorno.svg").exists()
+
+
+def test_datas_por_extenso(tmp_data, tmp_path):
+    from politik.site.gerador import data_br
+
+    assert data_br("2026-10-28") == "quarta-feira, 28 de outubro de 2026"
+    assert data_br("2026-10-28", curta=True) == "28/10/2026"
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": []})
+    gerar(tmp_path, "https://x")
+    assert "quarta-feira, 28 de outubro de 2026" in (tmp_path / "index.html").read_text()
