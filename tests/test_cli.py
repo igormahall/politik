@@ -68,3 +68,21 @@ def test_carrossel_renderiza_e_envia_album_e_legenda(tmp_data, monkeypatch, tmp_
     assert main(["carrossel", "--data", D, "--saida", str(tmp_path / "c")]) == 0
     assert [a.name for a in enviadas["album"]] == ["01.png", "02.png", "03.png"]
     assert len(enviadas["mensagens"]) == 1 and enviadas["mensagens"][0]["text"].startswith("Politik · ")
+
+
+def test_carrossel_falhou_avisa_sem_detalhes(tmp_data, monkeypatch):
+    from politik.armazenamento import escrever_json
+    from politik.carrossel import render
+    from tests.helpers import escrever_ficha, FICHA_OK
+
+    enviadas = _telegram_falso(monkeypatch)
+
+    def quebra(modelo, saida):
+        raise RuntimeError("detalhe interno com SEGREDO")
+
+    monkeypatch.setattr(render, "renderizar", quebra)
+    escrever_ficha(tmp_data, FICHA_OK)
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1"]})
+    assert main(["carrossel", "--data", D]) == 1
+    texto = enviadas["mensagens"][0]["text"]
+    assert texto.startswith("⚠️ O carrossel de hoje falhou (RuntimeError)") and "SEGREDO" not in texto

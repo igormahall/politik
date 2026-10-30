@@ -31,3 +31,8 @@ def test_legenda_respeita_limite():
     t = legenda(_modelo([{"nome": f"T{i}", "linha": "x" * 1000} for i in range(5)]))
     assert len(t) <= LIMITE_INSTAGRAM
     assert t.rstrip().endswith("#politik") and "• T0: " in t and "• Mais 3" in t
+
+
+def test_legenda_singular():
+    assert "• Mais 1 movimentação oficial\n" in legenda(_modelo([{"nome": "A", "linha": None}], mais=1))
+    assert "• 1 movimentação oficial (Federal)" in legenda(_modelo([], mais=1))

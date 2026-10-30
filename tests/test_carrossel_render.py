@@ -51,7 +51,7 @@ def test_paginas_html_ordem_e_textos():
     p = paginas_html(MODELO)
     assert len(p) == 5
     assert "O dia na política" in p[0] and "quarta-feira, 28 de outubro de 2026" in p[0]
-    assert "Fachin mantém o caso no STF" in p[0] and "Mais 1 movimentações oficiais" in p[0]
+    assert "Fachin mantém o caso no STF" in p[0] and "Mais 1 movimentação oficial" in p[0]
     assert AVISO in p[1] and "Também hoje" in p[3] and "e mais 2 no link da bio" in p[3] and "fonte única" in p[3]
     assert "Os fatos lado a lado" in p[-1] and "Link na bio · boletim diário grátis no Telegram" in p[-1]
     assert "5/5" in p[-1] and "1/5" in p[0]
@@ -106,6 +106,56 @@ def test_fontes_da_marca_carregam():
         pagina.set_content(paginas_html(MODELO)[0])
         estados = pagina.evaluate("document.fonts.ready.then(() => [...document.fonts].map(f => f.status))")
         assert estados and set(estados) == {"loaded"}
+    finally:
+        navegador.close()
+        p.stop()
+
+
+def _encaixado(m, slide):
+    p, navegador = _chromium()
+    try:
+        pagina = navegador.new_page(viewport={"width": 1080, "height": 1350})
+        pagina.set_content(paginas_html(m)[slide])
+        pagina.evaluate("encaixar()")
+        return (
+            pagina.locator(".corpo").evaluate("e => e.scrollHeight <= e.clientHeight"),
+            pagina.locator(".novo-hoje").inner_text(),
+            pagina.locator(".aviso").inner_text(),
+        )
+    finally:
+        navegador.close()
+        p.stop()
+
+
+def test_corte_nao_quebra_numero_com_ponto():
+    longo = " ".join(["O MPT informou 3.396 denúncias de assédio eleitoral e processou a Meta."] * 40)
+    m = {**MODELO, "temas": [{**MODELO["temas"][0], "novo_hoje": longo}]}
+    cabe, texto, aviso = _encaixado(m, 1)
+    assert cabe and aviso.endswith(AVISO) and texto.endswith("…")
+    assert "3. " not in texto and texto.count("3.396") >= 1
+
+
+def test_frase_unica_gigante_corta_por_palavra_e_mantem_aviso():
+    m = {**MODELO, "temas": [{**MODELO["temas"][0], "novo_hoje": "palavra " * 500}]}
+    cabe, texto, aviso = _encaixado(m, 1)
+    assert cabe and aviso.endswith(AVISO) and texto.endswith("…")
+
+
+def test_singular_de_movimentacao_e_mais_fora_da_lista_numerada():
+    um = {**MODELO, "capa": {**MODELO["capa"], "mais": 1}}
+    capa = paginas_html(um)[0]
+    assert "Mais 1 movimentação oficial" in capa and "<li>Mais" not in capa
+    sem_temas = {**MODELO, "capa": {"temas": [], "mais": 1, "niveis": ["Federal"]}, "temas": [], "total": 3}
+    assert "Hoje: 1 movimentação oficial" in paginas_html(sem_temas)[0]
+
+
+def test_divisao_de_frases_respeita_numeros_brasileiros():
+    p, navegador = _chromium()
+    try:
+        pagina = navegador.new_page()
+        pagina.set_content(paginas_html(MODELO)[1])
+        partes = pagina.evaluate("frases('O MPT informou 3.396 denúncias. Bloqueou R$ 1,5 mi. Fim')")
+        assert partes == ["O MPT informou 3.396 denúncias. ", "Bloqueou R$ 1,5 mi. ", "Fim"]
     finally:
         navegador.close()
         p.stop()
