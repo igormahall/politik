@@ -25,6 +25,10 @@ O Politik existe para que **quem não é da área do direito** entenda o que o p
   "PLP (projeto de lei complementar, um tipo de lei que exige mais votos para passar)".
 - Números concretos quando a fonte dá (valores, prazos, quantas pessoas).
 - Nunca copie a ementa: reescreva.
+- **Não cite as fontes no corpo do texto** ("a BBC e a DW noticiaram…", "segundo reportagem de…"): quem
+  noticiou já aparece na lista de fontes. O corpo diz só o que aconteceu. Continuam valendo as atribuições
+  que fazem parte do fato: quem fez uma declaração ("o Itamaraty disse, segundo a Agência Brasil, que…") e o
+  aviso de fonte única ("segundo apenas <veículo>").
 
 ## 3. Campos da ficha
 
