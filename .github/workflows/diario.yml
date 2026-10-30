@@ -2,7 +2,10 @@ name: Politik diário
 
 on:
   schedule:
-    - cron: "0 10 * * *" # 10:00 UTC = 06:00 em Manaus
+    # o GitHub descarta agendamentos sob carga (sobretudo no minuto :00);
+    # fora do minuto cheio + uma repescagem que só roda se a primeira faltou
+    - cron: "13 10 * * *" # 10:13 UTC = 06:13 em Manaus
+    - cron: "13 12 * * *" # repescagem, 08:13 em Manaus
   workflow_dispatch:
     inputs:
       data:
@@ -17,7 +20,30 @@ permissions:
 concurrency: politik-diario
 
 jobs:
+  checar:
+    runs-on: ubuntu-latest
+    outputs:
+      rodar: ${{ steps.checar.outputs.rodar }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.ref_name }} # ponta atual do branch, com o commit de uma execução anterior
+          persist-credentials: false
+      - id: checar
+        env:
+          EVENTO: ${{ github.event_name }}
+        run: |
+          D=$(PYTHONPATH=. python3 -c "from politik.datas import dia_de_referencia as d; print(d())")
+          if [ "$EVENTO" = schedule ] && [ -f "data/diario/$D.json" ]; then
+            echo "$D já foi processado; nada a fazer"
+            echo "rodar=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "rodar=true" >> "$GITHUB_OUTPUT"
+          fi
+
   diario:
+    needs: checar
+    if: needs.checar.outputs.rodar == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     environment:
