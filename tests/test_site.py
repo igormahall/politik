@@ -1,8 +1,8 @@
 from politik.__main__ import main
 from politik.armazenamento import escrever_json
-from politik.site.gerador import url_ficha, url_menores, url_tema
+from politik.site.gerador import url_ficha, url_menores, url_mundo, url_tema
 from tests.conftest import load
-from tests.helpers import D, escrever_selecionados, item
+from tests.helpers import D, escrever_mundo, escrever_selecionados, item, MUNDO_OK
 
 ID = "camara:2649124"
 
@@ -75,3 +75,26 @@ def test_site_dia_ordena_por_importancia(tmp_data, tmp_path):
     main(["site", "--saida", str(tmp_path), "--base-url", "https://x"])
     dia = (tmp_path / f"dia/{D}.html").read_text()
     assert dia.index("⭐ Mais importantes") < dia.index("Mais importante") < dia.index("Menos importante")
+
+
+def test_site_gera_pagina_do_mundo_e_secao_no_dia(tmp_data, tmp_path):
+    popular_exemplo(tmp_data)
+    escrever_mundo(tmp_data, MUNDO_OK)
+    escrever_json(tmp_data / f"diario/{D}.json", {**load("exemplo_saida/diario.json"), "mundo": [MUNDO_OK["item_id"]]})
+    main(["site", "--saida", str(tmp_path), "--base-url", "https://x"])
+    pagina = (tmp_path / "mundo/mundo_2026-10-28_1.html").read_text()
+    assert MUNDO_OK["titulo"] in pagina and "Por que importa para o Brasil" in pagina
+    assert "https://www.dw.com/pt-br/a-2" in pagina and "Fontes do impacto" in pagina
+    dia = (tmp_path / f"dia/{D}.html").read_text()
+    assert "🌍 Mundo" in dia and url_mundo(MUNDO_OK["item_id"], "https://x") in dia
+    assert dia.index("🌍 Mundo") < dia.index("itens menores")
+
+
+def test_site_dia_sem_mundo_nao_mostra_secao(tmp_data, tmp_path):
+    popular_exemplo(tmp_data)
+    main(["site", "--saida", str(tmp_path), "--base-url", "https://x"])
+    assert "🌍 Mundo" not in (tmp_path / f"dia/{D}.html").read_text()
+
+
+def test_url_mundo():
+    assert url_mundo("mundo:2026-10-28:1", "https://x/") == "https://x/mundo/mundo_2026-10-28_1.html"

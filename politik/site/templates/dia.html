@@ -30,5 +30,7 @@
 {% endif %}{% endfor %}
 {% if not fichas %}<p>Nenhuma novidade oficial ontem.</p>{% endif %}
 {% endif %}
+{% if mundo %}<h2>🌍 Mundo</h2>
+<ul>{% for f in mundo %}<li><a href="{{ url_mundo(f.item_id) }}">{{ f.titulo }}</a></li>{% endfor %}</ul>{% endif %}
 <p><a href="{{ url_menores(d) }}">+ {{ sel.menores | length }} itens menores</a></p>
 {% endblock %}
