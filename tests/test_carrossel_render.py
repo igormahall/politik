@@ -159,3 +159,24 @@ def test_divisao_de_frases_respeita_numeros_brasileiros():
     finally:
         navegador.close()
         p.stop()
+
+
+def test_capa_mostra_fatos_do_mundo():
+    capa = paginas_html({**MODELO, "capa": {**MODELO["capa"], "mundo": 2}})[0]
+    assert "2 fatos do mundo" in capa
+
+
+def test_capa_sem_temas_so_mundo():
+    m = {**MODELO, "capa": {"temas": [], "mais": 0, "niveis": ["Mundo"], "mundo": 3}, "temas": [], "total": 3}
+    capa = paginas_html(m)[0]
+    assert "3 fatos do mundo" in capa and "movimentaç" not in capa
+
+
+def test_etiqueta_do_slide_de_fichas_conforme_o_conteudo():
+    so_oficiais = paginas_html(MODELO)[3]
+    assert "Movimentações oficiais" in so_oficiais
+    mundo = {"nivel": "Mundo", "itens": [{"situacao": "BBC · DW", "titulo": "X", "fonte_unica": False}]}
+    misto = {**MODELO, "fichas": {"grupos": [*MODELO["fichas"]["grupos"], mundo], "mais": 0}}
+    assert "Oficiais e mundo" in paginas_html(misto)[3]
+    so_mundo = {**MODELO, "fichas": {"grupos": [mundo], "mais": 0}}
+    assert ">Mundo</div>" in paginas_html(so_mundo)[3]

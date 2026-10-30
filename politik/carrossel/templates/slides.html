@@ -13,8 +13,10 @@
     {% for t in m.capa.temas %}<li>{{ t.nome }}{% if t.linha %}<span>{{ t.linha }}</span>{% endif %}</li>{% endfor %}
   </ol>
   {% if m.capa.mais %}<p class="mais-capa">Mais {{ movimentacoes(m.capa.mais) }}</p>{% endif %}
+  {% if m.capa.mundo %}<p class="mais-capa">{{ fatos_do_mundo(m.capa.mundo) }}</p>{% endif %}
   {% else %}
-  <p class="grande">Hoje: {{ movimentacoes(m.capa.mais) }}</p>
+  {% if m.capa.mais %}<p class="grande">Hoje: {{ movimentacoes(m.capa.mais) }}</p>{% endif %}
+  {% if m.capa.mundo %}<p class="grande">{{ "E " if m.capa.mais else "Hoje: " }}{{ fatos_do_mundo(m.capa.mundo) }}</p>{% endif %}
   <p>{{ m.capa.niveis|join(" · ") }}</p>
   {% endif %}
 </div>
@@ -27,7 +29,8 @@
   <div class="para-entender"><p class="rotulo">Para entender</p><p>{{ t.para_entender }}</p></div>
 </div>
 {% elif tipo == "fichas" %}
-<div class="topo"><div class="etiqueta">Movimentações oficiais</div><h1>Também hoje</h1></div>
+{% set niveis = m.fichas.grupos|map(attribute="nivel")|list %}
+<div class="topo"><div class="etiqueta">{% if "Mundo" not in niveis %}Movimentações oficiais{% elif niveis|length == 1 %}Mundo{% else %}Oficiais e mundo{% endif %}</div><h1>Também hoje</h1></div>
 <div class="corpo">
   {% for g in m.fichas.grupos %}
   <p class="nivel">{{ g.nivel }}</p>

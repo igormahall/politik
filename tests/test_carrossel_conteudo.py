@@ -1,6 +1,6 @@
 from politik.armazenamento import escrever_json
 from politik.carrossel.conteudo import montar
-from tests.helpers import D, escrever_ficha, escrever_tema, FICHA_OK, TEMA_OK
+from tests.helpers import D, escrever_ficha, escrever_mundo, escrever_tema, FICHA_OK, MUNDO_OK, TEMA_OK
 
 
 def _diario(d, temas=(), fichas=(), **extra):
@@ -95,3 +95,40 @@ def test_arquivos_faltando_sao_ignorados(tmp_data):
     m = montar(D)
     assert [t["nome"] for t in m["temas"]] == ["Caso Master"]
     assert [i["titulo"] for g in m["fichas"]["grupos"] for i in g["itens"]] == ["Muda o saque do FGTS"]
+
+
+def _mundos(d, n):
+    ids = []
+    for i in range(n):
+        escrever_mundo(d, {**MUNDO_OK, "item_id": f"mundo:{D}:{i}", "titulo": f"Mundo {i}"})
+        ids.append(f"mundo:{D}:{i}")
+    return ids
+
+
+def test_dia_cheio_reserva_dois_lugares_para_o_mundo(tmp_data):
+    fichas = [_ficha(tmp_data, f"camara:{i}") for i in range(6)]
+    _diario(tmp_data, [], fichas, mundo=_mundos(tmp_data, 3))
+    m = montar(D)
+    grupos = {g["nivel"]: g["itens"] for g in m["fichas"]["grupos"]}
+    assert len(grupos["Mundo"]) == 2 and sum(len(v) for v in grupos.values()) == 5
+    assert grupos["Mundo"][0] == {"situacao": "BBC · DW", "titulo": "Mundo 0", "fonte_unica": False}
+    assert list(grupos)[-1] == "Mundo"
+    assert m["capa"]["mundo"] == 2 and m["capa"]["mais"] == 3 and m["fichas"]["mais"] == 4
+
+
+def test_mundo_ocupa_lugares_livres(tmp_data):
+    _diario(tmp_data, [], [_ficha(tmp_data, "camara:1")], mundo=_mundos(tmp_data, 4))
+    m = montar(D)
+    assert m["capa"]["mundo"] == 4 and m["capa"]["mais"] == 1 and m["fichas"]["mais"] == 0
+
+
+def test_dia_so_com_mundo_tem_carrossel(tmp_data):
+    _diario(tmp_data, [], [], mundo=_mundos(tmp_data, 3))
+    m = montar(D)
+    assert m is not None and m["capa"]["mundo"] == 3 and m["capa"]["mais"] == 0 and m["total"] == 3
+
+
+def test_diario_sem_mundo_igual_a_antes(tmp_data):
+    _diario(tmp_data, [], [_ficha(tmp_data, "camara:1")])
+    m = montar(D)
+    assert m["capa"]["mundo"] == 0 and "Mundo" not in [g["nivel"] for g in m["fichas"]["grupos"]]
