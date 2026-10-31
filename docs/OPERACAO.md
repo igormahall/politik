@@ -21,6 +21,11 @@ processa. O GitHub Actions então roda:
    Para a seção Mundo, também os feeds internacionais de `config/mundo.toml` (BBC, DW e Agência Brasil –
    Internacional).
    As votações da Câmara são agrupadas pelo projeto votado.
+   O DOU vem do INLABS. Se ele falhar (sem credenciais, em manutenção ou fora do ar), o coletor busca o dia na
+   [base aberta da Imprensa Nacional](https://www.in.gov.br/acesso-a-informacao/dados-abertos/base-de-dados):
+   um zip da seção 1 por mês, ~60 MB. Normalmente essa base só sai depois que o mês fecha; durante a manutenção
+   de outubro de 2026 ela passou a ser atualizada todo dia. Se o dia ainda não estiver lá, o DOU aparece como
+   fonte indisponível, como antes.
 2. `filtrar`: separa destaques (até 25), notícias (até 60), itens do Mundo (até 80, em rodízio entre as
    organizações) e itens menores → `data/selecionados/<dia>.json` (guarda todos os itens do dia; é o registro
    bruto que fica no histórico). A tramitação de um projeto apresentado no mesmo dia não vira uma segunda ficha.
