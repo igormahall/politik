@@ -1,9 +1,14 @@
 """Contratos dos workflows do GitHub Actions, das skills do Claude e do guia editorial."""
 
+import os
 import re
+import subprocess
 from pathlib import Path
 
+import pytest
 import yaml
+
+from politik.datas import dia_de_referencia
 
 
 def test_skill_traduzir_manda_substituir_entradas_do_dia():
@@ -153,3 +158,52 @@ def test_sem_validacao_o_que_o_claude_escreveu_nao_vai_para_o_historico():
 def test_skills_tratam_texto_coletado_como_dado():
     for skill in ("traduzir", "carga-tema"):
         assert "dado, não instrução" in Path(f".claude/skills/{skill}/SKILL.md").read_text()
+
+
+def _bash(script, cwd, **env):
+    """Roda um `run:` do workflow como o Actions roda (bash -eo pipefail)."""
+    subprocess.run(["bash", "-eo", "pipefail", "-c", script], cwd=cwd, env={**os.environ, **env}, check=True)
+
+
+@pytest.mark.parametrize(
+    "evento, agendado, processado, rodar",
+    [
+        ("schedule", "", True, "false"),
+        ("schedule", "", False, "true"),
+        ("workflow_dispatch", "true", True, "false"),  # agendador externo, dia já feito
+        ("workflow_dispatch", "true", False, "true"),  # agendador externo, dia por fazer
+        ("workflow_dispatch", "false", True, "true"),  # botão Run workflow sempre processa
+    ],
+)
+def test_disparo_automatico_nao_reprocessa_o_dia(tmp_path, evento, agendado, processado, rodar):
+    # o schedule do GitHub não dispara neste repositório: o gatilho é o agendador externo, via API
+    wf = _wf("diario.yml")
+    entrada = wf[True]["workflow_dispatch"]["inputs"]["agendado"]
+    assert entrada["type"] == "boolean" and entrada["default"] is False
+    passo = _passo(wf, "checar", "checar")
+    assert passo["env"] == {"EVENTO": "${{ github.event_name }}", "AGENDADO": "${{ inputs.agendado }}"}
+
+    (tmp_path / "politik").symlink_to(Path("politik").resolve())
+    if processado:
+        (tmp_path / "data/diario").mkdir(parents=True)
+        (tmp_path / f"data/diario/{dia_de_referencia()}.json").write_text("{}")
+    saida = tmp_path / "saida"
+    saida.write_text("")
+    _bash(passo["run"], tmp_path, EVENTO=evento, AGENDADO=agendado, GITHUB_OUTPUT=str(saida))
+    assert saida.read_text().splitlines() == [f"rodar={rodar}"]
+
+
+def test_endereco_do_site_nao_depende_do_payload_do_evento(tmp_path):
+    # execução agendada não tem payload: github.event.repository.name chega vazio e o link sai quebrado
+    assert not re.search(r"\$\{\{[^}]*github\.event\.repository", Path(".github/workflows/diario.yml").read_text())
+    env = tmp_path / "env"
+    env.write_text("")
+    passo = _passo(_wf("diario.yml"), "diario", "Endereço do site")
+    _bash(
+        passo["run"],
+        tmp_path,
+        GITHUB_REPOSITORY="igormahall/politik",
+        GITHUB_REPOSITORY_OWNER="igormahall",
+        GITHUB_ENV=str(env),
+    )
+    assert env.read_text().splitlines() == ["POLITIK_BASE_URL=https://igormahall.github.io/politik"]

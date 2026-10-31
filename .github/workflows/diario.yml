@@ -1,9 +1,10 @@
 name: Politik diário
 
 on:
+  # O gatilho de verdade é o agendador externo (cron-job.org), que chama a API às 6h13 e às 8h13 de Manaus
+  # com agendado=true. O schedule do GitHub nunca disparou neste repositório (docs/OPERACAO.md) e fica só
+  # de reserva, nos mesmos horários: uma execução automática que acha o dia pronto não faz nada.
   schedule:
-    # o GitHub descarta agendamentos sob carga (sobretudo no minuto :00);
-    # fora do minuto cheio + uma repescagem que só roda se a primeira faltou
     - cron: "13 10 * * *" # 10:13 UTC = 06:13 em Manaus
     - cron: "13 12 * * *" # repescagem, 08:13 em Manaus
   workflow_dispatch:
@@ -11,6 +12,10 @@ on:
       data:
         description: "Dia de referência (AAAA-MM-DD). Vazio = ontem."
         required: false
+      agendado:
+        description: "Disparo automático: se o dia já foi processado, não faz nada."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,9 +37,10 @@ jobs:
       - id: checar
         env:
           EVENTO: ${{ github.event_name }}
+          AGENDADO: ${{ inputs.agendado }}
         run: |
           D=$(PYTHONPATH=. python3 -c "from politik.datas import dia_de_referencia as d; print(d())")
-          if [ "$EVENTO" = schedule ] && [ -f "data/diario/$D.json" ]; then
+          if { [ "$EVENTO" = schedule ] || [ "$AGENDADO" = true ]; } && [ -f "data/diario/$D.json" ]; then
             echo "$D já foi processado; nada a fazer"
             echo "rodar=false" >> "$GITHUB_OUTPUT"
           else
@@ -49,8 +55,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
-    env:
-      POLITIK_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -61,6 +65,10 @@ jobs:
           python-version: "3.12"
 
       - run: pip install -e .
+
+      - name: Endereço do site
+        # não vem de github.event.repository: execução agendada não tem payload, e o link sairia quebrado
+        run: echo "POLITIK_BASE_URL=https://$GITHUB_REPOSITORY_OWNER.github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_ENV"
 
       - name: Dia de referência
         env:

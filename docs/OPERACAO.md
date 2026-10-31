@@ -9,7 +9,12 @@ O que é o Politik e seus critérios estão no [README](../README.md).
 
 ## Como funciona
 
-Todo dia às 10:13 UTC (6h13 em Manaus), com repescagem às 12:13 UTC se a primeira não rodar, o GitHub Actions roda `.github/workflows/diario.yml`:
+Todo dia às 6h13 de Manaus (10:13 UTC), com repescagem às 8h13, um agendador externo (cron-job.org) dispara
+`.github/workflows/diario.yml` pela API do GitHub, com `agendado=true`. O agendamento do próprio GitHub (`schedule`,
+nos mesmos horários) fica no arquivo só de reserva: ele nunca disparou neste repositório (veja
+[Por que um agendador externo](#por-que-um-agendador-externo)). Uma execução automática que encontra o dia já
+processado não faz nada, então os gatilhos podem se sobrepor sem repetir o resumo. O botão *Run workflow* sempre
+processa. O GitHub Actions então roda:
 
 1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 16 feeds de imprensa
    e as tramitações de projetos já acompanhados → `data/brutos/<dia>/` (temporário, fora do git).
@@ -64,7 +69,24 @@ e **Testes** (`testes.yml`, a cada push de código: `ruff` + `pytest`).
    | `INLABS_SENHA` | sua senha do INLABS |
 
 8. **Primeiro teste.** *Actions → Politik diário → Run workflow*. Em ~10 minutos o resumo chega no Telegram.
-9. **Carga do caso Master.** *Actions → Carga de tema → Run workflow* com
+9. **Agendador (sem ele o resumo não sai sozinho).**
+   - **Token só para disparar o workflow.** No GitHub: *Settings → Developer settings → Personal access tokens →
+     Fine-grained tokens → Generate new token*. Nome `politik-agendador`; validade: a mais longa oferecida (anote a
+     data); *Repository access → Only select repositories → politik*; *Permissions → Actions → Read and write*.
+   - **cron-job.org** (grátis). Crie a conta e, em *Create cronjob*:
+
+     | Campo | Valor |
+     |---|---|
+     | URL | `https://api.github.com/repos/<seu-usuario>/politik/actions/workflows/diario.yml/dispatches` |
+     | Agenda | personalizada: minuto `13`, horas `6` e `8`, todos os dias; fuso `America/Manaus` |
+     | Método (*Advanced*) | `POST` |
+     | Cabeçalhos | `Authorization: Bearer <token>`, `Accept: application/vnd.github+json`, `Content-Type: application/json` |
+     | Corpo | `{"ref":"main","inputs":{"agendado":"true"}}` |
+     | Notificações | avisar em caso de falha e quando o job for desativado |
+
+   - **Teste.** *Test run* deve responder HTTP 200 ou 204, e uma execução nova aparece em *Actions*. Se o dia já foi
+     processado, ela termina em segundos sem fazer nada.
+10. **Carga do caso Master.** *Actions → Carga de tema → Run workflow* com
    `slug=caso-master`, `nome=Caso Master`, `descricao=Banco Master e Daniel Vorcaro`.
    Confira o tema no site. Se faltar parte da história, rode de novo: ele continua de onde parou
    (primeiro confirma fatos de fonte única, depois preenche lacunas, depois busca fatos novos).
@@ -93,9 +115,25 @@ e **Testes** (`testes.yml`, a cada push de código: `ruff` + `pytest`).
   - `selecionados/<dia>.json`, `pendentes.json` e `uso.jsonl` são guardados antes e restaurados depois;
   - `validar` desfaz mudanças em diários, fichas e fichas do Mundo de outros dias, e um tema internacional
     não pode perder a marca;
-  - se a validação falhar, nada do que o Claude escreveu é commitado (a repescagem das 12:13 tenta de novo).
+  - se a validação falhar, nada do que o Claude escreveu é commitado (a repescagem das 8h13 tenta de novo).
+- O **token do agendador** (guardado só no cron-job.org) tem apenas a permissão *Actions* deste repositório: dispara
+  e cancela execuções, mas não lê segredos nem muda código. Se vazar, revogue em *Settings → Developer settings*.
 - Links no site só aceitam `http(s)`; textos são escapados.
 - Actions fixadas por commit (SHA); o Dependabot abre PRs semanais para atualizá-las.
+
+## Por que um agendador externo
+
+Em 30 e 31/10/2026 o `schedule` do GitHub não criou nenhuma execução, em nenhum horário (10:00, 10:13 e 12:13 UTC):
+`gh api "repos/<seu-usuario>/politik/actions/runs?event=schedule"` respondia `total_count: 0`. Tudo do nosso lado
+estava certo: workflow ativo, arquivo no branch padrão, repositório público com commits recentes, cron válido.
+Não era atraso nem descarte no minuto :00 (mudar o horário não resolveu): o agendador do GitHub simplesmente não
+disparava. Em 2026 há vários relatos iguais na comunidade do GitHub, sem resposta oficial nem solução, e a própria
+documentação trata o `schedule` como melhor esforço (pode atrasar e pode ser descartado). Já o disparo pela API
+(`workflow_dispatch`) sempre funcionou. Por isso o horário é responsabilidade do agendador externo.
+
+**O resumo não chegou?** Veja primeiro o histórico do job no cron-job.org: 401, 403 ou 404 = token vencido, errado
+ou sem a permissão *Actions*; 422 = corpo errado. Depois, *Actions → Politik diário*. Para processar o dia na hora:
+*Run workflow*.
 
 ## Rodando no laptop
 
