@@ -152,3 +152,8 @@ entrada da linha do tempo de um tema internacional. Temas nacionais não mudam.
   no Telegram e no carrossel.
 - Como o Claude agrupa matérias sobre o mesmo fato entre fontes diferentes.
 - Testes, com dados de exemplo como o resto do projeto.
+
+## Mudanças depois do design (30/10/2026)
+
+- Carrossel: as contagens da capa saíram (ver o spec do carrossel). O Mundo aparece na linha "Também hoje" da
+  capa e continua com até 2 lugares garantidos no slide de fichas.

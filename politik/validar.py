@@ -21,6 +21,12 @@ def _restaurar_ou_remover(caminho: Path) -> None:
         caminho.unlink(missing_ok=True)
 
 
+def _alterados(pasta: Path) -> set[str] | None:
+    """Nomes dos arquivos da pasta que mudaram desde o commit ou são novos; None se não der para saber."""
+    r = subprocess.run(["git", "status", "--porcelain", "-uall", "--", str(pasta)], capture_output=True, text=True)
+    return {Path(linha[3:].strip('"')).name for linha in r.stdout.splitlines()} if r.returncode == 0 else None
+
+
 def _erros_tema(conteudo: dict, caminho: Path) -> list[str]:
     # tirar a marca "internacional" de um tema já gravado não pode ser um jeito de fugir das duas organizações
     commitado = _versao_commitada(caminho)
@@ -77,6 +83,12 @@ def validar(data: str) -> dict:
     # 1. todo tema e toda ficha precisam estar válidos (inclusive os fora do diário)
     _limpar_invalidos(base / "temas", _erros_tema, _restaurar_ou_remover)
     _limpar_invalidos(base / "fichas", lambda c, _: erros_ficha(c), lambda p: p.unlink())
+    # o Claude só escreve fichas de hoje: ficha de outro dia mexida volta à versão commitada ou sai
+    alterados = _alterados(base / "fichas")
+    for p in (base / "fichas").glob("*.json"):
+        if (alterados is None or p.name in alterados) and ler_json(p, {}).get("data") != data:
+            print(f"{p.name}: ficha de outro dia alterada; desfeita", file=sys.stderr)
+            _restaurar_ou_remover(p)
 
     # o Claude só escreve o dia de hoje: diário de outro dia volta à versão commitada
     for p in (base / "diario").glob("*.json"):

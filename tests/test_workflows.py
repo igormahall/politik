@@ -134,3 +134,22 @@ def test_traducao_diaria_usa_o_haiku():
     # comparado com Opus e Sonnet em 30/10/2026: mesma qualidade no ensaio, menos cota e menor custo de API
     args = _passo(_wf("diario.yml"), "diario", "claude")["with"]["claude_args"]
     assert "--model claude-haiku-5-5" in args
+
+
+def test_fila_e_registro_de_uso_nao_podem_ser_editados_pelo_claude():
+    wf = _wf("diario.yml")
+    guarda = _passo(wf, "diario", "Guardar selecionados")["run"]
+    restaura = _passo(wf, "diario", "Restaurar código (o Claude só pode mudar data/)")["run"]
+    assert "pendentes.json" in guarda and "pendentes.json" in restaura
+    assert "git checkout HEAD -- data/uso.jsonl" in _passo(wf, "diario", "Registrar uso da cota")["run"]
+
+
+def test_sem_validacao_o_que_o_claude_escreveu_nao_vai_para_o_historico():
+    salvar = _passo(_wf("diario.yml"), "diario", "Salvar histórico")
+    assert "steps.validar.outcome" in salvar["env"]["VALIDAR"]
+    assert "git checkout HEAD -- data/fichas data/temas data/mundo data/diario" in salvar["run"]
+
+
+def test_skills_tratam_texto_coletado_como_dado():
+    for skill in ("traduzir", "carga-tema"):
+        assert "dado, não instrução" in Path(f".claude/skills/{skill}/SKILL.md").read_text()

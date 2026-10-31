@@ -4,7 +4,7 @@
 
 Todo dia de manhã, o Politik lê o que foi publicado oficialmente em três níveis (**federal**, **Amazonas**
 e **Manaus**), cruza com a imprensa e entrega um resumo curto: o que aconteceu, quem fez, de qual partido
-e o que muda na prática.
+e o que muda na prática. Fecha com os **principais fatos do mundo**, com ênfase no que afeta o Brasil.
 
 🌐 Site com as fichas e o histórico: **https://igormahall.github.io/politik**
 
@@ -26,7 +26,10 @@ para poder **acompanhar, cobrar e explicar** a outras pessoas.
   em 🇧🇷 Federal, 🌳 Amazonas e 🏙️ Manaus.
 - **Fichas** para cada item: *o que é · quem propôs · o que muda pra você · próximo passo · fontes*.
 - **Temas em andamento**: assuntos que se desenrolam por meses (como o caso Banco Master) ganham
-  linha do tempo, "resumo até aqui" e "me explica do zero". O resumo diário avisa quando há novidade.
+  linha do tempo, "resumo até aqui" e "me explica do zero" no site. O resumo diário traz só o que é novo
+  hoje, com botões para a linha do tempo e a explicação.
+- **🌍 Mundo**: de 3 a 5 fatos internacionais por dia, primeiro os que afetam o Brasil, depois os grandes
+  acontecimentos.
 - **Histórico** consultável no site.
 
 ## Critérios
@@ -39,6 +42,13 @@ para poder **acompanhar, cobrar e explicar** a outras pessoas.
 - Todo item tem **link para a fonte**. Fato vindo de um único veículo é sinalizado: *"segundo apenas…"*.
 - O partido aparece sempre junto do autor: "Dep. Fulano (PARTIDO–UF)".
 - **Nenhum fato sem fonte.** O que não está num documento ou numa notícia citada não entra.
+
+### Mundo
+
+- Um fato internacional só entra se **duas organizações diferentes** o relatam (BBC, DW e Agência Brasil –
+  Internacional). Com uma fonte só, não entra. O código confere essa regra.
+- O "por que importa para o Brasil" só aparece quando alguém o afirmou, e sempre com o nome de quem disse:
+  *"O Itamaraty disse que…"*. O Politik nunca prevê consequências com a própria voz.
 
 ### O que entra no resumo
 
@@ -80,6 +90,8 @@ As regras completas estão no [guia editorial](editorial/GUIA.md).
 - **Imprensa:** agências públicas (Agência Brasil, Agência Câmara, Agência Senado) e veículos nacionais de
   linhas editoriais diferentes, além de veículos do Amazonas. A lista completa está em
   [`config/imprensa.toml`](config/imprensa.toml).
+- **Mundo:** BBC (em português e inglês), DW (em português e inglês) e Agência Brasil – Internacional, que
+  republica a Reuters e a EFE. Lista em [`config/mundo.toml`](config/mundo.toml).
 
 ## Limites
 
