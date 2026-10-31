@@ -216,3 +216,10 @@ Calibração nas primeiras semanas, com o Igor lendo todo dia e ajustando o filt
 - Como dividir o trabalho do Claude em uma ou mais chamadas dentro da cota.
 - Testes e como rodar localmente.
 - Confirmar a validade do token do `claude setup-token` (há relatos de 1 ano) e documentar a renovação.
+
+## Mudanças depois do design
+
+- 30/10/2026: no Telegram, o bloco de cada tema ficou curto: nome, duração, "Novo hoje" e o aviso de fonte
+  única. O "resumo até aqui" saiu da mensagem e continua no site, junto com a linha do tempo e o "me explica
+  do zero" (os botões levam até lá). A tradução diária passou a usar o Claude Haiku 5.5.
+- 30/10/2026: novas seções de design para o carrossel do Instagram e para o Mundo, em specs próprios nesta pasta.

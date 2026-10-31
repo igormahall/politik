@@ -80,8 +80,11 @@ jobs:
         run: python -m politik filtrar --data "$D"
 
       - name: Guardar selecionados
-        # é a lista do que foi coletado hoje; a validação das fontes do Mundo confia nela, então o Claude não pode mexer
-        run: cp "data/selecionados/$D.json" "$RUNNER_TEMP/selecionados.json"
+        # é a lista do que foi coletado hoje; a validação das fontes do Mundo confia nela, então o Claude não pode mexer.
+        # A fila de pendentes vira destaque amanhã: também não.
+        run: |
+          cp "data/selecionados/$D.json" "$RUNNER_TEMP/selecionados.json"
+          cp data/pendentes.json "$RUNNER_TEMP/pendentes.json"
 
       - name: Traduzir com Claude Code
         id: claude
@@ -99,13 +102,16 @@ jobs:
 
       - name: Registrar uso da cota
         if: always()
-        run: python -m politik registrar-uso --arquivo "${{ steps.claude.outputs.execution_file }}" --data "$D"
+        run: |
+          git checkout HEAD -- data/uso.jsonl # só o pipeline escreve no registro
+          python -m politik registrar-uso --arquivo "${{ steps.claude.outputs.execution_file }}" --data "$D"
 
       - name: Restaurar código (o Claude só pode mudar data/)
         if: always()
         run: |
           git checkout HEAD -- politik config editorial .claude .github pyproject.toml
           cp "$RUNNER_TEMP/selecionados.json" "data/selecionados/$D.json"
+          cp "$RUNNER_TEMP/pendentes.json" data/pendentes.json
 
       - name: Validar
         id: validar
@@ -147,7 +153,13 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
+          VALIDAR: ${{ steps.validar.outcome }}
         run: |
+          if [ "$VALIDAR" != "success" ]; then
+            # sem validação, nada do que o Claude escreveu vai para o histórico; a repescagem tenta de novo
+            git checkout HEAD -- data/fichas data/temas data/mundo data/diario
+            git clean -fdq -- data/fichas data/temas data/mundo data/diario
+          fi
           git config user.name "politik-bot"
           git config user.email "politik-bot@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git"

@@ -194,3 +194,23 @@ def test_validar_restaura_diario_de_outro_dia_e_tema_que_perdeu_a_marca(tmp_data
     main(["validar", "--data", D])
     assert ler_json(tmp_data / "diario/2026-10-27.json") == antigo
     assert ler_json(tmp_data / "temas/caso-master.json")["internacional"] is True
+
+
+def test_validar_ficha_de_outro_dia_volta_a_commitada_ou_sai(tmp_data, monkeypatch):
+    import json
+
+    from politik import validar as v
+
+    antiga = {**FICHA_OK, "item_id": "camara:7", "data": "2026-10-27"}
+    monkeypatch.setattr(
+        v, "_versao_commitada", lambda c: json.dumps(antiga).encode() if str(c).endswith("camara_7.json") else None
+    )
+    escrever_selecionados(tmp_data, D, destaques=[item("camara:1")])
+    escrever_ficha(tmp_data, FICHA_OK)
+    escrever_ficha(tmp_data, {**antiga, "titulo": "Texto trocado pelo Claude"})
+    escrever_ficha(tmp_data, {**FICHA_OK, "item_id": "camara:8", "data": "2026-10-27"})  # inventada, nunca commitada
+    escrever_json(tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1"]})
+    main(["validar", "--data", D])
+    assert ler_json(tmp_data / "fichas/camara_7.json") == antiga
+    assert not (tmp_data / "fichas/camara_8.json").exists()
+    assert ler_json(tmp_data / f"diario/{D}.json")["fichas"] == ["camara:1"]

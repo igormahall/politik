@@ -147,3 +147,11 @@ Falhar ao gerar ou enviar o carrossel **não pode** impedir o envio do boletim n
 `docs/OPERACAO.md` avisa: o token do Claude é pessoal, e antes de abrir o Politik para outras pessoas
 (Instagram, canal público) é preciso reavaliar os termos de uso; pode ser necessário usar a API paga.
 Isso não impede construir a etapa 1, mas precisa ser resolvido **antes do primeiro post público**.
+
+## Mudanças depois do design (30/10/2026, pedidas pelo Igor)
+
+- A capa e a legenda não mostram mais contagens ("Mais N movimentações oficiais", "N fatos do mundo"): no
+  Instagram não há link para elas. No lugar, a linha "Também hoje: Federal · Amazonas · Manaus · Mundo", só
+  com os níveis que tiveram novidade (no dia sem temas, "Hoje no Politik" e os níveis).
+- O slide "Também hoje" alterna as fichas entre os níveis (uma de cada, em rodízio), para o Amazonas e
+  Manaus não sumirem num dia cheio de itens federais. A linha "e mais N no link da bio" continua.
