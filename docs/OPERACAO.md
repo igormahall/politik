@@ -132,7 +132,8 @@ documentação trata o `schedule` como melhor esforço (pode atrasar e pode ser 
 (`workflow_dispatch`) sempre funcionou. Por isso o horário é responsabilidade do agendador externo.
 
 **O resumo não chegou?** Veja primeiro o histórico do job no cron-job.org: 401, 403 ou 404 = token vencido, errado
-ou sem a permissão *Actions*; 422 = corpo errado. Depois, *Actions → Politik diário*. Para processar o dia na hora:
+ou sem a permissão *Actions*; 422 = corpo errado ou workflow desativado (reative em *Actions*). Depois,
+*Actions → Politik diário*. Para processar o dia na hora:
 *Run workflow*.
 
 ## Rodando no laptop
