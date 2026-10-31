@@ -5,6 +5,7 @@ import unicodedata
 import xml.etree.ElementTree as ET
 import zipfile
 from html import unescape
+from urllib.parse import urljoin
 
 import httpx
 
@@ -13,6 +14,10 @@ from politik.modelos import Item
 
 URL_LOGIN = "https://inlabs.in.gov.br/logar.php"
 URL_DOWNLOAD = "https://inlabs.in.gov.br/index.php?p={data}&dl={data}-DO1.zip"
+# reserva: a base aberta da Imprensa Nacional (um zip por mês e seção; durante a manutenção do INLABS
+# em outubro de 2026, atualizado todo dia)
+URL_BASE_ABERTA = "https://www.in.gov.br/acesso-a-informacao/dados-abertos/base-de-dados"
+MESES = "Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro".split()
 
 
 def _sem_acento(s: str) -> str:
@@ -49,8 +54,18 @@ def parse_artigo(xml: bytes) -> Item | None:
     )
 
 
-@registrar("dou")
-def coletar(data: str) -> list[Item]:
+def _ler_zip(conteudo: bytes, pasta: str = "") -> list[Item]:
+    itens = []
+    with zipfile.ZipFile(io.BytesIO(conteudo)) as z:
+        for nome in z.namelist():
+            if nome.startswith(pasta) and nome.lower().endswith(".xml"):
+                it = parse_artigo(z.read(nome))
+                if it:
+                    itens.append(it)
+    return itens
+
+
+def _do_inlabs(data: str) -> list[Item]:
     email, senha = os.environ.get("INLABS_EMAIL"), os.environ.get("INLABS_SENHA")
     if not email or not senha:
         raise FonteIndisponivel("INLABS sem credenciais")
@@ -63,11 +78,34 @@ def coletar(data: str) -> list[Item]:
         if r.status_code == 404:
             return []
         r.raise_for_status()
-    itens = []
-    with zipfile.ZipFile(io.BytesIO(r.content)) as z:
-        for nome in z.namelist():
-            if nome.lower().endswith(".xml"):
-                it = parse_artigo(z.read(nome))
-                if it:
-                    itens.append(it)
+    return _ler_zip(r.content)
+
+
+def _da_base_aberta(data: str, cliente: httpx.Client) -> list[Item]:
+    ano, mes, dia = data.split("-")
+    with cliente:
+        pagina = cliente.get(URL_BASE_ABERTA, params={"ano": ano, "mes": MESES[int(mes) - 1]})
+        pagina.raise_for_status()
+        links = re.findall(rf'href="([^"]*/S01{mes}{ano}[^"/]*\.zip[^"]*)"', pagina.text)
+        if not links:
+            raise FonteIndisponivel(f"base aberta sem o arquivo de {mes}/{ano}")
+        r = cliente.get(urljoin(URL_BASE_ABERTA, unescape(links[0])))
+        r.raise_for_status()
+    # a seção 1 do mês inteiro vem num zip só, com uma pasta por dia (edição normal e extras)
+    itens = _ler_zip(r.content, pasta=f"{ano}{mes}{dia}/")
+    if not itens:
+        raise FonteIndisponivel(f"base aberta ainda sem {data}")
     return itens
+
+
+@registrar("dou")
+def coletar(data: str, base_aberta: httpx.Client | None = None) -> list[Item]:
+    try:
+        return _do_inlabs(data)
+    except (FonteIndisponivel, httpx.HTTPError, zipfile.BadZipFile) as e:
+        falha_inlabs = e
+    cliente = base_aberta or httpx.Client(timeout=300, follow_redirects=True, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        return _da_base_aberta(data, cliente)
+    except (FonteIndisponivel, httpx.HTTPError, zipfile.BadZipFile) as e:
+        raise FonteIndisponivel(f"{falha_inlabs}; {e}") from e
