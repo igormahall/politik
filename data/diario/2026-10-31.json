@@ -1,0 +1,32 @@
+{
+  "data": "2026-10-31",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PF apresentou o primeiro pedido de indiciamento no caso, focado em Vorcaro e nas fraudes com o BRB. Ministros do STF ficaram de fora desta fase.",
+      "aviso_fonte_unica": "Indiciamento divulgado só pela Gazeta do Povo.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "PF apresenta 1º indiciamento do caso Master; ministros do STF ficam de fora"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O MTE disse ter recebido cerca de 4,3 mil denúncias de assédio eleitoral em três dias. Alunos relataram agressões e ameaças ligadas à eleição em escolas.",
+      "aviso_fonte_unica": "Casos em escolas divulgados só pela Agência Brasil.",
+      "nome_curto": "Violência política e assédio eleitoral",
+      "linha_capa": "MTE recebe cerca de 4,3 mil denúncias de assédio eleitoral em três dias"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Dois advogados pediram à Justiça Federal do Rio a suspensão do salário e das verbas de Flávio. O Novo segue sem reconhecer a vitória de Lula.",
+      "aviso_fonte_unica": "Petição ao STF, declaração de Flávio e posição do Novo vêm só de um veículo cada (Revista Oeste, Gazeta do Povo e g1).",
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "Ação popular pede suspensão de salário de Flávio, que está nos EUA"
+    }
+  ],
+  "fichas": [],
+  "mundo": [
+    "mundo:2026-10-31:1",
+    "mundo:2026-10-31:2",
+    "mundo:2026-10-31:3"
+  ]
+}
