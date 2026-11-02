@@ -1,0 +1,35 @@
+{
+  "data": "2026-11-01",
+  "temas": [
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O Ministério dos Direitos Humanos recebeu 189 denúncias de violência política no período eleitoral. As aldeias Guarani Kaiowá, no Mato Grosso do Sul, vão receber proteção da Força Nacional.",
+      "aviso_fonte_unica": "O número de 189 denúncias vem só da Agência Brasil.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "Aldeias Guarani Kaiowá vão receber proteção da Força Nacional"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "A defesa de Flávio pediu ao presidente do STF que Moraes seja considerado impedido de relatar a investigação sobre a relação dele com Willer Tomaz. Flávio criticou Moraes em publicação no X.",
+      "aviso_fonte_unica": "A crítica de Flávio a Moraes vem só da Folha.",
+      "nome_curto": "Saída de Flávio Bolsonaro",
+      "linha_capa": "Defesa de Flávio pede que Moraes seja impedido de inquérito"
+    },
+    {
+      "slug": "reforma-eleitoral-voto-distrital-misto",
+      "novo_hoje": "Líderes da Câmara querem retomar a proposta que muda a forma de eleger deputados e institui o voto distrital misto. Segundo a Folha, Hugo Motta articulou acordo com o centrão para adotá-lo a partir de 2034.",
+      "aviso_fonte_unica": "O acordo para 2034 vem só da Folha.",
+      "nome_curto": "Reforma eleitoral na Câmara",
+      "linha_capa": "Câmara quer retomar proposta que muda a forma de eleger deputados"
+    },
+    {
+      "slug": "sigilo-morte-tancredo-neves",
+      "novo_hoje": "A Justiça Federal derrubou o sigilo médico sobre a morte de Tancredo Neves. Um dos filhos dele obteve o direito de receber os registros médicos do ex-presidente.",
+      "aviso_fonte_unica": "O direito do filho de receber os registros vem só da Folha.",
+      "nome_curto": "Sigilo sobre a morte de Tancredo",
+      "linha_capa": "Justiça derruba sigilo médico sobre a morte de Tancredo Neves"
+    }
+  ],
+  "fichas": [],
+  "mundo": []
+}

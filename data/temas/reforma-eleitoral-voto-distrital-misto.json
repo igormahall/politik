@@ -1,0 +1,29 @@
+{
+  "slug": "reforma-eleitoral-voto-distrital-misto",
+  "nome": "Reforma eleitoral na Câmara (voto distrital misto)",
+  "inicio": "2026-11-01",
+  "ativo": true,
+  "ultima_novidade": "2026-11-01",
+  "palavras_chave": ["voto distrital misto", "sistema distrital misto", "Hugo Motta"],
+  "resumo_ate_aqui": "Líderes da Câmara e presidentes de partidos querem retomar uma proposta que muda a forma de escolha dos deputados e institui o sistema distrital misto. Segundo a Folha, o presidente da Câmara articulou um acordo com o centrão para adotar o modelo a partir de 2034, mas o modelo divide os deputados.",
+  "explica_do_zero": "Líderes da Câmara e presidentes de partidos querem retomar a tramitação de uma proposta que muda a forma de escolha dos deputados e institui o chamado sistema distrital misto. Segundo a g1, o objetivo é frear a perda de espaço dos partidos de centro no Parlamento, depois do crescimento do PL nas eleições de 2026.\n\nSegundo apenas a Folha, o presidente da Câmara, Hugo Motta (Republicanos–PB), articulou com dirigentes do centrão um acordo para adotar o voto distrital misto a partir de 2034. A mesma reportagem diz que o modelo divide os deputados e ameaça desfazer esse acordo.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-11-01",
+      "fato": "Líderes da Câmara e presidentes de partidos querem retomar a tramitação de uma proposta que muda a forma de escolha dos deputados e institui o sistema distrital misto. Segundo a g1, o objetivo é frear a perda de espaço dos partidos de centro, após o crescimento do PL nas eleições de 2026.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/01/camara-quer-mudar-a-forma-de-eleicao-dos-deputados-entenda-o-novo-modelo-em-discussao.ghtml"},
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/camara-discute-reforma-eleitoral-para-frear-puxadores-de-voto-como-nikolas-veja-modelos-e-debates.shtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-01",
+      "fato": "O presidente da Câmara, Hugo Motta (Republicanos–PB), articulou com dirigentes do centrão um acordo para adotar o voto distrital misto a partir de 2034. Segundo apenas a Folha, o modelo divide os deputados e ameaça desfazer o acordo.",
+      "fontes": [
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/modelo-da-reforma-eleitoral-divide-camara-e-ameaca-implodir-acordo-para-frear-pl.shtml"}
+      ],
+      "fonte_unica": true
+    }
+  ]
+}
