@@ -1,0 +1,29 @@
+{
+  "slug": "sigilo-morte-tancredo-neves",
+  "nome": "Documentos médicos sobre a morte de Tancredo Neves",
+  "inicio": "2026-11-01",
+  "ativo": true,
+  "ultima_novidade": "2026-11-01",
+  "palavras_chave": ["Tancredo Neves", "sigilo médico de Tancredo", "registros médicos de Tancredo"],
+  "resumo_ate_aqui": "A Justiça Federal derrubou o sigilo médico sobre a morte de Tancredo Neves, que morreu em 21 de abril de 1985, antes de tomar posse como presidente. Um dos filhos dele, segundo apenas a Folha, obteve o direito de receber os registros médicos do pai.",
+  "explica_do_zero": "Tancredo Neves morreu em 21 de abril de 1985, antes de tomar posse como presidente.\n\nEm 1º de novembro de 2026, a Justiça Federal derrubou o sigilo médico sobre a morte dele e liberou os documentos. Segundo apenas a Folha, um dos filhos de Tancredo obteve na Justiça o direito de receber os registros médicos sobre o tratamento e a morte do pai.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-11-01",
+      "fato": "A Justiça Federal derrubou o sigilo médico sobre a morte de Tancredo Neves, que morreu em 21 de abril de 1985, antes de tomar posse como presidente, e liberou os documentos.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/11/01/justica-quebra-sigilo-de-documentos-da-morte-de-tancredo-neves-entenda-o-que-pode-vir-a-tona.ghtml"},
+        {"nome": "Estadão", "url": "https://www.estadao.com.br/politica/justica-derruba-sigilo-medico-e-libera-documentos-sobre-a-morte-de-tancredo-neves-npr/"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-01",
+      "fato": "Um dos filhos de Tancredo Neves obteve na Justiça o direito de receber os registros médicos sobre o tratamento e a morte do pai. Segundo apenas a Folha.",
+      "fontes": [
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/filho-de-tancredo-neves-obtem-direito-de-receber-registros-medicos-do-ex-presidente.shtml"}
+      ],
+      "fonte_unica": true
+    }
+  ]
+}
