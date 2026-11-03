@@ -1,0 +1,38 @@
+{
+  "data": "2026-11-02",
+  "temas": [
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Flávio Bolsonaro apareceu em público pela primeira vez nos EUA, em um culto na Flórida. Sua defesa recorreu ao STF contra a entrega dos passaportes e pediu que Moraes seja declarado impedido.",
+      "aviso_fonte_unica": "Parte das novidades de hoje vem só da Revista Oeste e da Gazeta do Povo.",
+      "nome_curto": "Saída de Flávio Bolsonaro",
+      "linha_capa": "Defesa de Flávio recorre ao STF contra entrega de passaportes"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A defesa de Henrique Vorcaro, pai de Daniel, pediu prisão domiciliar por motivo de saúde. A defesa de Daniel recorreu à Comissão Interamericana de Direitos Humanos para tentar revogar a prisão.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Pai de Vorcaro pede prisão domiciliar; defesa recorre a órgão internacional"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "O PL deve lançar Rogério Marinho como candidato à presidência do Senado, enquanto Davi Alcolumbre tenta se reeleger.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Presidência do Senado 2027",
+      "linha_capa": "PL deve lançar Rogério Marinho para presidir o Senado"
+    },
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "Os eleitores dos EUA votam na terça-feira (3) para decidir se o Partido Republicano mantém o controle do Congresso.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições nos EUA",
+      "linha_capa": "Americanos votam na terça para decidir o controle do Congresso"
+    }
+  ],
+  "fichas": [],
+  "mundo": [
+    "mundo:2026-11-02:2",
+    "mundo:2026-11-02:3"
+  ]
+}
