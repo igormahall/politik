@@ -1,0 +1,22 @@
+{
+  "slug": "eleicoes-eua-meio-de-mandato-2026",
+  "nome": "Eleições de meio de mandato nos EUA (2026)",
+  "inicio": "2026-11-02",
+  "ativo": true,
+  "ultima_novidade": "2026-11-02",
+  "internacional": true,
+  "palavras_chave": ["eleições de meio de mandato dos EUA", "midterms", "Congresso dos EUA"],
+  "resumo_ate_aqui": "Os eleitores dos Estados Unidos vão às urnas na terça-feira (3) nas eleições de meio de mandato. A disputa decide se o Partido Republicano, do presidente Donald Trump, mantém o controle do Congresso.",
+  "explica_do_zero": "Os eleitores dos Estados Unidos vão às urnas na terça-feira (3) nas eleições de meio de mandato. A disputa decide se o Partido Republicano, do presidente Donald Trump, mantém o controle do Congresso. Segundo a BBC, a votação pode ter grande impacto na presidência de Trump.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-11-02",
+      "fato": "Os eleitores dos Estados Unidos vão às urnas na terça-feira (3) nas eleições de meio de mandato. A disputa decide se o Partido Republicano, do presidente Donald Trump, mantém o controle do Congresso.",
+      "fontes": [
+        {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/cwg7xpyd1jrgo?at_medium=RSS&at_campaign=rss"},
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eleitores-dos-eua-demonstram-pessimismo-em-relacao-economia"}
+      ],
+      "fonte_unica": false
+    }
+  ]
+}

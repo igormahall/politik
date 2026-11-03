@@ -1,0 +1,11 @@
+{
+  "item_id": "mundo:2026-11-02:2",
+  "titulo": "Hackers enviam alertas falsos de ataques aéreos na Rússia e na Ucrânia",
+  "o_que_aconteceu": "Aplicativos que avisam a população sobre ataques aéreos na Rússia e na Ucrânia foram invadidos por hackers. Os aplicativos passaram a transmitir alertas falsos de ataques aéreos iminentes. As autoridades dos dois países dizem que os aplicativos foram alvo de ataques cibernéticos.",
+  "fontes": [
+    {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/cwrky5dm77dxo?at_medium=RSS&at_campaign=rss"},
+    {"nome": "DW", "url": "https://www.dw.com/pt-br/apps-de-alerta-na-rússia-e-na-ucrânia-são-hackeados/a-79828000?maca=bra-rss-br-all-1030-rdf"}
+  ],
+  "importancia": 3,
+  "data": "2026-11-02"
+}
