@@ -1,0 +1,79 @@
+{
+  "data": "2026-11-03",
+  "temas": [
+    {
+      "slug": "pec-da-seguranca-publica",
+      "novo_hoje": "O Senado aprovou em dois turnos a PEC da Segurança Pública, que será promulgada pelo Congresso. As emendas sobre redução da maioridade penal foram separadas e não entraram no texto.",
+      "aviso_fonte_unica": "A promessa de Lula sobre o Ministério da Segurança Pública vem só da Agência Brasil.",
+      "nome_curto": "PEC da Segurança Pública",
+      "linha_capa": "Senado aprova PEC da Segurança Pública em dois turnos"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "O pai de Daniel Vorcaro, Henrique, pediu nova soltura ao presidente do STF, Edson Fachin. Segundo a Folha, que cita o UOL, Daniel enviou a Flávio Bolsonaro uma mensagem em que disse que “tá muito difícil”.",
+      "aviso_fonte_unica": "Os dois fatos de hoje vêm só do g1 e da Folha (com dados do UOL).",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Pai de Vorcaro pede nova soltura ao presidente do STF"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Flávio Bolsonaro registrou presença no Senado de fora do país e votou a favor da PEC da Segurança Pública. Segundo apenas a Folha, o governador eleito do Rio, Douglas Ruas (PL), disse não poder julgar as atitudes dele.",
+      "aviso_fonte_unica": "A declaração de Douglas Ruas vem só da Folha.",
+      "nome_curto": "Saída de Flávio Bolsonaro",
+      "linha_capa": "Flávio registra presença e vota de fora do país no Senado"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Tereza Cristina reafirmou candidatura à presidência do Senado, e o PL quer voto aberto (segundo apenas o Estadão). Segundo a Gazeta do Povo, Alcolumbre acena com anistia a Bolsonaro para tentar a reeleição.",
+      "aviso_fonte_unica": "Os fatos de hoje vêm só do Estadão e da Gazeta do Povo.",
+      "nome_curto": "Presidência do Senado 2027",
+      "linha_capa": "Tereza Cristina reafirma candidatura à presidência do Senado"
+    },
+    {
+      "slug": "reforma-eleitoral-voto-distrital-misto",
+      "novo_hoje": "O deputado Gilson Daniel (PODE–ES) apresentou o PL 5731/2026, que institui o voto distrital misto para deputados e vereadores de cidades com mais de 200 mil eleitores. Ainda não muda nada: é só uma proposta.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Reforma eleitoral: voto distrital misto",
+      "linha_capa": "Projeto propõe voto distrital misto para deputados e vereadores"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "A PF investiga ameaças e racismo contra a deputada Talíria Petrone (PSOL–RJ). Na Câmara, foram apresentados um requerimento de aplauso ao MPT e um projeto que cria cadastro de empresas punidas por assédio eleitoral.",
+      "aviso_fonte_unica": "O caso Talíria Petrone vem só da Agência Brasil.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "PF investiga ameaças e racismo contra a deputada Talíria Petrone"
+    }
+  ],
+  "fichas": [
+    "camara:2649800",
+    "camara:votacao:2475487:2026-11-03",
+    "camara:votacao:2270540:2026-11-03",
+    "camara:2649747",
+    "camara:2649753",
+    "camara:2649761",
+    "camara:2649929",
+    "camara:2649934",
+    "camara:2649821",
+    "camara:2649935",
+    "camara:votacao:2204445:2026-11-03",
+    "camara:votacao:2198408:2026-11-03",
+    "camara:votacao:2637478:2026-11-03",
+    "senado:9118955:sit:2026-11-03",
+    "camara:2649677",
+    "camara:2649702",
+    "camara:2649712",
+    "camara:2649724",
+    "camara:2649733",
+    "camara:2649799",
+    "camara:2649801",
+    "camara:2649802",
+    "camara:2649804",
+    "camara:2649978",
+    "camara:2649984"
+  ],
+  "mundo": [
+    "mundo:2026-11-03:1",
+    "mundo:2026-11-03:2",
+    "mundo:2026-11-03:3"
+  ]
+}

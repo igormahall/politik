@@ -3,10 +3,10 @@
   "nome": "Disputa pela presidência do Senado em 2027",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-02",
+  "ultima_novidade": "2026-11-03",
   "palavras_chave": ["presidência do Senado", "Rogério Marinho", "Davi Alcolumbre", "voto aberto no Senado"],
-  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. Davi Alcolumbre (União-AP) tenta se reeleger, e o PL deve lançar o senador Rogério Marinho (PL-RN) como candidato próprio, com anúncio previsto para quarta-feira (4).",
-  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União-AP), tenta se reeleger. O PL terá a maior bancada do Senado a partir de 2027 e deve lançar Rogério Marinho (PL-RN) como candidato próprio, mesmo com as negociações de Alcolumbre com senadores de todos os partidos.\n\nRogério Marinho defende que os senadores de direita divulguem publicamente o próprio voto, para evitar que integrantes do grupo votem em segredo pela reeleição de Alcolumbre.",
+  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. Davi Alcolumbre (União-AP) tenta se reeleger, e o PL deve lançar o senador Rogério Marinho (PL-RN) como candidato próprio, com anúncio previsto para quarta-feira (4). Em 3 de novembro, segundo apenas o Estadão, a senadora Tereza Cristina reafirmou sua candidatura, e o PL quer voto aberto.",
+  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União-AP), tenta se reeleger. O PL terá a maior bancada do Senado a partir de 2027 e deve lançar Rogério Marinho (PL-RN) como candidato próprio, mesmo com as negociações de Alcolumbre com senadores de todos os partidos.\n\nRogério Marinho defende que os senadores de direita divulguem publicamente o próprio voto, para evitar que integrantes do grupo votem em segredo pela reeleição de Alcolumbre.\n\nSegundo apenas o Estadão, a senadora Tereza Cristina (partido não informado pela fonte) reafirmou sua candidatura à presidência do Senado, e o PL quer voto aberto na eleição.\n\nSegundo apenas a Gazeta do Povo, Alcolumbre acena com anistia a Bolsonaro e a condenados do 8 de janeiro para tentar a reeleição, mas a ideia enfrenta resistência no PT e no STF. Segundo apenas o g1, o ex-presidente Jair Bolsonaro (PL) tenta influenciar a eleição, e setores do PL falam em esvaziar Rogério Marinho.\n\nSegundo apenas o g1, o senador Eduardo Braga (MDB-AM), líder do MDB e próximo de Alcolumbre, já tinha anunciado apoio à reeleição dele. Braga foi escolhido relator-geral do Orçamento de 2027.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -25,6 +25,39 @@
         {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/rogerio-marinho-defende-voto-aberto-na-disputa-contra-alcolumbre-pela-presidencia-do-senado/"}
       ],
       "fonte_unica": false
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "A senadora Tereza Cristina (partido não informado pela fonte) reafirmou sua candidatura à presidência do Senado, e o PL quer voto aberto na eleição. Segundo apenas o Estadão.",
+      "fontes": [
+        {"nome": "Estadão", "url": "https://www.estadao.com.br/politica/tereza-cristina-reafirma-candidatura-a-presidencia-do-senado-e-pl-quer-voto-aberto-nprp/"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "Segundo apenas a Gazeta do Povo, Davi Alcolumbre (União-AP) acena com anistia a Bolsonaro e a condenados do 8 de janeiro para tentar a reeleição no Senado, e a ideia enfrenta resistência no PT e no STF.",
+      "fontes": [
+        {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/davi-alcolumbre-acena-com-anistia-a-bolsonaro-para-garantir-comando-do-senado/"},
+        {"nome": "Gazeta do Povo (resistência)", "url": "https://www.gazetadopovo.com.br/republica/aposta-de-alcolumbre-em-pacificacao-com-anistia-a-bolsonaro-enfrenta-resistencia-no-pt-e-no-stf/"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "Segundo apenas o g1, o ex-presidente Jair Bolsonaro (PL) acompanha de perto e tenta influenciar a eleição para a presidência do Senado, e setores do PL falam em esvaziar a candidatura de Rogério Marinho.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/blog/andreia-sadi/post/2026/11/03/bolsonaro-articula-eleicao-do-senado-de-olho-na-anistia-e-setores-do-pl-falam-em-esvaziar-rogerio-marinho.ghtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "Segundo apenas o g1, o senador Eduardo Braga (MDB-AM), líder do MDB e próximo de Alcolumbre, já tinha anunciado que apoiaria a reeleição dele. Braga foi escolhido relator-geral do Orçamento de 2027.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/03/alcolumbre-escolhe-aliado-para-relatoria-do-orcamento-em-meio-a-articulacao-pela-reeleicao-no-senado.ghtml"}
+      ],
+      "fonte_unica": true
     }
   ]
 }
