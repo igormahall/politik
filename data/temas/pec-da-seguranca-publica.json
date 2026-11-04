@@ -1,0 +1,47 @@
+{
+  "slug": "pec-da-seguranca-publica",
+  "nome": "PEC da Segurança Pública",
+  "inicio": "2026-03-01",
+  "ativo": true,
+  "ultima_novidade": "2026-11-03",
+  "palavras_chave": ["PEC da Segurança Pública", "PEC 18/2025", "Sistema Único de Segurança Pública", "Rogério Carvalho"],
+  "resumo_ate_aqui": "O Senado aprovou em dois turnos, em 3 de novembro de 2026, a PEC da Segurança Pública, que já tinha sido aprovada pela Câmara. O texto será promulgado pelo Congresso. As emendas sobre redução da maioridade penal foram separadas e vão tramitar como outra proposta.",
+  "explica_do_zero": "A PEC da Segurança Pública é de iniciativa do Poder Executivo. Ela inclui o Sistema Único de Segurança Pública (Susp) na Constituição, amplia a participação do governo federal na área e estabelece regras para a criação de polícias municipais (segundo a Agência Senado). Traz penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias, e cria um novo pacto federativo entre União, estados e municípios contra o crime (segundo a Agência Brasil).\n\nNa Câmara, a PEC foi aprovada em março por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. O texto do Senado repetiu o mesmo conteúdo já aprovado pelos deputados.\n\nA CCJ do Senado aprovou o texto-base no início de setembro. Em 3 de novembro, o plenário do Senado aprovou a PEC em dois turnos, com 73 votos no primeiro e 75 no segundo, sem votos contrários. Por 38 votos a 36, os senadores aprovaram separar as emendas sobre redução da maioridade penal, que viram proposta autônoma.\n\nSegundo apenas a Agência Brasil, o presidente Lula prometeu criar o Ministério da Segurança Pública depois da aprovação da PEC. Com a aprovação, o texto será promulgado pelo Congresso Nacional.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-03-01",
+      "fato": "A Câmara aprovou a PEC por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. A fonte diz só \"em março\"; o dia 1º é só referência do mês.",
+      "fontes": [
+        {"nome": "Agência Câmara", "url": "https://www.camara.leg.br/noticias/1315533-hugo-motta-destaca-aprovacao-da-pec-da-seguranca-publica-pelo-senado"},
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-09-01",
+      "fato": "A CCJ do Senado aprovou o texto-base da PEC no início de setembro, com o mesmo conteúdo já aprovado pela Câmara. A fonte diz só \"no início de setembro\"; o dia 1º é só referência do mês. Segundo apenas a Agência Brasil.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "O Senado aprovou a PEC em dois turnos, por 73 votos no primeiro turno e 75 no segundo, sem votos contrários. As emendas sobre redução da maioridade penal foram separadas do texto e não entraram na PEC.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"},
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/03/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"},
+        {"nome": "Agência Câmara", "url": "https://www.camara.leg.br/noticias/1315539-senado-aprova-pec-da-seguranca-sem-reducao-da-maioridade-penal"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "Segundo apenas a Agência Brasil, o presidente Lula prometeu criar o Ministério da Segurança Pública depois da aprovação da PEC.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"}
+      ],
+      "fonte_unica": true
+    }
+  ]
+}

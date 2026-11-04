@@ -1,1 +1,564 @@
-[]
+[
+  {
+    "item": {
+      "id": "camara:2649985",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1027/2026",
+      "ementa": "Susta, parcialmente, os efeitos da Norma Técnica GT-SEG.2026.11, da Agência Nacional de Telecomunicações (Anatel), na parte em que estabelece a validação biométrica facial obrigatória como condição para contratação, alteração cadastral e manutenção de acessos ao Serviço Móvel Pessoal (SMP).",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649985",
+      "autores": [
+        {
+          "nome": "Coronel Chrisóstomo",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Rodrigo Valadares",
+          "partido": "PL",
+          "uf": "SE"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2649998",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5740/2026",
+      "ementa": "Institui a Política Nacional de Proteção pelo Silêncio Inclusivo, estabelece medidas de prevenção e proteção do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas vulneráveis a perturbações sonoras no ambiente residencial, especialmente crianças e pessoas idosas, e dispõe sobre a comunicação preventiva e a atuação das autoridades competentes.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2649998",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650012",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1028/2026",
+      "ementa": "Susta os efeitos da Portaria CGPCIND/DSPRAD/SEDIGI nº 2.272, de 28 de outubro de 2026, que atribuiu nova classificação indicativa ao programa “Record Kids – Desenhos Bíblicos”.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650012",
+      "autores": [
+        {
+          "nome": "Delegado Caveira",
+          "partido": "PL",
+          "uf": "PA"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650043",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5741/2026",
+      "ementa": "Estabelece normas de proteção econômica do passageiro no transporte aéreo, com critérios de restituição progressiva no cancelamento de passagens, transparência na recomercialização da capacidade de transporte e compensação em caso de cancelamento de voo imputável ao transportador, e altera a Lei nº 7.565, de 19 de dezembro de 1986.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650043",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650051",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5742/2026",
+      "ementa": "Dispõe sobre medidas tributárias e aduaneiras referentes à realização da Copa do Mundo Feminina da Fédération Internationale de Football Association – FIFA 2027 na República Federativa do Brasil.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650051",
+      "autores": [
+        {
+          "nome": "Poder Executivo",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650083",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5743/2026",
+      "ementa": "Institui o Protocolo Nacional Alerta Neuro, no âmbito da Política Nacional de Busca de Pessoas Desaparecidas, para resposta prioritária ao desaparecimento de pessoa com deficiência ou condição do neurodesenvolvimento ou neurocognitiva que implique risco aumentado de desorientação, dificuldade de comunicação ou de autoproteção, independentemente da idade, e estabelece mecanismos de informação preventiva e proteção de dados pessoais.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650083",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650114",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5745/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para tipificar o crime de criação, produção e disseminação deliberada de desinformação (notícias falsas) que atente contra a saúde pública, a ordem econômica e a paz social, e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650114",
+      "autores": [
+        {
+          "nome": "Jorge Solla",
+          "partido": "PT",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650116",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5746/2026",
+      "ementa": "Dispõe sobre a Política Nacional de Soberania Digital, estabelece diretrizes para a jurisdição do espaço digital brasileiro, regulamenta a atuação de empresas de tecnologia e institui a obrigatoriedade de interoperabilidade entre plataformas, e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650116",
+      "autores": [
+        {
+          "nome": "Jorge Solla",
+          "partido": "PT",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "camara:2650194",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5747/2026",
+      "ementa": "Altera a Lei nº 10.048, de 8 de novembro de 2000, para incluir as pessoas com transtorno do neurodesenvolvimento entre os beneficiários de atendimento prioritário e estabelecer ordem de precedência no atendimento.",
+      "data": "2026-11-03",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650194",
+      "autores": [
+        {
+          "nome": "Dani Cunha",
+          "partido": "PL",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9119276",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5726/2026",
+      "ementa": "Acrescenta o art. 88-A à Lei nº 13.146, de 6 de julho de 2015 (Lei Brasileira de Inclusão da Pessoa com Deficiência – Estatuto da Pessoa com Deficiência), para tipificar a produção, a divulgação e a manutenção de conteúdo sexual degradante, gerado ou alterado por inteligência artificial ou outro meio de simulação, que retrate pessoa com deficiência.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176161",
+      "autores": [
+        {
+          "nome": "Damares Alves",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/07c4a170-2679-4693-877b-b1c3a5cac385",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176161
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9119612",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5735/2026",
+      "ementa": "Institui a Política Nacional de Coerência da Transição Ecológica e da Descarbonização (PNCTE); estabelece diretrizes para o alinhamento entre o Plano Nacional sobre Mudança do Clima e seus Planos Setoriais de Mitigação e de Adaptação, a Estratégia Nacional de Descarbonização Industrial e a política industrial Nova Indústria Brasil; integra o Sistema Brasileiro de Comércio de Emissões de Gases de Efeito Estufa, a Taxonomia Sustentável Brasileira, o Programa Selo Verde Brasil e as políticas de conversão de áreas degradadas; e altera a Lei nº 12.187, de 29 de dezembro de 2009.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176164",
+      "autores": [
+        {
+          "nome": "Jader Barbalho",
+          "partido": "MDB",
+          "uf": "PA"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/20bafebc-022f-40f8-aad2-6370c3353efa",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176164
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9119629",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5736/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para ampliar o prazo e o alcance da vedação de investidura em cargo, emprego ou função pública dos condenados por crimes praticados contra a mulher.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176165",
+      "autores": [
+        {
+          "nome": "Daniella Ribeiro",
+          "partido": "PP",
+          "uf": "PB"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/61f5c2d8-e99a-4a32-9abf-cc04148a0841",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176165
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9119724",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 282/2026",
+      "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para instituir a verificação anual de excesso de arrecadação da Contribuição sobre Bens e Serviços (CBS) e assegurar a transparência do cálculo das alíquotas de referência.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176169",
+      "autores": [
+        {
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "DF"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/6605d34c-04fb-4f56-b534-a6a1620d9d41",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Complementar",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176169
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9119770",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1109/2025",
+      "ementa": "Aprova o ato que outorga autorização à Associação Mais FM de Radiodifusão Comunitária para executar serviço de radiodifusão comunitária no Município de Formosa, Estado de Goiás.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176170",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/bcbbfce9-4da9-414a-b481-cab17018d6f4",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176170
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9120051",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PEC",
+      "titulo": "PEC 19/2026",
+      "ementa": "Dá nova redação ao art. 228 da Constituição Federal para alterar a menoridade penal.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176178",
+      "autores": [
+        {
+          "nome": "Senador Rogerio Marinho (PL/RN) e outros.",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/6fcb0db7-dfbc-4949-a51b-9cd9618b2ca2",
+      "extra": {
+        "tipoDocumento": "Proposta de Emenda à Constituição",
+        "situacaoAtual": "MATÉRIA DESPACHADA",
+        "codigoMateria": 176178
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "senado:9120058",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PEC",
+      "titulo": "PEC 20/2026",
+      "ementa": "Dá nova redação ao art. 228 da Constituição Federal para alterar a menoridade penal.",
+      "data": "2026-11-03",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176179",
+      "autores": [
+        {
+          "nome": "Camilo Santana",
+          "partido": "PT",
+          "uf": "CE"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/3971b7ca-9a57-46bf-9324-6d652a90645b",
+      "extra": {
+        "tipoDocumento": "Proposta de Emenda à Constituição",
+        "situacaoAtual": "MATÉRIA DESPACHADA",
+        "codigoMateria": 176179
+      }
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185077",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 619 de 2026",
+      "ementa": "INCLUI o Festival Internacional de Tribos do Alto Solimões – FESTISOL, realizado no Município de Tabatinga, no Calendário Oficial de Eventos do Estado do Amazonas, e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://sapl.al.am.leg.br/materia/185077",
+      "autores": [
+        {
+          "nome": "Wilker Barreto",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185077/043621.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185080",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 620 de 2026",
+      "ementa": "Estabelece diretrizes gerais para a promoção da formação cidadã, da cultura de paz e da prevenção primária da violência no Estado do Amazonas.",
+      "data": "2026-11-03",
+      "url": "https://sapl.al.am.leg.br/materia/185080",
+      "autores": [
+        {
+          "nome": "Comandante Dan",
+          "partido": "REPUBLICANOS",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185080/043890.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185089",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 622 de 2026",
+      "ementa": "INSTITUI diretrizes para a valorização, a promoção e a difusão da música popular amazonense e estabelece medidas de incentivo à produção musical regional no Estado do Amazonas.",
+      "data": "2026-11-03",
+      "url": "https://sapl.al.am.leg.br/materia/185089",
+      "autores": [
+        {
+          "nome": "Cabo Maciel",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185089/044056.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53138",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 838 de 2026",
+      "ementa": "INSTITUI o Protocolo Municipal de Resposta a Episódios Críticos de Poluição do Ar por Fumaça (Protocolo Municipal de Fumaça), altera a Lei n.º 605, de 24 de julho de 2001, que institui o Código Ambiental do Município de Manaus, e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://sapl.cmm.am.gov.br/materia/53138",
+      "autores": [
+        {
+          "nome": "DIONE CARVALHO",
+          "partido": "AGIR",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53139",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 839 de 2026",
+      "ementa": "DISPÕE sobre a obrigatoriedade de disponibilização e afixação do Prontuário Afetivo nas Unidades de Terapia Intensiva (UTIs) dos estabelecimentos \r\nhospitalares públicos e privados no âmbito do Município de Manaus, e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://sapl.cmm.am.gov.br/materia/53139",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53139/pl_839_2026_diego_afonso_disponibilizacao_do_prontuario_afetivo_nas_utis.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53140",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 840 de 2026",
+      "ementa": "INSTITUI diretrizes para o Programa Municipal de Prevenção ao Suicídio e Promoção da Saúde Mental, com foco na Ponte Jornalista Phelippe Daou (Ponte Rio Negro), e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://sapl.cmm.am.gov.br/materia/53140",
+      "autores": [
+        {
+          "nome": "DIONE CARVALHO",
+          "partido": "AGIR",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53140/pl_840_2026_dione_carvalho_prevencao_ao_suicidio.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53141",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "Projeto de Decreto Legislativo nº 19 de 2026",
+      "ementa": "CONCEDE o Diploma de Cidadão de Manaus ao Sr. Eriberto de Almeida Junior e dá outras providências.",
+      "data": "2026-11-03",
+      "url": "https://sapl.cmm.am.gov.br/materia/53141",
+      "autores": [
+        {
+          "nome": "SÉRGIO BARÉ",
+          "partido": "PRD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53141/pdl_019_2026_ver_sergio_bare_diploma_de_cidadao_de_manaus_eriberto_de_almeida.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-03"
+  }
+]
