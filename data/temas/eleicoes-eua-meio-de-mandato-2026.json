@@ -3,11 +3,11 @@
   "nome": "Eleições de meio de mandato nos EUA (2026)",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-02",
+  "ultima_novidade": "2026-11-04",
   "internacional": true,
   "palavras_chave": ["eleições de meio de mandato dos EUA", "midterms", "Congresso dos EUA"],
-  "resumo_ate_aqui": "Os eleitores dos Estados Unidos vão às urnas na terça-feira (3) nas eleições de meio de mandato. A disputa decide se o Partido Republicano, do presidente Donald Trump, mantém o controle do Congresso.",
-  "explica_do_zero": "Os eleitores dos Estados Unidos vão às urnas na terça-feira (3) nas eleições de meio de mandato. A disputa decide se o Partido Republicano, do presidente Donald Trump, mantém o controle do Congresso. Segundo a BBC, a votação pode ter grande impacto na presidência de Trump.",
+  "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos votaram nas eleições de meio de mandato. O Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana.",
+  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -15,6 +15,34 @@
       "fontes": [
         {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/cwg7xpyd1jrgo?at_medium=RSS&at_campaign=rss"},
         {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eleitores-dos-eua-demonstram-pessimismo-em-relacao-economia"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "O Partido Democrata conquistou o controle da Câmara e do Senado dos EUA, em derrota para o presidente Donald Trump.",
+      "fontes": [
+        {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/cmd7q9ep09z8o?at_medium=RSS&at_campaign=rss"},
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/democratas-conquistam-congresso-em-esmagadora-rejeicao-trump"},
+        {"nome": "DW", "url": "https://www.dw.com/en/winners-losers-the-eu-five-takeaways-from-the-us-midterms/a-79858901?maca=en-rss-en-world-4025-rdf"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-03",
+      "fato": "Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata, em quatro estados.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/sete-brasileiros-sao-eleitos-para-assembleias-estaduais-nos-eua"},
+        {"nome": "DW", "url": "https://www.dw.com/pt-br/quem-são-os-brasileiros-eleitos-deputados-estaduais-nos-eua/a-79858639?maca=bra-rss-br-all-1030-rdf"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-04",
+      "fato": "O presidente Donald Trump reconheceu que a guerra contra o Irã contribuiu para a derrota do Partido Republicano nas eleições de meio de mandato.",
+      "fontes": [
+        {"nome": "DW", "url": "https://www.dw.com/pt-br/trump-admite-que-guerra-no-irã-contribuiu-para-derrota-republicana/live-79849879?maca=bra-rss-br-all-1030-rdf"},
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/guerra-economia-ia-e-casos-de-corrupcao-derrotam-trump-nos-eua"}
       ],
       "fonte_unica": false
     }
