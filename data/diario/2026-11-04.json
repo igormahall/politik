@@ -1,0 +1,94 @@
+{
+  "data": "2026-11-04",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "O presidente do STF, Edson Fachin, deu 15 dias para a PGR se manifestar sobre o indiciamento de Vorcaro. Segundo apenas a Revista Oeste, mensagens de 2024 mostram Hugo Motta negociando uma fábrica de cimento financiada pelo Master e Alexandre de Moraes convidando colegas para um evento do banco.",
+      "aviso_fonte_unica": "As revelações sobre Hugo Motta e Alexandre de Moraes vêm só da Revista Oeste.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin dá 15 dias para a PGR se manifestar sobre indiciamento de Vorcaro"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "O presidente do Senado, Davi Alcolumbre, tirou da pauta a PEC da maioridade penal e disse que vai aguardar a Câmara. O senador Eduardo Braga (MDB–AM) propôs 1º de dezembro como prazo para a Câmara votar.",
+      "aviso_fonte_unica": "O prazo de 1º de dezembro vem só da Agência Senado.",
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Alcolumbre tira maioridade penal da pauta e aguarda a Câmara"
+    },
+    {
+      "slug": "pec-da-seguranca-publica",
+      "novo_hoje": "Segundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai trocar o nome da GCM para Polícia Municipal depois da aprovação da PEC.",
+      "aviso_fonte_unica": "A mudança do nome da GCM vem só da Folha.",
+      "nome_curto": "PEC da Segurança Pública",
+      "linha_capa": "Prefeito Ricardo Nunes vai trocar GCM por Polícia Municipal"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "O PL lançou o senador Rogério Marinho (PL–RN) como candidato à presidência do Senado. Alcolumbre criticou o que chamou de radicalismo e as agressões contra a Presidência do Senado.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Presidência do Senado 2027",
+      "linha_capa": "PL lança Rogério Marinho para disputar a presidência do Senado"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Alcolumbre disse que vai analisar duas questões de ordem de Randolfe Rodrigues (PT–AP) sobre o voto de Flávio Bolsonaro dado de fora do país. Randolfe pediu que a Presidência confirme se o senador comunicou a viagem e anule o voto.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Saída de Flávio Bolsonaro",
+      "linha_capa": "Alcolumbre vai analisar questões sobre o voto de Flávio dos EUA"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O Ministério do Trabalho informou mais de 7 mil denúncias de assédio eleitoral. Segundo apenas a Gazeta do Povo, o ministro Gilmar Mendes cobrou explicações sobre ataques a indígenas após as eleições.",
+      "aviso_fonte_unica": "O caso dos ataques a indígenas vem só da Gazeta do Povo.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "Ministério do Trabalho recebe mais de 7 mil denúncias de assédio eleitoral"
+    },
+    {
+      "slug": "reforma-eleitoral-voto-distrital-misto",
+      "novo_hoje": "Segundo apenas a Agência Brasil, partidos como PP, PSD, União Brasil, Podemos e PSB querem aprovar o voto distrital misto por PEC ainda neste ano.",
+      "aviso_fonte_unica": "Esse detalhe vem só da Agência Brasil.",
+      "nome_curto": "Reforma eleitoral: voto distrital misto",
+      "linha_capa": "Partidos do centrão querem aprovar voto distrital misto por PEC este ano"
+    },
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "Os democratas assumiram o controle da Câmara e do Senado dos EUA. Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições de meio de mandato nos EUA",
+      "linha_capa": "Democratas tomam o Congresso dos EUA em derrota para Trump"
+    }
+  ],
+  "fichas": [
+    "camara:2649985",
+    "camara:2650043",
+    "camara:2650114",
+    "camara:2650116",
+    "senado:9119612",
+    "senado:9119629",
+    "senado:9119724",
+    "senado:9120051",
+    "senado:9120058",
+    "senado:9120441",
+    "aleam:materia:185090",
+    "camara:2649998",
+    "camara:2650012",
+    "camara:2650051",
+    "camara:2650083",
+    "camara:2650194",
+    "senado:9119276",
+    "senado:9119770",
+    "senado:9120815",
+    "senado:9120887",
+    "senado:9121137",
+    "senado:9121553",
+    "aleam:materia:185077",
+    "aleam:materia:185080",
+    "aleam:materia:185089"
+  ],
+  "mundo": [
+    "mundo:2026-11-04:1",
+    "mundo:2026-11-04:2",
+    "mundo:2026-11-04:3",
+    "mundo:2026-11-04:4"
+  ]
+}

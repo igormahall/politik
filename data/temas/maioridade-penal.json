@@ -1,0 +1,56 @@
+{
+  "slug": "maioridade-penal",
+  "nome": "Redução da maioridade penal",
+  "inicio": "2026-11-03",
+  "ativo": true,
+  "ultima_novidade": "2026-11-04",
+  "palavras_chave": ["maioridade penal", "PEC 19/2026", "PEC 20/2026", "PEC 32/2015", "Rogério Marinho", "Camilo Santana"],
+  "resumo_ate_aqui": "Duas propostas (PEC 19/2026 e PEC 20/2026) tratam de reduzir a maioridade penal, hoje de 18 anos. Elas foram separadas da PEC da Segurança Pública no Senado. Em 4 de novembro, o presidente do Senado, Davi Alcolumbre, decidiu aguardar a Câmara, onde a PEC 32/2015 está em comissão especial.",
+  "explica_do_zero": "A maioridade penal hoje é de 18 anos. Em 3 de novembro, o Senado aprovou a PEC da Segurança Pública e separou dela as emendas sobre o tema, por 38 votos a 36. As emendas viraram a PEC 19/2026, do senador Rogério Marinho (PL–RN), e a PEC 20/2026, do senador Camilo Santana (PT–CE).\n\nEm 4 de novembro, o presidente do Senado, Davi Alcolumbre (União–AP), retirou o tema da pauta, atendendo a um pedido do presidente da Câmara, Hugo Motta (Republicanos–PB). Alcolumbre disse que vai aguardar a Câmara, onde a PEC 32/2015 está em comissão especial, e que o compromisso de Motta é votar o texto ainda em novembro.\n\nO senador Eduardo Braga (MDB–AM) propôs 1º de dezembro como prazo para a Câmara. O líder do PL no Senado, Carlos Portinho (PL–RJ), criticou a decisão.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-11-03",
+      "fato": "Os senadores aprovaram, por 38 a 36 votos, separar da PEC da Segurança Pública as emendas que reduzem a maioridade penal. Elas viraram a PEC 19/2026, de Rogério Marinho, que reduz para 16 anos como regra geral e para 14 em crimes hediondos, tortura, tráfico de drogas, terrorismo e participação em organizações criminosas; e a PEC 20/2026, de Camilo Santana, que reduz para 16 anos só nos crimes hediondos.",
+      "fontes": [
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/03/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"},
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-aprova-pec-da-seguranca-publica-sem-reducao-da-maioridade-penal"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-04",
+      "fato": "O presidente do Senado, Davi Alcolumbre (União–AP), retirou a PEC da maioridade penal da pauta, atendendo a um pedido do presidente da Câmara, Hugo Motta (Republicanos–PB), e disse que vai aguardar a Câmara.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/alcolumbre-retira-maioridade-penal-da-pauta-e-vai-aguardar-camara"},
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/reducao-da-maioridade-penal-senado-aguardara-votacao-de-pec-da-camara"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-04",
+      "fato": "Alcolumbre disse que a Câmara analisa o tema na PEC 32/2015, em comissão especial, e que Motta se comprometeu a colocar o texto em votação ainda em novembro.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/alcolumbre-retira-maioridade-penal-da-pauta-e-vai-aguardar-camara"},
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/reducao-da-maioridade-penal-senado-aguardara-votacao-de-pec-da-camara"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-04",
+      "fato": "O senador Eduardo Braga (MDB–AM) propôs 1º de dezembro como prazo para a Câmara votar. Se a PEC não vier da Câmara até essa data, um requerimento assinado por mais de 50 senadores prevê votação no Senado com urgência.",
+      "fontes": [
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/reducao-da-maioridade-penal-senado-aguardara-votacao-de-pec-da-camara"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-04",
+      "fato": "O líder do PL no Senado, Carlos Portinho (PL–RJ), criticou a decisão de Alcolumbre.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/04/apos-criticas-de-lider-do-pl-alcolumbre-diz-que-lamenta-eleicao-de-quem-se-promove-ofendendo-e-agredindo.ghtml"},
+        {"nome": "Agência Senado", "url": "https://www12.senado.leg.br/noticias/materias/2026/11/04/reducao-da-maioridade-penal-senado-aguardara-votacao-de-pec-da-camara"}
+      ],
+      "fonte_unica": false
+    }
+  ]
+}
