@@ -1,0 +1,79 @@
+{
+  "data": "2026-11-05",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Fachin manteve a prisão de Fabiano Zettel, cunhado de Vorcaro, e pediu à PGR manifestação sobre pedidos de liberdade de investigados. Ele também rejeitou pedido de Nikolas Ferreira para afastar Paulo Gonet da PGR.",
+      "aviso_fonte_unica": "Cada um dos dois fatos de hoje vem de um só veículo: g1 e Gazeta do Povo.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin mantém prisão de cunhado de Vorcaro e pede manifestação da PGR"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Flávio Bolsonaro nomeou dois assessores para o gabinete no Senado. Segundo apenas a Folha, ele negou, em entrevista ao New York Times, ter recebido ajuda de algum governo para sair do Brasil.",
+      "aviso_fonte_unica": "A entrevista ao New York Times vem só da Folha.",
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "Flávio Bolsonaro nomeia dois assessores para gabinete no Senado"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "A defesa de Bolsonaro pediu a Moraes autorização para receber Rogério Marinho e Tereza Cristina, pré-candidatos à presidência do Senado. Segundo apenas o g1, Tereza disse que pretende discutir a disputa com Bolsonaro.",
+      "aviso_fonte_unica": "A declaração de Tereza Cristina vem só do g1.",
+      "nome_curto": "Presidência do Senado 2027",
+      "linha_capa": "Bolsonaro pede a Moraes visita de Marinho e Tereza Cristina"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A Comissão de Segurança Pública da Câmara marcou para 11 de novembro uma audiência sobre o tema. Segundo apenas a Folha, a bancada bolsonarista aceita reduzir para 16 anos, e, segundo apenas a Gazeta do Povo, o relator Mendonça Filho admitiu flexibilizar a redução.",
+      "aviso_fonte_unica": "A audiência vem só da Agência Câmara; a posição da bancada, só da Folha; a do relator, só da Gazeta do Povo.",
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Câmara marca para 11 de novembro audiência sobre maioridade penal"
+    },
+    {
+      "slug": "pec-da-seguranca-publica",
+      "novo_hoje": "Segundo apenas a Agência Brasil, Lula disse que vai enviar uma medida provisória criando o Ministério da Segurança Pública.",
+      "aviso_fonte_unica": "O anúncio do ministério vem só da Agência Brasil.",
+      "nome_curto": "PEC da Segurança Pública",
+      "linha_capa": "Lula diz que vai criar Ministério da Segurança Pública por MP"
+    },
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "Os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato dos EUA.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições de meio de mandato nos EUA",
+      "linha_capa": "Latinos se voltam contra Trump nas eleições de meio de mandato"
+    }
+  ],
+  "fichas": [
+    "camara:votacao:2238560:2026-11-05",
+    "camara:votacao:530513:2026-11-05",
+    "camara:votacao:2305879:2026-11-05",
+    "camara:2651096",
+    "camara:2651102",
+    "camara:2651239",
+    "senado:9122817",
+    "camara:2651253",
+    "camara:votacao:2412504:2026-11-05",
+    "camara:votacao:2637478:2026-11-05",
+    "camara:votacao:2389679:2026-11-05",
+    "camara:2651110",
+    "camara:2651114",
+    "camara:2651158",
+    "camara:2651185",
+    "camara:2651186",
+    "camara:2651217",
+    "camara:2651219",
+    "camara:2651228",
+    "camara:2651243",
+    "senado:9122548",
+    "aleam:materia:185092",
+    "aleam:materia:185101",
+    "aleam:materia:185100",
+    "aleam:materia:185102"
+  ],
+  "mundo": [
+    "mundo:2026-11-05:1",
+    "mundo:2026-11-05:2",
+    "mundo:2026-11-05:3"
+  ]
+}

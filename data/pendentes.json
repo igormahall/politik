@@ -1,66 +1,49 @@
 [
   {
     "item": {
-      "id": "aleam:materia:185092",
+      "id": "aleam:materia:185103",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "Projeto de Decreto Legislativo nº 26 de 2026",
+      "ementa": "Aprova a Prestação de Contas Anual do Governo do Estado do Amazonas, exercício de 2024.",
+      "data": "2026-11-05",
+      "url": "https://sapl.al.am.leg.br/materia/185103",
+      "autores": [
+        {
+          "nome": "CAE - Comissão de Assuntos Econômicos",
+          "partido": "PSDB",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185103/pdl_26.26_prest_2024.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-05"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185105",
       "fonte": "aleam",
       "nivel": "estadual",
       "categoria": "proposicao",
       "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei Ordinária nº 624 de 2026",
-      "ementa": "Institui diretrizes para a Rede Estadual de Prevenção e Resposta à Violência contra Crianças e Adolescentes no Estado do Amazonas e dá outras providências.",
-      "data": "2026-11-04",
-      "url": "https://sapl.al.am.leg.br/materia/185092",
+      "titulo": "Projeto de Lei Ordinária nº 626 de 2026",
+      "ementa": "INSTITUI diretrizes para a implantação da Política de Incentivo à Leitura nos Hospitais Públicos do estado do Amazonas, e dá outras providências.",
+      "data": "2026-11-05",
+      "url": "https://sapl.al.am.leg.br/materia/185105",
       "autores": [
         {
-          "nome": "Débora Menezes",
-          "partido": "PL",
+          "nome": "Wanderley Monteiro",
+          "partido": "UNIÃO",
           "uf": "AM"
         }
       ],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185092/044098.pdf",
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185105/044400.pdf",
       "extra": {}
     },
-    "primeira_vez": "2026-11-04"
-  },
-  {
-    "item": {
-      "id": "aleam:materia:185101",
-      "fonte": "aleam",
-      "nivel": "estadual",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei Ordinária nº 625 de 2026",
-      "ementa": "INSTITUI diretrizes para a Política Estadual de Fomento à Cultura da Juventude no âmbito do Estado do Amazonas, estabelece mecanismos de\nincentivo às manifestações culturais juvenis e à cooperação com a iniciativa privada, e dá outras providências.",
-      "data": "2026-11-04",
-      "url": "https://sapl.al.am.leg.br/materia/185101",
-      "autores": [
-        {
-          "nome": "Cabo Maciel",
-          "partido": "PL",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185101/044101.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-04"
-  },
-  {
-    "item": {
-      "id": "aleam:materia:185100",
-      "fonte": "aleam",
-      "nivel": "estadual",
-      "categoria": "proposicao",
-      "sigla_tipo": "PRL",
-      "titulo": "Projeto de Resolução Legislativa nº 38 de 2026",
-      "ementa": "INSTITUI o evento Bate-Papo COED como programação institucional da Assembleia Legislativa do Estado do Amazonas, sob a coordenação temática da Comissão de Educação.",
-      "data": "2026-11-04",
-      "url": "https://sapl.al.am.leg.br/materia/185100",
-      "autores": [],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185100/044134.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-04"
+    "primeira_vez": "2026-11-05"
   },
   {
     "item": {
