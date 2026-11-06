@@ -3,10 +3,10 @@
   "nome": "PEC da Segurança Pública",
   "inicio": "2026-03-01",
   "ativo": true,
-  "ultima_novidade": "2026-11-04",
+  "ultima_novidade": "2026-11-05",
   "palavras_chave": ["PEC da Segurança Pública", "PEC 18/2025", "Sistema Único de Segurança Pública", "Rogério Carvalho"],
-  "resumo_ate_aqui": "O Senado aprovou em dois turnos, em 3 de novembro de 2026, a PEC da Segurança Pública, que já tinha sido aprovada pela Câmara. O texto será promulgado pelo Congresso. As emendas sobre redução da maioridade penal foram separadas e vão tramitar como outra proposta.",
-  "explica_do_zero": "A PEC da Segurança Pública é de iniciativa do Poder Executivo. Ela inclui o Sistema Único de Segurança Pública (Susp) na Constituição, amplia a participação do governo federal na área e estabelece regras para a criação de polícias municipais (segundo a Agência Senado). Traz penas mais duras e regimes de prisão mais restritos para chefes de facções e milícias, e cria um novo pacto federativo entre União, estados e municípios contra o crime (segundo a Agência Brasil).\n\nNa Câmara, a PEC foi aprovada em março por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. O texto do Senado repetiu o mesmo conteúdo já aprovado pelos deputados.\n\nA CCJ do Senado aprovou o texto-base no início de setembro. Em 3 de novembro, o plenário do Senado aprovou a PEC em dois turnos, com 73 votos no primeiro e 75 no segundo, sem votos contrários. Por 38 votos a 36, os senadores aprovaram separar as emendas sobre redução da maioridade penal, que viram proposta autônoma.\n\nSegundo apenas a Agência Brasil, o presidente Lula prometeu criar o Ministério da Segurança Pública depois da aprovação da PEC. Com a aprovação, o texto será promulgado pelo Congresso Nacional.\n\nSegundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai voltar a mudar a identidade da GCM (Guarda Civil Metropolitana) e chamá-la de Polícia Municipal, após a aprovação da PEC, que prevê a criação de polícias municipais.",
+  "resumo_ate_aqui": "O Senado aprovou em dois turnos, em 3 de novembro de 2026, a PEC da Segurança Pública, que já tinha sido aprovada pela Câmara. As emendas sobre redução da maioridade penal foram separadas e vão tramitar como outra proposta. Em 5 de novembro, Lula disse, segundo apenas a Agência Brasil, que vai enviar uma medida provisória criando o Ministério da Segurança Pública.",
+  "explica_do_zero": "Em março de 2026, a Câmara aprovou a PEC da Segurança Pública por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. A CCJ do Senado aprovou o texto-base no início de setembro, com o mesmo conteúdo já aprovado pelos deputados.\n\nEm 3 de novembro, o plenário do Senado aprovou a PEC em dois turnos, com 73 votos no primeiro e 75 no segundo, sem votos contrários. Os senadores também aprovaram, por 38 votos a 36, separar as emendas sobre redução da maioridade penal, que passaram a tramitar como propostas próprias.\n\nSegundo apenas a Agência Brasil, o presidente Lula prometeu, depois da aprovação, criar o Ministério da Segurança Pública. Em 5 de novembro, disse que vai enviar a medida provisória (MP) que cria o ministério, e que a discussão sobre ela começaria no dia seguinte.\n\nSegundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai voltar a chamar a GCM (Guarda Civil Metropolitana) de Polícia Municipal, após a aprovação da PEC.",
   "linha_do_tempo": [
     {
       "data": "2026-03-01",
@@ -48,6 +48,14 @@
       "fato": "Segundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai voltar a mudar a identidade da GCM (Guarda Civil Metropolitana), chamando-a de Polícia Municipal, após a aprovação da PEC.",
       "fontes": [
         {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/nunes-vai-rebatizar-gcm-como-policia-municipal-apos-aprovacao-da-pec-da-seguranca.shtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-05",
+      "fato": "Lula disse que vai enviar ao Congresso uma medida provisória (MP) criando o Ministério da Segurança Pública, e que a discussão sobre ela começaria no dia seguinte. Segundo apenas a Agência Brasil.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria"}
       ],
       "fonte_unica": true
     }

@@ -3,11 +3,11 @@
   "nome": "Eleições de meio de mandato nos EUA (2026)",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-04",
+  "ultima_novidade": "2026-11-05",
   "internacional": true,
   "palavras_chave": ["eleições de meio de mandato dos EUA", "midterms", "Congresso dos EUA"],
-  "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos votaram nas eleições de meio de mandato. O Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana.",
-  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.",
+  "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos votaram nas eleições de meio de mandato. O Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana. Em 5 de novembro, os latinos, que ajudaram Trump a se eleger, também se voltaram contra ele.",
+  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.\n\nEm 5 de novembro, os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -43,6 +43,15 @@
       "fontes": [
         {"nome": "DW", "url": "https://www.dw.com/pt-br/trump-admite-que-guerra-no-irã-contribuiu-para-derrota-republicana/live-79849879?maca=bra-rss-br-all-1030-rdf"},
         {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/guerra-economia-ia-e-casos-de-corrupcao-derrotam-trump-nos-eua"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-05",
+      "fato": "Os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.",
+      "fontes": [
+        {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/c6x23z0n899zo?at_medium=RSS&at_campaign=rss"},
+        {"nome": "DW", "url": "https://www.dw.com/pt-br/latinos-se-voltaram-contra-trump-nas-eleições-de-meio-de-mandato/a-79862226?maca=bra-rss-br-all-1030-rdf"}
       ],
       "fonte_unica": false
     }
