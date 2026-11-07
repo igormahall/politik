@@ -3,10 +3,10 @@
   "nome": "PEC da Segurança Pública",
   "inicio": "2026-03-01",
   "ativo": true,
-  "ultima_novidade": "2026-11-05",
+  "ultima_novidade": "2026-11-06",
   "palavras_chave": ["PEC da Segurança Pública", "PEC 18/2025", "Sistema Único de Segurança Pública", "Rogério Carvalho"],
-  "resumo_ate_aqui": "O Senado aprovou em dois turnos, em 3 de novembro de 2026, a PEC da Segurança Pública, que já tinha sido aprovada pela Câmara. As emendas sobre redução da maioridade penal foram separadas e vão tramitar como outra proposta. Em 5 de novembro, Lula disse, segundo apenas a Agência Brasil, que vai enviar uma medida provisória criando o Ministério da Segurança Pública.",
-  "explica_do_zero": "Em março de 2026, a Câmara aprovou a PEC da Segurança Pública por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. A CCJ do Senado aprovou o texto-base no início de setembro, com o mesmo conteúdo já aprovado pelos deputados.\n\nEm 3 de novembro, o plenário do Senado aprovou a PEC em dois turnos, com 73 votos no primeiro e 75 no segundo, sem votos contrários. Os senadores também aprovaram, por 38 votos a 36, separar as emendas sobre redução da maioridade penal, que passaram a tramitar como propostas próprias.\n\nSegundo apenas a Agência Brasil, o presidente Lula prometeu, depois da aprovação, criar o Ministério da Segurança Pública. Em 5 de novembro, disse que vai enviar a medida provisória (MP) que cria o ministério, e que a discussão sobre ela começaria no dia seguinte.\n\nSegundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai voltar a chamar a GCM (Guarda Civil Metropolitana) de Polícia Municipal, após a aprovação da PEC.",
+  "resumo_ate_aqui": "O Senado aprovou em dois turnos, em 3 de novembro de 2026, a PEC da Segurança Pública, que já tinha sido aprovada pela Câmara. As emendas sobre redução da maioridade penal foram separadas e vão tramitar como outra proposta. Em 5 de novembro, Lula disse, segundo apenas a Agência Brasil, que vai enviar uma medida provisória criando o Ministério da Segurança Pública. Em 6 de novembro, segundo apenas o g1, Lula marcou reunião para discutir a recriação da pasta.",
+  "explica_do_zero": "Em março de 2026, a Câmara aprovou a PEC da Segurança Pública por 461 votos a 14, segundo o presidente da Casa, Hugo Motta. A CCJ do Senado aprovou o texto-base no início de setembro, com o mesmo conteúdo já aprovado pelos deputados.\n\nEm 3 de novembro, o plenário do Senado aprovou a PEC em dois turnos, com 73 votos no primeiro e 75 no segundo, sem votos contrários. Os senadores também aprovaram, por 38 votos a 36, separar as emendas sobre redução da maioridade penal, que passaram a tramitar como propostas próprias.\n\nSegundo apenas a Agência Brasil, o presidente Lula prometeu, depois da aprovação, criar o Ministério da Segurança Pública. Em 5 de novembro, disse que vai enviar a medida provisória (MP) que cria o ministério, e que a discussão sobre ela começaria no dia seguinte.\n\nSegundo apenas a Folha, o prefeito Ricardo Nunes (MDB) vai voltar a chamar a GCM (Guarda Civil Metropolitana) de Polícia Municipal, após a aprovação da PEC.\n\nEm 6 de novembro, segundo apenas o g1, Lula marcou uma reunião para discutir a recriação do Ministério da Segurança Pública, pasta que existiu no governo Temer. O mesmo veículo informa que o texto aprovado seguiu para promulgação.",
   "linha_do_tempo": [
     {
       "data": "2026-03-01",
@@ -56,6 +56,14 @@
       "fato": "Lula disse que vai enviar ao Congresso uma medida provisória (MP) criando o Ministério da Segurança Pública, e que a discussão sobre ela começaria no dia seguinte. Segundo apenas a Agência Brasil.",
       "fontes": [
         {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-06",
+      "fato": "Lula marcou para esta sexta-feira (6) uma reunião para discutir a recriação do Ministério da Segurança Pública. A pasta existiu no governo Temer.",
+      "fontes": [
+        {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/06/lula-faz-reuniao-nesta-sexta-para-discutir-recriacao-do-ministerio-da-seguranca-publica-pasta-existiu-no-governo-temer.ghtml"}
       ],
       "fonte_unica": true
     }
