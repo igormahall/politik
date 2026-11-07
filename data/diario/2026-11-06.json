@@ -1,0 +1,83 @@
+{
+  "data": "2026-11-06",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Fachin homologou a proposta de delação do fundador da Reag, João Carlos Mansur. Também saíram dados do celular de Vorcaro sobre contatos com Moraes e um novo pedido sobre o BRB.",
+      "aviso_fonte_unica": "Parte das novidades vem só de um veículo, indicado na linha do tempo.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin homologa delação de fundador da Reag investigado no caso"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Flávio admitiu, em entrevista, não ter provas de fraude na eleição. A Secretaria de Patrimônio da União suspendeu o registro de imóveis de Willer Tomaz, advogado investigado junto com ele.",
+      "aviso_fonte_unica": "Parte das novidades vem só de um veículo, indicado na linha do tempo.",
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "Flávio admite não ter provas de fraude na eleição"
+    },
+    {
+      "slug": "pec-da-seguranca-publica",
+      "novo_hoje": "Lula marcou uma reunião para discutir a recriação do Ministério da Segurança Pública, pasta que existiu no governo Temer.",
+      "aviso_fonte_unica": "Esta novidade vem só do g1.",
+      "nome_curto": "PEC da Segurança Pública",
+      "linha_capa": "Lula faz reunião para discutir recriação do Ministério da Segurança Pública"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A comissão especial da Câmara que analisa a PEC 32/2015 marcou audiências para os dias 10 e 11. Também entrou na Câmara um requerimento que pede audiência sobre o tema.",
+      "aviso_fonte_unica": "Parte das novidades vem só de um veículo, indicado na linha do tempo.",
+      "nome_curto": "Redução da maioridade penal",
+      "linha_capa": "Comissão da Câmara faz audiências sobre maioridade penal nos dias 10 e 11"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Rogério Marinho disse que vai procurar Lula e o STF se for eleito presidente do Senado. Ele e Tereza Cristina articulam uma estratégia para derrotar Alcolumbre.",
+      "aviso_fonte_unica": "Parte das novidades vem só de um veículo, indicado na linha do tempo.",
+      "nome_curto": "Presidência do Senado em 2027",
+      "linha_capa": "Marinho diz que procurará Lula e STF se for eleito presidente do Senado"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "Alunos de medicina da Faculdade São Leopoldo Mandic, em Campinas (SP), afirmam ter sofrido ofensas e intimidações em grupos de WhatsApp após a eleição.",
+      "aviso_fonte_unica": "Esta novidade vem só da Folha.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "Alunos de medicina dizem ter sofrido ofensas e intimidações após a eleição"
+    },
+    {
+      "slug": "crise-ueno-bank-paraguai",
+      "novo_hoje": "O Senado do Paraguai aprovou o impeachment do presidente Santiago Peña, que foi detido em casa. A crise envolve o Ueno Bank, que atingiu milhões de clientes.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Crise do Ueno Bank no Paraguai",
+      "linha_capa": "Senado do Paraguai aprova impeachment de Santiago Peña, que é preso em casa"
+    },
+    {
+      "slug": "enamed-exame-medicina",
+      "novo_hoje": "Lula sancionou a lei que condiciona o registro profissional dos médicos à aprovação no Enamed.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Exame obrigatório de medicina (Enamed)",
+      "linha_capa": "Lula sanciona lei que condiciona registro de médicos a exame"
+    }
+  ],
+  "fichas": [
+    "camara:2651337",
+    "camara:2651261",
+    "camara:2651263",
+    "camara:2651272",
+    "camara:2651275",
+    "camara:2651325",
+    "camara:2651326",
+    "camara:2651327",
+    "senado:9123126",
+    "senado:9123223",
+    "senado:9123235",
+    "senado:9123363",
+    "aleam:materia:185103",
+    "aleam:materia:185105"
+  ],
+  "mundo": [
+    "mundo:2026-11-06:1",
+    "mundo:2026-11-06:2",
+    "mundo:2026-11-06:3",
+    "mundo:2026-11-06:4"
+  ]
+}

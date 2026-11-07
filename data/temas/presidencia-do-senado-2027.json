@@ -3,10 +3,10 @@
   "nome": "Disputa pela presidência do Senado em 2027",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-05",
+  "ultima_novidade": "2026-11-06",
   "palavras_chave": ["presidência do Senado", "Rogério Marinho", "Davi Alcolumbre", "voto aberto no Senado"],
-  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. Davi Alcolumbre (União–AP) tenta se reeleger, e o PL lançou oficialmente, em 4 de novembro, o senador Rogério Marinho (PL–RN) como candidato. Em 5 de novembro, Bolsonaro pediu a Moraes autorização para receber Marinho e Tereza Cristina (PP–MS), também pré-candidatos.",
-  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União–AP), tenta se reeleger. Segundo apenas o g1, o senador Eduardo Braga (MDB–AM), líder do MDB e próximo de Alcolumbre, já tinha anunciado que apoiaria a reeleição dele.\n\nEm 4 de novembro, o PL lançou oficialmente o senador Rogério Marinho (PL–RN) como candidato. Ele defende que os senadores de direita divulguem o próprio voto, para evitar votos secretos pela reeleição de Alcolumbre. Segundo apenas a CartaCapital, Marinho diz ter ao menos 40 votos e tenta uma candidatura única com a senadora Tereza Cristina (PP–MS).\n\nSegundo apenas o Estadão, Tereza Cristina reafirmou sua candidatura, e o PL quer voto aberto na eleição. Segundo apenas a Gazeta do Povo, Alcolumbre acena com anistia a Bolsonaro e a condenados do 8 de janeiro para tentar a reeleição, mas a ideia enfrenta resistência no PT e no STF. Segundo apenas o g1, o ex-presidente Jair Bolsonaro tenta influenciar a eleição.\n\nEm 5 de novembro, a defesa de Bolsonaro, que cumpre prisão domiciliar em Brasília, pediu a Moraes autorização para receber as visitas de Marinho e Tereza Cristina. Segundo apenas o g1, Tereza disse que pretende discutir a disputa com Bolsonaro numa eventual visita e evitou dizer se desistiria da candidatura caso ele pedisse apoio a Marinho.\n\nEm 4 de novembro, Alcolumbre criticou o que chamou de radicalismo na política e disse que muitos políticos ganharam eleições ofendendo e agredindo adversários.",
+  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. Davi Alcolumbre (União–AP) tenta se reeleger, e o PL lançou oficialmente, em 4 de novembro, o senador Rogério Marinho (PL–RN) como candidato. Em 6 de novembro, Marinho disse que, se for eleito, vai procurar Lula e o STF, e pediu união da direita contra Alcolumbre.",
+  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União–AP), tenta se reeleger. Segundo apenas o g1, o senador Eduardo Braga (MDB–AM), líder do MDB e próximo de Alcolumbre, já tinha anunciado que apoiaria a reeleição dele.\n\nEm 4 de novembro, o PL lançou oficialmente o senador Rogério Marinho (PL–RN) como candidato. Ele defende que os senadores de direita divulguem o próprio voto, para evitar votos secretos pela reeleição de Alcolumbre. Segundo apenas a CartaCapital, Marinho diz ter ao menos 40 votos e tenta uma candidatura única com a senadora Tereza Cristina (PP–MS).\n\nSegundo apenas o Estadão, Tereza Cristina reafirmou sua candidatura, e o PL quer voto aberto na eleição. Segundo apenas a Gazeta do Povo, Alcolumbre acena com anistia a Bolsonaro e a condenados do 8 de janeiro para tentar a reeleição, mas a ideia enfrenta resistência no PT e no STF. Segundo apenas o g1, o ex-presidente Jair Bolsonaro tenta influenciar a eleição.\n\nEm 5 de novembro, a defesa de Bolsonaro, que cumpre prisão domiciliar em Brasília, pediu a Moraes autorização para receber as visitas de Marinho e Tereza Cristina. Segundo apenas o g1, Tereza disse que pretende discutir a disputa com Bolsonaro numa eventual visita e evitou dizer se desistiria da candidatura caso ele pedisse apoio a Marinho.\n\nEm 4 de novembro, Alcolumbre criticou o que chamou de radicalismo na política e disse que muitos políticos ganharam eleições ofendendo e agredindo adversários.\n\nEm 6 de novembro, Marinho disse que vai procurar Lula e ministros do STF se for eleito presidente do Senado, e pediu união da direita para tirar Alcolumbre do cargo. Segundo apenas a Folha, ele pretende viajar pelo país para mobilizar a base bolsonarista a seu favor. Segundo apenas a Gazeta do Povo, Marinho e Tereza Cristina articulam uma estratégia de pinça eleitoral para derrotar Alcolumbre na disputa de 2027.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -101,6 +101,31 @@
       "fato": "A senadora Tereza Cristina disse que pretende discutir com Bolsonaro a disputa pela presidência do Senado, em uma eventual visita a ele. Ela evitou dizer se abriria mão da candidatura caso Bolsonaro pedisse apoio a Rogério Marinho. Segundo apenas o g1.",
       "fontes": [
         {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/05/tereza-cristina-disputa-presidencia-senado-jair-bolsonaro.ghtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-06",
+      "fato": "Rogério Marinho disse que vai procurar Lula e ministros do STF se for eleito presidente do Senado, e pediu união da direita para tirar Davi Alcolumbre do cargo.",
+      "fontes": [
+        {"nome": "Estadão", "url": "https://www.estadao.com.br/politica/rogerio-marinho-diz-que-vai-procurar-lula-e-stf-se-for-eleito-presidente-do-senado/"},
+        {"nome": "Revista Oeste", "url": "https://revistaoeste.com/politica/marinho-pede-uniao-da-direita-para-tirar-alcolumbre-da-presidencia-do-senado/"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-06",
+      "fato": "Segundo apenas a Folha, Rogério Marinho pretende viajar pelo país para mobilizar a base bolsonarista em favor de sua candidatura.",
+      "fontes": [
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/marinho-viajara-o-pais-e-aposta-em-pressao-de-bolsonaristas-por-votos-para-presidencia-do-senado.shtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-06",
+      "fato": "Segundo apenas a Gazeta do Povo, Rogério Marinho e Tereza Cristina articulam uma estratégia de pinça eleitoral para derrotar Alcolumbre na disputa de 2027.",
+      "fontes": [
+        {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/rogerio-marinho-e-tereza-cristina-lancam-estrategia-para-vencer-alcolumbre/"}
       ],
       "fonte_unica": true
     }
