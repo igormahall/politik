@@ -32,13 +32,10 @@ def test_compor_formato_c(tmp_data):
     msgs = compor(D, B)
     assert msgs[0]["text"].startswith("📋 <b>Politik — quarta, 28/out</b>")
     assert "🔥 Temas em andamento" in _texto(msgs)
-    botoes = [b for m in msgs if m["reply_markup"] for row in m["reply_markup"]["inline_keyboard"] for b in row]
-    assert {"🕒 Linha do tempo", "❓ Me explica do zero"} <= {b["text"] for b in botoes}
-    assert {b["url"] for b in botoes} == {
-        f"{B}/tema/caso-master.html#linha-do-tempo",
-        f"{B}/tema/caso-master.html#do-zero",
-    }
     t = _texto(msgs)
+    assert f'<a href="{B}/tema/caso-master.html#linha-do-tempo">🕒 Linha do tempo</a>' in t
+    assert f'<a href="{B}/tema/caso-master.html#do-zero">❓ Me explica do zero</a>' in t
+    assert len(msgs) == 1  # temas sem botões: tudo numa mensagem só
     assert t.index("🔥 Temas") < t.index("📜 Novidades oficiais") < t.index("🇧🇷 Federal") < t.index("🌳 Amazonas")
     assert f'<a href="{B}/ficha/camara_1.html">Muda o saque do FGTS</a>' in t
     assert f'<a href="{B}/menores/{D}.html">+ 3 itens menores</a>' in t
@@ -54,7 +51,7 @@ def test_compor_sem_traducao(tmp_data):
 def test_compor_dia_vazio(tmp_data):
     escrever_selecionados(tmp_data, D)
     _diario(tmp_data, [])
-    assert "Nenhuma novidade oficial ontem." in compor(D, B)[0]["text"]
+    assert "Nenhuma novidade oficial neste dia." in compor(D, B)[0]["text"]
 
 
 def test_compor_escapa_html(tmp_data):
@@ -76,9 +73,23 @@ def test_compor_divide_mensagem_longa(tmp_data):
 
 
 def test_fonte_indisponivel_aparece(tmp_data):
-    escrever_selecionados(tmp_data, D, indisponiveis=["dou"])
+    escrever_selecionados(tmp_data, D, indisponiveis=["dou", "tramitacao"])
     _diario(tmp_data, [])
-    assert "⚠️ Diário Oficial da União indisponível hoje." in compor(D, B)[0]["text"]
+    assert "⚠️ Fora do ar neste dia: Diário Oficial da União, Tramitações." in compor(D, B)[0]["text"]
+
+
+def test_dou_no_fim_de_semana_nao_e_falha(tmp_data):
+    sabado = "2026-11-07"
+    escrever_selecionados(tmp_data, sabado, indisponiveis=["dou"])
+    escrever_json(tmp_data / f"diario/{sabado}.json", {"data": sabado, "temas": [], "fichas": []})
+    assert "Fora do ar" not in compor(sabado, B)[0]["text"]
+
+
+def test_sem_traducao_e_sem_destaques_nao_promete_textos_originais(tmp_data):
+    escrever_selecionados(tmp_data, D)
+    _diario(tmp_data, [], sem=True)
+    t = _texto(compor(D, B))
+    assert "temas e Mundo ficaram de fora" in t and "textos originais" not in t
 
 
 def test_enviar_tenta_de_novo_em_429():

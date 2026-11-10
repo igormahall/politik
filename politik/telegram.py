@@ -59,10 +59,16 @@ def compor(data: str, base_url: str) -> list[dict]:
 
     blocos: list[tuple[str, dict | None]] = []
     cab = [f"📋 <b>Politik — {DIAS[d.weekday()]}, {d.day:02d}/{MESES[d.month - 1]}</b>"]
-    for f in sel.get("fontes_indisponiveis", []):
-        cab.append(f"⚠️ {escape(NOMES_FONTES.get(f, f))} indisponível hoje.")
+    # sábado e domingo não há Diário Oficial: não é falha, não vale aviso
+    fora = [f for f in sel.get("fontes_indisponiveis", []) if not (f == "dou" and d.weekday() >= 5)]
+    if fora:
+        cab.append("⚠️ Fora do ar neste dia: " + ", ".join(escape(NOMES_FONTES.get(f, f)) for f in fora) + ".")
     if diario.get("sem_traducao"):
-        cab.append("⚠️ Tradução indisponível hoje — mostrando textos originais.")
+        cab.append(
+            "⚠️ Tradução indisponível hoje — mostrando textos originais."
+            if sel["destaques"]
+            else "⚠️ Tradução indisponível hoje — temas e Mundo ficaram de fora."
+        )
     if diario.get("parcial"):
         cab.append("⚠️ Tradução parcial hoje — alguns itens ficaram para amanhã.")
     blocos.append(("\n".join(cab), None))
@@ -79,15 +85,12 @@ def compor(data: str, base_url: str) -> list[dict]:
         ]
         if t.get("aviso_fonte_unica"):
             linhas.append(f"⚠️ {escape(t['aviso_fonte_unica'])}")
-        botoes = {
-            "inline_keyboard": [
-                [
-                    {"text": "🕒 Linha do tempo", "url": url_tema(t["slug"], "linha-do-tempo", base_url)},
-                    {"text": "❓ Me explica do zero", "url": url_tema(t["slug"], "do-zero", base_url)},
-                ]
-            ]
-        }
-        blocos.append(("\n".join(linhas), botoes))
+        # links no texto, não botões: botão exige uma mensagem por tema (até 11 notificações num dia)
+        linhas.append(
+            f'<a href="{escape(url_tema(t["slug"], "linha-do-tempo", base_url))}">🕒 Linha do tempo</a> · '
+            f'<a href="{escape(url_tema(t["slug"], "do-zero", base_url))}">❓ Me explica do zero</a>'
+        )
+        blocos.append(("\n" + "\n".join(linhas), None))
 
     nov = ["\n<b>📜 Novidades oficiais</b>"]
     if diario.get("sem_traducao"):
@@ -101,7 +104,7 @@ def compor(data: str, base_url: str) -> list[dict]:
         ]
         itens.sort(key=lambda i: i[4])  # estável: mantém a ordem do Claude dentro da mesma importância
     if not itens:
-        nov.append("Nenhuma novidade oficial ontem.")
+        nov.append("Nenhuma novidade oficial neste dia.")
 
     def linha(u, t, e):
         return f'• <a href="{escape(u)}">{escape(t)}</a>' + (f" — {escape(_curto(e))}" if e else "")

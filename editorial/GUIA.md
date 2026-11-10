@@ -39,6 +39,11 @@ O Politik existe para que **quem não é da área do direito** entenda o que o p
   - **sem trâmite** como assunto ("aprova redação final", "aprova urgência", "rejeita requerimento").
     Se o fato é uma etapa, o título fala do **conteúdo** e a etapa vai na `situacao`;
   - sem palavras vazias ("dispõe sobre", "dá outras providências", "institui no âmbito de").
+  - **títulos iguais são proibidos** no mesmo dia: vários projetos sobre o mesmo assunto (ex.: quatro pedidos
+    para suspender a mesma portaria) se distinguem pelo que cada um tem de próprio, ou pelo autor no fim
+    ("…, propõe Dep. Fulano (PL–MG)");
+  - o título nunca fala da falta de informação ("…, mas a fonte não diz o que muda"): diga o que se sabe
+    (o assunto da lei alterada) e deixe a lacuna para `o_que_muda`.
   - Bom: "Divórcio pode ser decidido logo no início do processo".
     Ruim: "Senado recebe PL 3.303/2025 sobre divórcio".
   - Bom: "Acordo do Mercosul passa a valer para proteger mulheres vítimas de violência".
@@ -90,6 +95,10 @@ No máximo ~5 itens com importância 1 por dia.
 - **resumo_ate_aqui**: 2 a 3 frases com o estado atual da história.
 - **explica_do_zero**: até ~6 parágrafos curtos, do começo, só com fatos da linha do tempo.
 - **novo_hoje** (no diário): 1 a 2 frases com o que há de novo hoje.
+- **aviso_fonte_unica** (no diário): diz **qual fato** veio de **qual veículo** ("A entrevista ao New York Times
+  vem só da Folha."). Nunca genérico ("Parte das novidades vem só de um veículo, indicado na linha do tempo",
+  "Esse detalhe vem só de…"). Quando houver aviso, o `novo_hoje` **não** repete "segundo apenas <veículo>":
+  o aviso já diz isso, e a frase sairia duas vezes no Telegram.
 
 ## 7. Mundo
 
@@ -119,6 +128,9 @@ valem inteiras; estas são mais rígidas, porque as fontes são poucas e estrang
   ou empresa estrangeira — inclusive sobre o Brasil (tarifa dos EUA sobre o Brasil, Lula discursando na
   ONU, acordo Mercosul–UE) —, é Mundo. Se é um ato de instituição brasileira no Brasil (o Congresso votar a
   ratificação do acordo), é nacional. Um mesmo fato não vira as duas coisas.
+- **Sem repetir:** fato que já está no `novo_hoje` de um tema internacional não entra também como ficha do
+  Mundo no mesmo dia; e um fato já publicado num dia anterior (veja `data/mundo/`) só volta se houver
+  novidade, contada como novidade ("Peña é preso em casa", não de novo "Democratas vencem").
 - **Temas internacionais** (ex. a eleição americana) levam `"internacional": true`, recebem só fatos do
   Mundo, e cada entrada da `linha_do_tempo` precisa de duas organizações nas fontes. Temas nacionais não
   recebem fatos do Mundo.
