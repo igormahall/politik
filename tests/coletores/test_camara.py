@@ -74,3 +74,19 @@ def test_detalhe_traz_indexacao_e_inteiro_teor():
     assert it.extra["indexacao"] == "Lei do Sigilo Bancário; Instituição financeira"
     assert it.url_documento == "https://camara/integra"
     assert "indexacao" not in falhou.extra
+
+
+def test_lista_de_autores_com_erro_nao_derruba_a_camara():
+    import httpx
+
+    from politik.coletores.camara import _autores
+
+    cliente = httpx.Client(transport=httpx.MockTransport(lambda req: httpx.Response(504)))
+    assert _autores(cliente, "123", {}) == []
+
+
+def test_pln_e_req_buscam_autor():
+    # 09/11: oito fichas sairam com "autor não informado pela fonte"
+    from politik.coletores.camara import SIGLAS_COM_AUTORES
+
+    assert {"PLN", "REQ"} <= SIGLAS_COM_AUTORES

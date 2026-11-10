@@ -28,3 +28,39 @@ def test_acompanhados_janela(tmp_data):
     _ficha(tmp_data, "camara:2", "2026-10-01")
     _ficha(tmp_data, "aleam:materia:3", "2026-10-01")
     assert acompanhados("2026-10-28") == ["camara:2"]
+
+
+def test_um_processo_com_erro_nao_derruba_as_tramitacoes(tmp_data, monkeypatch):
+    # 10/11: um 502 em um único processo do Senado apagou todas as tramitações do dia
+    import httpx
+
+    from politik.coletores import tramitacao
+
+    _ficha(tmp_data, "senado:1", "2026-10-28")
+    _ficha(tmp_data, "senado:2", "2026-10-28")
+    proc = load("senado_processo.json")[0]
+
+    def responder(req):
+        if req.url.path.endswith("/1"):
+            return httpx.Response(502)
+        return httpx.Response(200, json=proc)
+
+    transporte = httpx.MockTransport(responder)
+    real = httpx.Client
+    monkeypatch.setattr(tramitacao.httpx, "Client", lambda **kw: real(transport=transporte, **kw))
+    itens = tramitacao.coletar("2026-10-28")
+    assert [it.id for it in itens] == ["senado:2:sit:2026-10-28"]
+
+
+def test_tramitacao_falha_se_todos_os_processos_falham(tmp_data, monkeypatch):
+    import httpx
+    import pytest
+
+    from politik.coletores import tramitacao
+
+    _ficha(tmp_data, "senado:1", "2026-10-28")
+    transporte = httpx.MockTransport(lambda req: httpx.Response(502))
+    real = httpx.Client
+    monkeypatch.setattr(tramitacao.httpx, "Client", lambda **kw: real(transport=transporte, **kw))
+    with pytest.raises(httpx.HTTPStatusError):
+        tramitacao.coletar("2026-10-28")

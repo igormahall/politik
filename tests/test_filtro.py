@@ -119,3 +119,25 @@ def test_dou_variantes_do_tipo_tambem_sao_destaque():
     assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="DECRETO NUMERADO"), CFG, []) == "destaque"
     assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="LEI NUMERADA"), CFG, []) == "destaque"
     assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="LEILAO"), CFG, []) == "menor"
+
+
+def test_mesmo_ato_em_fontes_diferentes_vira_uma_ficha_so():
+    # 09/11: a MP do Gás do Povo veio do DOU, da Câmara e do Senado com a mesma ementa
+    ementa = "Altera a Lei nº 14.237, de 2021, para prorrogar o prazo de vigência do Auxílio Gás do Povo."
+    dou = item(id="dou:1", fonte="dou", categoria="norma", sigla_tipo="MEDIDA PROVISORIA", ementa=ementa)
+    cam = item(id="camara:2", sigla_tipo="MPV", ementa=ementa)
+    sen = item(id="senado:3", fonte="senado", sigla_tipo="MPV", ementa=ementa.upper() + "  ")
+    sel, _ = filtrar(D, [cam, sen, dou], [], CFG, [])
+    assert [it.id for it in sel["destaques"]] == ["dou:1"]
+    assert {it.id for it in sel["menores"]} == {"camara:2", "senado:3"}
+
+
+def test_ementas_iguais_que_nao_sao_mp_continuam_separadas():
+    # dois parlamentares podem protocolar o mesmo texto: são projetos diferentes
+    a = item(id="camara:1", ementa="Institui o Dia Nacional do Teste.")
+    b = item(id="senado:2", fonte="senado", ementa="Institui o Dia Nacional do Teste.")
+    c = item(id="camara:3", sigla_tipo="PLN", ementa="Abre crédito.")
+    d = item(id="camara:4", sigla_tipo="PLN", ementa="Abre crédito.")
+    sel, _ = filtrar(D, [a, b, c, d], [], CFG, [])
+    assert len(sel["destaques"]) == 4
+

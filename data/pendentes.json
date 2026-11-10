@@ -70,33 +70,6 @@
   },
   {
     "item": {
-      "id": "senado:9123489",
-      "fonte": "senado",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "MPV",
-      "titulo": "MPV 1400/2026",
-      "ementa": "Altera a Lei nº 14.237, de 19 de novembro de 2021, para prorrogar o prazo de vigência do Auxílio Gás do Povo.",
-      "data": "2026-11-09",
-      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176244",
-      "autores": [
-        {
-          "nome": "Presidência da República",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/9faca3b1-756d-4ac3-9d32-cbffe0acc99e",
-      "extra": {
-        "tipoDocumento": "Medida Provisória",
-        "situacaoAtual": "AGUARDANDO DESIGNAÇÃO MEMBROS COMISSÃO",
-        "codigoMateria": 176244
-      }
-    },
-    "primeira_vez": "2026-11-09"
-  },
-  {
-    "item": {
       "id": "cmm:materia:53158",
       "fonte": "cmm",
       "nivel": "municipal",

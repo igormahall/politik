@@ -1,3 +1,4 @@
+import sys
 from datetime import date, timedelta
 
 import httpx
@@ -69,16 +70,25 @@ def parse_situacao_senado(item_id: str, processo: dict, data: str) -> Item | Non
 @registrar("tramitacao")
 def coletar(data: str) -> list[Item]:
     itens = []
+    erros: list[Exception] = []
+    ids = acompanhados(data)
     with httpx.Client(timeout=30, headers={"Accept": "application/json"}) as c:
-        for iid in acompanhados(data):
+        for iid in ids:
             casa, cod = iid.split(":")[:2]
-            if casa == "camara":
-                r = c.get(f"{CAMARA}/proposicoes/{cod}/tramitacoes", params={"dataInicio": data, "dataFim": data})
-                r.raise_for_status()
-                itens += parse_tramitacoes_camara(iid, r.json(), data)
-            else:
-                r = c.get(f"{SENADO}/{cod}")
-                r.raise_for_status()
-                if it := parse_situacao_senado(iid, r.json(), data):
-                    itens.append(it)
+            try:  # um processo com erro (502 do Senado em 10/11) não pode apagar os outros
+                if casa == "camara":
+                    r = c.get(f"{CAMARA}/proposicoes/{cod}/tramitacoes", params={"dataInicio": data, "dataFim": data})
+                    r.raise_for_status()
+                    itens += parse_tramitacoes_camara(iid, r.json(), data)
+                else:
+                    r = c.get(f"{SENADO}/{cod}")
+                    r.raise_for_status()
+                    if it := parse_situacao_senado(iid, r.json(), data):
+                        itens.append(it)
+            except httpx.HTTPError as e:
+                erros.append(e)
+    if ids and len(erros) == len(ids):
+        raise erros[0]  # tudo falhou: a fonte está fora do ar e o boletim deve avisar
+    if erros:
+        print(f"tramitacao: {len(erros)} de {len(ids)} processos sem resposta", file=sys.stderr)
     return itens

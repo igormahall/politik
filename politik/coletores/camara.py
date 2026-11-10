@@ -6,7 +6,7 @@ from politik.coletores import registrar
 from politik.modelos import Autor, Item
 
 BASE = "https://dadosabertos.camara.leg.br/api/v2"
-SIGLAS_COM_AUTORES = {"PL", "PLP", "PEC", "MPV", "PDL"}
+SIGLAS_COM_AUTORES = {"PL", "PLP", "PEC", "MPV", "PDL", "PLN", "REQ"}
 
 
 def parse_proposicoes(json: dict) -> list[Item]:
@@ -101,7 +101,8 @@ def _paginar(cliente: httpx.Client, url: str) -> list[dict]:
 
 def _autores(cliente: httpx.Client, pid: str, cache: dict) -> list[Autor]:
     r = cliente.get(f"{BASE}/proposicoes/{pid}/autores")
-    r.raise_for_status()
+    if r.status_code != 200:
+        return []  # sem autor a ficha diz "não informado"; derrubar a Câmara inteira seria pior
     autores = []
     for a in r.json()["dados"]:
         if a.get("tipo") == "Deputado(a)" and a.get("uri"):

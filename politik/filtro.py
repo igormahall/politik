@@ -54,6 +54,25 @@ def _rodizio(itens: list[Item], teto: int) -> list[Item]:
     return saida
 
 
+# atos que, por natureza, aparecem em mais de um lugar: a MP sai no DOU e tramita na Câmara e no Senado
+REPLICADOS = ("MPV", "PLN", "MEDIDA PROVISORIA")
+
+
+def _chave_ementa(it: Item) -> str:
+    if not it.sigla_tipo.startswith(REPLICADOS):
+        return ""  # PLs com o mesmo texto em casas diferentes podem ser de autores diferentes
+    return " ".join(normalizar(it.ementa).split()).rstrip(".")
+
+
+def _sem_repeticao(candidatos: list[tuple[Item, str]], temas: list[dict]) -> tuple[list, list[Item]]:
+    """MP ou PLN com a mesma ementa em fontes diferentes é o mesmo ato; na mesma fonte são atos distintos."""
+    fonte_da_vez: dict[str, str] = {}  # ementa -> fonte do candidato de maior prioridade
+    for it, _ in sorted(candidatos, key=lambda c: prioridade(c[0], temas)):
+        fonte_da_vez.setdefault(_chave_ementa(it), it.fonte)
+    manter = [c for c in candidatos if not _chave_ementa(c[0]) or fonte_da_vez[_chave_ementa(c[0])] == c[0].fonte]
+    return manter, [it for it, pv in candidatos if (it, pv) not in manter]
+
+
 def _idade(data: str, primeira_vez: str) -> int:
     return (date.fromisoformat(data) - date.fromisoformat(primeira_vez)).days
 
@@ -92,6 +111,10 @@ def filtrar(
     repetidas = [c for c in candidatos if c[0].categoria == "tramitacao" and c[0].extra.get("item_origem") in novos]
     candidatos = [c for c in candidatos if c not in repetidas]
     menores += [it for it, _ in repetidas]
+
+    # o mesmo ato chega por mais de uma fonte (MP no DOU, na Câmara e no Senado): fica o de maior prioridade
+    candidatos, repetidas = _sem_repeticao(candidatos, temas)
+    menores += repetidas
 
     # sort é estável: pendentes (que vêm antes) ganham empates
     candidatos.sort(key=lambda c: prioridade(c[0], temas))
