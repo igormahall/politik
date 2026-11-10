@@ -9,7 +9,8 @@ def legenda(modelo: dict) -> str:
     temas = [f"• {t['nome']}: {t['linha']}" if t["linha"] else f"• {t['nome']}" for t in capa["temas"]]
     # sem contagens ("mais N…"): no Instagram não há link para elas; o texto diz o que está no carrossel
     niveis = " · ".join(capa["niveis"])
-    extra = [f"• {'Também hoje' if capa['temas'] else 'Hoje'}: {niveis}"] if niveis else []
+    resumo = capa.get("destaque") or niveis
+    extra = [f"• {'Também hoje' if capa['temas'] else 'Hoje'}: {resumo}"] if resumo else []
 
     def compor(linhas):
         corpo = "\n".join(linhas + extra)

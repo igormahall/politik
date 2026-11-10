@@ -39,12 +39,18 @@ def montar(data: str) -> dict | None:
         tema = ler_json(base / "temas" / f"{t['slug']}.json")
         if not tema:
             continue
+        novo, aviso = t["novo_hoje"], t.get("aviso_fonte_unica")
+        if aviso:
+            # a imagem circula sem o site por trás: só vai o fato confirmado, que o guia põe na primeira frase
+            novo, aviso = _frases(novo, 1), None
+            if novo.lower().startswith("segundo apenas"):
+                continue  # hoje o tema só tem fato de fonte única: fica fora do Instagram
         temas.append(
             {
                 "etiqueta": _etiqueta(tema["inicio"], dia),
                 "nome": tema["nome"],
-                "novo_hoje": t["novo_hoje"],
-                "aviso": t.get("aviso_fonte_unica"),
+                "novo_hoje": novo,
+                "aviso": aviso,
                 "para_entender": _frases(tema["resumo_ate_aqui"], 1),
             }
         )
@@ -90,6 +96,8 @@ def montar(data: str) -> dict | None:
             "mais": len(mostradas),
             "mundo": len(mundo_mostrado),
             "niveis": [g["nivel"] for g in grupos],
+            # um fato concreto na capa diz mais que a lista de níveis
+            "destaque": (mostradas + mundo_mostrado)[0]["titulo"] if mostradas or mundo_mostrado else None,
         },
         "temas": temas,
         "fichas": {"grupos": grupos, "mais": resto} if grupos else None,

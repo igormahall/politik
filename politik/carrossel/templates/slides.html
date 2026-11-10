@@ -12,7 +12,7 @@
   <ol class="lista-capa">
     {% for t in m.capa.temas %}<li>{{ t.nome }}{% if t.linha %}<span>{{ t.linha }}</span>{% endif %}</li>{% endfor %}
   </ol>
-  {% if m.capa.niveis %}<p class="mais-capa">Também hoje: {{ m.capa.niveis|join(" · ") }}</p>{% endif %}
+  {% if m.capa.destaque %}<p class="mais-capa">Também hoje: {{ m.capa.destaque }}</p>{% elif m.capa.niveis %}<p class="mais-capa">Também hoje: {{ m.capa.niveis|join(" · ") }}</p>{% endif %}
   {% else %}
   <p class="grande">Hoje no Politik</p>
   <p>{{ m.capa.niveis|join(" · ") }}</p>

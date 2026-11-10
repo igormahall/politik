@@ -51,10 +51,25 @@ def test_etiqueta_conta_dias_e_vira_desde_depois_de_60(tmp_data):
     assert temas[1]["etiqueta"] == "Tema em andamento · desde mar/2025"
 
 
-def test_aviso_fonte_unica_vai_para_o_slide(tmp_data):
+def test_fato_de_fonte_unica_fica_fora_do_slide(tmp_data):
     escrever_tema(tmp_data, TEMA_OK)
-    _diario(tmp_data, [_tema_do_dia("caso-master", aviso_fonte_unica="Só o veículo X.")])
-    assert montar(D)["temas"][0]["aviso"] == "Só o veículo X."
+    escrever_tema(tmp_data, {**TEMA_OK, "slug": "outro", "nome": "Outro"})
+    novo = "Fachin deu 15 dias à PGR. Segundo apenas a Revista Oeste, Motta negociou uma fábrica."
+    _diario(
+        tmp_data,
+        [
+            _tema_do_dia("caso-master", novo_hoje=novo, aviso_fonte_unica="A fábrica vem só da Revista Oeste."),
+            _tema_do_dia("outro", novo_hoje="Segundo apenas a Folha, algo.", aviso_fonte_unica="Só a Folha."),
+        ],
+    )
+    temas = montar(D)["temas"]
+    assert [t["nome"] for t in temas] == [TEMA_OK["nome"]]
+    assert temas[0]["novo_hoje"] == "Fachin deu 15 dias à PGR." and temas[0]["aviso"] is None
+
+
+def test_capa_traz_um_fato_e_nao_so_os_niveis(tmp_data):
+    _diario(tmp_data, [], [_ficha(tmp_data, "camara:1", titulo="Divórcio pode sair no início do processo")])
+    assert montar(D)["capa"]["destaque"] == "Divórcio pode sair no início do processo"
 
 
 def test_limites_de_temas_e_fichas(tmp_data):
