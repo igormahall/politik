@@ -81,7 +81,7 @@ def compor(data: str, base_url: str) -> list[dict]:
         # curto de propósito: o contexto todo fica nos botões (linha do tempo e "me explica do zero")
         linhas = [
             f"<b>{escape(tema['nome'])}</b> · {duracao_tema(tema['inicio'], d)}",
-            f"<i>Novo hoje:</i> {escape(t['novo_hoje'])}",
+            f"<i>Novidade:</i> {escape(t['novo_hoje'])}",
         ]
         if t.get("aviso_fonte_unica"):
             linhas.append(f"⚠️ {escape(t['aviso_fonte_unica'])}")
@@ -124,7 +124,8 @@ def compor(data: str, base_url: str) -> list[dict]:
     if mundo:
         nov.append("\n<b>🌍 Mundo</b>")
         nov += [linha(url_mundo(f["item_id"], base_url), f["titulo"], "") for f in mundo]
-    nov.append(f'\n<a href="{url_menores(data, base_url)}">+ {len(sel["menores"])} itens menores</a>')
+    if sel["menores"]:  # o número sozinho não diz nada: diz o que são
+        nov.append(f'\n<a href="{url_menores(data, base_url)}">📂 Atos de rotina do dia ({len(sel["menores"])})</a>')
     blocos.append(("\n".join(nov), None))
 
     # junta blocos sem botões em mensagens, respeitando o limite

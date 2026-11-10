@@ -53,7 +53,11 @@ O Politik existe para que **quem não é da área do direito** entenda o que o p
   "Mudança na tramitação", "Proposta de emenda à Constituição"…
 - **situacao** em linguagem simples: "Proposta apresentada", "Em análise nas comissões",
   "Aprovada na Câmara", "Aprovada no Senado", "Virou lei", "Vetada", "Rejeitada", "Publicada".
-- **o_que_e**: 2 a 3 frases explicando o conteúdo.
+- **o_que_e**: 2 a 3 frases explicando o conteúdo. Quando a ementa só cita a lei alterada ("Altera o art. 1º da
+  Lei Complementar nº 105"), use `extra.indexacao` (palavras-chave oficiais da Câmara) para dizer **o assunto**
+  ("mexe na Lei do Sigilo Bancário, sobre compartilhamento de dados de instituições financeiras"). A indexação
+  diz o tema, não o conteúdo: nunca deduza dela o que a proposta muda. O link do texto completo está em
+  `url_documento`; cite-o nas fontes.
 - **quem_propos**: autores com partido e UF (ver §1). Para normas: quem assinou/publicou (órgão).
 - **o_que_muda**: algo **concreto** ("Se você …, passa a …"). Se ainda é só proposta:
   "Ainda não muda nada: é só uma proposta." + o que mudaria se aprovada.
@@ -95,6 +99,14 @@ No máximo ~5 itens com importância 1 por dia.
 - **resumo_ate_aqui**: 2 a 3 frases com o estado atual da história.
 - **explica_do_zero**: até ~6 parágrafos curtos, do começo, só com fatos da linha do tempo.
 - **novo_hoje** (no diário): 1 a 2 frases com o que há de novo hoje.
+- **Ordem do novo_hoje:** a **primeira frase** é sempre um fato confirmado (documento oficial ou dois veículos);
+  fato de um veículo só vem depois. Se hoje o tema só tem fato de fonte única, a frase começa com
+  "Segundo apenas <veículo>". O carrossel do Instagram usa só a primeira frase, então ela precisa ficar de pé sozinha.
+- **Continuidade:** se a novidade muda ou contradiz o que o Politik publicou antes (renúncia que vira
+  impeachment, prazo adiado), diga a ligação ("Um dia depois de anunciar a renúncia, …"). Vale também para o Mundo.
+- **linha_capa:** não repete as palavras do `nome_curto` ("Maioridade penal: Alcolumbre tira maioridade penal da
+  pauta" → "Alcolumbre tira a PEC da pauta e espera a Câmara"), não traz fato de fonte única e se lê sem
+  ambiguidade ("o voto de Flávio dos EUA" → "o voto que Flávio deu dos EUA").
 - **aviso_fonte_unica** (no diário): diz **qual fato** veio de **qual veículo** ("A entrevista ao New York Times
   vem só da Folha."). Nunca genérico ("Parte das novidades vem só de um veículo, indicado na linha do tempo",
   "Esse detalhe vem só de…"). Quando houver aviso, o `novo_hoje` **não** repete "segundo apenas <veículo>":

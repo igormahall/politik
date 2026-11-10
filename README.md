@@ -56,7 +56,7 @@ Por dia são publicadas centenas de itens, e a maioria é burocracia. O Politik 
 
 - **Destaques:** projetos de lei e emendas à Constituição, leis, decretos e medidas provisórias
   publicadas, votações em plenário (agrupadas pelo projeto votado) e mudanças de situação de projetos já
-  acompanhados. São no máximo 25 por dia.
+  acompanhados. São no máximo 20 por dia.
 - **Itens menores:** requerimentos, pareceres, homenagens, títulos de cidadão, nomes de rua e atos de
   rotina. **Nada é descartado em silêncio**: eles ficam listados no site, com o texto original.
 - Qualquer item ligado a um **tema em andamento** sobe para os destaques, mesmo que seja de rotina.

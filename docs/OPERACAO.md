@@ -11,12 +11,12 @@ O que é o Politik e seus critérios estão no [README](../README.md).
 
 Todo dia às 6h13 de Manaus (10:13 UTC), com repescagem às 8h13, um agendador externo (cron-job.org) dispara
 `.github/workflows/diario.yml` pela API do GitHub, com `agendado=true`. O agendamento do próprio GitHub (`schedule`,
-nos mesmos horários) fica no arquivo só de reserva: ele nunca disparou neste repositório (veja
+nos mesmos horários) fica no arquivo só de reserva: não disparou até 31/10 e, desde então, dispara com 6 a 10 horas de atraso (veja
 [Por que um agendador externo](#por-que-um-agendador-externo)). Uma execução automática que encontra o dia já
 processado não faz nada, então os gatilhos podem se sobrepor sem repetir o resumo. O botão *Run workflow* sempre
 processa. O GitHub Actions então roda:
 
-1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 16 feeds de imprensa
+1. `coletar`: Câmara, Senado, Assembleia do AM, Câmara de Manaus, Diário Oficial da União, 15 feeds de imprensa
    e as tramitações de projetos já acompanhados → `data/brutos/<dia>/` (temporário, fora do git).
    Para a seção Mundo, também os feeds internacionais de `config/mundo.toml` (BBC, DW e Agência Brasil –
    Internacional).
@@ -26,7 +26,7 @@ processa. O GitHub Actions então roda:
    um zip da seção 1 por mês, ~60 MB. Normalmente essa base só sai depois que o mês fecha; durante a manutenção
    de outubro de 2026 ela passou a ser atualizada todo dia. Se o dia ainda não estiver lá, o DOU aparece como
    fonte indisponível, como antes.
-2. `filtrar`: separa destaques (até 25), notícias (até 60), itens do Mundo (até 80, em rodízio entre as
+2. `filtrar`: separa destaques (até 20), notícias (até 60), itens do Mundo (até 80, em rodízio entre as
    organizações) e itens menores → `data/selecionados/<dia>.json` (guarda todos os itens do dia; é o registro
    bruto que fica no histórico). A tramitação de um projeto apresentado no mesmo dia não vira uma segunda ficha.
 3. **Claude Code** (sua assinatura, modelo Claude Haiku 5.5) roda `/traduzir <dia>` → fichas (com `importancia` 1–3), fichas do Mundo
@@ -100,7 +100,8 @@ e **Testes** (`testes.yml`, a cada push de código: `ruff` + `pytest`).
 
 - **Cota do Claude:** cada execução registra turnos e duração em `data/uso.jsonl`.
   Referência: um dia com ~21 destaques e 60 notícias levou **37–41 turnos e 3–5 minutos**; com o Mundo e o
-  Haiku (29/10), **43 turnos e ~6 minutos**, cerca de 8% da sessão de 5 horas do Pro. O teto é `--max-turns 80`.
+  Haiku (29/10), **43 turnos e ~6 minutos**, cerca de 8% da sessão de 5 horas do Pro. Com 25 destaques (04–06/11)
+  chegou a 77–78 turnos, quase no teto de `--max-turns 80`; por isso o teto de destaques baixou para 20.
   Se a cota apertar, baixe `teto_destaques` / `teto_noticias` em `config/filtro.toml`.
 - **O que vira destaque:** `config/filtro.toml` (siglas, tipos do DOU, termos de homenagem que vão para os menores).
 - **Veículos de imprensa:** `config/imprensa.toml`; do Mundo, `config/mundo.toml` (cada feed diz a que
@@ -148,7 +149,7 @@ python -m venv .venv && .venv/bin/pip install -e .[dev,carrossel] && .venv/bin/p
 .venv/bin/ruff check . && .venv/bin/ruff format --check . && .venv/bin/pytest
 .venv/bin/python -m politik coletar --data 2026-10-28
 .venv/bin/python -m politik filtrar --data 2026-10-28
-claude -p "/traduzir 2026-10-28" --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob" --model claude-haiku-5-5 --max-turns 80
+claude -p "/traduzir 2026-10-28" --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob,Grep" --model claude-haiku-5-5 --max-turns 80
 .venv/bin/python -m politik validar --data 2026-10-28
 .venv/bin/python -m politik site --saida site_build --base-url "file://$PWD/site_build"
 # carrossel (envia ao Telegram)

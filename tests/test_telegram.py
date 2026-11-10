@@ -38,7 +38,7 @@ def test_compor_formato_c(tmp_data):
     assert len(msgs) == 1  # temas sem botões: tudo numa mensagem só
     assert t.index("🔥 Temas") < t.index("📜 Novidades oficiais") < t.index("🇧🇷 Federal") < t.index("🌳 Amazonas")
     assert f'<a href="{B}/ficha/camara_1.html">Muda o saque do FGTS</a>' in t
-    assert f'<a href="{B}/menores/{D}.html">+ 3 itens menores</a>' in t
+    assert f'<a href="{B}/menores/{D}.html">📂 Atos de rotina do dia (3)</a>' in t
 
 
 def test_compor_sem_traducao(tmp_data):
@@ -152,14 +152,14 @@ def test_enviar_album_rejeita_mais_de_10_ou_nenhuma(tmp_path):
 
 
 def test_compor_secao_mundo(tmp_data):
-    escrever_selecionados(tmp_data, D, destaques=[item("camara:1")])
+    escrever_selecionados(tmp_data, D, destaques=[item("camara:1")], menores=[item("camara:9")])
     escrever_ficha(tmp_data, FICHA_OK)
     escrever_mundo(tmp_data, {**MUNDO_OK, "titulo": "Tarifa & aço"})
     escrever_json(
         tmp_data / f"diario/{D}.json", {"data": D, "temas": [], "fichas": ["camara:1"], "mundo": [MUNDO_OK["item_id"]]}
     )
     t = _texto(compor(D, B))
-    assert t.index("📜 Novidades oficiais") < t.index("🌍 Mundo") < t.index("itens menores")
+    assert t.index("📜 Novidades oficiais") < t.index("🌍 Mundo") < t.index("Atos de rotina")
     assert f'<a href="{B}/mundo/mundo_2026-10-28_1.html">Tarifa &amp; aço</a>' in t
 
 
