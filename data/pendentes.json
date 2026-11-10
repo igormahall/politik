@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "item": {
+      "id": "camara:2651863",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5797/2026",
+      "ementa": "Institui a Política Nacional de Memória e Reparação Institucional do Movimento Estudantil Brasileiro, estabelece diretrizes para a identificação e a reconstrução documental dos danos decorrentes da repressão política durante o regime autoritário de 1964 a 1985 e dispõe sobre medidas de preservação e recuperação do patrimônio histórico, cultural e institucional das entidades estudantis.",
+      "data": "2026-11-09",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651863",
+      "autores": [
+        {
+          "nome": "João Daniel",
+          "partido": "PT",
+          "uf": "SE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192190",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "camara:2651864",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5798/2026",
+      "ementa": "Institui a Política Nacional de Fomento às Plataformas Digitais Coletivas de Interesse Público para Serviços de Transporte e Entregas, estabelece mecanismos de financiamento, desenvolvimento tecnológico, proteção social e dá outras providências.",
+      "data": "2026-11-09",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651864",
+      "autores": [
+        {
+          "nome": "João Daniel",
+          "partido": "PT",
+          "uf": "SE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192191",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "camara:2651866",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 288/2026",
+      "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para ampliar o intervalo de tolerância para verificação do cumprimento das metas anuais de resultado primário da União.",
+      "data": "2026-11-09",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651866",
+      "autores": [
+        {
+          "nome": "Lindbergh Farias",
+          "partido": "PT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192193",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "senado:9123489",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "MPV",
+      "titulo": "MPV 1400/2026",
+      "ementa": "Altera a Lei nº 14.237, de 19 de novembro de 2021, para prorrogar o prazo de vigência do Auxílio Gás do Povo.",
+      "data": "2026-11-09",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176244",
+      "autores": [
+        {
+          "nome": "Presidência da República",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/9faca3b1-756d-4ac3-9d32-cbffe0acc99e",
+      "extra": {
+        "tipoDocumento": "Medida Provisória",
+        "situacaoAtual": "AGUARDANDO DESIGNAÇÃO MEMBROS COMISSÃO",
+        "codigoMateria": 176244
+      }
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53158",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 853 de 2026",
+      "ementa": "“INSTITUI o Programa de Recuperação Fiscal do Município de Manaus - REFIS MUNICIPAL 2026, destinado a regularização, mediante pagamento a vista, de créditos tributários do Imposto Sobre Serviços de Qualquer Natureza (ISSQN) do exercício de 2026, não inscritos em Divida Ativa, e dá outras providências”. Mensagem n.102/2026",
+      "data": "2026-11-09",
+      "url": "https://sapl.cmm.am.gov.br/materia/53158",
+      "autores": [
+        {
+          "nome": "Executivo Municipal",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53158/pl_853_2026_exe__mun_mens._102_2026_programa_de_recuperacao_fiscal_do_municipio_de_manaus.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53159",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 854 de 2026",
+      "ementa": "DISPÕE sobre diretrizes para a promoção da autonomia financeira da mulher e o fortalecimento das atividades de cuidado e apoio familiar no Município de Manaus.",
+      "data": "2026-11-09",
+      "url": "https://sapl.cmm.am.gov.br/materia/53159",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53159/pl_854_2026_diego_afonso_autonomia_financeira_da_mulher.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53160",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 855 de 2026",
+      "ementa": "Estabelece diretrizes para o incentivo à disponibilização de cardápios adaptados com pictogramas e recursos de Comunicação Alternativa e Aumentativa \r\n(CAA) em bares, restaurantes, lanchonetes e estabelecimentos similares, destinados às pessoas com Transtorno do Espectro Autista (TEA) e deficiência intelectual no Município de Manaus, e dá outras providências.",
+      "data": "2026-11-09",
+      "url": "https://sapl.cmm.am.gov.br/materia/53160",
+      "autores": [
+        {
+          "nome": "DIEGO AFONSO",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53160/pl_855_2026_diego_afonso_cardapios_adaptados_destinados_as_pessoas_com_tea.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-09"
+  }
+]

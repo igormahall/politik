@@ -3,10 +3,10 @@
   "nome": "Reforma eleitoral na Câmara (voto distrital misto)",
   "inicio": "2026-11-01",
   "ativo": true,
-  "ultima_novidade": "2026-11-04",
+  "ultima_novidade": "2026-11-09",
   "palavras_chave": ["voto distrital misto", "sistema distrital misto", "Hugo Motta"],
-  "resumo_ate_aqui": "Líderes da Câmara e presidentes de partidos querem retomar uma proposta que muda a forma de escolha dos deputados e institui o voto distrital misto. Segundo apenas a Folha, Hugo Motta (Republicanos–PB) articulou com o centrão um acordo para adotar o modelo a partir de 2034, mas o texto divide os deputados. Em 3 de novembro, o deputado Gilson Daniel (PODE–ES) apresentou um projeto próprio com o voto distrital misto. Em 4 de novembro, segundo apenas a Agência Brasil, partidos querem aprovar a mudança por PEC ainda neste ano.",
-  "explica_do_zero": "Líderes da Câmara e presidentes de partidos querem retomar a tramitação de uma proposta que muda a forma de escolha dos deputados e institui o chamado sistema distrital misto. Segundo a g1, o objetivo é frear a perda de espaço dos partidos de centro depois do crescimento do PL nas eleições de 2026.\n\nSegundo apenas a Folha, o presidente da Câmara, Hugo Motta (Republicanos–PB), articulou com dirigentes do centrão um acordo para adotar o voto distrital misto a partir de 2034. A mesma reportagem diz que o modelo divide os deputados e ameaça desfazer esse acordo.\n\nEm 3 de novembro, o deputado Gilson Daniel (PODE–ES) apresentou o PL 5731/2026, que institui o voto distrital misto para a eleição de deputados federais, estaduais e distritais e de vereadores de municípios com mais de 200 mil eleitores. Ainda não muda nada: é só uma proposta. A fonte não explica como o modelo funciona.\n\nSegundo apenas a Agência Brasil, partidos como PP, PSD, União Brasil, Podemos e PSB querem aprovar a mudança por meio de PEC ainda neste ano, com regra de transição para 2030 e implantação plena em 2034.",
+  "resumo_ate_aqui": "Líderes da Câmara e presidentes de partidos querem retomar a proposta do voto distrital misto. Em 9 de novembro, o relator apresentou as diretrizes do texto, com um voto único por eleitor, e quer votar a mudança ainda neste ano. Segundo apenas a Folha, Hugo Motta (Republicanos–PB) articulou um acordo para adotar o modelo a partir de 2034, mas o texto divide os deputados.",
+  "explica_do_zero": "Líderes da Câmara e presidentes de partidos querem retomar a tramitação de uma proposta que muda a forma de escolha dos deputados e institui o sistema distrital misto. Segundo a g1, o objetivo é frear a perda de espaço dos partidos de centro, após o crescimento do PL nas eleições de 2026.\n\nSegundo apenas a Folha, o presidente da Câmara, Hugo Motta (Republicanos–PB), articulou com dirigentes do centrão um acordo para adotar o voto distrital misto a partir de 2034. A mesma reportagem diz que o modelo divide os deputados e ameaça desfazer esse acordo.\n\nEm 3 de novembro, o deputado Gilson Daniel (PODE–ES) apresentou o PL 5731/2026, que institui o voto distrital misto para deputados federais, estaduais e distritais e vereadores de municípios com mais de 200 mil eleitores. Ainda não muda nada: é só uma proposta.\n\nSegundo apenas a Agência Brasil, em 4 de novembro, partidos como PP, PSD, União Brasil, Podemos e PSB queriam aprovar a mudança por PEC ainda neste ano, com regra de transição para 2030 e implantação plena em 2034.\n\nEm 9 de novembro, o relator, deputado Domingos Neto (PSD–CE), apresentou as diretrizes do texto: um voto único por eleitor. O relator quer votar a mudança ainda neste ano. Segundo apenas a Agência Brasil, a implantação seria em 2032, nas eleições municipais, e em 2034, nas gerais.",
   "linha_do_tempo": [
     {
       "data": "2026-11-01",
@@ -38,6 +38,31 @@
       "fato": "Segundo apenas a Agência Brasil, partidos como PP, PSD, União Brasil, Podemos e PSB querem aprovar o voto distrital misto por PEC ainda neste ano. Liderados pelo presidente da Câmara, Hugo Motta, eles preveem regra de transição para as eleições de 2030 e implantação plena em 2034.",
       "fontes": [
         {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/entenda-diferenca-entre-o-voto-proporcional-e-o-voto-distrital-misto"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-09",
+      "fato": "O relator, deputado Domingos Neto (PSD–CE), apresentou as diretrizes do texto, com um voto único por eleitor, e quer votar a mudança ainda neste ano.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-do-distrital-misto-propoe-voto-unico-para-distrital-e-lista"},
+        {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/relator-quer-aprovar-voto-distrital-misto-ainda-em-novembro/"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-09",
+      "fato": "Segundo apenas a Agência Brasil, a implantação seria em 2032, nas eleições municipais, e em 2034, nas gerais. A regra de transição para 2030 ainda está em discussão.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-do-distrital-misto-propoe-voto-unico-para-distrital-e-lista"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-09",
+      "fato": "Segundo apenas a Agência Brasil, o relator propõe que o modelo valha só nos municípios com mais de 200 mil eleitores, onde há segundo turno (103 hoje). Nas demais cidades, seria mantido o sistema proporcional atual. As novas regras não atingiriam o Senado.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-do-distrital-misto-propoe-voto-unico-para-distrital-e-lista"}
       ],
       "fonte_unica": true
     }

@@ -1,0 +1,54 @@
+{
+  "data": "2026-11-09",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PF decidiu afastar dois delegados de chefia que cuidavam das investigações do Master e vai refazer os relatórios sobre ministros do STF. Um primeiro leilão de bens do Banco Master e do Will Bank, com 445 lotes de móveis e eletrônicos, foi encerrado nesta segunda-feira (9).",
+      "aviso_fonte_unica": "O leilão de bens do Master vem só do g1.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "PF afasta dois delegados e vai refazer relatórios sobre ministros do STF"
+    },
+    {
+      "slug": "reforma-eleitoral-voto-distrital-misto",
+      "novo_hoje": "O relator apresentou as diretrizes do texto, com um voto único por eleitor, e quer votar a mudança ainda neste ano.",
+      "aviso_fonte_unica": "Os anos de 2032 e 2034 e a regra das cidades com mais de 200 mil eleitores vêm só da Agência Brasil.",
+      "nome_curto": "Reforma eleitoral",
+      "linha_capa": "Relator apresenta modelo distrital misto com um voto por eleitor"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Rogério Marinho e Tereza Cristina seguem divididos na disputa pela presidência do Senado, e Davi Alcolumbre tenta se reeleger. Cerca de 10 a 15 senadores de centro e direita são vistos como decisivos.",
+      "aviso_fonte_unica": "O número de 10 a 15 senadores decisivos vem só da Folha.",
+      "nome_curto": "Presidência do Senado",
+      "linha_capa": "Alcolumbre tenta se reeleger, e a direita segue dividida entre dois nomes"
+    }
+  ],
+  "fichas": [
+    "dou:24596512",
+    "camara:2651386",
+    "camara:2651858",
+    "camara:2651489",
+    "dou:24596446",
+    "dou:24596447",
+    "dou:24596448",
+    "dou:24596509",
+    "dou:24596510",
+    "dou:24596511",
+    "camara:2651388",
+    "camara:2651389",
+    "camara:2651409",
+    "camara:2651424",
+    "camara:2651425",
+    "camara:2651656",
+    "camara:2651657",
+    "camara:2651660",
+    "camara:2651662",
+    "camara:2651682"
+  ],
+  "mundo": [
+    "mundo:2026-11-09:1",
+    "mundo:2026-11-09:2",
+    "mundo:2026-11-09:3",
+    "mundo:2026-11-09:4"
+  ]
+}
