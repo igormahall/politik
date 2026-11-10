@@ -99,6 +99,11 @@ No máximo ~5 itens com importância 1 por dia.
 - **resumo_ate_aqui**: 2 a 3 frases com o estado atual da história.
 - **explica_do_zero**: até ~6 parágrafos curtos, do começo, só com fatos da linha do tempo.
 - **novo_hoje** (no diário): 1 a 2 frases com o que há de novo hoje.
+- **Só fato novo no novo_hoje:** algo que aconteceu ou foi revelado no dia (decisão, votação, declaração,
+  documento, prisão). Situação que continua ("seguem divididos", "segue em análise") não é novidade: se o tema
+  não teve fato novo, ele **fica fora do diário** nesse dia.
+- **Um assunto por novo_hoje:** as duas frases contam o mesmo desdobramento. Um segundo fato sem ligação com o
+  primeiro (o leilão de bens junto do afastamento de delegados) vai só para a `linha_do_tempo`.
 - **Ordem do novo_hoje:** a **primeira frase** é sempre um fato confirmado (documento oficial ou dois veículos);
   fato de um veículo só vem depois. Se hoje o tema só tem fato de fonte única, a frase começa com
   "Segundo apenas <veículo>". O carrossel do Instagram usa só a primeira frase, então ela precisa ficar de pé sozinha.

@@ -141,3 +141,11 @@ def test_ementas_iguais_que_nao_sao_mp_continuam_separadas():
     sel, _ = filtrar(D, [a, b, c, d], [], CFG, [])
     assert len(sel["destaques"]) == 4
 
+
+def test_credito_ao_orcamento_vai_para_menores():
+    pln = item(
+        sigla_tipo="PLN", ementa="Abre ao Orçamento Fiscal da União, em favor da Eletronuclear, crédito especial."
+    )
+    plns = item(id="camara:2", sigla_tipo="PLN", ementa="Abre aos Orçamentos Fiscal e da Seguridade Social da União...")
+    ldo = item(id="camara:3", sigla_tipo="PLN", ementa="Altera a Lei de Diretrizes Orçamentárias de 2026.")
+    assert [classificar(i, CFG, []) for i in (pln, plns, ldo)] == ["menor", "menor", "destaque"]
