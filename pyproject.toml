@@ -2,7 +2,7 @@
 name = "politik"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = ["httpx", "feedparser", "jinja2"]
+dependencies = ["httpx", "certifi", "feedparser", "jinja2"]
 
 [project.optional-dependencies]
 dev = ["pytest", "pyyaml", "ruff"]

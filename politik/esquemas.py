@@ -137,6 +137,10 @@ def organizacao(url: str) -> str | None:
     return next((org for dominio, org in ORGANIZACOES.items() if host == dominio or host.endswith("." + dominio)), None)
 
 
+def _sem_rastreio(url: str) -> str:
+    return url.split("#", 1)[0].split("?", 1)[0]
+
+
 def _organizacoes(fontes) -> set[str]:
     return {organizacao(f.get("url")) for f in fontes or [] if isinstance(f, dict)} - {None}
 
@@ -159,7 +163,8 @@ def erros_mundo(d: dict, urls_mundo: set[str] | None = None, urls_impacto: set[s
     for campo, urls in (("fontes", urls_mundo), ("fontes_impacto", urls_impacto)):
         if urls is None:
             continue
+        coletadas = {_sem_rastreio(u) for u in urls}  # o Claude costuma citar o link sem "?at_medium=RSS"
         for f in d.get(campo) or []:
-            if isinstance(f, dict) and (not isinstance(f.get("url"), str) or f["url"] not in urls):
+            if isinstance(f, dict) and (not isinstance(f.get("url"), str) or _sem_rastreio(f["url"]) not in coletadas):
                 erros.append(f"{campo}: url não coletada hoje {f.get('url')!r}")
     return erros

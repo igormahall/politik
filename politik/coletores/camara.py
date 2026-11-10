@@ -107,8 +107,8 @@ def _autores(cliente: httpx.Client, pid: str, cache: dict) -> list[Autor]:
         if a.get("tipo") == "Deputado(a)" and a.get("uri"):
             if a["uri"] not in cache:
                 d = cliente.get(a["uri"])
-                d.raise_for_status()
-                cache[a["uri"]] = parse_deputado(d.json())
+                # a API de deputados dá 504 com frequência: sem partido é melhor que perder o dia inteiro
+                cache[a["uri"]] = parse_deputado(d.json()) if d.status_code == 200 else Autor(a["nome"])
             autores.append(cache[a["uri"]])
         else:
             autores.append(Autor(a["nome"]))

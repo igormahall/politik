@@ -97,3 +97,10 @@ def test_mundo_impacto_sem_fonte_e_invalido():
 def test_tema_internacional_exige_duas_organizacoes():
     assert erros_tema({**TEMA_OK, "internacional": True})
     assert erros_tema(TEMA_OK) == []
+
+
+def test_mundo_aceita_url_coletada_sem_parametros_de_rastreio():
+    # o feed traz "?at_medium=RSS"/"?maca=..." e o Claude cita o link limpo: em 01/11 o Mundo inteiro caiu por isso
+    urls = {f["url"] + "?at_medium=RSS&at_campaign=rss" for f in MUNDO_OK["fontes"]}
+    impacto = {f["url"] + "?maca=bra-rss" for f in MUNDO_OK.get("fontes_impacto") or []}
+    assert erros_mundo(MUNDO_OK, urls_mundo=urls, urls_impacto=urls | impacto) == []

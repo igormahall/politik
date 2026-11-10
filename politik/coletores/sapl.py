@@ -1,3 +1,7 @@
+import ssl
+from pathlib import Path
+
+import certifi
 import httpx
 
 from politik.coletores import registrar
@@ -8,6 +12,14 @@ CASAS = {
     "cmm": ("https://sapl.cmm.am.gov.br", "municipal"),
 }
 SIGLAS_COM_AUTORES = {"PL", "PLC", "PEC", "PDL", "PLO", "PLE"}
+# desde 04/11/2026 o servidor da Câmara de Manaus não envia o certificado intermediário (Sectigo DV R36)
+INTERMEDIARIO = Path(__file__).resolve().parents[2] / "config" / "sectigo-dv-r36.pem"
+
+
+def _ssl() -> ssl.SSLContext:
+    ctx = ssl.create_default_context(cafile=certifi.where())
+    ctx.load_verify_locations(INTERMEDIARIO)
+    return ctx
 
 
 def parse_tipos(json: dict) -> dict[int, str]:
@@ -89,7 +101,7 @@ def _autores(cliente: httpx.Client, base: str, materia_id: str, cache: dict) -> 
 
 
 def coletar_casa(casa: str, data: str, cliente: httpx.Client | None = None) -> list[Item]:
-    cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"})
+    cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"}, verify=_ssl())
     base, _ = CASAS[casa]
     tipos = parse_tipos({"results": _resultados(cliente, f"{base}/api/materia/tipomaterialegislativa/?page_size=100")})
     materias = parse_materias(

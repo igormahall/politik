@@ -23,3 +23,25 @@ def test_parse_votacoes_so_plenario_do_dia():
 
 def test_parse_deputado():
     assert parse_deputado(load("camara_deputado.json")) == Autor("Rubens Pereira Júnior", "PT", "MA")
+
+
+def test_autor_com_erro_na_api_nao_derruba_a_camara():
+    # um 504 na ficha de um deputado fazia o dia inteiro da Câmara sumir
+    import httpx
+
+    from politik.coletores.camara import _autores
+
+    def responder(req):
+        if req.url.path.endswith("/autores"):
+            return httpx.Response(
+                200,
+                json={
+                    "dados": [
+                        {"tipo": "Deputado(a)", "nome": "Fulano", "uri": "https://x/deputados/1"},
+                    ]
+                },
+            )
+        return httpx.Response(504)
+
+    cliente = httpx.Client(transport=httpx.MockTransport(responder))
+    assert _autores(cliente, "123", {}) == [Autor("Fulano")]

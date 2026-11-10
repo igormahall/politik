@@ -111,3 +111,10 @@ def test_tramitacao_de_projeto_apresentado_no_mesmo_dia_nao_vira_ficha_repetida(
     sel, _ = filtrar(D, [novo, tram_mesmo_dia, tram_antigo], [], CFG, [])
     assert {i.id for i in sel["destaques"]} == {"senado:1", "senado:2:sit:x"}
     assert "senado:1:sit:x" in [i.id for i in sel["menores"]]
+
+
+def test_dou_variantes_do_tipo_tambem_sao_destaque():
+    # a base aberta da Imprensa Nacional chama o decreto presidencial de "DECRETO NUMERADO"
+    assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="DECRETO NUMERADO"), CFG, []) == "destaque"
+    assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="LEI NUMERADA"), CFG, []) == "destaque"
+    assert classificar(item(fonte="dou", categoria="norma", sigla_tipo="LEILAO"), CFG, []) == "menor"

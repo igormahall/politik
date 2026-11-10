@@ -19,7 +19,9 @@ def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque",
     if any(t in ementa for t in cfg.get("menores_termos_ementa", [])):
         return "menor"
     if item.fonte == "dou":
-        return "destaque" if item.sigla_tipo in cfg["dou_destaque_tipos"] else "menor"
+        # a base aberta acrescenta qualificadores ("DECRETO NUMERADO"): vale o tipo e suas variantes
+        tipo = item.sigla_tipo
+        return "destaque" if any(tipo == t or tipo.startswith(t + " ") for t in cfg["dou_destaque_tipos"]) else "menor"
     if item.categoria == "norma" and item.fonte in LOCAL:
         return "destaque" if cfg["norma_sapl_destaque"] else "menor"
     if item.fonte in FEDERAL and item.sigla_tipo in cfg["destaque_siglas_federal"]:
