@@ -85,11 +85,7 @@ url = "https://www.acritica.com/rss"
 secao = "amazonas"
 texto_completo = false
 
-[[feed]]
-veiculo = "d24am"
-url = "https://d24am.com/feed/"
-secao = "amazonas"
-texto_completo = false
+# d24am fora: o feed responde 403 a todo acesso vindo do GitHub Actions (bloqueio por IP, out–nov/2026)
 
 [[feed]]
 veiculo = "amazonasatual"

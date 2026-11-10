@@ -115,6 +115,18 @@ def _autores(cliente: httpx.Client, pid: str, cache: dict) -> list[Autor]:
     return autores
 
 
+def _detalhar(cliente: httpx.Client, it: Item) -> None:
+    """Indexação (assunto em palavras-chave) e inteiro teor: a ementa muitas vezes só cita a lei alterada."""
+    r = cliente.get(f"{BASE}/proposicoes/{it.id.split(':')[1]}")
+    if r.status_code != 200:
+        return  # é complemento: sem ele a ficha sai só com a ementa, como antes
+    d = r.json()["dados"]
+    if d.get("keywords"):
+        it.extra["indexacao"] = d["keywords"]
+    if d.get("urlInteiroTeor"):
+        it.url_documento = d["urlInteiroTeor"]
+
+
 @registrar("camara")
 def coletar(data: str, cliente: httpx.Client | None = None) -> list[Item]:
     cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"})
@@ -125,6 +137,7 @@ def coletar(data: str, cliente: httpx.Client | None = None) -> list[Item]:
     for it in itens:
         if it.sigla_tipo in SIGLAS_COM_AUTORES:
             it.autores = _autores(cliente, it.id.split(":")[1], cache)
+            _detalhar(cliente, it)
     # a API trata dataFim como exclusiva para votações
     votos = parse_votacoes(
         {"dados": _paginar(cliente, f"{BASE}/votacoes?dataInicio={data}&dataFim={seguinte}&itens=200")}, data

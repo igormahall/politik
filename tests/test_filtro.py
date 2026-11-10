@@ -27,9 +27,10 @@ def test_portaria_vira_destaque_se_casa_tema():
 
 
 def test_teto_e_pendentes():
-    itens = [item(id=f"camara:{n}") for n in range(30)]
+    teto = CFG["teto_destaques"]
+    itens = [item(id=f"camara:{n}") for n in range(teto + 5)]
     sel, pend = filtrar(D, itens, [], CFG, [])
-    assert len(sel["destaques"]) == 25 and len(pend) == 5
+    assert len(sel["destaques"]) == teto and len(pend) == 5
     assert all(p["primeira_vez"] == D for p in pend)
     assert sel["data"] == D and sel["fontes_indisponiveis"] == []
 
@@ -42,7 +43,7 @@ def test_pendente_expira_para_menores():
 
 def test_pendente_valido_volta_e_mantem_primeira_vez():
     pend = [{"item": item(id="camara:x").to_dict(), "primeira_vez": "2026-10-27"}]
-    itens = [item(id=f"camara:{n}") for n in range(25)]
+    itens = [item(id=f"camara:{n}") for n in range(CFG["teto_destaques"])]
     sel, novos = filtrar(D, itens, pend, CFG, [])
     # pendentes entram antes dos novos de mesma prioridade
     assert "camara:x" in [i.id for i in sel["destaques"]]

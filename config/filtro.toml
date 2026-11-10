@@ -1,7 +1,7 @@
 # Regras do filtro. Tudo que não estiver aqui vai para os "menores"
 # (aparecem no site com a ementa original, sem passar pelo Claude).
 
-teto_destaques = 25
+teto_destaques = 20
 pendente_max_dias = 2
 teto_noticias = 60
 teto_mundo = 80

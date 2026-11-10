@@ -45,3 +45,32 @@ def test_autor_com_erro_na_api_nao_derruba_a_camara():
 
     cliente = httpx.Client(transport=httpx.MockTransport(responder))
     assert _autores(cliente, "123", {}) == [Autor("Fulano")]
+
+
+def test_detalhe_traz_indexacao_e_inteiro_teor():
+    # ementa "Altera o art. 1º da LC 105" não diz o assunto; a indexação da Câmara diz ("Lei do Sigilo Bancário")
+    import httpx
+
+    from politik.coletores.camara import _detalhar
+    from tests.helpers import item
+
+    def responder(req):
+        if req.url.path.endswith("/proposicoes/7"):
+            return httpx.Response(
+                200,
+                json={
+                    "dados": {
+                        "keywords": "Lei do Sigilo Bancário; Instituição financeira",
+                        "urlInteiroTeor": "https://camara/integra",
+                    }
+                },
+            )
+        return httpx.Response(504)
+
+    cliente = httpx.Client(transport=httpx.MockTransport(responder))
+    it, falhou = item("camara:7"), item("camara:8")
+    _detalhar(cliente, it)
+    _detalhar(cliente, falhou)
+    assert it.extra["indexacao"] == "Lei do Sigilo Bancário; Instituição financeira"
+    assert it.url_documento == "https://camara/integra"
+    assert "indexacao" not in falhou.extra
