@@ -1,0 +1,60 @@
+{
+  "data": "2026-11-10",
+  "temas": [
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "Na comissão especial da Câmara, o governo defendeu a redução da maioridade penal só para crimes hediondos. O relator, Mendonça Filho (PL–PE), disse que vai apresentar parecer favorável e que Hugo Motta quer levar o texto ao plenário na primeira semana de dezembro; antes, a previsão era votar em novembro.",
+      "aviso_fonte_unica": "A previsão de plenário na primeira semana de dezembro vem só da Agência Brasil.",
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Governo defende redução só para crimes hediondos na Câmara"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Está na pauta da comissão do Senado (CSP) o pedido para convocar o ministro da Justiça a explicar a mudança nos relatórios da PF sobre ministros do STF. O ministro também pediu explicações à PF, por ofício, sobre a troca de dois delegados.",
+      "aviso_fonte_unica": "O pedido de explicações por ofício vem só da Revista Oeste.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Senado pauta pedido para convocar ministro sobre relatórios da PF"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "A PF abriu inquérito para apurar se a campanha de Flávio Bolsonaro recebeu recursos estrangeiros. A apuração deve esclarecer também se a organização Rockbridge Network deu algum apoio à campanha.",
+      "aviso_fonte_unica": "A menção à Rockbridge Network vem só da CartaCapital.",
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "PF apura se campanha presidencial recebeu recursos estrangeiros"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "Foi apresentado na Câmara um requerimento de moção de solidariedade à deputada federal eleita Ana Elisa, em razão dos ataques sofridos por violência política de gênero e raça. A autora é a deputada Erika Hilton (PSOL–SP).",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Violência política e assédio eleitoral",
+      "linha_capa": "Câmara recebe pedido de solidariedade a deputada eleita vítima de ataques"
+    }
+  ],
+  "fichas": [
+    "camara:votacao:2578871:2026-11-10",
+    "camara:votacao:2643736:2026-11-10",
+    "camara:votacao:2476576:2026-11-10",
+    "camara:2652037",
+    "camara:2652156",
+    "senado:9124777",
+    "senado:9124807",
+    "camara:2651969",
+    "camara:2652013",
+    "camara:2652076",
+    "camara:2652102",
+    "camara:2651657:tram:5",
+    "camara:votacao:2613075:2026-11-10",
+    "camara:votacao:2340806:2026-11-10",
+    "camara:votacao:2443127:2026-11-10",
+    "camara:votacao:2462635:2026-11-10",
+    "camara:votacao:2636164:2026-11-10",
+    "camara:votacao:2368275:2026-11-10",
+    "camara:votacao:2623565:2026-11-10",
+    "camara:votacao:2644208:2026-11-10"
+  ],
+  "mundo": [
+    "mundo:2026-11-10:1",
+    "mundo:2026-11-10:2",
+    "mundo:2026-11-10:3"
+  ]
+}
