@@ -1,252 +1,6 @@
 [
   {
     "item": {
-      "id": "camara:votacao:2557714:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 4480/2025",
-      "ementa": "Altera a Lei nº 14.312, de 2022, para dispor sobre critérios de concessão de subvenções econômicas e estabelecer nova hipótese de acesso a operações de crédito imobiliário no âmbito do Programa Habite Seguro.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2557714",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2557714,
-        "votacoes": [
-          {
-            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Rodrigo da Zaeli (PL-MT).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2557714-61"
-          },
-          {
-            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 4.480, de 2025, adotado pelo relator da Comissão de Segurança Pública e Combate ao Crime Organizado.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2557714-58"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2405324:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 5621/2023",
-      "ementa": "Estabelece prioridade no acesso ao Programa Minha Casa, Minha Vida algumas categorias de famílias, especialmente aquelas com crianças e adolescentes e com pessoas com câncer",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2405324",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2405324,
-        "votacoes": [
-          {
-            "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644738-8"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2643842:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 5086/2026",
-      "ementa": "Dispõe sobre o regime jurídico específico das associações civis sem fins lucrativos de utilidade pública que instituam sistemas de beneficência e assistência mútua de interesse social.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2643842",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2643842,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2643846-10"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2204495:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 3099/2019",
-      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2204495",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2204495,
-        "votacoes": [
-          {
-            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Eduardo Bismarck (PV-CE).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108"
-          },
-          {
-            "descricao": "Aprovado o Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-106"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2629237:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 2724/2026",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para incluir a temática do bem-estar animal e da guarda responsável como conteúdo transversal nos currículos da educação básica.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2629237",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2629237,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629237-20"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629237-19"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2449713:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 2924/2024",
-      "ementa": "Altera a redação do § 9º do art. 26 da Lei nº 9.394, de 1996, de diretrizes e bases da educação nacional, para inserir os direitos dos animais entre os temas transversais dos currículos da educação básica.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2449713",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2449713,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2449713-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2449713-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2424338:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 1059/2024",
-      "ementa": "Inclui nas escolas disciplina sobre bem-estar animal e suas implicações com a saúde pública.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2424338",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2424338,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2424338-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2424338-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2398688:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 5137/2023",
-      "ementa": "Institui o PROGRAMA CRIANÇAS AMIGAS DOS ANIMAIS, para incentivar estudantes do ensino fundamental I (1ª a 5ª série) da rede de ensino,à leitura para pets que se encontram em abrigos e ainda ensiná-las sobre a importância de cuidar de um animal e protegê-los.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2398688",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2398688,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2398688-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2398688-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
       "id": "camara:votacao:2297888:2026-11-10",
       "fonte": "camara",
       "nivel": "federal",
@@ -1176,6 +930,465 @@
   },
   {
     "item": {
+      "id": "camara:votacao:2515534:2026-11-11",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 2475/2025",
+      "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2515534",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2515534,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pelo relator,  Delegado Matheus Laiola (UNIÃO/PR).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69"
+          },
+          {
+            "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2270540:2026-11-11",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 504/2021",
+      "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2270540",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2270540,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88"
+          },
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 504, de 2021, adotado pela relatora da Comissão de Saúde.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2629310:2026-11-11",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PDL 557/2026",
+      "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2629310",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2629310,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Afonso Florence (PT-BA).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44"
+          },
+          {
+            "descricao": "Aprovado o Projeto de Decreto Legislativo nº 557, de 2026.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2602370:2026-11-11",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 464/2026",
+      "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2602370",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2602370,
+        "votacoes": [
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2338753:2026-11-11",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 2812/2022",
+      "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2338753",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2338753,
+        "votacoes": [
+          {
+            "descricao": "Rejeitado o Requerimento.",
+            "aprovacao": 0,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18"
+          },
+          {
+            "descricao": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+            "aprovacao": 0,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651425:tram:10",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "A COMISSÃO MISTA DE PLANOS, ORÇAMENTOS PÚBLICOS E FISCALIZAÇÃO - CMO, na continuação da Nona Reunião, Ordinária, realizada em 11 de novembro de 2026, APROVOU, o Relatório do Deputado HUGO LEAL, favorável ao Projeto de Lei nº 25/2026-CN na forma proposta pelo Poder Executivo. Ao projeto não foram apresentadas emendas.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651425",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2651425"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651425:tram:8",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "Apresentação do Relatório do Relator (CMO), RRL 1 CMO, pelo Dep. Hugo Leal",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651425",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193526",
+      "extra": {
+        "item_origem": "camara:2651425"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651425:tram:9",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "VOTO: pela aprovação do Projeto de Lei na forma apresentada pelo Poder Executivo. Ao projeto não foram apresentadas emendas.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651425",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193526",
+      "extra": {
+        "item_origem": "camara:2651425"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651660:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Pronta para Pauta",
+      "ementa": "Apresentação do Relatório do Relator (CMO), RRL 1 CMO, pelo Dep. Marcelo Álvaro Antônio",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651660",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193819",
+      "extra": {
+        "item_origem": "camara:2651660"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651660:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Pronta para Pauta",
+      "ementa": "VOTO: pela aprovação do Projeto na forma proposta pelo Poder Executivo. Quanto as 3 (três) emendas apresentadas, o Relator ofereceu voto pela REJEIÇÃO.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651660",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193819",
+      "extra": {
+        "item_origem": "camara:2651660"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651662:tram:8",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "A COMISSÃO MISTA DE PLANOS, ORÇAMENTOS PÚBLICOS E FISCALIZAÇÃO - CMO, na continuação da Nona Reunião, Ordinária, realizada em 11 de novembro de 2026, APROVOU, o Relatório do Deputado GILMAR MACHADO, favorável ao Projeto de Lei nº 26/2026-CN na forma proposta pelo Poder Executivo. Ao projeto não foram apresentadas emendas.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651662",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2651662"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651662:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "Apresentação do Relatório do Relator (CMO), RRL 1 CMO, pelo Dep. Gilmar Machado",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651662",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193531",
+      "extra": {
+        "item_origem": "camara:2651662"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2651662:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Enviada ao Congresso Nacional",
+      "ementa": "VOTO: pela aprovação do Projeto de Lei na forma apresentada pelo Poder Executivo. Ao projeto não foram apresentadas emendas.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651662",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193531",
+      "extra": {
+        "item_origem": "camara:2651662"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652013:tram:2",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Deliberação",
+      "ementa": "Aprovado o Requerimento, com alteração para modificar a audiência pública para Seminário.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652013",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652013"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652037:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Parecer",
+      "ementa": "Designado Relator, Dep. Altineu Côrtes (PL-RJ), 1º Vice-Presidente.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652037",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652037"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652037:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Elaboração do Parecer pelo(a) Relator(a)",
+      "ementa": "Recebimento pelo(a) 1VIPR.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652037",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652037"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652076:tram:2",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Deliberação",
+      "ementa": "Aprovado o Requerimento.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652076",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652076"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652102:tram:2",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Deliberação",
+      "ementa": "Aprovado o Requerimento.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652102",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652102"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652156:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Parecer",
+      "ementa": "Designado Relator, Dep. Altineu Côrtes (PL-RJ), 1º Vice-Presidente.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652156",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652156"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652156:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Elaboração do Parecer pelo(a) Relator(a)",
+      "ementa": "Recebimento pelo(a) 1VIPR.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652156",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652156"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "senado:9119770:sit:2026-11-11",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "AGUARDANDO DESIGNAÇÃO DO RELATOR",
+      "ementa": "Aprova o ato que outorga autorização à Associação Mais FM de Radiodifusão Comunitária para executar serviço de radiodifusão comunitária no Município de Formosa, Estado de Goiás.",
+      "data": "2026-11-11",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176170",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9119770"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
       "id": "camara:2651863",
       "fonte": "camara",
       "nivel": "federal",
@@ -1849,6 +2062,488 @@
   },
   {
     "item": {
+      "id": "camara:2652736",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5819/2026",
+      "ementa": "Dispõe sobre a proteção da integridade física, da segurança pessoal e do exercício do direito à moradia em condomínios edilícios; altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para disciplinar o afastamento judicial de ocupantes responsáveis por violência grave, estabelecer medidas protetivas de urgência, tipificar a coação violenta ao exercício da moradia e assegurar a reparação patrimonial das vítimas, inclusive mediante adjudicação judicial de bens do responsável.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652736",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193593",
+      "extra": {
+        "indexacao": "alteração; Código Civil (2002); Código Penal (1940); Medida de segurança; Condomínio edilício; Grave ameaça; Violência física; Invasão de propriedade; Coação; Medida protetiva de urgência; Integridade física; Dano material; Dano moral; Reparação do dano; afastamento; Condômino; Tipificação de conduta; Constrangimento; Coação física; Habitante; Condomínio; Aumento da pena"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652739",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5820/2026",
+      "ementa": "Altera a Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para vedar a propaganda eleitoral mediante bandeira de vento (wind banner).",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652739",
+      "autores": [
+        {
+          "nome": "Tabata Amaral",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193603",
+      "extra": {
+        "indexacao": "alteração; bandeira de vento; Banner; Propaganda eleitoral; Multa eleitoral"
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652867",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 297/2026",
+      "ementa": "Institui o Imposto sobre Grandes Fortunas.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652867",
+      "autores": [
+        {
+          "nome": "Merlong Solano",
+          "partido": "PT",
+          "uf": "PI"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193863",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652890",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 298/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para reduzir o crescimento real dos limites da despesa primária, altera a Lei Complementar nº 101, de 4 de maio de 2000, para ressalvar da limitação de empenho e pagamento apenas as despesas que constituam obrigações constitucionais do ente, que constituam obrigações legais do ente relativas ao pagamento de pessoal e ao pagamento do serviço da dívida, relativas à inovação e ao desenvolvimento científico e tecnológico custeadas por fundo criado para tal finalidade, e as ressalvadas pela lei de diretrizes orçamentárias, e altera a Lei Complementar nº 235, de 27 de agosto de 2026, para vedar a contabilização, para efeito de cálculo de obrigações de programação de despesa previstas em legislação específica, indexadas ao disposto no inciso IV do art. 2º da Lei Complementar nº 101, de 4 de maio de 2000, da receita de que trata o art. 46 da Lei nº 12.351, de 22 de dezembro de 2010, observadas as vinculações da referida lei.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652890",
+      "autores": [
+        {
+          "nome": "Mauro Benevides Filho",
+          "partido": "UNIÃO",
+          "uf": "CE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193896",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652911",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5822/2026",
+      "ementa": "Altera a Lei nº 13.812, de 16 de março de 2019, para aperfeiçoar o acompanhamento das ocorrências de desaparecimento de pessoas, os procedimentos de divulgação de alertas urgentes, a assistência às pessoas localizadas e a avaliação dos resultados das ações de busca.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652911",
+      "autores": [
+        {
+          "nome": "Cabo Gilberto Silva",
+          "partido": "PL",
+          "uf": "PB"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193925",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652914",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5823/2026",
+      "ementa": "Reconhece como manifestação da cultura nacional a Festa de São Sebastião do Mutum, realizada no Município de Barão de Melgaço, Estado de Mato Grosso.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652914",
+      "autores": [
+        {
+          "nome": "José Medeiros",
+          "partido": "PL",
+          "uf": "MT"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193929",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652977",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 300/2026",
+      "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para estender o diferimento do Imposto sobre Bens e Serviços (IBS) e da Contribuição Social sobre Bens e Serviços (CBS) às operações com produtos agropecuários, aquícolas, pesqueiros, florestais e extrativistas vegetais in natura realizadas entre contribuintes sujeitos ao regime regular e para assegurar a manutenção dos créditos do fornecedor nas operações com diferimento.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652977",
+      "autores": [
+        {
+          "nome": "Alceu Moreira",
+          "partido": "MDB",
+          "uf": "RS"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194046",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652992",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 301/2026",
+      "ementa": "Altera a Lei Complementar nº 214, de 16 de janeiro de 2025, para instituir crédito presumido da Contribuição Social sobre Bens e Serviços relativo ao estoque, em 1º de janeiro de 2027, de produtos submetidos ao regime da Lei nº 13.097, de 19 de janeiro de 2015.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652992",
+      "autores": [
+        {
+          "nome": "Reginaldo Lopes",
+          "partido": "PT",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194076",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652993",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5825/2026",
+      "ementa": "Altera a Lei nº 15.223, de 30 de setembro de 2025, para instituir o Programa Pronaf Mulher.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652993",
+      "autores": [
+        {
+          "nome": "Erika Hilton",
+          "partido": "PSOL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194077",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "camara:2652995",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5826/2026",
+      "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990, para vedar a utilização de sistemas de inteligência artificial na publicidade, oferta, apresentação e divulgação comercial de produtos alimentícios em estabelecimentos comerciais e plataformas de delivery.",
+      "data": "2026-11-11",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652995",
+      "autores": [
+        {
+          "nome": "Erika Hilton",
+          "partido": "PSOL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194080",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "senado:9126043",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PEC",
+      "titulo": "PEC 23/2026",
+      "ementa": "Altera o inciso V do art. 52 da Constituição Federal, para ampliar a competência do Senado Federal quanto à autorização de operações internas e externas de natureza financeira.",
+      "data": "2026-11-11",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176304",
+      "autores": [
+        {
+          "nome": "Marcio Bittar",
+          "partido": "PL",
+          "uf": "AC"
+        },
+        {
+          "nome": "Damares Alves",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        },
+        {
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "DF"
+        },
+        {
+          "nome": "Hamilton Mourão",
+          "partido": "REPUBLICANOS",
+          "uf": "RS"
+        },
+        {
+          "nome": "Lucas Barreto",
+          "partido": "PSD",
+          "uf": "AP"
+        },
+        {
+          "nome": "Marcos do Val",
+          "partido": "PODE",
+          "uf": "ES"
+        },
+        {
+          "nome": "Sergio Moro",
+          "partido": "UNIÃO",
+          "uf": "PR"
+        },
+        {
+          "nome": "Zequinha Marinho",
+          "partido": "PODE",
+          "uf": "PA"
+        },
+        {
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "uf": "ES"
+        },
+        {
+          "nome": "Marcos Rogério",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Dr. Hiran",
+          "partido": "PP",
+          "uf": "RR"
+        },
+        {
+          "nome": "Jaime Bagattoli",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Cleitinho",
+          "partido": "REPUBLICANOS",
+          "uf": "MG"
+        },
+        {
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "SC"
+        },
+        {
+          "nome": "Flávio Bolsonaro",
+          "partido": "PL",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Astronauta Marcos Pontes",
+          "partido": "PL",
+          "uf": "SP"
+        },
+        {
+          "nome": "Wellington Fagundes",
+          "partido": "PL",
+          "uf": "MT"
+        },
+        {
+          "nome": "Efraim Filho",
+          "partido": "PL",
+          "uf": "PB"
+        },
+        {
+          "nome": "Alan Rick",
+          "partido": "REPUBLICANOS",
+          "uf": "AC"
+        },
+        {
+          "nome": "Hermes Klann",
+          "partido": "PL",
+          "uf": "SC"
+        },
+        {
+          "nome": "Wilder Morais",
+          "partido": "PL",
+          "uf": "GO"
+        },
+        {
+          "nome": "Sargento Reginauro",
+          "partido": "PSDB",
+          "uf": "CE"
+        },
+        {
+          "nome": "Plínio Valério",
+          "partido": "PSDB",
+          "uf": "AM"
+        },
+        {
+          "nome": "Laércio Oliveira",
+          "partido": "PP",
+          "uf": "SE"
+        },
+        {
+          "nome": "Carlos Portinho",
+          "partido": "PL",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Rogerio Marinho",
+          "partido": "PL",
+          "uf": "RN"
+        },
+        {
+          "nome": "Esperidião Amin",
+          "partido": "PP",
+          "uf": "SC"
+        },
+        {
+          "nome": "Roberta Acioly",
+          "partido": "REPUBLICANOS",
+          "uf": "RR"
+        },
+        {
+          "nome": "Luis Carlos Heinze",
+          "partido": "PP",
+          "uf": "RS"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/087cfce1-547e-4e2c-8d85-73fb58007905",
+      "extra": {
+        "tipoDocumento": "Proposta de Emenda à Constituição",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176304
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "senado:9127093",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5821/2026",
+      "ementa": "Dispõe sobre a atividade de Criador Comercial de Animais da Fauna Silvestre Nativa e Exótica.",
+      "data": "2026-11-11",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176322",
+      "autores": [
+        {
+          "nome": "Astronauta Marcos Pontes",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/42b2a513-5bad-4689-83db-981a9f97ed53",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176322
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "senado:9127182",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5824/2026",
+      "ementa": "Institui o Dia Nacional da Cachaça Brasileira",
+      "data": "2026-11-11",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176325",
+      "autores": [
+        {
+          "nome": "Carlos Portinho",
+          "partido": "PL",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/0251e8ac-fe70-43c2-831c-55c33fa66b31",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176325
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "senado:9127383",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 299/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "data": "2026-11-11",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+      "autores": [
+        {
+          "nome": "Jaques Wagner",
+          "partido": "PT",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/38df22dd-1022-46cf-ac9d-d24f038d1d0d",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Complementar",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176328
+      }
+    },
+    "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
       "id": "cmm:materia:53158",
       "fonte": "cmm",
       "nivel": "municipal",
@@ -2007,5 +2702,28 @@
       "extra": {}
     },
     "primeira_vez": "2026-11-10"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53168",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 863 de 2026",
+      "ementa": "ALTERA o art. 1º da LEI n. 1.728 de 14 de maio de 2013, que dá prioridade na tramitação de processos administrativos, no âmbito do Município de Manaus, às pessoas que especifica.",
+      "data": "2026-11-11",
+      "url": "https://sapl.cmm.am.gov.br/materia/53168",
+      "autores": [
+        {
+          "nome": "THAYSA LIPPY",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53168/pl_863_2026_thaysa_lippy_altera_o_art_1_da_lei_1728_prioridade_na_tramitacao_de_processos_administrativos.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-11"
   }
 ]

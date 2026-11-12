@@ -1,0 +1,66 @@
+{
+  "data": "2026-11-11",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PGR defendeu manter presa a Daniel Vorcaro, dizendo que a soltura dele poderia pôr em risco as investigações.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "PGR quer Vorcaro preso e vê risco para as investigações"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "Duas comissões da Câmara ouviram especialistas sobre a PEC 32/2015 nesta quarta (11). Segundo o relator, Mendonça Filho (PL–PE), a votação na comissão fica para o início de dezembro, e não mais para o fim de novembro.",
+      "aviso_fonte_unica": "A mudança da votação para o início de dezembro vem só da Agência Câmara.",
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Comissões da Câmara ouvem especialistas sobre a PEC 32/2015"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O governo enviou ao Congresso um projeto de lei complementar (um tipo de lei que exige mais votos para passar) com um pacote de ajuste fiscal. O texto limita a 2% ao ano o crescimento real das despesas a partir de 2027, nos anos em que houver medidas de contenção.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Governo envia ao Congresso projeto que pode limitar gastos a 2% ao ano"
+    },
+    {
+      "slug": "proibicao-das-bets",
+      "novo_hoje": "O Congresso prorrogou por 60 dias a medida provisória que proibiu as bets, porque ela ainda não foi votada pela Câmara nem pelo Senado.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Apostas online",
+      "linha_capa": "Congresso prorroga por 60 dias a proibição das bets no país"
+    },
+    {
+      "slug": "presidencia-da-camara-2027",
+      "novo_hoje": "A bancada do PL na Câmara terminou uma reunião sem decidir se apoia a reeleição de Hugo Motta, e a sigla pode lançar candidato próprio. A eleição para o comando da Casa será em fevereiro de 2027.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Presidência da Câmara",
+      "linha_capa": "PL ainda não decide se apoia a reeleição de Hugo Motta"
+    }
+  ],
+  "fichas": [
+    "camara:votacao:2405324:2026-11-10",
+    "senado:9124777:sit:2026-11-11",
+    "senado:9124807:sit:2026-11-11",
+    "senado:9125515",
+    "senado:9126618",
+    "senado:9126630",
+    "camara:2652936",
+    "camara:2651657:tram:8",
+    "camara:votacao:2557714:2026-11-10",
+    "camara:votacao:2643842:2026-11-10",
+    "camara:votacao:2204495:2026-11-10",
+    "camara:votacao:2629237:2026-11-10",
+    "camara:votacao:2449713:2026-11-10",
+    "camara:votacao:2424338:2026-11-10",
+    "camara:votacao:2398688:2026-11-10",
+    "dou:24609429",
+    "dou:24609430",
+    "dou:24609431",
+    "dou:24609432",
+    "dou:24609442"
+  ],
+  "mundo": [
+    "mundo:2026-11-11:1",
+    "mundo:2026-11-11:2"
+  ]
+}
