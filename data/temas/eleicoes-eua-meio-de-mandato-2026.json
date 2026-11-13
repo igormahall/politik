@@ -3,11 +3,11 @@
   "nome": "Eleições de meio de mandato nos EUA (2026)",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-05",
+  "ultima_novidade": "2026-11-12",
   "internacional": true,
   "palavras_chave": ["eleições de meio de mandato dos EUA", "midterms", "Congresso dos EUA"],
-  "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos votaram nas eleições de meio de mandato. O Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana. Em 5 de novembro, os latinos, que ajudaram Trump a se eleger, também se voltaram contra ele.",
-  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.\n\nEm 5 de novembro, os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.",
+  "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos deram ao Partido Democrata o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana. Em 12 de novembro, o democrata Scott Colom venceu no Mississippi e ampliou o domínio democrata no Senado.",
+  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.\n\nEm 5 de novembro, os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.\n\nEm 12 de novembro, o democrata Scott Colom venceu uma disputa por uma cadeira no Senado no Mississippi, estado onde os republicanos costumam vencer. A vitória amplia o domínio democrata no Senado.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -52,6 +52,15 @@
       "fontes": [
         {"nome": "BBC Brasil", "url": "https://www.bbc.com/portuguese/articles/c6x23z0n899zo?at_medium=RSS&at_campaign=rss"},
         {"nome": "DW", "url": "https://www.dw.com/pt-br/latinos-se-voltaram-contra-trump-nas-eleições-de-meio-de-mandato/a-79862226?maca=bra-rss-br-all-1030-rdf"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-12",
+      "fato": "O democrata Scott Colom venceu a disputa por uma cadeira no Senado no Mississippi, estado do sul dos EUA onde os republicanos costumam ganhar. A vitória amplia o domínio democrata no Senado.",
+      "fontes": [
+        {"nome": "DW", "url": "https://www.dw.com/pt-br/democratas-ampliam-domínio-no-senado-nos-eua-com-vitória-no-mississipi/a-79933955?maca=bra-rss-br-all-1030-rdf"},
+        {"nome": "BBC Brasil", "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss"}
       ],
       "fonte_unica": false
     }

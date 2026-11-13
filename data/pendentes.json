@@ -1,451 +1,6 @@
 [
   {
     "item": {
-      "id": "camara:votacao:2297888:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 3096/2021",
-      "ementa": "Inclui a conscientização sobre o bem-estar animal no rol de temas transversais obrigatórios da educação básica.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2297888",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2297888,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2297888-25"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2297888-24"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2375105:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 3687/2023",
-      "ementa": "Institui o Dia do Lixo Zero em todas as escolas públicas e privadas da educação básica do país.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2375105",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2375105,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2375105-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2375105-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2146163:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 8138/2017",
-      "ementa": "Altera a Lei nº 9.795, de 1999, para instituir os planos estadual, distrital e municipal de educação ambiental.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2146163",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2146163,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2146163-33"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2146163-32"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2421323:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 788/2024",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para dispor sobre parâmetros da oferta de educação básica em tempo integral.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2421323",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2421323,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421323-25"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2421323-24"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2391914:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 4749/2023",
-      "ementa": "Altera a Lei no 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir no currículo oficial da Rede de Ensino a obrigatoriedade da temática “Educação em Saúde e Ambiente”, e dá outras providências.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2391914",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2391914,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2391914-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2391914-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2367806:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 2964/2023",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para incluir a educação climática como base da educação escolar.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2367806",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2367806,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2367806-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2367806-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2387000:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 4423/2023",
-      "ementa": "Altera o art. 10 da Lei nº 9.795, de 27 de abril de 1999, para obrigar a inclusão da disciplina educação ambiental nos currículos do ensino fundamental e médio.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2387000",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2387000,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387000-24"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2387000-23"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2288619:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 2368/2021",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para conferir, ao aluno em situação de vulnerabilidade, prioridade de matrícula em jornada de tempo integral, em todas as etapas da educação básica, na rede pública de ensino.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2288619",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2288619,
-        "votacoes": [
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da alteração do regime do PL 479/2015, por ter sido aprovado o REQ 3990/2026 que está apensado ao primeiro.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2288619-27"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2288619-26"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2349864:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 815/2023",
-      "ementa": "Propõe alteração na Lei nº 9.394/1996 para tornar obrigatório, nos estabelecimentos de ensino fundamental e de ensino médio, públicos e privados, o estudo da disciplina Direito Animal.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2349864",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2349864,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2349864-26"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2347057:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 259/2023",
-      "ementa": "Altera o art. 26 da Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir o Direito dos Animais e a Proteção Animal como componentes obrigatórios dos currículos do ensino fundamental e do ensino médio.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2347057",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2347057,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2347057-26"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2262925:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 4593/2020",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, que estabelece as diretrizes e bases da educação nacional, para incluir no currículo oficial da Rede de Ensino primária a obrigatoriedade da temática “Educação em Direito dos Animais”.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2262925",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2262925,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2262925-35"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2319237:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 820/2022",
-      "ementa": "Altera a Lei nº 9.394, de 1996, que “Estabelece as diretrizes e bases da educação nacional”, a fim de instituir a Política Nacional de Educação em Tempo Integral.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2319237",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2319237,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2319237-26"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2306369:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 3950/2021",
-      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para incluir conteúdo sobre mudanças climáticas nos currículos da educação básica.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2306369",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2306369,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2306369-32"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2190805:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 300/2019",
-      "ementa": "Acrescenta dispositivos a Lei de Diretrizes e bases da educação nacional para incluir a disciplina de Educação Ambiental no currículo oficial da rede de ensino.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2190805",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2190805,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2190805-33"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:1212570:2026-11-10",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 1181/2015",
-      "ementa": "Altera a Lei nº 9.795, de 27 de abril de 1999, que dispõe sobre a educação ambiental, institui a Política Nacional de Educação Ambiental e dá outras providências, para estabelecer o manejo sustentável dos recursos hídricos como componente curricular da educação ambiental.",
-      "data": "2026-11-10",
-      "url": "https://www.camara.leg.br/propostas-legislativas/1212570",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 1212570,
-        "votacoes": [
-          {
-            "descricao": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1212570-40"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-10"
-  },
-  {
-    "item": {
       "id": "camara:votacao:2252513:2026-11-10",
       "fonte": "camara",
       "nivel": "federal",
@@ -1389,72 +944,60 @@
   },
   {
     "item": {
-      "id": "camara:2651863",
+      "id": "camara:2652037:tram:8",
       "fonte": "camara",
       "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5797/2026",
-      "ementa": "Institui a Política Nacional de Memória e Reparação Institucional do Movimento Estudantil Brasileiro, estabelece diretrizes para a identificação e a reconstrução documental dos danos decorrentes da repressão política durante o regime autoritário de 1964 a 1985 e dispõe sobre medidas de preservação e recuperação do patrimônio histórico, cultural e institucional das entidades estudantis.",
-      "data": "2026-11-09",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651863",
-      "autores": [
-        {
-          "nome": "João Daniel",
-          "partido": "PT",
-          "uf": "SE"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192190",
-      "extra": {}
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+      "ementa": "Parecer do Relator, Dep. Altineu Côrtes (PL-RJ), pela aprovação.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652037",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194371",
+      "extra": {
+        "item_origem": "camara:2652037"
+      }
     },
-    "primeira_vez": "2026-11-09"
+    "primeira_vez": "2026-11-12"
   },
   {
     "item": {
-      "id": "camara:2651864",
+      "id": "camara:2652156:tram:8",
       "fonte": "camara",
       "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5798/2026",
-      "ementa": "Institui a Política Nacional de Fomento às Plataformas Digitais Coletivas de Interesse Público para Serviços de Transporte e Entregas, estabelece mecanismos de financiamento, desenvolvimento tecnológico, proteção social e dá outras providências.",
-      "data": "2026-11-09",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651864",
-      "autores": [
-        {
-          "nome": "João Daniel",
-          "partido": "PT",
-          "uf": "SE"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192191",
-      "extra": {}
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+      "ementa": "Parecer do Relator, Dep. Altineu Côrtes (PL-RJ), pela aprovação.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652156",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194373",
+      "extra": {
+        "item_origem": "camara:2652156"
+      }
     },
-    "primeira_vez": "2026-11-09"
+    "primeira_vez": "2026-11-12"
   },
   {
     "item": {
-      "id": "camara:2651866",
-      "fonte": "camara",
+      "id": "senado:9118102:sit:2026-11-12",
+      "fonte": "senado",
       "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PLP",
-      "titulo": "PLP 288/2026",
-      "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para ampliar o intervalo de tolerância para verificação do cumprimento das metas anuais de resultado primário da União.",
-      "data": "2026-11-09",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651866",
-      "autores": [
-        {
-          "nome": "Lindbergh Farias",
-          "partido": "PT",
-          "uf": "RJ"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3192193",
-      "extra": {}
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "TRANSFORMADA EM NORMA JURÍDICA",
+      "ementa": "Autoriza a concessão de apoio financeiro aos produtores independentes de cana-de-açúcar da Região Nordeste no exercício de 2026 e a destinação de recursos a linhas de financiamento reembolsável para a renovação de frota; altera as Leis nºs 9.818, de 23 de agosto de 1999, 11.540, de 12 de novembro de 2007, e 14.947, de 2 de agosto de 2024; e dá outras providências.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176118",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118102"
+      }
     },
-    "primeira_vez": "2026-11-09"
+    "primeira_vez": "2026-11-12"
   },
   {
     "item": {
@@ -2517,99 +2060,372 @@
   },
   {
     "item": {
-      "id": "senado:9127383",
+      "id": "camara:2653123",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5832/2026",
+      "ementa": "Institui o “Programa Primeiro Negócio”, destinado a facilitar o acesso ao crédito para pessoas que estejam constituindo ou tenham constituído recentemente seu primeiro empreendimento formal, e dá outras providências.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653123",
+      "autores": [
+        {
+          "nome": "Gustinho Ribeiro",
+          "partido": "PP",
+          "uf": "SE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194445",
+      "extra": {
+        "indexacao": "acesso; Programa (administração); limite máximo; Linha de crédito; Pessoa física; Empreendedorismo; Empreendedorismo feminino; Microempresa; Microempreendedor Individual (MEI); Cadastro Nacional de Pessoa Jurídica (CNPJ); Taxa de juros; Geração de emprego; Renda; Financiamento; Empreendedorismo sustentável; Instituição financeira; Fundo garantidor; Microempreendimento"
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653172",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5834/2026",
+      "ementa": "Reconhece a Romaria de Nossa Senhora da Penha, realizada no Município de João Pessoa, Estado da Paraíba, como manifestação da cultura nacional.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653172",
+      "autores": [
+        {
+          "nome": "Cabo Gilberto Silva",
+          "partido": "PL",
+          "uf": "PB"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194595",
+      "extra": {
+        "indexacao": "Romaria de Nossa Senhora da Penha; João Pessoa (PB); Manifestação cultural; Cultura nacional; Peregrinação; Romaria da Penha"
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653177",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5835/2026",
+      "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653177",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194618",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653179",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5836/2026",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653179",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194621",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653184",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5837/2026",
+      "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653184",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194626",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653185",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5838/2026",
+      "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653185",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194628",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653188",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5839/2026",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653188",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194641",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653227",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5840/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653227",
+      "autores": [
+        {
+          "nome": "Fábio Teruel",
+          "partido": "MDB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194712",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653293",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5841/2026",
+      "ementa": "Reconhece a Schlachtfest, realizada no Município de São Bento do Sul, no Estado de Santa Catarina, como manifestação da cultura nacional.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653293",
+      "autores": [
+        {
+          "nome": "Julia Zanatta",
+          "partido": "PL",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194851",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "camara:2653536",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5842/2026",
+      "ementa": "Institui o marco legal das Áreas de Proteção de Mananciais - APMs, altera as Leis nº 9.433, de 8 de janeiro de 1997, Lei n° 9.984, de 17 de julho de 2000, Lei nº 9.985, de 18 de julho de 2000, Lei nº 12.651, de 25 de maio de 2012, Lei nº 11.445, de 5 de janeiro de 2007, e a Lei n° 10.257, de 10 de julho de 2001.",
+      "data": "2026-11-12",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653536",
+      "autores": [
+        {
+          "nome": "Fernando Mineiro",
+          "partido": "PT",
+          "uf": "RN"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195279",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "senado:9127881",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5827/2026",
+      "ementa": "Altera a Lei nº 11.129, de 30 de junho de 2005, para assegurar a isonomia dos valores das bolsas de residência em área profissional da saúde em relação às bolsas de residência médica, inclusive quanto à extensão automática dos reajustes, revisões e aumentos.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176335",
+      "autores": [
+        {
+          "nome": "Roberta Acioly",
+          "partido": "REPUBLICANOS",
+          "uf": "RR"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/67daa803-80fb-4c83-9e57-22e6d0ef8ed8",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176335
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "senado:9127894",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5828/2026",
+      "ementa": "Acrescenta o art. 118-A à Lei nº 8.213, de 24 de julho de 1991, para dispensar, como requisitos para a garantia provisória de emprego, o afastamento do trabalhador por período superior a 15 (quinze) dias ou a percepção de benefício por incapacidade temporária acidentário, quando reconhecido o nexo causal ou concausal entre a doença ocupacional e as atividades desempenhadas no curso da relação de emprego.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176336",
+      "autores": [
+        {
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5a4c49fa-d1d5-4295-8d58-a10f2a16042b",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176336
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "senado:9127905",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5829/2026",
+      "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para assegurar informação e encaminhamento assistencial aos usuários do Sistema Único de Saúde (SUS) nos casos de indisponibilidade de medicamentos destinados a tratamentos de uso contínuo.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176337",
+      "autores": [
+        {
+          "nome": "Roberta Acioly",
+          "partido": "REPUBLICANOS",
+          "uf": "RR"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/e2b4bd4b-c9c7-4026-ac94-fb03f786e161",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176337
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "senado:9127985",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5831/2026",
+      "ementa": "Institui o Programa Nacional de Acolhimento Especializado da Pessoa com Deficiência em Situação de Dependência.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176339",
+      "autores": [
+        {
+          "nome": "Ivete da Silveira",
+          "partido": "MDB",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/b00691b0-f2bf-4988-9b0f-aadaceaed7a1",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176339
+      }
+    },
+    "primeira_vez": "2026-11-12"
+  },
+  {
+    "item": {
+      "id": "senado:9128515",
       "fonte": "senado",
       "nivel": "federal",
       "categoria": "proposicao",
       "sigla_tipo": "PLP",
-      "titulo": "PLP 299/2026",
-      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
-      "data": "2026-11-11",
-      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+      "titulo": "PLP 302/2026",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para disciplinar a dedução, das metas de resultado primário, das despesas com subvenção econômica ao óleo diesel em caso de choque de preços internacionais, e a sua recomposição nos exercícios seguintes; e autoriza, em caráter excepcional, a dedução relativa ao exercício de 2026.",
+      "data": "2026-11-12",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176351",
       "autores": [
         {
-          "nome": "Jaques Wagner",
-          "partido": "PT",
-          "uf": "BA"
+          "nome": "Alessandro Vieira",
+          "partido": "MDB",
+          "uf": "SE"
         }
       ],
-      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/38df22dd-1022-46cf-ac9d-d24f038d1d0d",
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/c63121cd-8b6a-4e2c-9c74-c9c6a1b632fc",
       "extra": {
         "tipoDocumento": "Projeto de Lei Complementar",
         "situacaoAtual": "AGUARDANDO DESPACHO",
-        "codigoMateria": 176328
+        "codigoMateria": 176351
       }
     },
-    "primeira_vez": "2026-11-11"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53158",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 853 de 2026",
-      "ementa": "“INSTITUI o Programa de Recuperação Fiscal do Município de Manaus - REFIS MUNICIPAL 2026, destinado a regularização, mediante pagamento a vista, de créditos tributários do Imposto Sobre Serviços de Qualquer Natureza (ISSQN) do exercício de 2026, não inscritos em Divida Ativa, e dá outras providências”. Mensagem n.102/2026",
-      "data": "2026-11-09",
-      "url": "https://sapl.cmm.am.gov.br/materia/53158",
-      "autores": [
-        {
-          "nome": "Executivo Municipal",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53158/pl_853_2026_exe__mun_mens._102_2026_programa_de_recuperacao_fiscal_do_municipio_de_manaus.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-09"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53159",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 854 de 2026",
-      "ementa": "DISPÕE sobre diretrizes para a promoção da autonomia financeira da mulher e o fortalecimento das atividades de cuidado e apoio familiar no Município de Manaus.",
-      "data": "2026-11-09",
-      "url": "https://sapl.cmm.am.gov.br/materia/53159",
-      "autores": [
-        {
-          "nome": "DIEGO AFONSO",
-          "partido": "UNIÃO",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53159/pl_854_2026_diego_afonso_autonomia_financeira_da_mulher.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-09"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53160",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 855 de 2026",
-      "ementa": "Estabelece diretrizes para o incentivo à disponibilização de cardápios adaptados com pictogramas e recursos de Comunicação Alternativa e Aumentativa \r\n(CAA) em bares, restaurantes, lanchonetes e estabelecimentos similares, destinados às pessoas com Transtorno do Espectro Autista (TEA) e deficiência intelectual no Município de Manaus, e dá outras providências.",
-      "data": "2026-11-09",
-      "url": "https://sapl.cmm.am.gov.br/materia/53160",
-      "autores": [
-        {
-          "nome": "DIEGO AFONSO",
-          "partido": "UNIÃO",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53160/pl_855_2026_diego_afonso_cardapios_adaptados_destinados_as_pessoas_com_tea.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-09"
+    "primeira_vez": "2026-11-12"
   },
   {
     "item": {
@@ -2725,5 +2541,28 @@
       "extra": {}
     },
     "primeira_vez": "2026-11-11"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53169",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 864 de 2026",
+      "ementa": "ALTERA a Lei n. 3.606, de 30 de dezembro de 2025, para dispor sobre a criação de unidade organizacional na estrutura da Secretaria Municipal de Saúde \r\n(Semsa), e dá outras providências. Mensagem n. 104/2026",
+      "data": "2026-11-12",
+      "url": "https://sapl.cmm.am.gov.br/materia/53169",
+      "autores": [
+        {
+          "nome": "Executivo Municipal",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53169/pl_864_2026_exe__mun_mens._104_2026_altera_a_lei_n._3606_criacao_de_unidade_organizacional_da_semsa.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-12"
   }
 ]

@@ -1,0 +1,52 @@
+{
+  "data": "2026-11-12",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PF afastou delegados do caso e alega quebra de confiança: eles não cumpriram o combinado de debater, antes de concluir, relatórios que citavam ministros do STF.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "PF alega quebra de confiança para afastar delegados que investigavam Vorcaro"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O Senado aprovou o texto principal do pacote de ajuste fiscal, por 45 votos a 31, e deixou quatro pontos para terça-feira (17). O PT e aliados preparam um projeto alternativo, com taxação dos mais ricos.",
+      "aviso_fonte_unica": "A ideia do projeto alternativo do PT vem só da Folha.",
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Senado aprova texto principal do pacote; 4 pontos vão à votação na terça"
+    },
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "O democrata Scott Colom venceu no Mississippi e amplia o domínio democrata no Senado dos EUA.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições nos EUA",
+      "linha_capa": "Democrata vence no Mississippi e amplia domínio no Senado americano"
+    }
+  ],
+  "fichas": [
+    "senado:9127383",
+    "camara:votacao:2297888:2026-11-10",
+    "camara:votacao:2146163:2026-11-10",
+    "camara:votacao:2421323:2026-11-10",
+    "camara:votacao:2391914:2026-11-10",
+    "camara:votacao:2367806:2026-11-10",
+    "camara:votacao:2387000:2026-11-10",
+    "camara:votacao:2288619:2026-11-10",
+    "camara:votacao:2349864:2026-11-10",
+    "camara:votacao:2347057:2026-11-10",
+    "camara:votacao:2262925:2026-11-10",
+    "camara:votacao:2319237:2026-11-10",
+    "camara:votacao:2306369:2026-11-10",
+    "camara:votacao:2190805:2026-11-10",
+    "camara:votacao:1212570:2026-11-10",
+    "camara:votacao:2375105:2026-11-10",
+    "camara:2652037:tram:7",
+    "camara:2652156:tram:7",
+    "dou:24615849",
+    "dou:24615850"
+  ],
+  "mundo": [
+    "mundo:2026-11-12:1",
+    "mundo:2026-11-12:2"
+  ]
+}
