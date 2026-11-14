@@ -1,0 +1,67 @@
+{
+  "data": "2026-11-13",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Um relatório da PF rejeitado pela cúpula da corporação cita mensagens que indicam que Moraes teria antecipado a Vorcaro seu voto em uma ação sobre cursos de medicina. O relatório também cita o ministro Kassio Nunes Marques.",
+      "aviso_fonte_unica": "A menção ao ministro Kassio Nunes Marques vem só da Folha.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Relatório rejeitado pela PF cita mensagens sobre voto de Moraes a Vorcaro"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O governo quer acelerar a votação do pacote fiscal na Câmara logo após a aprovação no Senado. O ministro José Guimarães se reuniu com Hugo Motta e Davi Alcolumbre para tratar da tramitação.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Governo quer votação rápida do pacote na Câmara, logo após o Senado"
+    },
+    {
+      "slug": "presidencia-da-camara-2027",
+      "novo_hoje": "Flávio Bolsonaro disse que não apoiará a reeleição de Hugo Motta na presidência da Câmara.",
+      "aviso_fonte_unica": "Essa declaração de Flávio Bolsonaro vem só da Revista Oeste.",
+      "nome_curto": "Presidência da Câmara",
+      "linha_capa": "Motta busca reeleição, e o PL ainda não decide apoio"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Pesquisa AtlasIntel/Bloomberg divulgada nesta sexta-feira (13) mostra que a maioria acha errada a saída de Flávio Bolsonaro do país.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Flávio nos EUA",
+      "linha_capa": "Pesquisa mostra que a maioria discorda da saída do país"
+    },
+    {
+      "slug": "reforma-eleitoral-voto-distrital-misto",
+      "novo_hoje": "Gilberto Kassab, líder do PSD, defendeu que o Congresso vote a reforma política ainda em 2026.",
+      "aviso_fonte_unica": "Essa declaração de Kassab vem só da Revista Oeste.",
+      "nome_curto": "Voto distrital misto",
+      "linha_capa": "Relator quer aprovar mudança na eleição de deputados ainda neste ano"
+    }
+  ],
+  "fichas": [
+    "camara:2653782",
+    "camara:votacao:2515534:2026-11-11",
+    "camara:votacao:2270540:2026-11-11",
+    "camara:votacao:2602370:2026-11-11",
+    "camara:votacao:2629310:2026-11-11",
+    "camara:votacao:2338753:2026-11-11",
+    "dou:24621021",
+    "dou:24621022",
+    "dou:24621024",
+    "dou:24621067",
+    "dou:24621023",
+    "camara:2651425:tram:10",
+    "camara:2651425:tram:8",
+    "camara:2651425:tram:9",
+    "camara:2651660:tram:5",
+    "camara:2651660:tram:6",
+    "camara:2651662:tram:8",
+    "camara:2651662:tram:6",
+    "camara:2651662:tram:7",
+    "camara:2652013:tram:2"
+  ],
+  "mundo": [
+    "mundo:2026-11-13:1",
+    "mundo:2026-11-13:2",
+    "mundo:2026-11-13:3"
+  ]
+}
