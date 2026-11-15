@@ -1,0 +1,53 @@
+{
+  "data": "2026-11-14",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O deputado Ubiratan Sanderson (PL–RS) criticou o ajuste fiscal e disse que as medidas podem ter impacto negativo acima de R$ 50 bilhões.",
+      "aviso_fonte_unica": "A crítica de Sanderson vem só da Revista Oeste.",
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Pacote fiscal aprovado no Senado segue agora para a Câmara"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Aliados de Davi Alcolumbre (União–AP) dizem que os acenos dele a uma reforma do Judiciário são insuficientes para atrair bolsonaristas.",
+      "aviso_fonte_unica": "A fala dos aliados de Alcolumbre vem só da Folha.",
+      "nome_curto": "Presidência do Senado",
+      "linha_capa": "Alcolumbre tenta se reeleger, e a direita segue dividida na disputa"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O Ministério dos Direitos Humanos contabilizou 831 denúncias de violência política e assédio eleitoral entre 11 de setembro e 6 de novembro.",
+      "aviso_fonte_unica": "A contagem de 831 denúncias vem só da Folha.",
+      "nome_curto": "Violência política e assédio eleitoral",
+      "linha_capa": "Ministério do Trabalho já recebeu mais de 7 mil denúncias de assédio eleitoral"
+    }
+  ],
+  "fichas": [
+    "senado:9118102:sit:2026-11-12",
+    "camara:2653184",
+    "camara:2653185",
+    "camara:2653227",
+    "camara:2653536",
+    "senado:9127894",
+    "senado:9127905",
+    "senado:9128515",
+    "camara:2653811",
+    "camara:2653813",
+    "camara:2652037:tram:8",
+    "camara:2652156:tram:8",
+    "camara:2653123",
+    "camara:2653172",
+    "camara:2653177",
+    "camara:2653179",
+    "camara:2653188",
+    "camara:2653293",
+    "senado:9127881",
+    "senado:9127985"
+  ],
+  "mundo": [
+    "mundo:2026-11-14:1",
+    "mundo:2026-11-14:2",
+    "mundo:2026-11-14:3"
+  ]
+}

@@ -3,10 +3,10 @@
   "nome": "Disputa pela presidência do Senado em 2027",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-09",
+  "ultima_novidade": "2026-11-14",
   "palavras_chave": ["presidência do Senado", "Rogério Marinho", "Davi Alcolumbre", "voto aberto no Senado"],
-  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027, e Davi Alcolumbre (União–AP) tenta se reeleger. Rogério Marinho (PL–RN) e Tereza Cristina (PP–MS) seguem divididos na disputa, e, segundo apenas o g1, a divisão pode ajudar Alcolumbre. Em 6 de novembro, Marinho pediu união da direita para tirar Alcolumbre do cargo.",
-  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União–AP), tenta se reeleger.\n\nEm 4 de novembro, o PL lançou oficialmente o senador Rogério Marinho (PL–RN) como candidato. Segundo apenas a CartaCapital, Marinho disse ter ao menos 40 votos e tenta uma candidatura única com a senadora Tereza Cristina (PP–MS).\n\nSegundo apenas a Folha, a disputa pelo voto de 10 a 15 senadores de centro e direita, considerados decisivos, está em aberto. Segundo apenas o g1, aliados avaliam que a divisão da direita pode fortalecer a candidatura de Alcolumbre.\n\nEm 5 de novembro, a defesa do ex-presidente Jair Bolsonaro pediu a Moraes autorização para receber as visitas de Marinho e Tereza Cristina. Em 6 de novembro, Marinho disse que, se eleito, vai procurar Lula e ministros do STF, e pediu união da direita para tirar Alcolumbre do cargo.\n\nSegundo apenas a Gazeta do Povo, Marinho e Tereza Cristina articulam uma estratégia de pinça eleitoral para derrotar Alcolumbre na disputa de 2027.",
+  "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027, e Davi Alcolumbre (União–AP) tenta se reeleger. Rogério Marinho (PL–RN) e Tereza Cristina (PP–MS) seguem divididos na disputa, e, segundo apenas o g1, a divisão pode ajudar Alcolumbre. No dia 14, segundo apenas a Folha, aliados de Alcolumbre disseram que os acenos dele a uma reforma do Judiciário são insuficientes para conquistar votos de bolsonaristas.",
+  "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União–AP), tenta se reeleger.\n\nEm 4 de novembro, o PL lançou oficialmente o senador Rogério Marinho (PL–RN) como candidato. Segundo apenas a CartaCapital, Marinho disse ter ao menos 40 votos e tenta uma candidatura única com a senadora Tereza Cristina (PP–MS).\n\nSegundo apenas a Folha, a disputa pelo voto de 10 a 15 senadores de centro e direita, considerados decisivos, está em aberto. Segundo apenas o g1, aliados avaliam que a divisão da direita pode fortalecer a candidatura de Alcolumbre.\n\nEm 5 de novembro, a defesa do ex-presidente Jair Bolsonaro pediu a Moraes autorização para receber as visitas de Marinho e Tereza Cristina. Em 6 de novembro, Marinho disse que, se eleito, vai procurar Lula e ministros do STF, e pediu união da direita para tirar Alcolumbre do cargo.\n\nSegundo apenas a Gazeta do Povo, Marinho e Tereza Cristina articulam uma estratégia de pinça eleitoral para derrotar Alcolumbre na disputa de 2027.\n\nNo dia 14, segundo apenas a Folha, aliados de Alcolumbre afirmaram que os acenos dele a uma reforma do Judiciário, como mandatos para ministros do STF e idade mínima para indicações, são bem-vindos para conquistar votos de bolsonaristas, mas insuficientes. Eles pedem que ele defenda o fim dos superinquéritos do STF. Também no dia 14, segundo apenas o Estadão, um senador do PL, ex-Centrão e próximo de Alcolumbre, foi escalado para conseguir votos para Rogério Marinho.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -151,6 +151,22 @@
       "fato": "Segundo apenas o g1, aliados de Alcolumbre avaliam que a divisão da direita entre Marinho e Tereza Cristina pode fortalecer a candidatura de Alcolumbre, com possível apoio de senadores dos grupos desses dois candidatos.",
       "fontes": [
         {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/09/divisao-da-direita-pode-fortalecer-alcolumbre-na-disputa-pelo-comando-do-senado-avaliam-aliados.ghtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-14",
+      "fato": "Segundo apenas a Folha, aliados de Davi Alcolumbre (União-AP) afirmaram que os acenos dele a uma reforma do Judiciário, como mandatos para ministros do STF e idade mínima para indicações, são bem-vindos para conquistar votos de bolsonaristas, mas insuficientes. Eles pedem que ele defenda o fim dos superinquéritos do STF.",
+      "fontes": [
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/aliados-pedem-que-alcolumbre-defenda-fim-de-superinqueritos-do-stf.shtml"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-14",
+      "fato": "Segundo apenas o Estadão, um senador do PL, ex-Centrão e próximo de Alcolumbre, foi escalado para conseguir votos para Rogério Marinho.",
+      "fontes": [
+        {"nome": "Estadão", "url": "https://www.estadao.com.br/politica/coluna-do-estadao/ex-centrao-e-proximo-de-alcolumbre-senador-do-pl-e-escalado-para-virar-votos-para-rogerio-marinho/"}
       ],
       "fonte_unica": true
     }
