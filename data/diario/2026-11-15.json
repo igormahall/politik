@@ -1,0 +1,29 @@
+{
+  "data": "2026-11-15",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O presidente em exercício, Geraldo Alckmin, disse que espera a análise do pacote pela Câmara na quarta-feira (18), depois que o Senado concluir a votação.",
+      "aviso_fonte_unica": "A previsão de Alckmin sobre a Câmara vem só do g1.",
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Senado vota trechos restantes do pacote na terça e depois o texto vai à Câmara"
+    }
+  ],
+  "fichas": [
+    "camara:2653816",
+    "camara:2653818",
+    "camara:2653822",
+    "camara:2653940",
+    "camara:2653944",
+    "camara:2653945",
+    "camara:2653946",
+    "camara:2653814",
+    "camara:2653819",
+    "camara:2653820",
+    "camara:2653937",
+    "camara:2653947",
+    "camara:2653948",
+    "senado:9129477"
+  ],
+  "mundo": []
+}
