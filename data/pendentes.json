@@ -1,1 +1,758 @@
-[]
+[
+  {
+    "item": {
+      "id": "dou:24626788",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 491, DE 2026",
+      "ementa": "Aprova o ato que outorga autorização à ASSOCIAÇÃO E RÁDIO COMUNITÁRIA AMIGOS DO BAIRRO DOS PRADOS SATÉLITE para executar serviço de radiodifusão comunitária no Município de Peruíbe, Estado de São Paulo.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626809",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 463, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio Companheira FM Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Mato Leitão, Estado do Rio Grande do Sul.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626810",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 464, DE 2026",
+      "ementa": "Aprova o ato que outorga permissão ao Sistema de Comunicação Sol Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Boca do Acre, Estado do Amazonas.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626811",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 465, DE 2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação dos Monitores em Organização Social de Wenceslau Guimarães (WG FM) para executar serviço de radiodifusão comunitária no Município de Wenceslau Guimarães, Estado da Bahia.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626812",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 466, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Rádio Progresso de Descanso Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Descanso, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626813",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 467, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Frequência Brasileira de Comunicações Ltda. para explorar serviço de radiodifusão sonora em onda média no Município de Tangará, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626814",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 468, DE 2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária Amigos da Praia dos Ingleses - Acapi para executar serviço de radiodifusão comunitária no Município de Florianópolis, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626815",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 469, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada ao Centro de Desenvolvimento Comunitário de Munguba para executar serviço de radiodifusão comunitária no Município de Almeirim, Estado do Pará.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626823",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 471, DE 2026",
+      "ementa": "Aprova o ato que outorga permissão ao Instituto Federal de Educação, Ciência e Tecnologia da Bahia para explorar serviço de radiodifusão sonora em frequência modulada no Município de Jacobina, Estado da Bahia.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=4",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626824",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 480, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Fundação Cultural de Radiodifusão Educativa Costa Dourada para explorar serviço de radiodifusão sonora em frequência modulada no Município de Rio Branco, Estado do Acre.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626825",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 472, DE 2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Jiquiriçaense de Apoio Cultural para executar serviço de radiodifusão comunitária no Município de Jiquiriçá, Estado da Bahia.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626826",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 473, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio e TV Maíra Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Porto Acre, Estado do Acre.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626827",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 474, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Emissora Continental de Campos Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Campos dos Goytacazes, Estado do Rio de Janeiro.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626828",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 475, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Verde Vale de Rádio, Educação e Cultura da Cidade de Divinolândia para executar serviço de radiodifusão comunitária no Município de Divinolândia, Estado de São Paulo.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626829",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 476, DE 2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Aliança Comunitária (Alicom) para executar serviço de radiodifusão comunitária no Município de Tianguá, Estado do Ceará.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626830",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 477, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Rádio Sociedade de Friburgo Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Nova Friburgo, Estado do Rio de Janeiro.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626831",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 478, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária de Comunicação e Cultura de Brunópolis para executar serviço de radiodifusão comunitária no Município de Brunópolis, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626832",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 479, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Sociedade Rádio Imbiara de Araxá Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Araxá, Estado de Minas Gerais.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626849",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 482, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada aos Estúdios Reunidos Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de São Gonçalo do Amarante, Estado do Rio Grande do Norte.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626850",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 483, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Web Comunicação Ltda. para explorar serviço de radiodifusão de sons e imagens em tecnologia digital no Município de Picos, Estado do Piauí.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626851",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 484, DE 2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio Bel Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Ouro Branco, Estado de Minas Gerais.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626852",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 485, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Rádio Alvorada de Santa Cecília Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Santa Cecília, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626853",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 486, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Fundação de Cooperação e Desenvolvimento para executar serviço de radiodifusão comunitária no Município de Massapê, Estado do Ceará.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626854",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 487, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Beneficente Maria Pinto para executar serviço de radiodifusão comunitária no Município de Caucaia, Estado do Ceará.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626855",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 488, DE 2026",
+      "ementa": "Aprova o ato que renova a concessão outorgada à Fundação Educar Sul Brasil para explorar serviço de radiodifusão de sons e imagens em tecnologia digital no Município de Florianópolis, Estado de Santa Catarina.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "dou:24626856",
+      "fonte": "dou",
+      "nivel": "federal",
+      "categoria": "norma",
+      "sigla_tipo": "DECRETO LEGISLATIVO",
+      "titulo": "DECRETO LEGISLATIVO Nº 489, DE 2026",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária Cultural Lima Campense para executar serviço de radiodifusão comunitária no Município de Lima Campos, Estado do Maranhão.",
+      "data": "2026-11-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "orgao": "Atos do Congresso Nacional"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2653972",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5857/2026",
+      "ementa": "Institui o Alerta Nacional de Criança e Adolescente Desaparecidos e estabelece prazo de acionamento, protocolo de busca e relatório público periódico, e dá outras providências.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653972",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196208",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2653974",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5858/2026",
+      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a Lei Complementar nº 150, de 1º de junho de 2015, a Lei nº 13.475, de 28 de agosto de 2017, e a Lei nº 14.597, de 14 de junho de 2023, para determinar que a duração das férias anuais seja computada em dias úteis.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653974",
+      "autores": [
+        {
+          "nome": "Duda Salabert",
+          "partido": "PSOL",
+          "uf": "MG"
+        },
+        {
+          "nome": "Sâmia Bomfim",
+          "partido": "PSOL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196210",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654022",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5859/2026",
+      "ementa": "Altera a Lei nº 15.439, de 26 de junho de 2026, para assegurar o fornecimento gratuito e contínuo de sistemas de monitoramento da glicose às pessoas com diabetes mellitus tipo 1, no âmbito do Sistema Único de Saúde (SUS).",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654022",
+      "autores": [
+        {
+          "nome": "Julio Cesar Ribeiro",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196333",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654057",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5860/2026",
+      "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654057",
+      "autores": [
+        {
+          "nome": "Padre João",
+          "partido": "PT",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196374",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654163",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5861/2026",
+      "ementa": "Institui a Lei Suzane Von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654163",
+      "autores": [
+        {
+          "nome": "Sanderson",
+          "partido": "PL",
+          "uf": "RS"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196489",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654168",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5862/2026",
+      "ementa": "Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654168",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196497",
+      "extra": {
+        "indexacao": "Responsabilidade; Instituição de pagamento (IP); prevenção; Fraude bancária; Fraude eletrônica; emissão; Boleto bancário; Código de Defesa do Consumidor (1990); Crime contra as relações de consumo; Penalidade administrativa; Prejuízo ao consumidor; Canal de denúncia; Responsabilidade objetiva; Segurança da informação"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654169",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5863/2026",
+      "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654169",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196498",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654170",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5864/2026",
+      "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654170",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196499",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654171",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5865/2026",
+      "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654171",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196500",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654174",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 305/2026",
+      "ementa": "Estabelece a obrigatoriedade de rastreabilidade integral, transparência ativa e vedação à movimentação de recursos públicos em espécie no âmbito das transferências decorrentes de emendas parlamentares e instrumentos congêneres, dispõe sobre mecanismos de controle financeiro digital, altera a Lei n° 4.320, de 17 de março de 1964, e a Lei Complementar n° 101, de 4 de maio de 2000, e dá outras providências.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654174",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196504",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-16"
+  },
+  {
+    "item": {
+      "id": "camara:2654237",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 306/2026",
+      "ementa": "Dispõe sobre transparência, motivação, reavaliação contínua e racionalização procedimental na aplicação e execução de transferências do Fundo Nacional de Saúde relativas a emendas parlamentares destinadas a ações e serviços públicos de saúde, e dá outras providências.",
+      "data": "2026-11-16",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654237",
+      "autores": [
+        {
+          "nome": "Duda Ramos",
+          "partido": "PODE",
+          "uf": "RR"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196737",
+      "extra": {
+        "indexacao": "Transparência pública; transferência; Fundo Nacional de Saúde (FNS); Sistema Único de Saúde (SUS); Emenda; Serviços de saúde; Serviços públicos; motivação; Processo administrativo; Painel eletrônico; reavaliação; limite"
+      }
+    },
+    "primeira_vez": "2026-11-16"
+  }
+]

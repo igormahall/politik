@@ -1,0 +1,73 @@
+{
+  "data": "2026-11-16",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A defesa de Vorcaro foi ao STF com um mandado de segurança contra a decisão de Fachin de ficar à frente do caso. Os advogados pedem que Gilmar Mendes decida sobre a relatoria.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Defesa de Vorcaro pede ao STF que Gilmar Mendes decida o caso"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A pesquisa Quaest divulgada nesta segunda-feira (16) mostra que 92% dos brasileiros apoiam reduzir a maioridade penal de 18 para 16 anos.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Pesquisa Quaest: 92% dos brasileiros são a favor da redução para 16 anos"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "Alckmin disse que não há razão para o mercado ter oscilações depois do pacote fiscal. No mesmo dia, o dólar fechou a R$ 5,77, o maior valor desde abril de 2025.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote fiscal",
+      "linha_capa": "Alckmin diz não haver razão para a alta do dólar, que fechou em R$ 5,77"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Moraes negou o pedido da defesa de Bolsonaro para que ele receba as visitas de Rogério Marinho e Tereza Cristina, pré-candidatos à presidência do Senado.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Presidência do Senado",
+      "linha_capa": "Moraes nega a Bolsonaro visitas de Marinho e Tereza Cristina"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "O deputado Alencar Santana (PT–SP) e advogados do grupo Prerrogativas pediram ao STF, nesta segunda-feira (16), a prisão preventiva de Flávio Bolsonaro e o bloqueio do salário dele como senador.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Saída de Flávio",
+      "linha_capa": "Deputado do PT pede ao STF prisão de Flávio, que está nos EUA"
+    },
+    {
+      "slug": "enamed-exame-medicina",
+      "novo_hoje": "Foi apresentado na Câmara um pedido de informações (RIC 2989/2026) ao Ministério da Educação sobre sanções a cursos de Medicina, por causa dos resultados do Enamed e do Enade.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Enamed",
+      "linha_capa": "Pedido na Câmara pede ao MEC dados sobre punições a cursos de Medicina"
+    }
+  ],
+  "fichas": [
+    "camara:2653971",
+    "camara:2654118",
+    "camara:2654119",
+    "camara:2654012",
+    "camara:2654269",
+    "dou:24626698",
+    "dou:24626699",
+    "dou:24626701",
+    "dou:24626702",
+    "dou:24626703",
+    "dou:24626704",
+    "dou:24626705",
+    "dou:24626706",
+    "dou:24626707",
+    "dou:24626708",
+    "dou:24626766",
+    "dou:24626767",
+    "dou:24626768",
+    "dou:24626786",
+    "dou:24626787"
+  ],
+  "mundo": [
+    "mundo:2026-11-16:1",
+    "mundo:2026-11-16:2"
+  ]
+}
