@@ -3,7 +3,7 @@
   "nome": "Disputa pela presidência do Senado em 2027",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-16",
+  "ultima_novidade": "2026-11-17",
   "palavras_chave": ["presidência do Senado", "Rogério Marinho", "Davi Alcolumbre", "voto aberto no Senado"],
   "resumo_ate_aqui": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027, e Davi Alcolumbre (União–AP) tenta se reeleger. Rogério Marinho (PL–RN) e Tereza Cristina (PP–MS) seguem divididos na disputa, e, segundo apenas o g1, a divisão pode ajudar Alcolumbre. Em 16 de novembro, Moraes negou o pedido para que Bolsonaro recebesse as visitas dos dois pré-candidatos.",
   "explica_do_zero": "A eleição para a presidência do Senado será em 1º de fevereiro de 2027. O atual presidente, Davi Alcolumbre (União–AP), tenta se reeleger.\n\nEm 4 de novembro, o PL lançou oficialmente o senador Rogério Marinho (PL–RN) como candidato. Segundo apenas a CartaCapital, Marinho disse ter ao menos 40 votos e tenta uma candidatura única com a senadora Tereza Cristina (PP–MS).\n\nSegundo apenas a Folha, a disputa pelo voto de 10 a 15 senadores de centro e direita, considerados decisivos, está em aberto. Segundo apenas o g1, aliados avaliam que a divisão da direita pode fortalecer a candidatura de Alcolumbre.\n\nEm 5 de novembro, a defesa do ex-presidente Jair Bolsonaro pediu a Moraes autorização para receber as visitas de Marinho e Tereza Cristina. Em 6 de novembro, Marinho disse que, se eleito, vai procurar Lula e ministros do STF, e pediu união da direita para tirar Alcolumbre do cargo.\n\nSegundo apenas a Gazeta do Povo, Marinho e Tereza Cristina articulam uma estratégia de pinça eleitoral para derrotar Alcolumbre na disputa de 2027.\n\nNo dia 14, segundo apenas a Folha, aliados de Alcolumbre afirmaram que os acenos dele a uma reforma do Judiciário, como mandatos para ministros do STF e idade mínima para indicações, são bem-vindos para conquistar votos de bolsonaristas, mas insuficientes. Eles pedem que ele defenda o fim dos superinquéritos do STF. Também no dia 14, segundo apenas o Estadão, um senador do PL, ex-Centrão e próximo de Alcolumbre, foi escalado para conseguir votos para Rogério Marinho.\n\nEm 16 de novembro, Moraes negou o pedido da defesa de Bolsonaro para receber as visitas de Rogério Marinho, Tereza Cristina e Valdemar Costa Neto, segundo g1, Folha e Gazeta do Povo. Segundo apenas a Gazeta do Povo, Marinho disse que a defesa de Bolsonaro vai fazer novo pedido ao STF e que o Senado está 'subalterno' e 'rendido' a Alcolumbre.",
@@ -186,6 +186,12 @@
       "data": "2026-11-16",
       "fato": "Segundo apenas a Gazeta do Povo, Marinho disse que o Senado está 'subalterno' e 'rendido' a Alcolumbre e criticou a perda de autonomia da Casa.",
       "fontes": [{"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/marinho-diz-que-senado-esta-subalterno-e-rendido-sob-alcolumbre/"}],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-17",
+      "fato": "Segundo apenas a Gazeta do Povo, Rogério Marinho mobiliza senadoras e busca novos apoios para conter a dissidência pró-Tereza Cristina.",
+      "fontes": [{"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/marinho-mobiliza-senadoras-e-busca-apoios-para-conter-dissidencia-pro-tereza-cristina/"}],
       "fonte_unica": true
     }
   ]

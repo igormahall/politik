@@ -1,0 +1,72 @@
+{
+  "data": "2026-11-17",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PF vai entregar a Fachin, nesta quarta (18), relatórios sobre ministros do STF citados em mensagens de Vorcaro.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "PF entrega nesta quarta a Fachin relatório sobre ministros do STF"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "Audiência pública da Câmara sobre a redução da maioridade penal foi realizada nesta terça (17), com convidados da ADEPOL (delegados) e da UBES (estudantes).",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Redução da maioridade penal",
+      "linha_capa": "Audiência na Câmara ouve delegados e representantes de estudantes"
+    },
+    {
+      "slug": "lei-da-dosimetria",
+      "novo_hoje": "Os presidentes da Câmara e do Senado pediram nesta terça (17) que Moraes leve a Lei da Dosimetria a julgamento no plenário do STF.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Lei da Dosimetria",
+      "linha_capa": "Alcolumbre e Motta pedem que o STF julgue as penas do 8 de janeiro"
+    },
+    {
+      "slug": "proibicao-das-bets",
+      "novo_hoje": "O governo retirou a urgência do projeto que tipifica como crime a exploração e a divulgação de bets, publicado no Diário Oficial desta terça (17). A urgência travaria a pauta da Câmara, inclusive o ajuste fiscal.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Proibição das bets",
+      "linha_capa": "Governo tira urgência de projeto que pune apostas e destrava pauta da Câmara"
+    },
+    {
+      "slug": "presidencia-da-camara-2027",
+      "novo_hoje": "O deputado Luiz Philippe de Orléans e Bragança (PL–SP) vai lançar candidatura própria à presidência da Câmara, em oposição a Hugo Motta.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Presidência da Câmara",
+      "linha_capa": "Deputado do PL vai lançar candidatura própria contra Motta"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O Senado adiou para quarta-feira (18) a votação dos destaques ao projeto de ajuste fiscal, por falta de acordo entre governo e oposição. Com isso, o texto não seguiu para a Câmara nesta terça, como o governo queria.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote fiscal",
+      "linha_capa": "Senado adia para quarta a votação das mudanças no ajuste de contas"
+    }
+  ],
+  "fichas": [
+    "camara:2654419",
+    "camara:2654613",
+    "camara:2652102:tram:3",
+    "camara:2654118:tram:3",
+    "camara:2654119:tram:3",
+    "dou:24626788",
+    "dou:24626809",
+    "dou:24626810",
+    "dou:24626811",
+    "dou:24626812",
+    "dou:24626813",
+    "dou:24626814",
+    "dou:24626815",
+    "dou:24626823",
+    "dou:24626824",
+    "dou:24626825",
+    "dou:24626826",
+    "dou:24626827",
+    "dou:24626828",
+    "dou:24626829"
+  ],
+  "mundo": [
+    "mundo:2026-11-17:1"
+  ]
+}
