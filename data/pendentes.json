@@ -1,430 +1,6 @@
 [
   {
     "item": {
-      "id": "dou:24626830",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 477, DE 2026",
-      "ementa": "Aprova o ato que renova a concessão outorgada à Rádio Sociedade de Friburgo Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Nova Friburgo, Estado do Rio de Janeiro.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626831",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 478, DE 2026",
-      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária de Comunicação e Cultura de Brunópolis para executar serviço de radiodifusão comunitária no Município de Brunópolis, Estado de Santa Catarina.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626832",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 479, DE 2026",
-      "ementa": "Aprova o ato que renova a permissão outorgada à Sociedade Rádio Imbiara de Araxá Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Araxá, Estado de Minas Gerais.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=5",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626849",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 482, DE 2026",
-      "ementa": "Aprova o ato que renova a permissão outorgada aos Estúdios Reunidos Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de São Gonçalo do Amarante, Estado do Rio Grande do Norte.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626850",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 483, DE 2026",
-      "ementa": "Aprova o ato que renova a concessão outorgada à Web Comunicação Ltda. para explorar serviço de radiodifusão de sons e imagens em tecnologia digital no Município de Picos, Estado do Piauí.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626851",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 484, DE 2026",
-      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio Bel Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Ouro Branco, Estado de Minas Gerais.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626852",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 485, DE 2026",
-      "ementa": "Aprova o ato que renova a concessão outorgada à Rádio Alvorada de Santa Cecília Ltda. para explorar serviço de radiodifusão sonora em onda média, posteriormente adaptado para o serviço de radiodifusão sonora em frequência modulada, no Município de Santa Cecília, Estado de Santa Catarina.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626853",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 486, DE 2026",
-      "ementa": "Aprova o ato que renova a autorização outorgada à Fundação de Cooperação e Desenvolvimento para executar serviço de radiodifusão comunitária no Município de Massapê, Estado do Ceará.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626854",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 487, DE 2026",
-      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Beneficente Maria Pinto para executar serviço de radiodifusão comunitária no Município de Caucaia, Estado do Ceará.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626855",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 488, DE 2026",
-      "ementa": "Aprova o ato que renova a concessão outorgada à Fundação Educar Sul Brasil para explorar serviço de radiodifusão de sons e imagens em tecnologia digital no Município de Florianópolis, Estado de Santa Catarina.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24626856",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO LEGISLATIVO",
-      "titulo": "DECRETO LEGISLATIVO Nº 489, DE 2026",
-      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária Cultural Lima Campense para executar serviço de radiodifusão comunitária no Município de Lima Campos, Estado do Maranhão.",
-      "data": "2026-11-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/11/2026&jornal=515&pagina=6",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Congresso Nacional"
-      }
-    },
-    "primeira_vez": "2026-11-16"
-  },
-  {
-    "item": {
-      "id": "dou:24632395",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.167, DE 16 DE NOVEMBRO DE 2026",
-      "ementa": "Institui o Sistema de Satélites de Defesa e Comunicações Estratégicas.",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=1",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "dou:24632396",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.168, DE 16 DE NOVEMBRO DE 2026",
-      "ementa": "Promulga o Acordo entre o Governo da República Federativa do Brasil e o Governo da República da Eslovênia sobre Cooperação no Campo de Defesa, firmado no Rio de Janeiro, em 11 de abril de 2023.",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=1",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "dou:24632397",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.169, DE 16 DE NOVEMBRO DE 2026",
-      "ementa": "Dispõe sobre a execução do Acordo de Alcance Parcial nº 20 para a Eliminação de Barreiras Técnicas ao Comércio de Produtos Cosméticos, Celebrado ao Amparo do Artigo 13 do Tratado de Montevidéu 1980, firmado pela República Federativa do Brasil, pela República Argentina, pelo Estado Plurinacional da Bolívia, pela República do Chile, pela República do Equador, pela República do Paraguai, pela República do Peru e pela República Oriental do Uruguai.",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=2",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "dou:24632398",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.170, DE 16 DE NOVEMBRO DE 2026",
-      "ementa": "Dispõe sobre a execução dos Ajustes ao Protocolo de Montreal sobre Substâncias que Destroem a Camada de Ozônio, acordados pela 19ª Reunião das Partes, realizada em Montreal, em setembro de 2007 (Decisão XIX/6), relativos às substâncias controladas no Grupo I do Anexo C (hidroclorofluorcarbonos).",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=4",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "dou:24632399",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.171, DE 16 DE novembro DE 2026",
-      "ementa": "Dispõe sobre a execução do Sétimo Protocolo Adicional ao Acordo de Alcance Parcial sobre Transporte Internacional Terrestre, firmado pela República Federativa do Brasil, pela República Argentina, pelo Estado Plurinacional da Bolívia, pela República do Chile, pela República do Paraguai, pela República do Peru e pela República Oriental do Uruguai.",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=4",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "dou:24632400",
-      "fonte": "dou",
-      "nivel": "federal",
-      "categoria": "norma",
-      "sigla_tipo": "DECRETO NUMERADO",
-      "titulo": "DECRETO Nº 13.172, DE 16 DE NOVEMBRO DE 2026",
-      "ementa": "Promulga o Protocolo sobre Transferência de Pessoas Sujeitas a Regimes Especiais (Complementar ao Acordo sobre Transferência de Pessoas Condenadas entre os Estados Partes do Mercosul e a República da Bolívia e a República do Chile), firmado em Assunção, em 20 de junho de 2005.",
-      "data": "2026-11-17",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/11/2026&jornal=515&pagina=5",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "orgao": "Atos do Poder Executivo"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2652524:2026-11-17",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PRC 50/2026",
-      "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
-      "data": "2026-11-17",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2652524",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2652524,
-        "votacoes": [
-          {
-            "descricao": "Aprovada a Redação Final, assinada pelo relator, Dep. Lula da Fonte (PP/PE).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-18"
-          },
-          {
-            "descricao": "Aprovado o Projeto de Resolução nº 50, de 2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-16"
-          },
-          {
-            "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2644208:2026-11-17",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PL 5127/2026",
-      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
-      "data": "2026-11-17",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2644208",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2644208,
-        "votacoes": [
-          {
-            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Luiz Gastão (PSD/CE).",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-20"
-          },
-          {
-            "descricao": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-16"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2648616:2026-11-17",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "MPV 1398/2026",
-      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
-      "data": "2026-11-17",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2648616",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2648616,
-        "votacoes": [
-          {
-            "descricao": "Aprovada a Medida Provisória nº 1.398, de 2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-28"
-          },
-          {
-            "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-17"
-  },
-  {
-    "item": {
       "id": "camara:votacao:2648606:2026-11-17",
       "fonte": "camara",
       "nivel": "federal",
@@ -979,6 +555,303 @@
       }
     },
     "primeira_vez": "2026-11-17"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:866002:2026-11-18",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 8332/2015",
+      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/866002",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 866002,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:1194323:2026-11-18",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 956/2015",
+      "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/1194323",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 1194323,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:344542:2026-11-18",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 396/2007",
+      "ementa": "Dispõe sobre a responsabilidade na transição administrativa, após a proclamação dos resultados eleitorais, e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/344542",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 344542,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/344542-97"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2620100:2026-11-18",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PRC 25/2026",
+      "ementa": "Institui, no âmbito da Câmara dos Deputados o “Selo Câmara de Respeito à Voz do Cidadão”.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2620100",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2620100,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final, assinada pela relatora, Dep. Geovania de Sá (REPUBLICANOS/SC).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620100-21"
+          },
+          {
+            "descricao": "Aprovado o Projeto de Resolução nº 25, de 2026.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620100-19"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2565161:2026-11-18",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PDL 756/2025",
+      "ementa": "Aprova o texto do Tratado de Assistência Jurídica Mútua em Matéria Penal entre a República Federativa do Brasil e o Japão, assinado em Tóquio, em 25 de janeiro de 2024.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2565161",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2565161,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Luiz Nishimori (PSD-PR).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2565161-37"
+          },
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 756, de 2025, adotado pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2565161-34"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2651096:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+      "ementa": "Apresentação do REQ n. 4488/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Delegado Palumbo (PODE/SP) e outros, que \"Requer, nos termos do art. 155 do RICD, urgência para o Projeto de Lei nº 5.774, de 2026, que “altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).”\".",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651096",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198891",
+      "extra": {
+        "item_origem": "camara:2651096"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2652936:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Parecer",
+      "ementa": "Designado Relator, Dep. Altineu Côrtes (PL-RJ), 1º Vice-Presidente.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652936",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652936"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2652936:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Elaboração do Parecer pelo(a) Relator(a)",
+      "ementa": "Recebimento pelo(a) 1VIPR.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2652936",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2652936"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2653971:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Parecer",
+      "ementa": "Designado Relator, Dep. Altineu Côrtes (PL-RJ), 1º Vice-Presidente.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653971",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2653971"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2653971:tram:6",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Elaboração do Parecer pelo(a) Relator(a)",
+      "ementa": "Recebimento pelo(a) 1VIPR.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653971",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2653971"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2654613:tram:2",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Deliberação",
+      "ementa": "Aprovado o Requerimento.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2654613",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "camara:2654613"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9121137:sit:2026-11-18",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "APROVADA",
+      "ementa": "Altera o §3º do art. 2º da Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da rede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da Covid-19.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176199",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9121137"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9127383:sit:2026-11-18",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "APROVADA",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9127383"
+      }
+    },
+    "primeira_vez": "2026-11-18"
   },
   {
     "item": {
@@ -3446,6 +3319,770 @@
   },
   {
     "item": {
+      "id": "camara:2655019",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 311/2026",
+      "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para estabelecer limites e condições para despesas públicas municipais com eventos artísticos e festivos.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655019",
+      "autores": [
+        {
+          "nome": "Fábio Teruel",
+          "partido": "MDB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198034",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655021",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5892/2026",
+      "ementa": "Dispõe sobre diretrizes para prevenção e enfrentamento do uso de dispositivos eletrônicos para fumar, com especial atenção a crianças, adolescentes e jovens.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655021",
+      "autores": [
+        {
+          "nome": "Tabata Amaral",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198036",
+      "extra": {
+        "indexacao": "diretrizes; enfrentamento; Dependência química; Dispositivo eletrônico para fumar (DEF); Cigarro eletrônico; Prevenção de doenças; Criança; Adolescente; Tabagismo; Campanha educativa; Promoção da saúde; Antitabagismo; Sistema Único de Saúde (SUS); Vigilância sanitária"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655025",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5893/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655025",
+      "autores": [
+        {
+          "nome": "Tabata Amaral",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198040",
+      "extra": {
+        "indexacao": "alteração; Estatuto da Criança e do Adolescente (ECA) (1990); acompanhamento; Criança; Diagnóstico médico; Doença rara; Triagem neonatal; Teste do Pezinho; Aconselhamento genético; Sistema Único de Saúde (SUS)"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655134",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5894/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655134",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198161",
+      "extra": {
+        "indexacao": "alteração; Código Penal (1940); Aumento da pena; Lesão corporal; Homicídio; Violência física; Agressor; Concurso de pessoas; escalonamento; proporcionalidade"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655184",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5895/2026",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655184",
+      "autores": [
+        {
+          "nome": "Luiz Carlos Motta",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198350",
+      "extra": {
+        "indexacao": "Proteção social; Defesa; reconhecimento; Valorização; Comerciário; diretrizes; Política pública; Educação e formação profissional; prevenção; Fraude no comércio; Ambiente de trabalho; Igualdade de oportunidade; proteção; Dados pessoais; Saúde do trabalhador; Segurança do trabalho; Inclusão social; Condições de trabalho; Saúde mental; Lei Geral de Proteção de Dados Pessoais (LGPDP) (2018)"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655202",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5896/2026",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655202",
+      "autores": [
+        {
+          "nome": "Carlos Chiodini",
+          "partido": "MDB",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198392",
+      "extra": {
+        "indexacao": "Itaiópolis (SC); Santa Catarina; Homenagem; Título de capital nacional; Cultura (ciências sociais); Polônia; Ucrânia"
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655210",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 312/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei das Inelegibilidades), para estabelecer prazo de desincompatibilização de vinte e quatro meses para os profissionais do magistério público.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655210",
+      "autores": [
+        {
+          "nome": "Capitão Alden",
+          "partido": "PL",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198403",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655411",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5897/2026",
+      "ementa": "Institui o Programa Remédio na Mão, destinado a facilitar a localização e o acesso gratuito a medicamentos e insumos de saúde disponibilizados pelo Sistema Único de Saúde e pelo Programa Farmácia Popular do Brasil, mediante identificação digital das unidades dispensadoras, consulta atualizada de disponibilidade, orientação sobre requisitos de retirada, indicação de alternativas de atendimento e garantia de acessibilidade informacional.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655411",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198842",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655412",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5898/2026",
+      "ementa": "Institui medidas de proteção e segurança para mulheres que viajem desacompanhadas em serviços de transporte de passageiros, assegurando preferência de acomodação ao lado de outra mulher em viagens noturnas ou de longa duração, e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655412",
+      "autores": [
+        {
+          "nome": "Hercílio Coelho Diniz",
+          "partido": "MDB",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198843",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655425",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5899/2026",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para dispor sobre a regulamentação do vínculo funcional dos agentes comunitários de saúde e dos agentes de combate às endemias.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655425",
+      "autores": [
+        {
+          "nome": "Laura Carneiro",
+          "partido": "PSD",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198876",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655445",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5900/2026",
+      "ementa": "Cria a Agência Brasileira de Economia Criativa, dispõe sobre suas finalidades, estrutura, governança e contrato de gestão, e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655445",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198966",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655454",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5901/2026",
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estender a aplicação das medidas protetivas de urgência a toda forma de violência contra a mulher baseada na condição de mulher e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655454",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198978",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655459",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5902/2026",
+      "ementa": "Estabelece diretrizes para a atenção integral à saúde das pessoas com sobrepeso e obesidade no âmbito do Sistema Único de Saúde – SUS.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655459",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198981",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "camara:2655462",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5903/2026",
+      "ementa": "Institui a Política Nacional de Educação Especial Inclusiva, e altera o art. 3º da Lei nº 13.146, de 6 de julho de 2015.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655462",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198983",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9133708",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PEC",
+      "titulo": "PEC 24/2026",
+      "ementa": "Altera o inciso I, alínea b, do art. 102 e insere a alínea j no inciso I do art. 105 da Constituição Federal de 1988.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176489",
+      "autores": [
+        {
+          "nome": "Astronauta Marcos Pontes",
+          "partido": "PL",
+          "uf": "SP"
+        },
+        {
+          "nome": "Lucas Barreto",
+          "partido": "PSD",
+          "uf": "AP"
+        },
+        {
+          "nome": "Hamilton Mourão",
+          "partido": "REPUBLICANOS",
+          "uf": "RS"
+        },
+        {
+          "nome": "Damares Alves",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        },
+        {
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "DF"
+        },
+        {
+          "nome": "Plínio Valério",
+          "partido": "PSDB",
+          "uf": "AM"
+        },
+        {
+          "nome": "Marcos Rogério",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Cleitinho",
+          "partido": "REPUBLICANOS",
+          "uf": "MG"
+        },
+        {
+          "nome": "Jaime Bagattoli",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Confúcio Moura",
+          "partido": "MDB",
+          "uf": "RO"
+        },
+        {
+          "nome": "Wilder Morais",
+          "partido": "PL",
+          "uf": "GO"
+        },
+        {
+          "nome": "Chico Rodrigues",
+          "partido": "PSB",
+          "uf": "RR"
+        },
+        {
+          "nome": "Oriovisto Guimarães",
+          "partido": "PODE",
+          "uf": "PR"
+        },
+        {
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "SC"
+        },
+        {
+          "nome": "Dr. Hiran",
+          "partido": "PP",
+          "uf": "RR"
+        },
+        {
+          "nome": "Eduardo Gomes",
+          "partido": "PL",
+          "uf": "TO"
+        },
+        {
+          "nome": "Eduardo Girão",
+          "partido": "NOVO",
+          "uf": "CE"
+        },
+        {
+          "nome": "Marcio Bittar",
+          "partido": "UNIÃO",
+          "uf": "AC"
+        },
+        {
+          "nome": "Jayme Campos",
+          "partido": "UNIÃO",
+          "uf": "MT"
+        },
+        {
+          "nome": "Luis Carlos Heinze",
+          "partido": "PP",
+          "uf": "RS"
+        },
+        {
+          "nome": "Carlos Portinho",
+          "partido": "PL",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Tereza Cristina",
+          "partido": "PP",
+          "uf": "MS"
+        },
+        {
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "uf": "ES"
+        },
+        {
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "uf": "ES"
+        },
+        {
+          "nome": "Zequinha Marinho",
+          "partido": "PODE",
+          "uf": "PA"
+        },
+        {
+          "nome": "Sargento Reginauro",
+          "partido": "PSDB",
+          "uf": "CE"
+        },
+        {
+          "nome": "Wellington Fagundes",
+          "partido": "PL",
+          "uf": "MT"
+        },
+        {
+          "nome": "Esperidião Amin",
+          "partido": "PP",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/dab86858-f66e-47bb-8d42-571539255f78",
+      "extra": {
+        "tipoDocumento": "Proposta de Emenda à Constituição",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176489
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9133976",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 85/2024",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária Silvino Brito — ACSB para executar serviço de radiodifusão comunitária no Município de Massapê, Estado do Ceará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176492",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5c1db896-1b19-4fb4-b0a0-27914decdbe6",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176492
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9133984",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 708/2025",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio Mundial FM Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Ijuí, Estado do Rio Grande do Sul.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176491",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/eb6b90ea-ca53-4d36-bb8c-64fade3d4825",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176491
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134051",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 150/2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rede Norte de Comunicação Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Santa Maria do Pará, Estado do Pará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176493",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/649211b4-e26f-4714-b109-6f800b1bcf20",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176493
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134066",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 709/2025",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Astral Comunicações Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Portelândia, Estado de Goiás.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176494",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/605b0d20-33ef-40dc-9356-7dabf0355f1b",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176494
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134115",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 237/2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Ararena para executar serviço de radiodifusão comunitária no Município de Ararendá, Estado do Ceará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176495",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/551f7600-bad4-43af-982a-524181f41106",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176495
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134149",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 681/2024",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio FM 102 Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Cariacica, Estado do Espírito Santo.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176498",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/e9d8af9d-0744-46a0-9f36-dad1380f8518",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176498
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134161",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 658/2024",
+      "ementa": "Aprova o ato que renova a permissão outorgada à SM Comunicações Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Vila Velha, Estado do Espírito Santo.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176497",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/47d4715b-5d26-47f3-92bf-6ebe054169e4",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176497
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134212",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1116/2025",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária Rádio Belluno para executar serviço de radiodifusão comunitária no Município de Siderópolis, Estado de Santa Catarina.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176499",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/eb4c7329-51b0-47ab-9917-9f6333daad6c",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176499
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134347",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 499/2023",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária de Comunicação Popular de Xinguara para executar serviço de radiodifusão comunitária no Município de Xinguara, Estado do Pará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176500",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/9f4b1ad5-e808-46fb-b9c6-c0d006fa81ef",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176500
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "senado:9134369",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 92/2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária de Desenvolvimento Social de Pontal - ACODSP para executar serviço de radiodifusão comunitária no Município de Pontal do Paraná, Estado do Paraná.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176501",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/dd69cb93-8c78-435b-b391-2685f06570d5",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176501
+      }
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
       "id": "aleam:materia:185159",
       "fonte": "aleam",
       "nivel": "estadual",
@@ -3535,6 +4172,69 @@
       "extra": {}
     },
     "primeira_vez": "2026-11-17"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185173",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 635 de 2026",
+      "ementa": "DISPÕE sobre a proteção da dignidade dos consumidores, proíbe a lacração compulsória de sacolas, bolsas e mochilas e veda práticas\ndiscriminatórias nos procedimentos de segurança dos estabelecimentos comerciais do Estado do Amazonas.",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185173",
+      "autores": [
+        {
+          "nome": "Brena Dianná",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185173/046455.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185175",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 637 de 2026",
+      "ementa": "Concede o Título de Cidadã do Amazonas à Advogada Mary Jane Faraco de Andrade Lopes.",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185175",
+      "autores": [
+        {
+          "nome": "Sinésio Campos",
+          "partido": "PT",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185175/046541.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185176",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PRL",
+      "titulo": "Projeto de Resolução Legislativa nº 42 de 2026",
+      "ementa": "DISPÕE sobre a implantação de infraestrutura de recarga para veículos elétricos e híbridos plug-in nas dependências da Assembleia\nLegislativa do Estado do Amazonas e dá outras providências",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185176",
+      "autores": [],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185176/046597.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-18"
   },
   {
     "item": {

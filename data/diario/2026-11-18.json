@@ -1,0 +1,73 @@
+{
+  "data": "2026-11-18",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A PF entregou nesta quarta (18) a Fachin relatórios sobre ministros do STF citados em mensagens de Vorcaro. Fachin vai enviá-los à PGR e deu 15 dias para o órgão se manifestar.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "PF entrega a Fachin relatórios sobre ministros do STF; PGR tem 15 dias"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O Senado concluiu nesta quarta (18) a votação do ajuste fiscal, aprovado por 69 votos a 2, e o texto segue para a Câmara. O presidente da Câmara, Hugo Motta, disse em Buenos Aires que vai convocar sessão para votá-lo na segunda-feira (23).",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote fiscal",
+      "linha_capa": "Senado aprova o texto por 69 a 2; Câmara deve votar na segunda (23)"
+    },
+    {
+      "slug": "presidencia-da-camara-2027",
+      "novo_hoje": "O Novo lançou nesta quarta (18) o deputado eleito Paulo Martins (Novo–PR) como candidato à presidência da Câmara, contra Hugo Motta. Nikolas Ferreira ameaça deixar o PL, enquanto a cúpula do partido negocia apoio a Motta.",
+      "aviso_fonte_unica": "A ameaça de Nikolas Ferreira de deixar o PL vem só do g1.",
+      "nome_curto": "Presidência da Câmara",
+      "linha_capa": "Novo lança Paulo Martins como candidato contra Hugo Motta"
+    },
+    {
+      "slug": "lei-da-dosimetria",
+      "novo_hoje": "Motta disse que pediu a Moraes que paute a ação, para “virar essa página” do 8 de janeiro.",
+      "aviso_fonte_unica": "A declaração de Motta sobre o pedido a Moraes vem só da Folha.",
+      "nome_curto": "Lei da Dosimetria",
+      "linha_capa": "Motta diz que pediu a Moraes que libere penas do 8/1 para julgamento"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A comissão especial da Câmara ouviu nesta quarta (18) especialistas sobre a redução: a Sociedade Brasileira de Pediatria se opôs, e um promotor do Espírito Santo a defendeu.",
+      "aviso_fonte_unica": "As falas desta audiência vêm só da Agência Câmara.",
+      "nome_curto": "Redução da maioridade penal",
+      "linha_capa": "Comissão da Câmara ouve pediatras contra e promotor a favor da mudança"
+    },
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "Os democratas indicaram Hakeem Jeffries para presidir a Câmara dos EUA; ele seria o primeiro negro no cargo. A eleição no plenário é em janeiro.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições dos EUA (meio de mandato)",
+      "linha_capa": "Democratas indicam Hakeem Jeffries para presidir a Câmara americana"
+    }
+  ],
+  "fichas": [
+    "dou:24632395",
+    "camara:votacao:2648616:2026-11-17",
+    "dou:24632396",
+    "dou:24632397",
+    "dou:24632398",
+    "dou:24632399",
+    "dou:24632400",
+    "camara:votacao:2652524:2026-11-17",
+    "camara:votacao:2644208:2026-11-17",
+    "dou:24626830",
+    "dou:24626831",
+    "dou:24626832",
+    "dou:24626849",
+    "dou:24626850",
+    "dou:24626851",
+    "dou:24626852",
+    "dou:24626853",
+    "dou:24626854",
+    "dou:24626855",
+    "dou:24626856"
+  ],
+  "mundo": [
+    "mundo:2026-11-18:1",
+    "mundo:2026-11-18:2"
+  ]
+}

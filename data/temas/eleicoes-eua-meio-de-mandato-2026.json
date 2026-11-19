@@ -3,11 +3,11 @@
   "nome": "Eleições de meio de mandato nos EUA (2026)",
   "inicio": "2026-11-02",
   "ativo": true,
-  "ultima_novidade": "2026-11-12",
+  "ultima_novidade": "2026-11-18",
   "internacional": true,
   "palavras_chave": ["eleições de meio de mandato dos EUA", "midterms", "Congresso dos EUA"],
   "resumo_ate_aqui": "Na terça-feira (3), os eleitores dos Estados Unidos deram ao Partido Democrata o controle da Câmara e do Senado, em derrota para o presidente Donald Trump, do Partido Republicano. Em 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota republicana. Em 12 de novembro, o democrata Scott Colom venceu no Mississippi e ampliou o domínio democrata no Senado.",
-  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.\n\nEm 5 de novembro, os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.\n\nEm 12 de novembro, o democrata Scott Colom venceu uma disputa por uma cadeira no Senado no Mississippi, estado onde os republicanos costumam vencer. A vitória amplia o domínio democrata no Senado.",
+  "explica_do_zero": "Os eleitores dos Estados Unidos votaram nas eleições de meio de mandato na terça-feira (3). A disputa decidia se o Partido Republicano, do presidente Donald Trump, manteria o controle do Congresso.\n\nO Partido Democrata conquistou o controle da Câmara e do Senado, em derrota para Trump. Sete candidatos nascidos no Brasil foram eleitos para assembleias estaduais dos EUA, todos do Partido Democrata.\n\nEm 4 de novembro, Trump admitiu que a guerra contra o Irã contribuiu para a derrota do seu partido.\n\nEm 5 de novembro, os latinos, que ajudaram Trump a se eleger, se voltaram contra ele nas eleições de meio de mandato.\n\nEm 12 de novembro, o democrata Scott Colom venceu uma disputa por uma cadeira no Senado no Mississippi, estado onde os republicanos costumam vencer. A vitória amplia o domínio democrata no Senado.\n\nEm 18 de novembro, os democratas indicaram o deputado Hakeem Jeffries para presidir a Câmara dos EUA. Ele seria o primeiro negro a comandar a Casa, e a eleição no plenário é em janeiro.",
   "linha_do_tempo": [
     {
       "data": "2026-11-02",
@@ -62,6 +62,12 @@
         {"nome": "DW", "url": "https://www.dw.com/pt-br/democratas-ampliam-domínio-no-senado-nos-eua-com-vitória-no-mississipi/a-79933955?maca=bra-rss-br-all-1030-rdf"},
         {"nome": "BBC Brasil", "url": "https://www.bbc.co.uk/news/articles/cmde1y19g19do?at_medium=RSS&at_campaign=rss"}
       ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-18",
+      "fato": "Os democratas escolheram o deputado Hakeem Jeffries para presidir a Câmara dos EUA. Ele seria o primeiro negro a comandar a Casa; a confirmação no plenário é em janeiro, quando os democratas assumem o controle da Câmara.",
+      "fontes": [{"nome": "DW", "url": "https://www.dw.com/pt-br/câmara-dos-eua-deverá-ter-1º-presidente-negro-após-indicação-do-partido-democrata/a-79986132?maca=bra-rss-br-all-1030-rdf"}, {"nome": "BBC", "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss"}],
       "fonte_unica": false
     }
   ]
