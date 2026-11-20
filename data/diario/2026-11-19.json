@@ -1,0 +1,69 @@
+{
+  "data": "2026-11-19",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Fachin enviou à PGR quatro relatórios da PF com citações a ministros do STF.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin envia à PGR quatro relatórios da PF sobre ministros do STF"
+    },
+    {
+      "slug": "escala-5x2",
+      "novo_hoje": "O governo publicou o decreto que regulamenta a escala 5x2, com dois dias de descanso por semana.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Escala 5x2",
+      "linha_capa": "Governo publica decreto com dois dias de folga por semana"
+    },
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O Banco Central vendeu US$ 1 bilhão para conter o dólar, e a moeda fechou em alta mesmo assim.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote fiscal",
+      "linha_capa": "Dólar fecha em alta mesmo com venda de US$ 1 bi pelo BC"
+    },
+    {
+      "slug": "lei-da-dosimetria",
+      "novo_hoje": "Moraes liberou para julgamento no STF as ações contra a Lei da Dosimetria, com início em 4 de dezembro.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Lei da Dosimetria",
+      "linha_capa": "Moraes libera para julgamento ações sobre penas do 8 de janeiro"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "Foi apresentado na Câmara um requerimento para ouvir, nas audiências sobre a PEC 32/2015, um advogado criminalista e o presidente da Fenasse.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Redução da maioridade penal",
+      "linha_capa": "Comissão pode ouvir advogado e representante de socioeducadores"
+    }
+  ],
+  "fichas": [
+    "dou:24644285",
+    "camara:2655570",
+    "dou:24643977",
+    "camara:votacao:2476625:2026-11-17",
+    "camara:votacao:2341099:2026-11-17",
+    "camara:2655699",
+    "dou:24643983",
+    "dou:24643987",
+    "camara:votacao:2648606:2026-11-17",
+    "camara:votacao:2646241:2026-11-17",
+    "camara:votacao:2643435:2026-11-17",
+    "camara:votacao:2643429:2026-11-17",
+    "camara:votacao:2380144:2026-11-17",
+    "camara:votacao:2335264:2026-11-17",
+    "camara:votacao:606005:2026-11-17",
+    "camara:votacao:946579:2026-11-17",
+    "camara:votacao:946429:2026-11-17",
+    "camara:votacao:2332174:2026-11-17",
+    "camara:votacao:2620100:2026-11-17",
+    "camara:votacao:2224115:2026-11-17"
+  ],
+  "mundo": [
+    "mundo:2026-11-19:1",
+    "mundo:2026-11-19:2",
+    "mundo:2026-11-19:3",
+    "mundo:2026-11-19:4",
+    "mundo:2026-11-19:5"
+  ]
+}
