@@ -1,0 +1,60 @@
+{
+  "data": "2026-11-20",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Fachin retirou o sigilo do relatório da PF sobre o ministro André Mendonça, a pedido dele. O documento cita tentativas de aproximação de Vorcaro ao ministro.",
+      "aviso_fonte_unica": "A frase sobre as tentativas de aproximação de Vorcaro vem só do g1.",
+      "nome_curto": "Caso Master",
+      "linha_capa": "Fachin tira sigilo de relatório da PF sobre Mendonça"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Moraes votou no STF para manter cancelados os passaportes de Flávio Bolsonaro e as proibições impostas a ele. O ministro disse que a saída do país mostra potencial para obstruir investigações.",
+      "aviso_fonte_unica": "A frase sobre obstrução de investigações vem só do g1.",
+      "nome_curto": "Saída do país",
+      "linha_capa": "Moraes vota para manter cancelados os passaportes de Flávio"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "A Câmara arquivou o requerimento de moção de aplauso ao MPT, à Justiça do Trabalho e ao Ministério do Trabalho pela atuação contra o assédio eleitoral.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "Câmara arquiva pedido de aplauso a órgãos que combatem pressão por voto"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A tramitação da Câmara registrou a aprovação de um requerimento para um seminário no Maranhão sobre a redução da maioridade penal.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Redução da maioridade",
+      "linha_capa": "Câmara aprova seminário no Maranhão sobre a idade penal"
+    }
+  ],
+  "fichas": [
+    "senado:9127383:sit:2026-11-18",
+    "camara:votacao:344542:2026-11-18",
+    "camara:2651096:tram:6",
+    "camara:votacao:866002:2026-11-18",
+    "camara:votacao:1194323:2026-11-18",
+    "camara:votacao:2620100:2026-11-18",
+    "camara:votacao:2565161:2026-11-18",
+    "camara:2652936:tram:5",
+    "camara:2652936:tram:6",
+    "camara:2653971:tram:5",
+    "camara:2653971:tram:6",
+    "camara:2654613:tram:2",
+    "senado:9121137:sit:2026-11-18",
+    "camara:2649124:tram:7",
+    "camara:2649212:tram:7",
+    "camara:2649802:tram:7",
+    "camara:2649821:tram:5",
+    "camara:2649821:tram:4",
+    "camara:2649935:tram:7",
+    "camara:2650083:tram:7"
+  ],
+  "mundo": [
+    "mundo:2026-11-20:1",
+    "mundo:2026-11-20:2",
+    "mundo:2026-11-20:3"
+  ]
+}
