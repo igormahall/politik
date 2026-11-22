@@ -1,0 +1,3859 @@
+{
+  "data": "2026-11-21",
+  "destaques": [
+    {
+      "id": "camara:2650114:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "À Comissão deConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650114",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197386",
+      "extra": {
+        "item_origem": "camara:2650114"
+      }
+    },
+    {
+      "id": "camara:2650116:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "Às Comissões deDesenvolvimento Econômico;Comunicação eConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650116",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197985",
+      "extra": {
+        "item_origem": "camara:2650116"
+      }
+    },
+    {
+      "id": "camara:2650194:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "Às Comissões deSaúde eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2650194",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197405",
+      "extra": {
+        "item_origem": "camara:2650194"
+      }
+    },
+    {
+      "id": "camara:2651158:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "Às Comissões deCultura;Finanças e Tributação (Mérito e Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651158",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197964",
+      "extra": {
+        "item_origem": "camara:2651158"
+      }
+    },
+    {
+      "id": "camara:2651243:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "Às Comissões deIndústria, Comércio e Serviços eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651243",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197963",
+      "extra": {
+        "item_origem": "camara:2651243"
+      }
+    },
+    {
+      "id": "camara:2651388:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Distribuição",
+      "ementa": "Às Comissões deIntegração Nacional e Desenvolvimento Regional;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2651388",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197549",
+      "extra": {
+        "item_origem": "camara:2651388"
+      }
+    },
+    {
+      "id": "camara:2653536:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Apresentação de Requerimento",
+      "ementa": "Apresentação do REQ n. 4492/2026 (Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual), pelos Deputado Fernando Mineiro (PT/RN -Fdr PT-PCdoB-PV) e outros, que \"Requer inclusão de coautoria dos Deputados signatários em anexo, ao Projeto de Lei nº PL 5842/2026 de minha autoria que Institui o marco legal das Áreas de Proteção de Mananciais - APMs, altera as Leis nº 9.433, de 8 de janeiro de 1997, Lei n° 9.984, de 17 de julho de 2000, Lei nº 9.985, de 18 de julho de 2000, Lei nº 12.651, de 25 de maio de 2012, Lei nº 11.445, de 5 de janeiro de 2007, e a Lei n° 10.257, de 10 de julho de 2001\".",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653536",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199048",
+      "extra": {
+        "item_origem": "camara:2653536"
+      }
+    },
+    {
+      "id": "camara:2653946:tram:5",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Apresentação de Requerimento",
+      "ementa": "Apresentação do REQ n. 4496/2026 (Requerimento de Retirada de Proposição de Iniciativa Coletiva), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências\".",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653946",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199156",
+      "extra": {
+        "item_origem": "camara:2653946"
+      }
+    },
+    {
+      "id": "senado:9121137:sit:2026-11-19",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "REMETIDA À CÂMARA DOS DEPUTADOS",
+      "ementa": "Altera o §3º do art. 2º da Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da rede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da Covid-19.",
+      "data": "2026-11-19",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176199",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9121137"
+      }
+    },
+    {
+      "id": "senado:9127383:sit:2026-11-19",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "REMETIDA À CÂMARA DOS DEPUTADOS",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "data": "2026-11-19",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9127383"
+      }
+    },
+    {
+      "id": "camara:2655528",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5906/2026",
+      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, a Lei nº 14.457, de 21 de setembro de 2022, e a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a prevenção do assédio moral no trabalho, a distribuição do ônus da prova, o prazo prescricional e a proteção processual de quem o denuncia.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655528",
+      "autores": [
+        {
+          "nome": "Carol Dartora",
+          "partido": "PT",
+          "uf": "PR"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199114",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655533",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5907/2026",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655533",
+      "autores": [
+        {
+          "nome": "Kim Kataguiri",
+          "partido": "MISSÃO",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199118",
+      "extra": {
+        "indexacao": "alteração; Código de Processo Penal (1941); Mandado de busca e apreensão; Busca domiciliar; Mandado judicial; Órgão de segurança pública; Guarda municipal; Prazo máximo; Telefone celular"
+      }
+    },
+    {
+      "id": "camara:2655540",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5908/2026",
+      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655540",
+      "autores": [
+        {
+          "nome": "Pastor Sargento Isidório",
+          "partido": "AVANTE",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199127",
+      "extra": {
+        "indexacao": "alteração; Lei dos Símbolos Nacionais (1971); Bandeira Nacional; inscrição; Justiça social"
+      }
+    },
+    {
+      "id": "camara:2655541",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5909/2026",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655541",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199128",
+      "extra": {
+        "indexacao": "alteração; Lei federal; Agente comunitário de saúde; Agente de combate às endemias; Adicional de insalubridade; Grau de insalubridade; Salário base; Vencimento básico; Equipamento de proteção individual; Consolidação das Leis do Trabalho (CLT) (1943); Esgoto sanitário; Lixo doméstico; Água contaminada"
+      }
+    },
+    {
+      "id": "camara:2655542",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5910/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655542",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199129",
+      "extra": {
+        "indexacao": "Alteração; Código Penal (1940); Lei Ruth Brilhante (2006); Agente comunitário de saúde; Agente de combate às endemias; Aumento da pena; Segurança do trabalho; Lesão corporal; Constrangimento; Homicídio; Crime contra a pessoa; Feminicídio; Violência contra a mulher; Agressão contra o trabalhador em horário no exercício do labor; Ameaça contra o trabalhador em horário no exercício do labor"
+      }
+    },
+    {
+      "id": "camara:2655580",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5911/2026",
+      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655580",
+      "autores": [
+        {
+          "nome": "Murilo Galdino",
+          "partido": "REPUBLICANOS",
+          "uf": "PB"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199282",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655581",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5912/2026",
+      "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655581",
+      "autores": [
+        {
+          "nome": "Josivaldo JP",
+          "partido": "UNIÃO",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199284",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655598",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5913/2026",
+      "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655598",
+      "autores": [
+        {
+          "nome": "Baleia Rossi",
+          "partido": "MDB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199312",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655613",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5914/2026",
+      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655613",
+      "autores": [
+        {
+          "nome": "Alice Portugal",
+          "partido": "PCdoB",
+          "uf": "BA"
+        },
+        {
+          "nome": "Daiana Santos",
+          "partido": "PCdoB",
+          "uf": "RS"
+        },
+        {
+          "nome": "Daniel Almeida",
+          "partido": "PCdoB",
+          "uf": "BA"
+        },
+        {
+          "nome": "Enfermeira Rejane",
+          "partido": "PCdoB",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Gervásio Maia",
+          "partido": "PCdoB",
+          "uf": "PB"
+        },
+        {
+          "nome": "Inácio Arruda",
+          "partido": "PCdoB",
+          "uf": "CE"
+        },
+        {
+          "nome": "Jandira Feghali",
+          "partido": "PCdoB",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Márcio Jerry",
+          "partido": "PCdoB",
+          "uf": "MA"
+        },
+        {
+          "nome": "Orlando Silva",
+          "partido": "PCdoB",
+          "uf": "SP"
+        },
+        {
+          "nome": "Pedro Uczai",
+          "partido": "PT",
+          "uf": "SC"
+        },
+        {
+          "nome": "Professora Marcivania",
+          "partido": "PCdoB",
+          "uf": "AP"
+        },
+        {
+          "nome": "Renildo Calheiros",
+          "partido": "PCdoB",
+          "uf": "PE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199342",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655664",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5916/2026",
+      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+      "data": "2026-11-19",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655664",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199468",
+      "extra": {
+        "indexacao": "alteração; Lei dos Crimes Hediondos (1990); Código de Trânsito Brasileiro (1997); Crime hediondo; Homicídio; Veículo automotor; Embriaguez; Entorpecente; Disputa automobilística ilegal; proibição; Fiança; anistia; Graça (direito penal); Indulto; Pena; Regime fechado"
+      }
+    }
+  ],
+  "noticias": [
+    {
+      "id": "imprensa:agenciabrasil:630c7c3fa4b3",
+      "fonte": "imprensa:agenciabrasil",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "\"O sistema financeiro não vai me ensinar a dirigir o Brasil\", diz Lula",
+      "ementa": "O presidente Luiz Inácio Lula da Silva defendeu neste sábado (21), durante live nas redes sociais, o projeto de ajuste fiscal do governo e criticou o chamado mercado financeiro por, segundo ele, questionar a seriedade do governo no trato com o gasto público. O texto do ajuste foi aprovado pelo Senado e será analisado na próxima semana pela Câmara dos Deputados. Notícias relacionadas: Lula presta solidariedade à cidade gaúcha devastada por tempestade. Lula promete manter direitos e diz que contro",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil",
+        "secao": "politica",
+        "texto": "O presidente Luiz Inácio Lula da Silva defendeu neste sábado (21), durante live nas redes sociais, o projeto de ajuste fiscal do governo e criticou o chamado mercado financeiro por, segundo ele, questionar a seriedade do governo no trato com o gasto público. O texto do ajuste foi aprovado pelo Senado e será analisado na próxima semana pela Câmara dos Deputados. A previsão é reduzir despesas e ampliar a arrecadação, gerando uma economia estimada entre R$ 45,1 bilhões e R$ 56,1 bilhões em 2027 aos cofres públicos federais. \"O mercado sabe porque me conhece, eu fui o presidente que mais fiz superávit primário nesse país. O que eu não posso ficar aceitando é que esse bando de yuppie da Faria Lima fique querendo, toda hora, questionar a seriedade do governo.\" De acordo com Lula, essa parcela do empresariado não está preocupada com os pobres, e sim, em ganhar mais dinheiro. \"Quem está preocupado com o povo pobre sou eu, é o meu governo e é você que votou em mim. Não é o sistema financeiro que vai me ensinar a dirigir o país\", afirmou. O termo yuppie, citado por Lula, é a expressão derivada do inglês young urban professional, que significa jovem profissional urbano, na tradução para o português. O termo foi popularizado nos anos 1980 para designar jovens executivos e profissionais de classe média alta, associados à ambição de ascensão econômica, ao consumo de luxo e à valorização do sucesso financeiro. A live, comandada pelo deputado federal André Janones (Rede-MG), que coordena o grupo Exército do Lula, foi transmitida nas redes sociais de Lula . A gravação ocorreu na residência oficial da Granja do Torto, casa de campo da Presidência da República, nos arredores do Plano Piloto, área central de Brasília. As lives do Exército de Lula têm sido uma nova estratégia de comunicação do presidente após o sucesso nas redes socais durante campanha eleitoral. Na transmissão, o presidente também rebateu críticas de lideranças políticas da própria esquerda, que nos últimos dias questionaram o ajuste por reduzir despesas do governo. \"Você [Janones] estava comigo nas Filipinas quando saiu a notícia de uma gritaria a respeito de uma suposta reforma fiscal. Na verdade, não houve uma reforma fiscal. O que houve foi um ajuste para que o orçamento da União permita que a gente tenha governança sobre o orçamento ano que vem. Se a gente não tem controle do orçamento, a gente não consegue governar\", acrescentou. Como já havia dito há poucos dias, Lula reafirmou que, em nenhuma hipótese, vai tirar recurso dos pobres para controlar o orçamento. Ao detalhar que cerca de R$ 33 bilhões do ajuste fiscal serão viabilizados com redução de isenções fiscais e limitações de compensações tributárias para grandes empresas, sem corte de programas sociais, o presidente elogiou o trabalho feito pelo ministro do Planejamento, Bruno Moretti, que desenhou o projeto. \"Quando você tem pressa em fazer julgamento, você pode condenar a pessoa errada. O Bruno Moretti é uma das pessoas mais sérias que o meu governo tem. E, possivelmente, um dos economistas mais competentes que o governo tem. E, possivelmente, o cara que mais entende de orçamento nesse país. Eu conheço o Bruno Moretti e ele jamais iria me propor cortar um centavo do povo pobre\", destacou. Ao responder a pergunta de uma espectadora, lida por Janones, o presidente negou que seu próximo governo aumentará a idade mínima da aposentadoria, mas defendeu rigor na fiscalização de irregularidades na Previdência Social. \"Nesse mandato não haverá aumento de idade [de aposentadoria] para as pessoas. O que nós precisamos é cuidar de uma fiscalização correta para que a gente evite que haja abuso com o dinheiro da Previdência. É só isso que vamos fazer\". Em seguida, Lula reafirmou que o salário mínimo continuará a ser reajustado acima da inflação e disse que, sem essa política adotada em seus governos, o piso nacional seria, atualmente, de apenas R$ 900. O presidente anunciou que vai criar um ministério voltado à população idosa. O"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:fc3c3ed55060",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Fim da escala 6x1: veja o que muda nas folgas, horas extras e jornadas após decreto de Lula",
+      "ementa": "Lula assina decreto com regras para o fim da escala 6x1 O fim da escala 6x1 avançou para uma nova etapa nesta semana. Depois que o Congresso promulgou a emenda constitucional, o Supremo Tribunal Federal (STF) definiu regras para a transição. Nesta quinta-feira (19), o presidente Luiz Inácio Lula da Silva (PT) assinou o decreto que regulamenta a aplicação das mudanças. 🗒️Tem alguma sugestão de reportagem? Mande para o g1 Com isso, foram esclarecidas algumas das principais dúvidas de trabalhadores",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/21/fim-da-escala-6x1-veja-o-que-muda-nas-folgas-horas-extras-e-jornadas-apos-decreto-de-lula.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:folha:37b344ce5387",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ministério das Mulheres vai criar política de proteção contra violência política de gênero e raça",
+      "ementa": "O Ministério das Mulheres está elaborando uma política nacional de enfrentamento à violência política de gênero e raça . A proposta deve ser incorporada ao Plano Nacional de Políticas para Mulheres, com lançamento previsto ainda em 2026. A criação da política atende a uma demanda de entidades que participaram de um grupo interministerial sobre o tema, criado em 2023 e integrado pelos ministérios das Mulheres , dos Direitos Humanos , da Justiça, da Igualdade Racial e dos Povos Indígenas . Leia ma",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/ministerio-das-mulheres-vai-criar-politica-de-protecao-contra-violencia-politica-de-genero-e-raca.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:9b56fd9827e5",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Os riscos políticos do ajuste fiscal",
+      "ementa": "Conforme vai ficando claro que a proposta de André Lara Resende tem problemas sérios, e também exige um ajuste fiscal duro; e que não, o plano Moretti não é estelionato eleitoral , ganha espaço na esquerda um argumento político contra o ajuste fiscal. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/celso-rocha-de-barros/2026/11/os-riscos-politicos-do-ajuste-fiscal.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:e9ac6bddc7d7",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo Lula avalia enviar projeto próprio para limitar supersalários na administração pública",
+      "ementa": "O governo de Luiz Inácio Lula da Silva (PT) avalia enviar um projeto de iniciativa do Poder Executivo para regulamentar o teto remuneratório do funcionalismo, hoje em R$ 46.366,19 mensais. O objetivo da medida é extinguir os chamados supersalários , que chegam a ultrapassar os R$ 100 mil mensais turbinados por penduricalhos pagos fora do limite. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/governo-lula-avalia-enviar-projeto-proprio-para-limitar-supersalarios-na-administracao-publica.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:58065ece10c2",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Gonet analisa relatórios sobre ministros do STF pressionado por sua relação com Vorcaro",
+      "ementa": "O procurador-geral da República, Paulo Gonet , faz parte da coordenação do núcleo que analisa os relatórios da Polícia Federal sobre menções a ministros do STF (Supremo Tribunal Federal) no caso Master, enquanto ele próprio é questionado sobre sua relação com o então dono do banco, Daniel Vorcaro . Leia mais (11/21/2026 - 12h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/gonet-analisa-relatorios-sobre-ministros-do-stf-pressionado-por-sua-relacao-com-vorcaro.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:f5859ac27642",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Senadores ainda defendem PEC que regulamenta fim da 6x1, apesar de decreto e portarias do governo",
+      "ementa": "Apesar das portarias que o governo Lula deve publicar com regras para categorias específicas sobre o fim da escala 6x1 , o Senado ainda pretende discutir uma PEC (Proposta de Emenda à Constituição) que regulamente a nova jornada em casos específicos. Leia mais (11/21/2026 - 06h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/senadores-ainda-defendem-pec-que-regulamenta-fim-da-6x1-apesar-de-decreto-e-portarias-do-governo.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:3fd986509556",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Embate na esquerda sobre ajuste fiscal lembra disputa que deu origem ao PSOL em 2003",
+      "ementa": "O texto aborda o racha na esquerda provocado pelo ajuste fiscal do governo Lula (2026), comparando as divergências atuais com a crise interna do PT vivido em 2003, durante a Reforma da Previdência que resultou. Na expulsão de quatro integrantes do PT.",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/voce-sabia-curiosidades-politica/embate-na-esquerda-sobre-ajuste-fiscal-lembra-disputa-que-deu-origem-ao-psol-em-2003/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:1fa88b390f0f",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Alexandre de Moraes ordena apreensão do passaporte de Flávio Bolsonaro",
+      "ementa": "Entenda por que Alexandre de Moraes determinou a apreensão do passaporte de Flávio Bolsonaro e as investigações sobre ligações com o advogado Willer Tomaz.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/alexandre-de-moraes-ordena-apreensao-do-passaporte-de-flavio-bolsonaro/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:8b8025d48c49",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Resumo da semana: ajuste fiscal de Lula gera racha na base do governo e protestos nas ruas",
+      "ementa": "Os principais assuntos da semana estão reunidos no especial de melhores momentos do Gazeta Agora. Acompanhe.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/resumo-da-semana-ajuste-fiscal-de-lula-gera-racha-na-base-do-governo-e-protestos-nas-ruas/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:23b2a522c845",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Fala de Flávio contra resultado da eleição motivou Moraes a apreender passaporte",
+      "ementa": "Pronunciamento de Flávio Bolsonaro contra reeleição de Lula foi citada por Alexandre de Moraes em ordem para apreender passaportes.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/fala-de-flavio-contra-resultado-da-eleicao-motivou-moraes-a-apreender-passaporte/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:5229a373f211",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula reage a críticas da esquerda ao ajuste fiscal e ataca “yuppies da Faria Lima”",
+      "ementa": "Lula reage às críticas da esquerda ao ajuste fiscal, ataca a Faria Lima e reafirma compromisso com reajustes reais do salário mínimo.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/economia/lula-reage-a-criticas-da-esquerda-ao-ajuste-fiscal-e-ataca-yuppies-da-faria-lima/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:ba6c9b5db570",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula diz que os que criticam o governo ‘já estavam celebrando a vitória do adversário’",
+      "ementa": "O presidente também afirmou 'estranhar' a reação de parte da esquerda, que tem criticado o projeto de ajuste fiscal",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/lula-diz-que-os-que-criticam-o-governo-ja-estavam-celebrando-a-vitoria-do-adversario/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:ae9cbcdef343",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "‘Não é o sistema financeiro que vai me ensinar a dirigir o País’, diz Lula",
+      "ementa": "Lula disse a frase ao defender o pacote fiscal proposto pelo governo federal e que vem recebendo críticas do mercado e do campo progressista O post ‘Não é o sistema financeiro que vai me ensinar a dirigir o País’, diz Lula apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/nao-e-o-sistema-financeiro-que-vai-me-ensinar-a-dirigir-o-pais-diz-lula/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:agenciabrasil:71fd0ab370ad",
+      "fonte": "imprensa:agenciabrasil",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ex-presidente Jair Bolsonaro está internado em UTI no Distrito Federal",
+      "ementa": "O ex-presidente da República Jair Messias Bolsonaro está internado em unidade de terapia intensiva (UTI), no Hospital DF Star, em Brasília, com o diagnóstico de abdômen agudo obstrutivo. Segundo o boletim médico divulgado pelo hospital neste sábado (21), foram iniciadas medidas clínicas como hidratação, manutenção do jejum oral com suporte nutricional e passagem de sonda gástrica. “No momento encontra-se estável clinicamente, consciente, orientado e em respiração espontânea”, diz o texto. Não há",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil",
+        "secao": "politica",
+        "texto": "O ex-presidente da República Jair Messias Bolsonaro está internado em unidade de terapia intensiva (UTI), no Hospital DF Star, em Brasília, com o diagnóstico de abdômen agudo obstrutivo. Segundo o boletim médico divulgado pelo hospital neste sábado (21), foram iniciadas medidas clínicas como hidratação, manutenção do jejum oral com suporte nutricional e passagem de sonda gástrica. “No momento encontra-se estável clinicamente, consciente, orientado e em respiração espontânea”, diz o texto. Não há previsão de alta hospitalar. O ex-presidente passou mal nesta sexta-feira (20) e foi levado ao Hospital DF Star para receber atendimento médico. Na ocasião, a ocorrência foi confirmada pelo seu filho Carlos Bolsonaro. De acordo com o hospital, Bolsonaro deu entrada com quadro de dor e distensão abdominal. Bolsonaro, que está em prisão domiciliar, sentiu fortes dores abdominais e foi atendido por seu médico particular, que recomendou seu deslocamento para a unidade hospitalar, onde deverá realizar exames. O trajeto foi acompanhado por viaturas da Polícia Militar, responsáveis pelo monitoramento da residência do ex-presidente. No ano passado, Bolsonaro foi condenado a 27 anos e três meses de prisão no processo da trama golpista. Após passar por uma cirurgia, obteve o direito de cumprir a pena em prisão domiciliar. O ex-presidente também se recupera de uma pneumonia bacteriana. Visita dos filhos O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorizou, neste sábado, que os filhos e a enteada de Jair Bolsonaro — Carlos Nantes Bolsonaro, Jair Renan Valle Bolsonaro, Laura Firmo Bolsonaro e Letícia Marianna Firmo da Silva — possam visitá-lo pelo período que durar a internação, respeitados os horários de visita e as regras de segurança do hospital DF Star. É vedado, no entanto, o ingresso de celulares, câmeras ou quaisquer outros aparelhos eletrônicos que possam registrar imagens ou áudios do custodiado."
+      }
+    },
+    {
+      "id": "imprensa:agenciabrasil:6bba826ac8f9",
+      "fonte": "imprensa:agenciabrasil",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula presta solidariedade à cidade gaúcha devastada por tempestade",
+      "ementa": "O presidente Luiz Inácio Lula da Silva prestou solidariedade neste sábado (21) aos atingidos pelas tempestades no Rio Grande do Sul . O temporal devastou a cidade de Tupanciretã , na madrugada de sexta-feira (20). Três pessoas morreram e há cerca de 60 feridos. \"Vamos dar nossa solidariedade ao povo da cidade de Tupanciretã, no Rio Grande do Sul, porque teve um tornado lá. A informação que eu tive ontem é que, de 8,6 mil casas, 8 mil tiveram destelhamento, escolas [também]\", afirmou o presidente",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-presta-solidariedade-cidade-gaucha-devastada-por-tempestade",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil",
+        "secao": "politica",
+        "texto": "O presidente Luiz Inácio Lula da Silva prestou solidariedade neste sábado (21) aos atingidos pelas tempestades no Rio Grande do Sul . O temporal devastou a cidade de Tupanciretã , na madrugada de sexta-feira (20). Três pessoas morreram e há cerca de 60 feridos. \"Vamos dar nossa solidariedade ao povo da cidade de Tupanciretã, no Rio Grande do Sul, porque teve um tornado lá. A informação que eu tive ontem é que, de 8,6 mil casas, 8 mil tiveram destelhamento, escolas [também]\", afirmou o presidente no início de uma live , com apresentação do deputado federal André Janones (Rede-MG), e veiculada pelas redes sociais . A transmissão ocorreu a partir da residência oficial da Granja do Torto, em Brasília. Lula também destacou a presença de autoridades do governo federal na cidade, como os ministros da Integração Nacional, Waldez Góes, e da Saúde, Alexandre Padilha, além das pastas da Casa Civil, do Desenvolvimento Agrário e do Desenvolvimento e Assistência Social, Família e Combate à Fome, que vão atuar nas localidades junto com representantes do governo estadual, incluindo o governador eleito, Luciano Zucco (PL). \"Vamos, mais uma vez, fazer todo o esforço possível para que a gente recupere a normalidade na cidade de Tupanciertã\", acrescentou Lula. Logo no começo da transmissão, o presidente disse que nunca havia ficado com rouquidão por tanto tempo, quadro que ele enfrenta por mais de uma semana. \"Espero que nos próximos dias eu esteja 100% curado\", afirmou, ao destacar que os diversos exames não apontaram nenhuma anormalidade preocupante. Para o presidente, os sintomas podem ser resultado do cansaço após um desgastante processo eleitoral. A rouquidão de Lula chegou a fazer com que o ministro do Meio Ambiente e Mudança do Clima, João Paulo Capobianco, lesse seu discurso durante a 31ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP31), na semana passada. Sobre COP31 , em Antália, no sul da Turquia, o presidente destacou o que considera a presença nesta edição a mais importante do país na história da COPs. \"Desta vez, o Brasil chegou altamente preparado com propostas. Foi o país que apresentou as melhores propostas\", disse Lula. Ele enfatizou, por exemplo, a proposta do mapa do caminho para o afastamento dos combustíveis fósseis, que são os principais causadores das mudanças climáticas, e da necessidade de garantir financiamento para que os países, especialmente os mais pobres, possam fazer uma transição justa. Ainda sobre as eleições, em que obteve virada histórica , Lula disse que havia grande expectativa no mundo inteiro. \"Houve um medo quando eu não ganhei no primeiro turno as eleições. Houve um certo pavor no mundo inteiro. Se o Brasil perdesse, seria uma derrota simbólica do país mais importante da América Latina, que ia perder o regime democrático. Então, o mundo inteiro estava inquieto.\" Lula confirmou que irá, na próxima sexta-feira (27), à Universidade Federal Fluminense (UFF), em Niterói (RJ), para agradecer aos estudantes que realizaram a primeira mobilização de rua após o primeiro turno das eleições, o que, segundo o presidente, impulsionou grandes marchas populares no país inteiro. \"Na sexta-feira da semana que vem, eu quero ir na Universidade [Federal] Fluminense, em Niterói, para fazer um agradecimento à coragem e à ousadia dos estudantes, que começaram a reviravolta da eleição no segundo turno.\""
+      }
+    },
+    {
+      "id": "imprensa:g1:3300b18ccb24",
+      "fonte": "imprensa:g1",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Bolsonaro tem obstrução intestinal, está na UTI, estável e sem previsão de alta, diz hospital",
+      "ementa": "Bolsonaro está na UTI em estado estável, diz boletim médico O ex-presidente Jair Bolsonaro está internado em unidade de terapia intensiva com o diagnóstico de abdômen agudo obstrutivo, informou o hospital DF Star na tarde deste sábado (21). Ele foi internado na tarde desta sexta-feira (20), após sentir dores abdominais. Segundo o boletim médico, \"foram iniciadas medidas clínicas como hidratação, manutenção do jejum oral com suporte nutricional e passagem de sonda gástrica\". Ainda segundo o bolet",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/bolsonaro-tem-obstrucao-intestinal-quadro-estavel-e-segue-sem-previsao-de-alta-diz-boletim-medico.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1:46729dbb8b8b",
+      "fonte": "imprensa:g1",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes atende a pedido e autoriza visitas diárias de filhos a Bolsonaro durante a internação",
+      "ementa": "Moraes atende a pedido e autoriza visitas diárias de filhos a Bolsonaro durante internação O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorizou que três filhos de Jair Bolsonaro — Carlos, Jair Renan e a filha menor de idade — possam visitar o ex-presidente diariamente enquanto durar sua internação no Hospital DF Star, em Brasília. O magistrado atendeu a um pedido feito em caráter de urgência pela defesa do ex-presidente. A autorização também vale para a enteada Letícia Fi",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/moraes-atende-a-pedido-e-autoriza-visitas-diarias-de-filhos-a-bolsonaro-durante-a-internacao.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1:e166a60f4730",
+      "fonte": "imprensa:g1",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula diz que projeto aprovado no Senado não é 'reforma fiscal', mas ajuste para Orçamento de 2027, e critica Faria Lima",
+      "ementa": "Lula critica aliados que se opuseram ao ajuste O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (21) que o projeto fiscal aprovado pelo Senado nesta semana não é uma \"reforma\", mas um \"ajuste\" orçamentário para o ano de 2027. O petista deu as declarações durante uma live com o deputado federal André Janones (Rede-MG), que, na campanha eleitoral de outubro, coordenou o canal de mensagens \"Exército do Lula\" no WhatsApp. Na transmissão feita nas redes sociais, o presidente voltou a ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/lula-diz-que-projeto-aprovado-no-senado-nao-e-reforma-fiscal-mas-ajuste-para-orcamento-de-2027-e-critica-faria-lima.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1:e085e2fdd076",
+      "fonte": "imprensa:g1",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Defesa de Bolsonaro pede a Moraes autorização para visitas diárias de filhos durante internação",
+      "ementa": "A defesa de Jair Bolsonaro pediu neste sábado (21) ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), autorização para que três de seus filhos — Carlos, Jair Renan e a filha menor de idade — possam visitar o ex-presidente diariamente enquanto durar sua internação no Hospital DF Star, em Brasília. Bolsonaro deu entrada no hospital particular na tarde desta sexta-feira (20) após apresentar um quadro de dor e distensão abdominal. \"Diante da nova circunstância e considerando o perío",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/defesa-de-bolsonaro-pede-a-moraes-autorizacao-para-visitas-diarias-de-filhos-durante-internacao.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1:5c148ca0e1a3",
+      "fonte": "imprensa:g1",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "A um mês do recesso, Fachin tenta avançar com agenda de reformas no STF, mas enfrenta resistências",
+      "ementa": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, tenta avançar, a um mês do início do recesso, com pautas internas que dividem a Suprema Corte. O STF entra em recesso formalmente no dia 20 de dezembro. São três questões centrais da agenda de Fachin que ainda enfrentam resistência e podem se estender para 2027: reforma do sistema de Justiça; código de ética para ministros dos Tribunais Superiores; e relatórios da PF sobre menções a ministros e parentes no caso Master. Fachin",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/a-um-mes-do-recesso-fachin-tenta-avancar-com-agenda-de-reformas-no-stf-mas-enfrenta-resistencias.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:0765722b6c6e",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Brasil recebe 7,5 milhões de turistas estrangeiros e supera meta do ano com dois meses de antecedência",
+      "ementa": "Estrangeiros gastam mais de R$ 45 bi no Brasil O turismo internacional está batendo recordes no Brasil esse ano. E o valor gasto por estrangeiros já é o maior registrado pelo Ministério do Turismo. 📱Favorite o g1 no Google e acompanhe as principais notícias do dia Uma casquinha de sorvete aqui. Um prato de galinha caipira ali. E vai somando… Passeios, viagens, diárias. Cada gasto entra na contabilidade dessa cifra volumosa: R$ 45,6 bilhões. Foi o que os turistas estrangeiros movimentaram no Bras",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2026/11/21/brasil-recebe-75-milhoes-de-turistas-estrangeiros-e-supera-meta-do-ano-com-dois-meses-de-antecedencia.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:d19a79c531d1",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Joe Wallach, um dos executivos que participaram da inauguração da Globo, morre aos 103 anos",
+      "ementa": "Joe Wallach morre aos 103 anos Joe Wallach, executivo americano que participou da fundação da TV Globo e colaborou com a emissora durante décadas, morreu aos 103 anos. Ele vivia em Los Angeles, na Califórnia (EUA). Wallach chegou ao Brasil em 1965 para participar do acordo assinado por Roberto Marinho com o grupo Time-Life para a fundação da TV Globo. O americano prestou assessoria técnica e treinou profissionais. Na década de 1970, ele se tornou diretor-executivo da emissora. Joe Wallach em seu",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/11/21/joe-wallach-morre-aos-103-anos.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:e166a60f4730",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula diz que projeto aprovado no Senado não é 'reforma fiscal', mas ajuste para Orçamento de 2027, e critica Faria Lima",
+      "ementa": "Lula critica aliados que se opuseram ao ajuste O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (21) que o projeto fiscal aprovado pelo Senado nesta semana não é uma \"reforma\", mas um \"ajuste\" orçamentário para o ano de 2027. O petista deu as declarações durante uma live com o deputado federal André Janones (Rede-MG), que, na campanha eleitoral de outubro, coordenou o canal de mensagens \"Exército do Lula\" no WhatsApp. Na transmissão feita nas redes sociais, o presidente voltou a ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/21/lula-diz-que-projeto-aprovado-no-senado-nao-e-reforma-fiscal-mas-ajuste-para-orcamento-de-2027-e-critica-faria-lima.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:e7f6226b1d77",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "União Europeia propõe taxar big techs para financiar orçamento até 2034",
+      "ementa": "Bandeiras da União Europeia Stephanie Lecocq/Reuters A União Europeia apresentou neste sábado (21) uma proposta para o orçamento de longo prazo do bloco, que valerá de 2028 a 2034. Entre as medidas previstas está a criação de uma cobrança anual sobre receitas de grandes empresas de tecnologia, incluindo ganhos com publicidade online, serviços digitais e uso de dados de usuários. A proposta foi elaborada pelo presidente do Conselho Europeu, António Costa, em conjunto com a presidente da Comissão ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/21/uniao-europeia-propoe-taxar-big-techs-para-financiar-orcamento-ate-2034.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:67992d15fbc8",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
+      "ementa": "Interrupções de serviços e falhas de informática são comuns, mas não a esta escala. Na última semana, a Microsoft sofreu uma interrupção em massa dos seus serviços. Uma aparente falha técnica causou a suspensão de todos os voos nos Estados Unidos por horas. E também foram detectados problemas nos sistemas de comunicação da Agência de Segurança Nacional americana (NSA, na sigla em inglês). 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 Isso sem falar nas interrupções que atingiram os princ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/21/ataques-ciberneticos-ia-ou-atualizacoes-pendentes-o-que-ha-por-tras-da-onda-de-apagoes-dos-ultimos-dias.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:6f5390a91b2d",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "O que aprendi ao passar 14 anos acompanhando famílias que não saem da pobreza: 'Muito além de decisões pessoais'",
+      "ementa": "Andrés Ruiz é um jornalista e documentarista colombiano Andrés Ruiz/Arquivo Pessoal via BBC A Colômbia é o país mais desigual da América Latina e um dos mais desiguais do mundo, segundo o índice de Gini do Banco Mundial. Também se sabe, graças a um estudo da OCDE (Organização para a Cooperação e Desenvolvimento Econômico), que, no país, são necessárias 11 gerações para que uma criança consiga sair da pobreza, entre outras razões porque o acesso à educação não é garantido e existe uma diferença m",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/21/o-que-aprendi-ao-passar-14-anos-acompanhando-familias-que-nao-saem-da-pobreza-muito-alem-de-decisoes-pessoais.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:da12cf2eeae0",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'Skincare comestível': gelatina com frutas viraliza como fonte de colágeno, mas funciona?",
+      "ementa": "Mulher escolhendo frutas enquanto faz compras no mercado Reprodução/Freepik Uma nova tendência de cuidados com a pele viralizou nas últimas semanas: o \"skincare comestível\". Trata-se de uma receita de gelatina sem sabor com frutas como uva, morango, framboesa, manga, entre outras. Há também variações com ingredientes como chia ou outras sementes. Os vídeos alcançaram milhões de visualizações nas redes. A receita é mencionada como uma forma de cuidar da pele se alimentando com ingredientes que es",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/saude/noticia/2026/11/21/skincare-comestivel-gelatina-com-frutas-viraliza-como-fonte-de-colageno.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:1cf4cee7fe6b",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Por que o México arrecada tão poucos impostos (e como financia seus crescentes benefícios sociais)",
+      "ementa": "Por que o México arrecada tão poucos impostos (e como financia seus crescentes benefícios sociais) Getty Images via BBC Uma das ferramentas mais antigas da gestão pública. Seu propósito é garantir serviços de luz, água ou ordem pública. Mas, no México, ele é conhecido como uma \"anomalia fiscal\". Estamos falando do básico e universal imposto predial, cobrado pelo governo dos proprietários de terrenos, apartamentos ou outros imóveis, para financiar serviços locais. O famoso IPTU. 🗒️ Tem alguma sug",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/21/por-que-o-mexico-arrecada-tao-poucos-impostos-e-como-financia-seus-crescentes-beneficios-sociais.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:5ca20efa4602",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Dos algoritmos ao aroma: como a IA está mudando a criação de perfumes",
+      "ementa": "Mulher passando perfume. Ron Lach/Pexels Pode haver um toque de bergamota nas notas de saída, seguido por uma íris adocicada, mas, segundo especialistas do setor, uma dose notável de inteligência artificial (IA) está surgindo nos novos perfumes. O tradicional mundo da perfumaria não pôde ignorar as novas tecnologias e os algoritmos, embora o setor insista que a experiência sensorial humana jamais poderá ser totalmente substituída. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 A gigante a",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/21/dos-algoritmos-ao-aroma-como-a-ia-esta-mudando-a-criacao-de-perfumes.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:627860aee685",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Saída de Jensen Huang da Nvidia pode frear a onda da IA?",
+      "ementa": "Jensen Huang renunciou ao cargo em 12 de novembro. Getty Images via BBC A Nvidia e seu cofundador, Jensen Huang, estão no centro da onda de investimentos em inteligência artificial (IA). Poucas empresas ou executivos tiveram tanta influência sobre o desenvolvimento da IA nos últimos anos. Sob o comando de Huang, a fabricante americana de chips se tornou essencial para o avanço dessa tecnologia que está transformando o mundo. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 Essa parceria che",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/inovacao/noticia/2026/11/21/saida-de-jensen-huang-da-nvidia-pode-frear-a-onda-da-ia.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:3816435a63c3",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Como uma crise do café no Brasil abalou a Alemanha Oriental e fez do Vietnã uma potência",
+      "ementa": "Café. Rei do Café Na segunda metade dos anos 1970, o hábito de tomar café era rotina na República Democrática da Alemanha (RDA), como era chamada a antiga Alemanha Oriental comunista. Trabalhadores, burocratas, militares, agentes do regime, estudantes: o hábito de consumir a bebida estava por toda parte. Então, em 1977, veio um choque. Ao primeiro gole de café, muitos perceberam em suas papilas gustativas que algo havia mudado no sabor. Era o início da \"crise do café da Alemanha Oriental\", que e",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/21/como-uma-crise-do-cafe-no-brasil-abalou-a-alemanha-oriental-e-fez-do-vietna-uma-potencia.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:3ff8422ac89d",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Acerola na carne? Veja como a fruta virou conservante natural de alimentos nos EUA e na Europa",
+      "ementa": "Acerola na carne? Veja como a fruta virou conservante natural de alimentos A acerola ganhou uma função inesperada: ajudar a conservar a carne por mais tempo. A fruta, transformada em pó, passou a ser exportada para os Estados Unidos e a Europa, onde é usada para conservação de alimentos. 🗒️ Tem alguma sugestão de reportagem? Envie para o g1 Isso é possível porque a acerola tem propriedades antioxidantes, que ajudam a retardar o processo que altera a cor, o cheiro e a qualidade do alimento. Com i",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/21/acerola-na-carne-veja-como-a-fruta-virou-conservante-natural-de-alimentos-nos-eua-e-na-europa.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:g1-economia:7f0785242b35",
+      "fonte": "imprensa:g1-economia",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Comprar ou alugar? Veja o que considerar antes de decidir onde (e como) morar",
+      "ementa": "Vale a pena ter casa própria? Comprar ou alugar um imóvel depende da situação financeira e dos planos de cada pessoa. A casa própria traz segurança e, ao fim do financiamento, deixa um patrimônio para o proprietário. O aluguel oferece mais flexibilidade e permite investir o dinheiro que seria usado na compra. Quem compra à vista abre mão dos rendimentos que esse valor poderia gerar; quem financia paga juros; e quem aluga paga por um imóvel que não será seu. Para quem pretende ficar muitos anos n",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/g1-explica/noticia/2026/11/21/comprar-ou-alugar-veja-o-que-considerar-antes-de-decidir-onde-e-como-morar.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-economia",
+        "secao": "economia"
+      }
+    },
+    {
+      "id": "imprensa:folha:07c047a9c55b",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Metade dos reeleitos na Alesp faltou a 76% das sessões durante a campanha",
+      "ementa": "Metade dos parlamentares reeleitos compareceu a apenas um quarto das sessões ou reuniões plenárias agendadas para o período de campanha eleitoral, segundo a lista de presença dos deputados estaduais de São Paulo. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/metade-dos-reeleitos-na-alesp-faltou-a-76-das-sessoes-durante-a-campanha.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:0651debd5a50",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Entorno branco e masculino de Lula dificulta uma ministra negra no STF, diz ex-ministra do TSE",
+      "ementa": "Há uma cadeira vaga no STF (Supremo Tribunal Federal) e uma mobilização crescente de diferentes setores da sociedade para que seja uma ministra negra a ocupá-la. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/entorno-branco-e-masculino-de-lula-dificulta-uma-ministra-negra-no-stf-diz-ex-ministra-do-tse.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:a8984aa91a96",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Dos Três Grandes de 1945 sobrou um",
+      "ementa": "Na quinta-feira, os presidentes dos Estados Unidos, da China e da Rússia tiveram uma rodada de conversas na cidade de Shenzhen. São os novos Três Grandes. O paralelo com a reunião de 1945 na cidade russa de Ialta foi inevitável e surpreendente. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/eliogaspari/2026/11/dos-tres-grandes-de-1945-sobrou-um.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:c3c32b04136a",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "A infraestrutura invisível",
+      "ementa": "Quando economistas discutem os obstáculos ao crescimento brasileiro , a conversa quase sempre chega aos mesmos lugares: juros altos , carga tributária , baixa produtividade, desequilíbrio fiscal e deficiência da infraestrutura . Raramente chega ao sistema de Justiça. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/ana-paula-vescovi/2026/11/a-infraestrutura-invisivel.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:71aca05689b7",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Prorrogação do IPI será prioridade da equipe econômica após avanço do plano Moretti",
+      "ementa": "A aprovação do plano Moretti na Câmara dos Deputados não vai dar tranquilidade à equipe econômica do governo Lula , que já está preocupada com a PEC que prorroga a vigência do IPI (Imposto sobre Produtos Industrializados) em 2027. Leia mais (11/21/2026 - 23h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/prorrogacao-do-ipi-sera-prioridade-da-equipe-economica-apos-avanco-do-plano-moretti.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:1c6ca844b06d",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "O que Lula 4 deve fazer para intensificar proteção e mobilidade social",
+      "ementa": "[RESUMO] Coordenador do grupo de trabalho que definiu as bases do Bolsa Família em 2003, no primeiro governo Lula , economista analisa de que maneira o petista, em seu quarto mandato, pode abrir um novo ciclo democrático, comprometido com redução de desigualdades e mobilidade social significativa. Para viabilizar esses objetivos, propõe uma Política Social 4.0, na qual União, estados e municípios atuem de forma coordenada, usando inteligência e tecnologia para conectar pessoas e famílias aos ser",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/ilustrissima/2026/11/o-que-lula-4-deve-fazer-para-intensificar-protecao-e-mobilidade-social.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:f63b6194e86a",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "OAB-SP alerta STF que pejotização pode gerar perdas de R$ 200 bi por ano",
+      "ementa": "A OAB -SP entregou ao presidente do STF (Supremo Tribunal Federal), ministro Edson Fachin , uma nota técnica que aponta que a pejotização pode gerar perdas de arrecadação na ordem de R$ 200 bilhões por ano. Leia mais (11/21/2026 - 20h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/oab-sp-alerta-stf-que-pejotizacao-pode-gerar-perdas-de-r-200-bi-por-ano.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:7e0d426ab628",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Secretário de Tarcísio troca Palácio dos Bandeirantes por salas de Oxford por uma semana",
+      "ementa": "O secretário-chefe da Casa Civil do governo Tarcísio de Freitas , Nerylson Lima, vai trocar o Palácio dos Bandeirantes pelas salas de Oxford na próxima semana. Leia mais (11/21/2026 - 18h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/secretario-de-tarcisio-troca-palacio-dos-bandeirantes-por-salas-de-oxford-por-uma-semana.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:38bdefb213a5",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Radicais de direita e esquerda se unem nos equívocos",
+      "ementa": "Radicais de modo geral se equivocam mais ou menos da mesma maneira, independentemente do espectro ideológico a que pertençam. Leia mais (11/21/2026 - 16h45)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/11/radicais-de-direita-e-esquerda-se-unem-nos-equivocos.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:46d227ec5e01",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo do DF quer aproveitar estrutura de festival da posse de Lula para festa de Réveillon",
+      "ementa": "O governo do Distrito Federal planeja pedir ao governo federal a possibilidade de usar a estrutura que será montada para o festival com shows para a posse do presidente Lula (PT) para a festa de Réveillon na capital federal. Leia mais (11/21/2026 - 15h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-do-df-quer-aproveitar-estrutura-de-festival-da-posse-de-lula-para-festa-de-reveillon.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:e0d8f15c9a28",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Três Poderes: 'supersecretária' de Tarcísio é a vencedora da semana; Enel, a perdedora",
+      "ementa": "Vencedora da semana: Natália Resende, chamada de 'supersecretária' do governo Tarcísio, que ganhou poderes com a nova pasta do Planejamento, Orçamento e Investimentos e começa a ser vista como uma possível candidata futuramente. Leia mais (11/21/2026 - 12h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/tres-poderes-supersecretaria-de-tarcisio-e-a-vencedora-da-semana-enel-a-perdedora.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:1dd16f5ab690",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes autoriza visita de filhos de Bolsonaro no hospital; ex-presidente está na UTI",
+      "ementa": "O ministro Alexandre de Moraes , do STF (Supremo Tribunal Federal), atendeu à defesa do ex-presidente Jair Bolsonaro (PL) e autorizou neste sábado (21) visitas diárias de seus filhos ao hospital em que ele está internado. Leia mais (11/21/2026 - 10h59)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/defesa-de-bolsonaro-pede-para-moraes-autorizar-visitas-diarias-de-filhos-no-hospital.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:a3ceac7aad3a",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Comissão do PT que organiza posse de Lula avalia transferir gastos de festival para governo e criar feriado",
+      "ementa": "Uma comissão do PT que está trabalhando na organização da posse do presidente Lula planeja transferir para o governo federal os gastos com a estrutura do festival musical que deseja realizar na data, diferentemente do que ocorreu em 2023. Leia mais (11/21/2026 - 04h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/comissao-do-pt-que-organiza-posse-de-lula-avalia-transferir-gastos-de-festival-para-governo-e-criar-feriado.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:folha:abfa2536333a",
+      "fonte": "imprensa:folha",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Câmara envia ao Senado projeto que revoga Lei de Alienação Parental",
+      "ementa": "Esta é a edição da newsletter Todas . Quer recebê-la toda semana no seu email? Inscreva-se abaixo: Leia mais (11/21/2026 - 04h00)",
+      "data": "2026-11-21",
+      "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/camara-envia-ao-senado-projeto-que-revoga-lei-de-alienacao-parental.shtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "folha",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:0bb686da2248",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Zanin suspende Congresso do Cidadania, que incorporaria partido ao PP",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/zanin-suspende-congresso-do-cidadania-que-incorporaria-partido-ao-pp/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:30df6b4ee084",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ao confundir alhos com bugalhos, PF deu a Mendonça o papel de vítima",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/eliane-cantanhede/ao-confundir-alhos-com-bugalhos-pf-deu-a-mendonca-o-papel-de-vitima/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:1cd475d82f9f",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Bolsonaro segue em UTI em estado estável, mas sem previsão de alta, informa hospital",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/jair-bolsonaro-faz-limpeza-com-sonda-diz-carlos-npr/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:1f376302bcd8",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes autoriza visitas dos filhos a Bolsonaro durante internação, mas proíbe celulares e câmeras",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/blog-do-fausto-macedo/moraes-autoriza-visitas-dos-filhos-a-bolsonaro-durante-internacao-mas-proibe-celulares-e-cameras/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:b14d5af9c91b",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Travessias hídricas em SP: Concessionária inicia transição e inclui Pix nas formas de pagamento",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/travessias-hidricas-em-sp-concessionaria-inicia-transicao-e-inclui-pix-nas-formas-de-pagamento/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:259416635205",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "A Marísia, Manfred e Andreas, em algum lugar do silêncio",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/fernando-schuler/a-marisia-manfred-e-andreas-em-algum-lugar-do-silencio/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:1ed10d9bb655",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Mello Araújo, Erika Hilton, Tabata, Salles e Kim: direita e esquerda se dividem para 2028 em SP",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/mello-araujo-erika-hilton-tabata-salles-e-kim-direita-e-esquerda-se-dividem-para-2028-em-sp/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:estadao:7e6420da4928",
+      "fonte": "imprensa:estadao",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Bancos veem instabilidade com indefinição de Lula sobre sanção da renegociação de dívidas rurais",
+      "ementa": "",
+      "data": "2026-11-21",
+      "url": "https://www.estadao.com.br/politica/coluna-do-estadao/bancos-veem-instabilidade-com-indefinicao-de-lula-sobre-sancao-da-renegociacao-de-dividas-rurais/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "estadao",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:poder360:854c5336eaa9",
+      "fonte": "imprensa:poder360",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Sul terá temporais com rajadas de vento acima de 80 km/h no domingo",
+      "ementa": "Nova frente fria aumenta risco de vendavais e granizo; chuva pode atingir 120 mm em áreas do Rio Grande do Sul",
+      "data": "2026-11-21",
+      "url": "https://www.poder360.com.br/poder-brasil/sul-tera-temporais-com-rajadas-de-vento-acima-de-80-km-h-no-domingo/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "poder360",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:poder360:9000bfa170de",
+      "fonte": "imprensa:poder360",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Veja imagens dos estragos causados por vendavais no Sul do Brasil",
+      "ementa": "Temporais deixaram 5 mortos e 265 feridos no RS; Paraná registrou 2 tornados e Santa Catarina teve casas destelhadas",
+      "data": "2026-11-21",
+      "url": "https://www.poder360.com.br/poder-brasil/veja-imagens-dos-estragos-causados-por-vendavais-no-sul-do-brasil/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "poder360",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:poder360:da5c94a72e63",
+      "fonte": "imprensa:poder360",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Após viagem, Michelle vai a hospital em que Bolsonaro está internado",
+      "ementa": "Senadora eleita e ex-primeira-dama retornou de viagem neste sábado; ela estava em Israel desde a semana passada",
+      "data": "2026-11-21",
+      "url": "https://www.poder360.com.br/poder-gente/apos-viagem-michelle-vai-a-hospital-em-que-bolsonaro-esta-internado/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "poder360",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:fca3a86c5731",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "PL terá 20% do total de deputados estaduais para avançar com projetos da direita no país",
+      "ementa": "PL sai das urnas com o maior total de deputados estaduais: 212 eleitos nos estados e no DF. Leia na Gazeta do Povo.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/brasil/pl-deputados-estaduais-projetos-direita-pais/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    }
+  ],
+  "mundo": [
+    {
+      "id": "mundo:bbc-brasil:d509be6f8beb",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Os cidadãos impedidos pelo governo Ortega de voltar à Nicarágua: 'Sou ilegal no meu próprio país'",
+      "ementa": "ONU documentou ao menos 318 casos de nicaraguenses impedidos de entrar no próprio país entre junho de 2018 e agosto de 2025.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/c60rknr0jg4zo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:00da2be5088a",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Temporal no RS afeta 24 mil pessoas e deixa quatro mortos",
+      "ementa": "Uma supercélula provocou ventos de até 114 km/h no Rio Grande do Sul, atingindo 36 municípios. Quase 9 mil residências foram atingidas.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/temporal-no-rs-afeta-24-mil-pessoas-e-deixa-quatro-mortos/a-80011201?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:1d8aaf6657d3",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Manifestantes marcham em Lisboa contra aumento no custo de vida",
+      "ementa": "Milhares de pessoas marcharam pelo centro de Lisboa neste sábado (21), apesar da chuva forte, para protestar contra o aumento vertiginoso do custo de vida, o agravamento da crise imobiliária e os baixos salários. A Confederação Geral dos Trabalhadores Portugueses (CGTP), maior federação sindical de Portugal e organizadora do evento, pediu salários e aposentadorias mais altos, preços mais baixos para bens e serviços essenciais e medidas para conter os custos da moradia. Notícias relacionadas: Pro",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/manifestantes-marcham-em-lisboa-contra-aumento-no-custo-de-vida",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:26d6428ff7f8",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Por que aplaudir durante o pouso de um avião pode irritar as pessoas, segundo especialistas",
+      "ementa": "Segundos de aplausos quando um avião aterrissa podem provocar reações fortes entre os passageiros. Psicólogos analisam o que pode estar por trás deste comportamento.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/cm5y1xg8xqjqo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:43503f89d352",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Na COP31, embate sobre relatório climático ameaça negociações futuras",
+      "ementa": "Países divergem sobre quando divulgar a próxima avaliação do IPCC, principal referência científica para a política climática global. Calendário define se o documento orientará o próximo balanço do Acordo de Paris.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/na-cop31-embate-sobre-relatório-climático-ameaça-negociações-futuras/a-80011164?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:cfbc500f8f23",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Países vão negociar regulamentação de “robôs assassinos” até 2028",
+      "ementa": "As negociações da Organização da Nações Unidas (ONU) sobre a regulamentação de armas com pouca ou nenhuma supervisão humana terminaram neste sábado (21) com o compromisso de promover novas discussões para elaborar novas regras dentro de dois anos – resultado enfraquecido pela oposição da Rússia e que decepcionou grupos de direitos humanos. Os defensores da proposta haviam solicitado regras juridicamente vinculantes em curto prazo para regulamentar sistemas de armas capazes de identificar e ataca",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/paises-vao-negociar-regulamentacao-de-robos-assassinos-ate-2028",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:5a92697f7dc6",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'O futuro para mulheres na pós-menopausa não é catastrófico, é libertador'",
+      "ementa": "Em seu primeiro romance, a escritora venezuelana-peruana Melanie Pérez Arias usa a queda inexplicável de cabelo de uma mulher como ponto de partida para explorar identidade, perdas, corpo feminino e amizade.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/c94g1gk54e2ro?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:c9376ce6d2ce",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "México captura \"Chapo Isidro\", alvo da lista de mais procurados do FBI",
+      "ementa": "A detenção do líder do grupo Meza-Flores desencadeou confrontos, bloqueios de estradas e ataques de criminosos contra forças de segurança no estado de Sinaloa.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/méxico-captura-chapo-isidro-alvo-da-lista-de-mais-procurados-do-fbi/a-80010832?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:agenciabrasil-internacional:bbc1c45c8e75",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Terremoto de magnitude 6,8 graus atinge o Peru",
+      "ementa": "Um terremoto de magnitude 6,8 atingiu o centro do Peru nessa sexta-feira (20), informou o Centro Alemão de Pesquisa em Geociências. O tremor levou algumas pessoas na capital Lima, a saírem às ruas, embora não tenha havido relatos imediatos de vítimas ou danos significativos. O terremoto, que foi sentido na capital Lima, ocorreu na região andina de Junín, a uma profundidade de 129 km, segundo o Instituto Geofísico do Peru. Em Lima, moradores deixaram suas casas, e imagens de TV mostraram parlamen",
+      "data": "2026-11-21",
+      "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/terremoto-de-magnitude-68-graus-atinge-o-peru",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "agenciabrasil-internacional",
+        "organizacao": "Agência Brasil"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:4fff58af2958",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "'O câncer muda você': princesa Kate fala sobre doença em documentário da BBC",
+      "ementa": "“Há um aspecto muito, muito mais profundo no que um diagnóstico de câncer provoca em você”, diz Catherine no documentário.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/cr3wgxxzw81xo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:460809f53568",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "União Europeia propõe taxar big techs para financiar orçamento",
+      "ementa": "Proposta prevê cobrança de 3% sobre receitas de publicidade online de grandes empresas de tecnologia para ampliar as receitas do bloco.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/união-europeia-propõe-taxar-big-techs-para-financiar-orçamento/a-80010694?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:1df7662ca1cc",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Como governos Lula e Trump pretendem acabar com a 'guerra fria dos vistos diplomáticos'",
+      "ementa": "De um lado, EUA querem liberação para indicado de Trump atue como embaixador no Brasil. Do outro, governo Lula quer normalização de visto de embaixadora em Washington",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/cwz0k3r4npexo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:7a7008700e5a",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Como uma especialista em aves foi presa na Rússia por causa de US$ 30",
+      "ementa": "Renomada cientista dedicada ao estudo de espécies no Ártico, Sofia Rosenfeld está desde outubro em uma colônia penal. O motivo foi uma pequena doação à fundação de Alexei Navalny.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/como-uma-especialista-em-aves-foi-presa-na-rússia-por-causa-de-us-30/a-80010522?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:9d6c3efd7f6f",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Seu filho mente? Por que este pode ser um bom sinal",
+      "ementa": "Pesquisas demonstram que as mentiras e artimanhas das crianças podem começar em idade surpreendentemente baixa e nem sempre são algo de ruim.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/ckedqlnqg3yvo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:c5348b734e82",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "COP31 avança além do prazo e segue sem consenso sobre combustíveis fósseis",
+      "ementa": "Delegações seguem sem consenso após o prazo oficial, enquanto divergências sobre recursos para adaptação climática e linguagem do texto final elevam o risco de fracasso das negociações.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/cop31-avança-além-do-prazo-e-segue-sem-consenso-sobre-combustíveis-fósseis/a-80010347?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:0044c3485d42",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "O que uma antiga cidade subterrânea da Turquia pode nos ensinar sobre como escapar do calor e do frio extremos",
+      "ementa": "Há séculos, os habitantes da Capadócia, uma região histórica da Turquia, se esconderam no subsolo para fugir de seus inimigos. Lá, eles também encontraram refúgio contra as condições climáticas extremas.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/c5x2w0nvk0nwo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:7775a4c93ff3",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ucrânia bombardeia cargueiro russo na Finlândia",
+      "ementa": "Ofensiva em águas internacionais incendiou cargueiro e levou Finlândia a restringir espaço aéreo do país. Primeiro-ministro finlandês disse que Ucrânia tem \"direito à defesa\".",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/ucrânia-bombardeia-cargueiro-russo-na-finlândia/a-80010034?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:0fed2764e59f",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos últimos dias",
+      "ementa": "Microsoft, PHP, Java, o sistema de aviação: não existem provas de que os recentes problemas tecnológicos estejam relacionados, mas as seguidas ocorrências podem causar preocupações.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/articles/c3grendp775qo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:c1b96e9bf20e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ataque hacker atinge sistemas do FBI e do Departamento de Agricultura dos EUA",
+      "ementa": "É a segunda vez que agência de inteligência é alvo de invasões desde setembro. País vem passando por onda de incidentes cibernéticos em massa.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/ataque-hacker-atinge-sistemas-do-fbi-e-do-departamento-de-agricultura-dos-eua/a-80009746?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-brasil:a6fdc2bdd8fb",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "As medidas extremas da Coreia do Sul para combater a cola no vestibular",
+      "ementa": "A Coreia do Sul adota regras rigorosas para evitar fraudes no exame que dá acesso às universidades, com fiscalização e restrições que vão além da sala de prova.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.com/portuguese/watch/cqm2l4wpnn2xo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-brasil",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:33086d83d19f",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Discussão na ONU falha em proibir \"robôs assassinos\" por resistência de potências militares",
+      "ementa": "Discussão sobre proibição de armas autônomas letais foi adiada para 2028. Rússia, EUA, Israel e Reino Unido se opuseram à medida.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/discussão-na-onu-falha-em-proibir-robôs-assassinos-por-resistência-de-potências-militares/a-80009467?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:86c4e817690b",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Russia-bound ship attacked in Gulf of Finland",
+      "ementa": "Finnish defence forces say that Ukraine was likely behind the drone attack on the vessel.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:9e60f4677597",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Megaprisões na América Latina: solução ou problema?",
+      "ementa": "Presídio de segurança máxima com capacidade para até 40 mil detentos é um dos maiores trunfos do presidente de El Salvador. Para especialistas, porém, modelo tem mais impacto simbólico do que na redução da criminalidade.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/megaprisões-na-américa-latina-solução-ou-problema/a-80005196?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:48f549e40ad0",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "ementa": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-brasil:855594b8e6bf",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Sequestro de crianças como arma de guerra: Putin e o legado de Hitler",
+      "ementa": "A polonesa Barbara Paciorkiewicz foi levada pelos nazistas, enquanto a ucraniana Ksenija Koldin foi tirada da família na Rússia contemporânea. Elas falam sobre perda, separação forçada e o difícil retorno ao lar.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/pt-br/sequestro-de-crianças-como-arma-de-guerra-putin-e-o-legado-de-hitler/a-80007486?maca=bra-rss-br-all-1030-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-brasil",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:88af422b0866",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "ementa": "Ukraine's president says Kyiv acted after 109 separate Russian aerial attacks on bridges in Ukraine.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:06106032bc37",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Russian helicopter suspected of violating Finnish airspace",
+      "ementa": "Finland's Defense Ministry thinks the incursion is linked to a drone strike earlier Saturday on a Russian cargo ship, which is on a US sanctions list.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/russian-helicopter-suspected-of-violating-finnish-airspace/a-80010133?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:45201d2fd35b",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "FBI reportedly investigating apparent hack of its criminal database",
+      "ementa": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:a1b6e93c1720",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "EU and Indonesia sign trade deal",
+      "ementa": "A deal covering 730 million people promises lower tariffs and new investment opportunities as the European Union seeks to diversify trade ties amid growing global economic tensions.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:b4af86b6cf84",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Man convicted of starting Palisades fire in Los Angeles",
+      "ementa": "The 30-year-old LA resident was convicted of arson leading to wildfires that killed 12 people and destroyed more than 6,800 buildings.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:98c5e61ed5bf",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "New EU budget proposal aims at tax gobal tech giants",
+      "ementa": "European Council President Antonio Costa has proposed a smaller EU budget for 2028-2034, including a 3% tax on major digital firms to ease member states' contributions. France has already rejected the plan as inadequate.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/new-eu-budget-proposal-aims-at-tax-gobal-tech-giants/a-80009255?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:caa368e1c115",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lock of former US President George Washington's hair sells for $4,000",
+      "ementa": "The hair was given as a sign of friendship shortly before Washington's death in 1799, according to a descendent of its former owner.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:cbeed7399dad",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Russia strikes Zelenskyy's hometown, killing 2",
+      "ementa": "The attacks follow Russian President Vladimir Putin's vow of a \"painful\" response to Ukraine's attacks this week on the Kerch Bridge, linking Russian-occupied Crimea.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/russia-strikes-zelenskyy-s-hometown-killing-2/a-80009458?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:0c6a9c176423",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "ementa": "Brussels sources had previously suggested the bloc might not apply the wider deal until fees were lowered for EU students in Britain.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:db5700303947",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Anthropic researcher uses AI to solve math's greatest riddle",
+      "ementa": "The proposed breakthrough could reshape mathematical research, but still needs independent verification. It's the latest in a string of cases where AI has outpaced humans in solving famous maths problems.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/anthropic-researcher-uses-ai-to-solve-math-s-greatest-riddle/a-80008428?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:55c3376cce85",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "ementa": "The Russian embassy in Denmark has denied the allegation, which has led to Russia's defence attaché being expelled.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:ff19355f0cb8",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Man convicted of arson over deadly 2025 Palisades fire in Los Angeles",
+      "ementa": "A 30-year-old man has been convicted of causing one of the most destructive wildfires in the history of Los Angeles. The verdict came after the case was retried.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/man-convicted-of-arson-over-deadly-2025-palisades-fire-in-los-angeles/a-80007933?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:09f042383a83",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Trafalgar Square Christmas tree felled in Norway",
+      "ementa": "The 21m tree is Oslo’s annual thank you for Britain’s support during World War Two.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:dw-world:93613ac953c8",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Brazil ex-President Jair Bolsonaro taken to hospital over abdominal pain",
+      "ementa": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
+      "data": "2026-11-21",
+      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-world-4025-rdf",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "dw-world",
+        "organizacao": "DW"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:633d3b37de6e",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "ementa": "Earlier this week, Trump greeted Putin ahead of a meeting in China and said the pair have a \"great relationship\".",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:cca80141b2d3",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "How a teen gamer and his mother helped rescue a missing girl",
+      "ementa": "When 16-year-old Landon Tresp met a teenage girl in an online game, it led to him and his mother helping the FBI rescue her from kidnapping.",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    },
+    {
+      "id": "mundo:bbc-world:67c31da8ce5f",
+      "fonte": "mundo",
+      "nivel": "mundo",
+      "categoria": "mundo",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+      "ementa": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+      "data": "2026-11-21",
+      "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "bbc-world",
+        "organizacao": "BBC"
+      }
+    }
+  ],
+  "menores": [
+    {
+      "id": "camara:2655019",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 311/2026",
+      "ementa": "Altera a Lei Complementar nº 101, de 4 de maio de 2000, para estabelecer limites e condições para despesas públicas municipais com eventos artísticos e festivos.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655019",
+      "autores": [
+        {
+          "nome": "Fábio Teruel",
+          "partido": "MDB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198034",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655021",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5892/2026",
+      "ementa": "Dispõe sobre diretrizes para prevenção e enfrentamento do uso de dispositivos eletrônicos para fumar, com especial atenção a crianças, adolescentes e jovens.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655021",
+      "autores": [
+        {
+          "nome": "Tabata Amaral",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198036",
+      "extra": {
+        "indexacao": "diretrizes; enfrentamento; Dependência química; Dispositivo eletrônico para fumar (DEF); Cigarro eletrônico; Prevenção de doenças; Criança; Adolescente; Tabagismo; Campanha educativa; Promoção da saúde; Antitabagismo; Sistema Único de Saúde (SUS); Vigilância sanitária"
+      }
+    },
+    {
+      "id": "camara:2655025",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5893/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655025",
+      "autores": [
+        {
+          "nome": "Tabata Amaral",
+          "partido": "PSB",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198040",
+      "extra": {
+        "indexacao": "alteração; Estatuto da Criança e do Adolescente (ECA) (1990); acompanhamento; Criança; Diagnóstico médico; Doença rara; Triagem neonatal; Teste do Pezinho; Aconselhamento genético; Sistema Único de Saúde (SUS)"
+      }
+    },
+    {
+      "id": "camara:2655134",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5894/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655134",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198161",
+      "extra": {
+        "indexacao": "alteração; Código Penal (1940); Aumento da pena; Lesão corporal; Homicídio; Violência física; Agressor; Concurso de pessoas; escalonamento; proporcionalidade"
+      }
+    },
+    {
+      "id": "camara:2655184",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5895/2026",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655184",
+      "autores": [
+        {
+          "nome": "Luiz Carlos Motta",
+          "partido": "PL",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198350",
+      "extra": {
+        "indexacao": "Proteção social; Defesa; reconhecimento; Valorização; Comerciário; diretrizes; Política pública; Educação e formação profissional; prevenção; Fraude no comércio; Ambiente de trabalho; Igualdade de oportunidade; proteção; Dados pessoais; Saúde do trabalhador; Segurança do trabalho; Inclusão social; Condições de trabalho; Saúde mental; Lei Geral de Proteção de Dados Pessoais (LGPDP) (2018)"
+      }
+    },
+    {
+      "id": "camara:2655202",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5896/2026",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655202",
+      "autores": [
+        {
+          "nome": "Carlos Chiodini",
+          "partido": "MDB",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198392",
+      "extra": {
+        "indexacao": "Itaiópolis (SC); Santa Catarina; Homenagem; Título de capital nacional; Cultura (ciências sociais); Polônia; Ucrânia"
+      }
+    },
+    {
+      "id": "camara:2655210",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 312/2026",
+      "ementa": "Altera a Lei Complementar nº 64, de 18 de maio de 1990 (Lei das Inelegibilidades), para estabelecer prazo de desincompatibilização de vinte e quatro meses para os profissionais do magistério público.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655210",
+      "autores": [
+        {
+          "nome": "Capitão Alden",
+          "partido": "PL",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198403",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655411",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5897/2026",
+      "ementa": "Institui o Programa Remédio na Mão, destinado a facilitar a localização e o acesso gratuito a medicamentos e insumos de saúde disponibilizados pelo Sistema Único de Saúde e pelo Programa Farmácia Popular do Brasil, mediante identificação digital das unidades dispensadoras, consulta atualizada de disponibilidade, orientação sobre requisitos de retirada, indicação de alternativas de atendimento e garantia de acessibilidade informacional.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655411",
+      "autores": [
+        {
+          "nome": "Marcos Tavares",
+          "partido": "PDT",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198842",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655412",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5898/2026",
+      "ementa": "Institui medidas de proteção e segurança para mulheres que viajem desacompanhadas em serviços de transporte de passageiros, assegurando preferência de acomodação ao lado de outra mulher em viagens noturnas ou de longa duração, e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655412",
+      "autores": [
+        {
+          "nome": "Hercílio Coelho Diniz",
+          "partido": "MDB",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198843",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655425",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5899/2026",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para dispor sobre a regulamentação do vínculo funcional dos agentes comunitários de saúde e dos agentes de combate às endemias.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655425",
+      "autores": [
+        {
+          "nome": "Laura Carneiro",
+          "partido": "PSD",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198876",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655445",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5900/2026",
+      "ementa": "Cria a Agência Brasileira de Economia Criativa, dispõe sobre suas finalidades, estrutura, governança e contrato de gestão, e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655445",
+      "autores": [
+        {
+          "nome": "Aureo Ribeiro",
+          "partido": "SOLIDARIEDADE",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198966",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655454",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5901/2026",
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para estender a aplicação das medidas protetivas de urgência a toda forma de violência contra a mulher baseada na condição de mulher e dá outras providências.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655454",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198978",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655459",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5902/2026",
+      "ementa": "Estabelece diretrizes para a atenção integral à saúde das pessoas com sobrepeso e obesidade no âmbito do Sistema Único de Saúde – SUS.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655459",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198981",
+      "extra": {}
+    },
+    {
+      "id": "camara:2655462",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5903/2026",
+      "ementa": "Institui a Política Nacional de Educação Especial Inclusiva, e altera o art. 3º da Lei nº 13.146, de 6 de julho de 2015.",
+      "data": "2026-11-18",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2655462",
+      "autores": [
+        {
+          "nome": "Silvye Alves",
+          "partido": "UNIÃO",
+          "uf": "GO"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198983",
+      "extra": {}
+    },
+    {
+      "id": "senado:9133708",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PEC",
+      "titulo": "PEC 24/2026",
+      "ementa": "Altera o inciso I, alínea b, do art. 102 e insere a alínea j no inciso I do art. 105 da Constituição Federal de 1988.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176489",
+      "autores": [
+        {
+          "nome": "Astronauta Marcos Pontes",
+          "partido": "PL",
+          "uf": "SP"
+        },
+        {
+          "nome": "Lucas Barreto",
+          "partido": "PSD",
+          "uf": "AP"
+        },
+        {
+          "nome": "Hamilton Mourão",
+          "partido": "REPUBLICANOS",
+          "uf": "RS"
+        },
+        {
+          "nome": "Damares Alves",
+          "partido": "REPUBLICANOS",
+          "uf": "DF"
+        },
+        {
+          "nome": "Izalci Lucas",
+          "partido": "PL",
+          "uf": "DF"
+        },
+        {
+          "nome": "Plínio Valério",
+          "partido": "PSDB",
+          "uf": "AM"
+        },
+        {
+          "nome": "Marcos Rogério",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Cleitinho",
+          "partido": "REPUBLICANOS",
+          "uf": "MG"
+        },
+        {
+          "nome": "Jaime Bagattoli",
+          "partido": "PL",
+          "uf": "RO"
+        },
+        {
+          "nome": "Confúcio Moura",
+          "partido": "MDB",
+          "uf": "RO"
+        },
+        {
+          "nome": "Wilder Morais",
+          "partido": "PL",
+          "uf": "GO"
+        },
+        {
+          "nome": "Chico Rodrigues",
+          "partido": "PSB",
+          "uf": "RR"
+        },
+        {
+          "nome": "Oriovisto Guimarães",
+          "partido": "PODE",
+          "uf": "PR"
+        },
+        {
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "SC"
+        },
+        {
+          "nome": "Dr. Hiran",
+          "partido": "PP",
+          "uf": "RR"
+        },
+        {
+          "nome": "Eduardo Gomes",
+          "partido": "PL",
+          "uf": "TO"
+        },
+        {
+          "nome": "Eduardo Girão",
+          "partido": "NOVO",
+          "uf": "CE"
+        },
+        {
+          "nome": "Marcio Bittar",
+          "partido": "UNIÃO",
+          "uf": "AC"
+        },
+        {
+          "nome": "Jayme Campos",
+          "partido": "UNIÃO",
+          "uf": "MT"
+        },
+        {
+          "nome": "Luis Carlos Heinze",
+          "partido": "PP",
+          "uf": "RS"
+        },
+        {
+          "nome": "Carlos Portinho",
+          "partido": "PL",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Tereza Cristina",
+          "partido": "PP",
+          "uf": "MS"
+        },
+        {
+          "nome": "Magno Malta",
+          "partido": "PL",
+          "uf": "ES"
+        },
+        {
+          "nome": "Marcos do Val",
+          "partido": "AVANTE",
+          "uf": "ES"
+        },
+        {
+          "nome": "Zequinha Marinho",
+          "partido": "PODE",
+          "uf": "PA"
+        },
+        {
+          "nome": "Sargento Reginauro",
+          "partido": "PSDB",
+          "uf": "CE"
+        },
+        {
+          "nome": "Wellington Fagundes",
+          "partido": "PL",
+          "uf": "MT"
+        },
+        {
+          "nome": "Esperidião Amin",
+          "partido": "PP",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/dab86858-f66e-47bb-8d42-571539255f78",
+      "extra": {
+        "tipoDocumento": "Proposta de Emenda à Constituição",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176489
+      }
+    },
+    {
+      "id": "senado:9133976",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 85/2024",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária Silvino Brito — ACSB para executar serviço de radiodifusão comunitária no Município de Massapê, Estado do Ceará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176492",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/5c1db896-1b19-4fb4-b0a0-27914decdbe6",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176492
+      }
+    },
+    {
+      "id": "senado:9133984",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 708/2025",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio Mundial FM Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Ijuí, Estado do Rio Grande do Sul.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176491",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/eb6b90ea-ca53-4d36-bb8c-64fade3d4825",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176491
+      }
+    },
+    {
+      "id": "senado:9134051",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 150/2026",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rede Norte de Comunicação Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Santa Maria do Pará, Estado do Pará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176493",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/649211b4-e26f-4714-b109-6f800b1bcf20",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176493
+      }
+    },
+    {
+      "id": "senado:9134066",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 709/2025",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Astral Comunicações Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Portelândia, Estado de Goiás.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176494",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/605b0d20-33ef-40dc-9356-7dabf0355f1b",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176494
+      }
+    },
+    {
+      "id": "senado:9134115",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 237/2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Ararena para executar serviço de radiodifusão comunitária no Município de Ararendá, Estado do Ceará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176495",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/551f7600-bad4-43af-982a-524181f41106",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176495
+      }
+    },
+    {
+      "id": "senado:9134149",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 681/2024",
+      "ementa": "Aprova o ato que renova a permissão outorgada à Rádio FM 102 Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Cariacica, Estado do Espírito Santo.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176498",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/e9d8af9d-0744-46a0-9f36-dad1380f8518",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176498
+      }
+    },
+    {
+      "id": "senado:9134161",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 658/2024",
+      "ementa": "Aprova o ato que renova a permissão outorgada à SM Comunicações Ltda. para explorar serviço de radiodifusão sonora em frequência modulada no Município de Vila Velha, Estado do Espírito Santo.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176497",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/47d4715b-5d26-47f3-92bf-6ebe054169e4",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176497
+      }
+    },
+    {
+      "id": "senado:9134212",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1116/2025",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária Rádio Belluno para executar serviço de radiodifusão comunitária no Município de Siderópolis, Estado de Santa Catarina.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176499",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/eb4c7329-51b0-47ab-9917-9f6333daad6c",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176499
+      }
+    },
+    {
+      "id": "senado:9134347",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 499/2023",
+      "ementa": "Aprova o ato que renova a autorização outorgada à Associação Comunitária de Comunicação Popular de Xinguara para executar serviço de radiodifusão comunitária no Município de Xinguara, Estado do Pará.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176500",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/9f4b1ad5-e808-46fb-b9c6-c0d006fa81ef",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176500
+      }
+    },
+    {
+      "id": "senado:9134369",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 92/2026",
+      "ementa": "Aprova o ato que outorga autorização à Associação Comunitária de Desenvolvimento Social de Pontal - ACODSP para executar serviço de radiodifusão comunitária no Município de Pontal do Paraná, Estado do Paraná.",
+      "data": "2026-11-18",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176501",
+      "autores": [
+        {
+          "nome": "Câmara dos Deputados",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/dd69cb93-8c78-435b-b391-2685f06570d5",
+      "extra": {
+        "tipoDocumento": "Projeto de Decreto Legislativo",
+        "situacaoAtual": "AGUARDANDO RECEBIMENTO DE EMENDAS",
+        "codigoMateria": 176501
+      }
+    },
+    {
+      "id": "aleam:materia:185173",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 635 de 2026",
+      "ementa": "DISPÕE sobre a proteção da dignidade dos consumidores, proíbe a lacração compulsória de sacolas, bolsas e mochilas e veda práticas\ndiscriminatórias nos procedimentos de segurança dos estabelecimentos comerciais do Estado do Amazonas.",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185173",
+      "autores": [
+        {
+          "nome": "Brena Dianná",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185173/046455.pdf",
+      "extra": {}
+    },
+    {
+      "id": "aleam:materia:185175",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 637 de 2026",
+      "ementa": "Concede o Título de Cidadã do Amazonas à Advogada Mary Jane Faraco de Andrade Lopes.",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185175",
+      "autores": [
+        {
+          "nome": "Sinésio Campos",
+          "partido": "PT",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185175/046541.pdf",
+      "extra": {}
+    },
+    {
+      "id": "aleam:materia:185176",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PRL",
+      "titulo": "Projeto de Resolução Legislativa nº 42 de 2026",
+      "ementa": "DISPÕE sobre a implantação de infraestrutura de recarga para veículos elétricos e híbridos plug-in nas dependências da Assembleia\nLegislativa do Estado do Amazonas e dá outras providências",
+      "data": "2026-11-18",
+      "url": "https://sapl.al.am.leg.br/materia/185176",
+      "autores": [],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185176/046597.pdf",
+      "extra": {}
+    },
+    {
+      "id": "imprensa:gazetadopovo:43881308807e",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Michelle retorna ao Brasil após internação de Bolsonaro",
+      "ementa": "Michelle Bolsonaro anuncia chegada ao Brasil após viagem a Israel e segue para Brasília, onde o ex-presidente está internado na UTI.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/michelle-antecipa-retorno-ao-brasil-apos-internacao-de-bolsonaro/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:cab8df11d096",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula diz ter conversado com Trump, Putin e Xi: “tomem uma cerveja juntos”",
+      "ementa": "Em live com o deputado André Janones, presidente disse ter conversado com os três líderes cerca de quatro meses atrás",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/lula-conversa-trump-putin-xi/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:6977dab08496",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lexum aponta contradição e parcialidade em julgamento de Van Hattem no STF",
+      "ementa": "Associação de juristas defende que fiscalização não pode virar crime e que Supremo exerce competência que não tem",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/lexum-aponta-contradicao-parcialidade-julgamento-van-hattem-stf/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:694d19804a8c",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula diz que Janja irá coordenar cerimônia de posse do novo mandato",
+      "ementa": "Primeira-dama será responsável por organizar cerimônia que acontece no dia 5 de janeiro. Leia na Gazeta do Povo",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/lula-janja-cerimonia-posse/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:968c3f5790eb",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Bolsonaro está na UTI e tem quadro estável, diz novo boletim médico",
+      "ementa": "Ex-presidente tem diagnóstico de abdômen agudo obstrutivo e, segundo boletim divulgado neste sábado (21), não há previsão de alta",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/bolsonaro-uti-quadro-estavel-boletim/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:2a2a6d4dd3ca",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Padre Kelmon é barrado em hospital ao tentar dar unção dos enfermos a Bolsonaro",
+      "ementa": "Padre Kelmon foi barrado ao tentar visitar Bolsonaro no Hospital DF Star e buscará autorização judicial para ministrar a Unção dos Enfermos.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/padre-kelmon-e-barrado-em-hospital-ao-tentar-dar-uncao-dos-enfermos-a-bolsonaro/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:34dfde393c40",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Alexandre de Moraes vota para transformar Marcel Van Hattem em réu no STF",
+      "ementa": "Ministro Alexandre de Moraes vota pelo recebimento de denúncia contra Marcel Van Hattem. Deputado é acusado de calúnia contra delegado da Polícia Federal.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/alexandre-de-moraes-vota-para-transformar-marcel-van-hattem-em-reu-no-stf/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:89decf3a1904",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Gilmar minimiza gesto de Mendonça e defende levar caso Master ao plenário do STF",
+      "ementa": "Gilmar Mendes minimizou o pedido de Mendonça para abrir relatório da PF e defendeu levar o caso Master ao plenário do STF.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/gilmar-minimiza-gesto-de-mendonca-e-defende-levar-caso-master-ao-plenario-do-stf/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:b58894412a8e",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes autoriza Carlos a visitar Bolsonaro no hospital, mas sem celular",
+      "ementa": "Alexandre de Moraes autorizou Carlos, Jair Renan, e as enteadas Laura Firmo e Letícia Firmo, a visitarem Jair Bolsonaro durante internação.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/moraes-autoriza-carlos-a-visitar-bolsonaro-no-hospital-mas-sem-celular/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:2d35a8ad2560",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes antecipa voto no STF para tornar Van Hattem réu por calúnia contra Shor",
+      "ementa": "Alexandre de Moraes apresentou voto contra Marcel Van Hattem em sessão virtual após Cristiano Zanin pedir julgamento presencial no STF.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/moraes-antecipa-voto-no-stf-para-tornar-van-hattem-reu-por-calunia-contra-shor/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:549ca8f1ea45",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "O que Lula prometeu para a economia em 2022 e não entregou",
+      "ementa": "Balanço das promessas apresentadas em 2022 mostra que Lula 3 teve resultados pouco consistentes na agenda de mudanças estruturais da economia",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/economia/promessas-lula-2022-economia/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:gazetadopovo:2d00ff68b36b",
+      "fonte": "imprensa:gazetadopovo",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Defesa pede a Moraes autorização para visitas diárias dos filhos a Bolsonaro",
+      "ementa": "Defesa de Jair Bolsonaro pede a Moraes autorização para visitas diárias dos filhos durante internação no Hospital DF Star, em Brasília.",
+      "data": "2026-11-21",
+      "url": "https://www.gazetadopovo.com.br/republica/defesa-pede-a-moraes-autorizacao-para-visitas-diarias-dos-filhos-a-bolsonaro/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "gazetadopovo",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:c1001c5ff20b",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "‘O sistema financeiro não vai me ensinar a dirigir o Brasil’, diz Lula",
+      "ementa": "O presidente criticou setores do mercado financeiro que, segundo ele, colocam em dúvida a seriedade da gestão no controle dos gastos públicos",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/o-sistema-financeiro-nao-vai-me-ensinar-a-dirigir-o-brasil-diz-lula/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:dee4133519a5",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Após críticas, Cidadania suspende votação sobre incorporação ao PP",
+      "ementa": "Presidente da legenda afirmou que pretende ampliar o diálogo antes de decidir o futuro da sigla",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/apos-criticas-cidadania-suspende-votacao-sobre-incorporacao-ao-pp/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:d991d8abd32a",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo terá novas ações para combater casamento infantil",
+      "ementa": "Diretrizes foram anunciadas pela ministra Janine Mello, em Manila",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/governo-tera-novas-acoes-para-combater-casamento-infantil/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:9c482199bbb9",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Bolsonaro é diagnosticado com abdômen agudo obstrutivo e não tem previsão de alta, diz boletim",
+      "ementa": "Ex-presidente está sendo tratado na UTI com hidratação, manutenção do jejum oral com suporte nutricional e passagem de sonda gástrica",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/bolsonaro-e-diagnosticado-com-abdomen-agudo-obstrutivo-sem-previsao-de-alta-diz-boletim/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:8148ae5809f6",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "A condição imposta por Moraes para Bolsonaro receber visita dos filhos",
+      "ementa": "O ex-presidente foi internado nesta sexta-feira 20 com dores abdominais",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/a-condicao-imposta-por-moraes-para-bolsonaro-receber-visita-dos-filhos/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:30844f9cb20f",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moraes autoriza Bolsonaro a receber visitas diárias dos filhos durante internação, mas proíbe celulares",
+      "ementa": "O ex-presidente foi internado na sexta-feira 20 com dores abdominais",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/moraes-autoriza-bolsonaro-a-receber-visitas-diarias-dos-filhos-durante-internacao-mas-proibe-celulares/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:f272b643830f",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Lula presta solidariedade e promete apoio a cidade gaúcha devastada por tempestade",
+      "ementa": "Equipes da Defesa Civil Nacional foram enviadas ao município",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/lula-presta-solidariedade-e-promete-apoio-a-cidade-gaucha-devastada-por-tempestade/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:b982c43d0299",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Defesa de Bolsonaro pede a Moraes que filhos visitem o ex-presidente diariamente no hospital",
+      "ementa": "O senador Carlos Bolsonaro não descarta a hipótese de uma nova cirurgia por conta das dores abdominais",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/defesa-de-bolsonaro-pede-a-moraes-que-filhos-visitem-o-ex-presidente-diariamente-no-hospital/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:cartacapital:836cfb322f5b",
+      "fonte": "imprensa:cartacapital",
+      "nivel": "federal",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Carlos posta foto de Bolsonaro internado e diz que ele passará por novos exames",
+      "ementa": "O ex-presidente deu entrada na emergência com quadro de dor e distensão abdominal",
+      "data": "2026-11-21",
+      "url": "https://www.cartacapital.com.br/politica/carlos-posta-foto-de-bolsonaro-internado-e-diz-ele-passara-por-novos-exames/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "cartacapital",
+        "secao": "politica"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:45e95410c914",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "VÍDEOS: Jornal do Amazonas 2ª edição de sábado, 21 de novembro de 2026",
+      "ementa": "O telejornal é veiculado na Rede Amazônica.",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/playlist/videos-jornal-do-amazonas-2-edicao-de-sabado-21-de-novembro-de-2026.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:d50c1bc9b19d",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Juíza do TRE-AM é reeleita para presidência de colégio nacional de ouvidores eleitorais",
+      "ementa": "Lídia de Abreu Carvalho é reeleita presidente do Colégio de Ouvidores da Justiça Eleitoral Divulgação A juíza Lídia de Abreu Carvalho, ouvidora da Mulher do Tribunal Regional Eleitoral do Amazonas (TRE-AM), foi reeleita para a presidência do Colégio de Ouvidores da Justiça Eleitoral (COJE) no anuênio 2026/2027. A escolha ocorreu por aclamação, em votação unânime durante assembleia realizada por videoconferência. Esta será a terceira vez consecutiva que Lídia comandará a entidade, que reúne repre",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/juiza-do-tre-am-e-reeleita-para-presidencia-de-colegio-nacional-de-ouvidores-eleitorais.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:67ebbcf1f0d9",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Seca no AM: municípios em emergência sobem de 52 para 54; quase 170 mil famílias são afetadas",
+      "ementa": "Seca do Rio Negro em 2026 - Manaus Sara Rangel O número de municípios em situação de emergência por causa da seca no Amazonas subiu de 52 para 54, segundo boletim divulgado neste sábado (21) pela Defesa Civil do Estado. As cidades de Barcelos e São Gabriel da Cachoeira foram incluídas na lista mais recente, ampliando o total de municípios em emergência. Com a atualização, 54 dos 62 municípios amazonenses estão em situação de emergência. Outros oito seguem em estado de alerta: Beruri, Canutama, F",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/seca-no-am-municipios-em-emergencia-sobem-de-52-para-54-quase-170-mil-familias-sao-afetadas.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:8f9b2535cac1",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Seca no rio Solimões dificulta navegação, acesso à água potável e à escola no interior do AM",
+      "ementa": "Seca no rio Solimões dificulta navegação, acesso à água potável e à escola no interior do AM Reprodução/Rede Amazônica A seca no Rio Solimões tem agravado a rotina de moradores de comunidades ribeirinhas no Amazonas. A estiagem dificulta a navegação, reduz o acesso à água potável e compromete o deslocamento de estudantes para as escolas. Em Manacapuru, o porto da cidade mostra os efeitos da vazante. Com o nível dos rios cada vez mais baixo, lagos e igarapés ficam rasos, prejudicando o deslocamen",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/seca-no-rio-solimoes-dificulta-navegacao-acesso-a-agua-potavel-e-a-escola-no-interior-do-am.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:d5f5e57fdafe",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Operação contra tráfico e lavagem de dinheiro termina com dois presos e apreensão de R$ 24 mil no AM",
+      "ementa": "Operação contra tráfico e lavagem de dinheiro termina com dois presos e apreensão de R$ 24 mil no AM Divulgação/PC-AM Dois homens, de 36 e 40 anos, foram presos em flagrante na sexta-feira (20) durante uma operação contra o tráfico de drogas e a lavagem de dinheiro em Eirunepé, no interior do Amazonas. Na ação, a Polícia Civil apreendeu um revólver calibre 38, 11 munições e R$ 24 mil em dinheiro. As prisões ocorreram durante o cumprimento de mandados judiciais em imóveis na rua Boa Esperança, no",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/operacao-contra-trafico-e-lavagem-de-dinheiro-termina-com-dois-presos-e-apreensao-de-r-24-mil-no-am.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:1dd1908a1cf4",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Manaus recebe segunda edição do Festival do Beiradão com programação gratuita",
+      "ementa": "Festival celebra 'beiradão', estilo musical tradicional do Amazonas Divulgação A segunda edição do Festival do Beiradão do Amazonas começa nesta segunda-feira (23), em Manaus, com shows gratuitos a partir das 18h, no Bar Caldeira, no Centro Histórico. A abertura marca o início de uma programação que segue até 27 de novembro e reúne artistas para celebrar e valorizar a música e a cultura dos beiradeiros. A programação de lançamento contará com apresentações de Bab Lak do Sax, Kaiza Marques, Nunes",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/role-amazonas/noticia/2026/11/21/manaus-recebe-segunda-edicao-do-festival-do-beiradao-com-programacao-gratuita.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:62630c3e4acb",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "VÍDEOS: Bom Dia Sábado de 21 de novembro de 2026",
+      "ementa": "O telejornal é veiculado na Rede Amazônica.",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/playlist/videos-bom-dia-sabado-de-21-de-novembro-de-2026.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:a2f67f41f4f9",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "VÍDEOS: Jornal do Amazonas 1ª edição de sábado, 21 de novembro de 2026",
+      "ementa": "O telejornal é veiculado na Rede Amazônica.",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/playlist/videos-jornal-do-amazonas-1-edicao-de-sabado-21-de-novembro-de-2026.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:d876177552ad",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Projeto com histórias em quadrinhos da Biblioteca Pública do AM ganha destaque em evento na Colômbia",
+      "ementa": "Evento ocorreu na Colômbia Divulgação / Secretaria de Cultura e Economia Criativa Um projeto da Biblioteca Pública do Amazonas que incentiva a leitura por meio de histórias em quadrinhos foi apresentado durante o 8º Estágio Internacional do Iberbibliotecas, realizado em Medellín, na Colômbia. O encontro reuniu profissionais de bibliotecas de diferentes países para compartilhar experiências e conhecer iniciativas culturais. A instituição foi representada pelo bibliotecário David Carvalho, um dos ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/projeto-com-historias-em-quadrinhos-da-biblioteca-publica-do-am-ganha-destaque-em-evento-na-colombia.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:0d544c50bdce",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Defensoria oferece atendimento gratuito para dívidas e cobranças indevidas em Manaus; saiba como agendar",
+      "ementa": "Ação ocorre no centro de Manaus Divulgação Consumidores de Manaus que enfrentam problemas com cobranças indevidas, superendividamento, serviços de telefonia ou golpes envolvendo empréstimos poderão buscar orientação e assistência jurídica gratuita no dia 28 de novembro. A ação integra o projeto “Defensoria Tá na Área”, da Defensoria Pública do Amazonas (DPE-AM), que acontece das 8h às 15h, no Mercado de Origem, no Centro de Manaus Pela primeira vez na iniciativa, o Núcleo de Defesa do Consumidor",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/utilidade-publica/noticia/2026/11/21/defensoria-oferece-atendimento-gratuito-para-dividas-e-cobrancas-indevidas-em-manaus-saiba-como-agendar.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:ad4bb5c74d00",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Luan Santana em Manaus: veja horário do show, portões de entrada e o que não pode levar",
+      "ementa": "Luan Santana celebra 19 anos de carreira com show na Arena da Amazônia neste sábado O cantor Luan Santana se apresenta em Manaus neste sábado (21), na Arena da Amazônia, na Zona Centro-Oeste da capital. Os portões serão abertos às 19h e o show está previsto para começar às 23h. O público deve ficar atento aos acessos de cada setor, às regras de entrada e aos itens proibidos no evento. A apresentação faz parte da turnê \"Registro Histórico\", que celebra os 19 anos de carreira do artista e reúne mú",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/luan-santana-celebra-19-anos-de-carreira-com-show-na-arena-da-amazonia-neste-sabado.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:1b70ec43c3ef",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Com 8 mil ações de saúde, expedição atende mais de mil indígenas no interior do AM",
+      "ementa": "Expedição de saúde leva atendimentos a indígenas no interior do AM Divulgação A 59ª Expedição dos Expedicionários da Saúde (EDS) somou 8.088 ações de saúde e atendeu mais de mil indígenas em Iauaretê, distrito de São Gabriel da Cachoeira (AM), no Alto Rio Negro, às margens do rio Uaupés, na fronteira com a Colômbia. A ação aconteceu entre 31 de outubro e 7 de novembro e foi a primeira realizada dentro do projeto Cuidar para Preservar, apoiado pelo Fundo Amazônia. Pacientes de várias comunidades ",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/com-8-mil-acoes-de-saude-expedicao-atende-mais-de-mil-indigenas-no-interior-do-am.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:bf843c6be5ed",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Entenda como marqueteiro do PL articulou disparo de conteúdo que levou a indiciamento de Maria do Carmo e integrantes da campanha",
+      "ementa": "George Wilde, indiciado pela Polícia Civil Reprodução O marqueteiro George Wilde é apontado pela Polícia Civil como um dos responsáveis pelo comando de uma estrutura de marketing digital que produziu e divulgou um vídeo contra o governador eleito do Amazonas, Omar Aziz (PSD), durante a campanha eleitoral de 2026, usando a imagem da filha dele, ainda criança, em uma peça que o associava a crimes de pedofilia. Segundo informações obtidas pela Rede Amazônica, Wilde era o aprovador final de todo o m",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/noticia/2026/11/21/entenda-como-marqueteiro-do-pl-articulou-disparo-de-conteudo-que-levou-a-indiciamento-de-maria-do-carmo-e-integrantes-da-campanha.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:g1-amazonas:26f88752899a",
+      "fonte": "imprensa:g1-amazonas",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Previsão do tempo hoje para Manaus (AM): sol com muitas nuvens; pancadas de chuva à tarde e à noite",
+      "ementa": "Previsão do tempo hoje em Manaus g1 A previsão do tempo para este sábado (21) para Manaus (AM) é de sol com muitas nuvens. Pancadas de chuva à tarde e à noite. As máximas são de 34ºC e as mínimas de 25ºC. Clique aqui para ver a previsão em todo o Brasil. Durante a manhã, sol com muitas nuvens. No período da tarde, sol, pancadas de chuva e trovoadas. À noite, pancadas de chuva e trovoadas. Previsão do tempo para amanhã em Manaus, domingo (22) Para este domingo (22), a previsão é de sol com muitas",
+      "data": "2026-11-21",
+      "url": "https://g1.globo.com/am/amazonas/previsao-do-tempo/noticia/2026/11/21/previsao-do-tempo-hoje-para-manaus-am-sol-com-algumas-nuvens-chove-rapido-durante-o-dia-e-a-noite.ghtml",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "g1-amazonas",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:2ea1fb88f974",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Campeão: Flamengo conquista o Brasileirão 2026 com duas rodadas de antecedência",
+      "ementa": "Empate em 1 a 1 com o Palmeiras no Nubank Parque confirmou o título ao Rubro-Negro",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/esportes/campeao-flamengo-conquista-o-brasileirao-2026-com-duas-rodadas-de-antecedencia/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:7afb770ecbeb",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Arte&Fato recebe certificação nacional como Escola Livre de Cultura",
+      "ementa": "Reconhecimento do Ministério da Cultura chega no ano em que a associação completa 25 anos e destaca sua atuação na formação artística e na descentralização cultural no Amazonas",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/entretenimento/artefato-recebe-certificacao-nacional-como-escola-livre-de-cultura/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:cc8c4658fccf",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Nação Zumbi lança primeiro álbum de inéditas em 12 anos",
+      "ementa": "Com nove faixas, 'Outro Carnaval' combina ritmos pernambucanos, psicodelia e experimentações sonoras para celebrar os 30 anos de trajetória da banda",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/entretenimento/nacao-zumbi-lanca-primeiro-album-de-ineditas-em-12-anos/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:e80292f2b415",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Documentário celebra trajetória e legado musical de Dona Onete",
+      "ementa": "Dirigido por Mini Kert, longa estreia em 26 de novembro e percorre a história da cantora paraense, destacando sua contribuição para o carimbó e a cultura amazônica",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/entretenimento/documentario-celebra-trajetoria-e-legado-musical-de-dona-onete/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:7704df4fc856",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Polícia prende dois homens e apreende R$ 24 mil em operação contra tráfico no AM",
+      "ementa": "Ação em Eirunepé também resultou na apreensão de revólver calibre 38 e 11 munições. Um responderá pelo crime de lavagem de dinheiro, enquanto o outro vai responder por tráfico de drogas",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/policia/policia-prende-dois-homens-e-apreende-r-24-mil-em-operacao-contra-trafico-no-am/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:e5c15f0495cd",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "PC-AM prende homem por abuso sexual de adolescente de 13 anos em Benjamin Constant",
+      "ementa": "Suspeito de 56 anos era marido da avó da vítima e teria se aproveitado da convivência familiar para cometer os abusos; prisão ocorreu durante a Operação Curupira Mirim",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/policia/pc-am-prende-homem-por-abuso-sexual-de-adolescente-de-13-anos-em-benjamin-constant/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:5ff17c77ebfa",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Parque projetado por Niemeyer avança com quarta concretagem das estruturas",
+      "ementa": "Obra do parque Encontro das Águas Rosa Almeida, na zona Leste de Manaus, também recebe serviços de contenção, instalações elétricas e climatização",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/manaus/parque-projetado-por-niemeyer-avanca-com-quarta-concretagem-das-estruturas/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:2c9de31747e9",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moda amazonense e cerâmica se unem em collab que valoriza a identidade regional",
+      "ementa": "Parceria entre Souedo e Bença transforma referências da Amazônia em peças artesanais de decoração e aposta na conexão entre diferentes universos criativos",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/gente/moda-amazonense-e-ceramica-se-unem-em-collab-que-valoriza-a-identidade-regional/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:2a86ac55305d",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Crise climática impõe desafios aos seguros, afirma Ney Dias",
+      "ementa": "CEO da Bradseg fala, na entrevista abaixo, sobre os impactos do envelhecimento da população, a ampliação das coberturas e a necessidade de proteger os brasileiros dos eventos climáticos extremos",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/economia/crise-climatica-impoe-desafios-aos-seguros-afirma-ney-dias/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:acritica:323edceb26ca",
+      "fonte": "imprensa:acritica",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Alessandro Costa volta a sofrer revés para iraquiano no UFC",
+      "ementa": "Amazonense vinha de três vitórias consecutivas no ano, mas acabou finalizado por Amir Albazi neste sábado (21)",
+      "data": "2026-11-21",
+      "url": "https://www.acritica.com/esportes/alessandro-costa-volta-a-sofrer-reves-para-iraquiano-no-ufc/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "acritica",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:88e3373913e7",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Flamengo empata com Palmeiras e é campeão brasileiro de 2026",
+      "ementa": "Com o empate em 1 a 1, o Flamengo confirmou a taça da série A do Brasileirão com duas rodadas de antecedência O post Flamengo empata com Palmeiras e é campeão brasileiro de 2026 apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/flamengo-empata-com-palmeiras-e-e-campeao-brasileiro-de-2026/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:d1bd92a0d9de",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Ex-presidente Jair Bolsonaro está internado em UTI no Distrito Federal",
+      "ementa": "O ex-presidente passou mal nesta sexta-feira (20) e foi levado ao Hospital DF Star para receber atendimento médico O post Ex-presidente Jair Bolsonaro está internado em UTI no Distrito Federal apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:92e3e18c273c",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Maria do Carmo diz receber ‘com tranquilidade’ o indiciamento e fala em tentativa de desgaste",
+      "ementa": "Em vídeo publicado nas redes sociais, Maria do Carmo criticou a rapidez com que a polícia concluiu o inquérito O post Maria do Carmo diz receber ‘com tranquilidade’ o indiciamento e fala em tentativa de desgaste apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/maria-do-carmo-diz-receber-com-tranquilidade-o-indiciamento-e-fala-em-tentativa-de-desgaste/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:48f77db92592",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Prefeitura de Manaus tem 180 dias para criar Plano de Educação Ambiental",
+      "ementa": "A determinação é do Tribunal de Contas do Amazonas, atendente a representação do Ministério Público de Contas O post Prefeitura de Manaus tem 180 dias para criar Plano de Educação Ambiental apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/prefeitura-de-manaus-tem-180-dias-para-criar-plano-de-educacao-ambiental/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:bb6764bcf2fc",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Governo terá novas ações para combater casamento de crianças",
+      "ementa": "Dados do IBGE apontam que havia, em 2022, mais de 34 mil crianças e adolescentes entre 10 e 14 anos em algum tipo de união conjugal no Brasil O post Governo terá novas ações para combater casamento de crianças apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/governo-tera-novas-acoes-para-combater-casamento-de-criancas/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:da046927e01f",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "TCU vê falhas na prevenção de desastres e cita risco de El Niño intenso",
+      "ementa": "No Amazonas, a estiagem afetou 165.008 famílias e 52 municípios estão em situação de emergência, segundo a Defesa Civil estadual O post TCU vê falhas na prevenção de desastres e cita risco de El Niño intenso apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/tcu-ve-falhas-na-prevencao-de-desastres-e-cita-risco-de-el-nino-intenso/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:1cef001865c5",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Moradores de Manaus registram tremores após terremoto no Peru",
+      "ementa": "Na capital amazonense, moradores dos bairros Adrianópolis e Aleixo registraram vibrações em casa e edifícios O post Moradores de Manaus registram tremores após terremoto no Peru apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/moradores-de-manaus-registram-tremores-apos-terremoto-no-peru/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:b06615402380",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Flamengo quer celebrar título antecipado na casa do Palmeiras",
+      "ementa": "Basta um empate neste sábado para que o Flamengo confirme o seu nono título brasileiro com três rodadas de antecedência O post Flamengo quer celebrar título antecipado na casa do Palmeiras apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/flamengo-quer-celebrar-titulo-antecipado-na-casa-do-palmeiras/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    },
+    {
+      "id": "imprensa:amazonasatual:b49b3895865b",
+      "fonte": "imprensa:amazonasatual",
+      "nivel": "estadual",
+      "categoria": "noticia",
+      "sigla_tipo": "NOTICIA",
+      "titulo": "Atlético-MG encara o Boca Juniors em busca de título inédito e vaga na Libertadores",
+      "ementa": "A decisão será disputada em jogo único, às 19h30 (de Brasília), no Estádio Metropolitano Roberto Meléndez O post Atlético-MG encara o Boca Juniors em busca de título inédito e vaga na Libertadores apareceu primeiro em AMAZONAS ATUAL .",
+      "data": "2026-11-21",
+      "url": "https://amazonasatual.com.br/atletico-mg-encara-o-boca-juniors-em-busca-de-titulo-inedito-e-vaga-na-libertadores/",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "veiculo": "amazonasatual",
+        "secao": "amazonas"
+      }
+    }
+  ],
+  "fontes_indisponiveis": [
+    "dou"
+  ],
+  "primeira_vez": {
+    "camara:2650114:tram:7": "2026-11-19",
+    "camara:2650116:tram:7": "2026-11-19",
+    "camara:2650194:tram:7": "2026-11-19",
+    "camara:2651158:tram:7": "2026-11-19",
+    "camara:2651243:tram:7": "2026-11-19",
+    "camara:2651388:tram:7": "2026-11-19",
+    "camara:2653536:tram:5": "2026-11-19",
+    "camara:2653946:tram:5": "2026-11-19",
+    "senado:9121137:sit:2026-11-19": "2026-11-19",
+    "senado:9127383:sit:2026-11-19": "2026-11-19",
+    "camara:2655528": "2026-11-19",
+    "camara:2655533": "2026-11-19",
+    "camara:2655540": "2026-11-19",
+    "camara:2655541": "2026-11-19",
+    "camara:2655542": "2026-11-19",
+    "camara:2655580": "2026-11-19",
+    "camara:2655581": "2026-11-19",
+    "camara:2655598": "2026-11-19",
+    "camara:2655613": "2026-11-19",
+    "camara:2655664": "2026-11-19"
+  }
+}

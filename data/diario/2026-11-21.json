@@ -1,0 +1,54 @@
+{
+  "data": "2026-11-21",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "Em uma live nas redes sociais, Lula disse que o projeto aprovado pelo Senado não é uma reforma fiscal, mas um ajuste para o Orçamento de 2027. Ele criticou o mercado financeiro e os críticos do texto na própria esquerda.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Ajuste fiscal de 2027",
+      "linha_capa": "Lula diz que texto do Senado não é reforma e vale para o Orçamento"
+    },
+    {
+      "slug": "violencia-e-assedio-eleitoral-2026",
+      "novo_hoje": "O Ministério das Mulheres prepara uma política nacional contra a violência política de gênero e raça, com lançamento previsto ainda em 2026.",
+      "aviso_fonte_unica": "A política contra a violência política de gênero e raça vem só da Folha.",
+      "nome_curto": "Violência e assédio eleitoral",
+      "linha_capa": "Ministério das Mulheres prepara política contra ataques de gênero e raça"
+    },
+    {
+      "slug": "escala-5x2",
+      "novo_hoje": "O governo deve publicar portarias com regras para categorias específicas do fim da escala 6x1. Senadores ainda defendem uma PEC para regulamentar a nova jornada em casos específicos.",
+      "aviso_fonte_unica": "A informação sobre as portarias e a PEC vem só da Folha.",
+      "nome_curto": "Escala 5x2",
+      "linha_capa": "Governo deve publicar portarias com regras para categorias específicas"
+    }
+  ],
+  "fichas": [
+    "senado:9127383:sit:2026-11-19",
+    "senado:9121137:sit:2026-11-19",
+    "camara:2655528",
+    "camara:2655533",
+    "camara:2655664",
+    "camara:2655581",
+    "camara:2655598",
+    "camara:2655613",
+    "camara:2655540",
+    "camara:2655541",
+    "camara:2655542",
+    "camara:2655580",
+    "camara:2653536:tram:5",
+    "camara:2653946:tram:5",
+    "camara:2650114:tram:7",
+    "camara:2650116:tram:7",
+    "camara:2650194:tram:7",
+    "camara:2651158:tram:7",
+    "camara:2651243:tram:7",
+    "camara:2651388:tram:7"
+  ],
+  "mundo": [
+    "mundo:2026-11-21:1",
+    "mundo:2026-11-21:2",
+    "mundo:2026-11-21:3",
+    "mundo:2026-11-21:4"
+  ]
+}
