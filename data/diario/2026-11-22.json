@@ -1,0 +1,24 @@
+{
+  "data": "2026-11-22",
+  "temas": [
+    {
+      "slug": "eleicoes-eua-meio-de-mandato-2026",
+      "novo_hoje": "Os democratas somam pelo menos 258 das 435 cadeiras da Câmara dos EUA, a maior bancada do partido desde 1992.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Eleições de meio de mandato nos EUA",
+      "linha_capa": "Democratas têm ao menos 258 cadeiras, a maior bancada desde 1992"
+    },
+    {
+      "slug": "prisao-domiciliar-bolsonaro",
+      "novo_hoje": "O boletim médico de domingo (22) diz que o ex-presidente segue na UTI, estável e sem previsão de alta, com diagnóstico de abdômen agudo obstrutivo. Moraes autorizou a retirada da tornozeleira de Bolsonaro durante a internação.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Bolsonaro internado na UTI",
+      "linha_capa": "Ex-presidente segue estável, sem previsão de alta do hospital"
+    }
+  ],
+  "fichas": [],
+  "mundo": [
+    "mundo:2026-11-22:1",
+    "mundo:2026-11-22:2"
+  ]
+}

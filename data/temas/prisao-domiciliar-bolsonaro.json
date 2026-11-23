@@ -1,0 +1,47 @@
+{
+  "slug": "prisao-domiciliar-bolsonaro",
+  "nome": "Internação e prisão domiciliar de Bolsonaro",
+  "inicio": "2026-11-20",
+  "ativo": true,
+  "ultima_novidade": "2026-11-22",
+  "palavras_chave": ["Bolsonaro internado", "Hospital DF Star", "prisão domiciliar de Bolsonaro", "tornozeleira de Bolsonaro"],
+  "resumo_ate_aqui": "Jair Bolsonaro, que cumpre prisão domiciliar, está internado desde sexta-feira (20), no Hospital DF Star, em Brasília. O boletim médico de domingo (22) diz que ele segue na UTI, estável e sem previsão de alta. Moraes autorizou a retirada da tornozeleira durante a internação.",
+  "explica_do_zero": "Jair Bolsonaro foi condenado a 27 anos e três meses de prisão no processo da trama golpista e cumpre pena em prisão domiciliar, segundo apenas a Agência Brasil. Na sexta-feira (20), passou mal e foi levado ao Hospital DF Star, em Brasília, com dores e distensão abdominal.\n\nNo sábado (21), Moraes autorizou os filhos e a enteada a visitá-lo durante a internação. No domingo (22), o boletim médico informou que ele segue na UTI, estável, com diagnóstico de abdômen agudo obstrutivo e sem previsão de alta. Moraes também autorizou a retirada da tornozeleira durante a internação.",
+  "linha_do_tempo": [
+    {
+      "data": "2026-11-20",
+      "fato": "Bolsonaro, condenado a 27 anos e três meses de prisão no processo da trama golpista e em prisão domiciliar, passou mal na sexta-feira (20) e foi levado ao Hospital DF Star, em Brasília, com dores e distensão abdominal.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-21",
+      "fato": "O ministro Alexandre de Moraes autorizou que os filhos e a enteada de Bolsonaro o visitem durante a internação, seguindo os horários e as regras de segurança do hospital. A entrada de celulares e câmeras é proibida.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta"}
+      ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-22",
+      "fato": "O boletim médico divulgado no domingo (22) diz que Bolsonaro segue na UTI, clinicamente estável, com diagnóstico de abdômen agudo obstrutivo. Não há previsão de alta.",
+      "fontes": [
+        {"nome": "Agência Brasil", "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta"},
+        {"nome": "g1", "url": "https://g1.globo.com/politica/politico/noticia/2026/11/22/bolsonaro-esta-estavel-diz-hospital.ghtml"},
+        {"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/bolsonaro-segue-na-uti-com-quadro-estavel-e-sem-previsao-de-alta.shtml"}
+      ],
+      "fonte_unica": false
+    },
+    {
+      "data": "2026-11-22",
+      "fato": "Moraes autorizou a retirada da tornozeleira eletrônica de Bolsonaro durante a internação.",
+      "fontes": [
+        {"nome": "Gazeta do Povo", "url": "https://www.gazetadopovo.com.br/republica/moraes-autorizou-retirada-de-tornozeleira-de-bolsonaro-durante-internacao/"},
+        {"nome": "CartaCapital", "url": "https://www.cartacapital.com.br/politica/moraes-manda-retirar-tornozeleira-eletronica-de-bolsonaro-durante-a-internacao/"}
+      ],
+      "fonte_unica": false
+    }
+  ]
+}
