@@ -1,0 +1,68 @@
+{
+  "data": "2026-11-23",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "A Câmara aprovou o texto-base do ajuste fiscal por 353 votos a 128, e o projeto segue para a sanção do presidente Lula. Como a Câmara não mudou o texto do Senado, ele não volta ao Senado.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote de ajuste fiscal (2027)",
+      "linha_capa": "Câmara aprova texto do governo; proposta vai à sanção presidencial"
+    },
+    {
+      "slug": "escala-5x2",
+      "novo_hoje": "O Ministério do Trabalho publicou a primeira de quatro portarias com regras complementares à escala 5x2. A jornada cai gradualmente de 44 para 40 horas, sem redução de salário.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Escala 5x2 e fim da 6x1",
+      "linha_capa": "Governo publica a 1ª de quatro portarias com regras para a nova jornada"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "Moraes determinou que Flávio Bolsonaro seja notificado por edital, por considerá-lo em 'local incerto'. A decisão, assinada em 20 de novembro, foi publicada nesta segunda-feira (23).",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Saída de Flávio Bolsonaro do país",
+      "linha_capa": "Moraes diz que senador está em local incerto e manda citá-lo por edital"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "A CVM suspendeu o registro do BRB como companhia aberta, porque o banco não divulgou balanços por mais de 12 meses. Com isso, o BRB não pode negociar ações em mercados regulamentados até regularizar a situação.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "CVM suspende registro do BRB",
+      "linha_capa": "Banco de Brasília fica impedido de negociar ações na bolsa"
+    },
+    {
+      "slug": "prisao-domiciliar-bolsonaro",
+      "novo_hoje": "Jair Bolsonaro segue internado na UTI do Hospital DF Star, em Brasília, após dores abdominais. A equipe médica descarta, por enquanto, nova cirurgia.",
+      "aviso_fonte_unica": "A decisão de não operar por enquanto vem só do g1.",
+      "nome_curto": "Bolsonaro segue internado na UTI",
+      "linha_capa": "Ex-presidente passa mais um dia em hospital de Brasília após dores abdominais"
+    }
+  ],
+  "fichas": [
+    "camara:2656731",
+    "camara:2656749",
+    "camara:2656750",
+    "camara:2656775",
+    "camara:2656778",
+    "camara:2656786",
+    "camara:2656787",
+    "camara:2657764",
+    "camara:2657765",
+    "camara:2657802",
+    "camara:2657803",
+    "camara:2658858",
+    "camara:2658859",
+    "camara:2658860",
+    "camara:2658862",
+    "camara:2658877",
+    "camara:2658879",
+    "camara:2658897",
+    "camara:2658913",
+    "camara:2658914"
+  ],
+  "mundo": [
+    "mundo:2026-11-23:1",
+    "mundo:2026-11-23:2",
+    "mundo:2026-11-23:3",
+    "mundo:2026-11-23:4"
+  ]
+}
