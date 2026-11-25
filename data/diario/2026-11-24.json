@@ -1,0 +1,59 @@
+{
+  "data": "2026-11-24",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "Lula sancionou o ajuste fiscal sem vetos nesta terça-feira (24), e a lei foi publicada em edição extra do Diário Oficial.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Pacote de ajuste fiscal",
+      "linha_capa": "Lula sanciona o ajuste fiscal sem vetos e ele já está valendo"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Kassio Nunes Marques foi sorteado relator do pedido de Vorcaro para tirar o caso Master do gabinete da Presidência do STF. O sorteio reabre a discussão sobre a permanência dele nos processos do Banco Master, ou um eventual impedimento.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Nunes Marques é sorteado relator de pedido de Vorcaro contra Fachin"
+    },
+    {
+      "slug": "escala-5x2",
+      "novo_hoje": "O ministro Luiz Marinho recomendou que empresas e trabalhadores fechem acordos coletivos até 16 de dezembro, data em que as novas regras começam a valer.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Escala 5x2",
+      "linha_capa": "Marinho recomenda fechar acordos da 5x2 até 16 de dezembro"
+    },
+    {
+      "slug": "pl-dos-mercados-digitais",
+      "novo_hoje": "A votação do PL dos Mercados Digitais, que regula as big techs, ficou para a próxima semana, na terça-feira (1º de dezembro).",
+      "aviso_fonte_unica": null,
+      "nome_curto": "PL das big techs",
+      "linha_capa": "Votação do PL das big techs fica para 1º de dezembro"
+    }
+  ],
+  "fichas": [
+    "camara:votacao:2655570:2026-11-23",
+    "camara:2655570:tram:11",
+    "camara:2655570:tram:23",
+    "camara:2658915",
+    "camara:2658916",
+    "camara:2658918",
+    "camara:2658919",
+    "camara:2658921",
+    "camara:2658922",
+    "camara:2658976",
+    "camara:2658978",
+    "camara:2658979",
+    "camara:2658980",
+    "camara:2658981",
+    "camara:2658982",
+    "camara:2658983",
+    "camara:2658984",
+    "camara:2658986",
+    "camara:2658987",
+    "camara:2659032"
+  ],
+  "mundo": [
+    "mundo:2026-11-24:1",
+    "mundo:2026-11-24:2"
+  ]
+}

@@ -1,430 +1,6 @@
 [
   {
     "item": {
-      "id": "camara:2658915",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 15/0",
-      "ementa": "Requerimento de Retirada de Matéria da Pauta - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658915",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658916",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 16/0",
-      "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão Matéria Urgente - PLP 299/2026-Requerimento de Adiamento da Discussão Matéria Urgente - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658916",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658918",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 17/0",
-      "ementa": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PLP 299/2026-Requerimento de Adiamento da Votação Matéria Urgente - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658918",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658919",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 18/0",
-      "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PLP 299/2026-Requerimento de Retirada de Matéria da Pauta - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658919",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658921",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 19/0",
-      "ementa": "Requerimento de Retirada de Matéria da Pauta - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658921",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658922",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 20/0",
-      "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PLP 299/2026-Requerimento de Retirada de Matéria da Pauta - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658922",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658976",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "DTQ",
-      "titulo": "DTQ 7/0",
-      "ementa": "Destaque de Emenda - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658976",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658978",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 21/0",
-      "ementa": "Votação Nominal do Destaque de Emenda - PLP 299/2026-Destaque de Emenda - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658978",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658979",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "DTQ",
-      "titulo": "DTQ 8/0",
-      "ementa": "Destaque para Votação em Separado - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658979",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658980",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 22/0",
-      "ementa": "Votação Nominal do Destaque para Votação em Separado - PLP 299/2026-Destaque para Votação em Separado - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658980",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658981",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "DTQ",
-      "titulo": "DTQ 9/0",
-      "ementa": "Destaque de Emenda - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658981",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658982",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 23/0",
-      "ementa": "Votação Nominal do Destaque de Emenda - PLP 299/2026-Destaque de Emenda - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658982",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658983",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "DTQ",
-      "titulo": "DTQ 10/0",
-      "ementa": "Destaque para Votação em Separado - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658983",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658984",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 24/0",
-      "ementa": "Votação Nominal do Destaque para Votação em Separado - PLP 299/2026-Destaque para Votação em Separado - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658984",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658986",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 25/0",
-      "ementa": "Requerimento para Retirada de Tramitação de RPD/DTQ - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658986",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2658987",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 26/0",
-      "ementa": "Requerimento Procedimental Genérico - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2658987",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2659032",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "RPD",
-      "titulo": "RPD 27/0",
-      "ementa": "Requerimento de Encerramento da Discussão e do Encaminhamento da Votação - PLP 299/2026",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659032",
-      "autores": [],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:votacao:2655570:2026-11-23",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "votacao",
-      "sigla_tipo": "VOTACAO",
-      "titulo": "PLP 299/2026",
-      "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2655570",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "proposicao": 2655570,
-        "votacoes": [
-          {
-            "descricao": "Mantido o texto. Sim: 319; Não: 127; Abstenção: 1; Total: 447.",
-            "aprovacao": null,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-60"
-          },
-          {
-            "descricao": "Mantido o texto. Sim: 310; Não: 132; Total: 442.",
-            "aprovacao": null,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-57"
-          },
-          {
-            "descricao": "Mantido o texto. Sim: 333; Não: 138; Abstenção: 1; Total: 472.",
-            "aprovacao": null,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-53"
-          },
-          {
-            "descricao": "Rejeitada a Emenda de Plenário nº 38. Sim: 172; Não: 282; Abstenção: 2; Total: 456.",
-            "aprovacao": 0,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-50"
-          },
-          {
-            "descricao": "Rejeitada a Emenda de Plenário nº 23. Sim: 146; Não: 315; Abstenção: 1; Total: 462.",
-            "aprovacao": 0,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-47"
-          },
-          {
-            "descricao": "Mantido o texto. Sim: 413; Não: 29; Total: 442.",
-            "aprovacao": null,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-44"
-          },
-          {
-            "descricao": "Rejeitadas as Emendas de Plenário. Sim: 129; Não: 319; Abstenção: 4; Total: 452.",
-            "aprovacao": 0,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-41"
-          },
-          {
-            "descricao": "Aprovado o Projeto de Lei Complementar nº 299, de 2026, ressalvados os destaques. Sim: 353; Não: 128; Abstenção: 5; Total: 486.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-39"
-          },
-          {
-            "descricao": "Aprovado o Requerimento.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-34"
-          },
-          {
-            "descricao": "Rejeitado o Requerimento. Sim: 127; Não: 347; Abstenção: 7; Total: 481.",
-            "aprovacao": 0,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-30"
-          },
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4504/2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-23"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-22"
-          },
-          {
-            "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4504/2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-18"
-          },
-          {
-            "descricao": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-17"
-          },
-          {
-            "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 318; Não: 135; Abstenção: 6; Total: 459.",
-            "aprovacao": 1,
-            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655708-8"
-          }
-        ],
-        "siglaOrgao": "PLEN"
-      }
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2655570:tram:11",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Aguardando Remessa à Sanção",
-      "ementa": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2655570",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "item_origem": "camara:2655570"
-      }
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
-      "id": "camara:2655570:tram:23",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Aguardando Remessa à Sanção",
-      "ementa": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
-      "data": "2026-11-23",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2655570",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "item_origem": "camara:2655570"
-      }
-    },
-    "primeira_vez": "2026-11-23"
-  },
-  {
-    "item": {
       "id": "camara:2655570:tram:40",
       "fonte": "camara",
       "nivel": "federal",
@@ -612,6 +188,23 @@
       }
     },
     "primeira_vez": "2026-11-23"
+  },
+  {
+    "item": {
+      "id": "camara:2659242",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "RIC",
+      "titulo": "RIC 3052/2026",
+      "ementa": "Requer que o Ministério do Planejamento e Orçamento preste esclarecimentos sobre a real capacidade do Projeto de Lei Complementar nº 299/2026, denominado “Plano Moretti”, de conter o avanço da dívida pública, bem como apresente os estudos, as projeções e os cálculos que sustentam as medidas propostas, esclarecendo se o Governo Federal pretende adotar novas medidas de ajuste fiscal e quais serão seus possíveis impactos sobre a população brasileira.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659242",
+      "autores": [],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
   },
   {
     "item": {
@@ -1296,6 +889,183 @@
       }
     },
     "primeira_vez": "2026-11-23"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2332174:2026-11-24",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 1969/2022",
+      "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2332174",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2332174,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Orlando Silva (PCdoB/SP).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-62"
+          },
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 1.969, de 2022, da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Sim: 292; Não: 147; Abstenção: 2; Total: 441.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-59"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:2253448:2026-11-24",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 2819/2020",
+      "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2253448",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 2253448,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Carol Dartora (PT/PR).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-101"
+          },
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 2.819, de 2020, adotado pela relatora da Comissão de Saúde.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-98"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:votacao:606005:2026-11-24",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "votacao",
+      "sigla_tipo": "VOTACAO",
+      "titulo": "PL 7103/2014",
+      "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/606005",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "proposicao": 606005,
+        "votacoes": [
+          {
+            "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Talíria Petrone (PSOL/RJ).",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-112"
+          },
+          {
+            "descricao": "Aprovada a Emenda de Redação nº 1.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-110"
+          },
+          {
+            "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 7.103, de 2014, da Comissão de Seguridade Social e Família.",
+            "aprovacao": 1,
+            "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-107"
+          }
+        ],
+        "siglaOrgao": "PLEN"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2653536:tram:7",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Autorização do Despacho",
+      "ementa": "Apresentação do REQ n. 4520/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Fernando Mineiro (PT/RN -Fdr PT-PCdoB-PV) e outros, que \"Requerimento de Urgência ao PL 5842/2026,  que institui o marco legal das Áreas de Proteção de Mananciais - APMs, altera as Leis nº 9.433, de 8 de janeiro de 1997, Lei n° 9.984, de 17 de julho de 2000, Lei nº 9.985, de 18 de julho de 2000, Lei nº 12.651, de 25 de maio de 2012, Lei nº 11.445, de 5 de janeiro de 2007, e a Lei n° 10.257, de 10 de julho de 2001\".",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653536",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203827",
+      "extra": {
+        "item_origem": "camara:2653536"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2653536:tram:8",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "Aguardando Autorização do Despacho",
+      "ementa": "Apresentação do REQ n. 4522/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Fernando Mineiro (PT/RN -Fdr PT-PCdoB-PV) e outros, que \"Requerimento de Urgência – PL 5842 de 2026\".",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2653536",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203958",
+      "extra": {
+        "item_origem": "camara:2653536"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "senado:9118955:sit:2026-11-24",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "PRONTA PARA A PAUTA NA COMISSÃO",
+      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre Estados Partes do Mercosul e Estados Associados, assinado em Assunção, em 20 de julho de 2022.",
+      "data": "2026-11-24",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176152",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9118955"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "senado:9127383:sit:2026-11-24",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "tramitacao",
+      "sigla_tipo": "TRAMITACAO",
+      "titulo": "REMETIDA À SANÇÃO",
+      "ementa": "Altera a Lei Complementar nº 200, de 30 de agosto de 2023, para conferir ao Poder Executivo federal novos instrumentos de gestão com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao crescimento socioeconômico; e dá outras providências.",
+      "data": "2026-11-24",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+      "autores": [],
+      "url_documento": null,
+      "extra": {
+        "item_origem": "senado:9127383"
+      }
+    },
+    "primeira_vez": "2026-11-24"
   },
   {
     "item": {
@@ -2246,6 +2016,578 @@
       }
     },
     "primeira_vez": "2026-11-23"
+  },
+  {
+    "item": {
+      "id": "camara:2659076",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5946/2026",
+      "ementa": "Altera as Leis n°s 14.182, de 2021, 9.648, de 1998, 10.438, de 2002, e 9.991, de 2000, para tratar da conexão de centrais hidrelétricas contratadas, do despacho centralizado de aproveitamentos de até 50MW e da destinação facultativa de recursos de pesquisa e desenvolvimento à Conta de Desenvolvimento Energético.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659076",
+      "autores": [
+        {
+          "nome": "Carlos Zarattini",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203690",
+      "extra": {
+        "indexacao": "alteração; Lei de Privatização da Eletrobras (2021); Lei federal; Lei do Setor Elétrico (2002); Lei do Desenvolvimento do Setor Elétrico (2000); conexão; Usina hidrelétrica; Aproveitamento hidrelétrico; Geração de energia elétrica; Leilão de Reserva de Capacidade; Agência Nacional de Energia Elétrica (ANEEL); Operador Nacional do Sistema Elétrico (ONS); Despacho centralizado; Sistema Interligado Nacional (SIN); Conta de Desenvolvimento Energético (CDE); investimento; pesquisa e desenvolvimento"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659079",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1249/2026",
+      "ementa": "Susta os efeitos da Portaria MJSP nº 1.262, de 19 de novembro de 2026, que declara de posse permanente dos povos indígenas Mebêngôkre e Yudjá a Terra Indígena Kapôt Nhinore, localizada nos Estados de Mato Grosso e Pará.\n\n ",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659079",
+      "autores": [
+        {
+          "nome": "Coronel Fernanda",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203693",
+      "extra": {
+        "indexacao": "sustação; Portaria; Ministério da Justiça e Segurança Pública; Posse permanente; Terras indígenas; Indígenas; Mato Grosso; Pará (Estado)"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659098",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5947/2026",
+      "ementa": "Dispõe sobre a obrigatoriedade de implantação de sistemas de monitoramento e integração tecnológica com as forças de segurança pública nos contratos de concessão de rodovias federais.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659098",
+      "autores": [
+        {
+          "nome": "Bebeto",
+          "partido": "PP",
+          "uf": "RJ"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203732",
+      "extra": {
+        "indexacao": "obrigatoriedade; Videomonitoramento; Rodovia federal; integração; Órgão de segurança pública; Polícia Rodoviária Federal (PRF); Agência Nacional de Transportes Terrestres (ANTT); Edital; Licitação; Contrato de concessão"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659109",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5949/2026",
+      "ementa": "Acrescenta o art. 26-I à Lei nº 8.080, de 19 de setembro de 1990, para instituir a Política Nacional Permanente de Telessaúde na Amazônia Legal, no âmbito do Sistema Único de Saúde.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659109",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203754",
+      "extra": {
+        "indexacao": "alteração; Lei Orgânica da Saúde (1990); política pública; Telessaúde; Amazônia Legal; Sistema Único de Saúde (SUS); ampliação; acesso; População indígena; População ribeirinha; Comunidade isolada; Assistência à saúde; diretrizes"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659110",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5950/2026",
+      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023, para incluir as particularidades geográficas e logísticas da Amazônia Legal entre os critérios de seleção e concessão da Bolsa-Atleta.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659110",
+      "autores": [
+        {
+          "nome": "Sidney Leite",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203755",
+      "extra": {
+        "indexacao": "alteração; Lei Geral do Esporte (2023); critério; concessão; Bolsa-Atleta; Amazônia Legal; Logística; deslocamento; treinamento; Competição esportiva; Igualdade de oportunidade; Atleta; Amazonas"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659111",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5951/2026",
+      "ementa": "Altera a Lei nº 6.538, de 22 de junho de 1978, para modernizar procedimentos de documentação, comprovação de postagem e entrega e disponibilização de informações no âmbito dos serviços postais.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659111",
+      "autores": [],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203756",
+      "extra": {
+        "indexacao": "alteração; Lei dos Serviços Postais (1978); modernização; Serviços postais; Documento eletrônico; comprovação eletrônica; rastreabilidade"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659112",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5952/2026",
+      "ementa": "Revoga a Lei nº 13.645, de 4 de abril de 2018, que institui o Dia Nacional do Desafio.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659112",
+      "autores": [
+        {
+          "nome": "Sidney Leite",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203757",
+      "extra": {
+        "indexacao": "Revogação; Lei federal; Dia Nacional do Desafio; Campanha educativa; Atividade física; Esporte"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659113",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5953/2026",
+      "ementa": "Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659113",
+      "autores": [
+        {
+          "nome": "Sidney Leite",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203758",
+      "extra": {
+        "indexacao": "alteração; Lei federal; avaliação; Relevância social; Data comemorativa; critério; criação; Feriado; Transparência pública"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659137",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5955/2026",
+      "ementa": "Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659137",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203788",
+      "extra": {
+        "indexacao": "bloqueio; Telefone celular; Identificação Internacional de Equipamento Móvel (IMEI); Roubo; Furto; extravio; Boletim de ocorrência policial; Órgão de segurança pública; Operadora de telefonia móvel; Multa administrativa; Receptação de aparelho de telefonia móvel, celular ou smartphone"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659237",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5956/2026",
+      "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659237",
+      "autores": [
+        {
+          "nome": "Célio Studart",
+          "partido": "PSD",
+          "uf": "CE"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203996",
+      "extra": {
+        "indexacao": "alteração; Lei Antifumo (1996); obrigatoriedade; Mensagem de advertência; Embalagem do produto; Produto fumígeno; Tabaco; Prejuízo; Saúde animal; Animal doméstico"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659238",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5957/2026",
+      "ementa": "Altera a Lei nº 13.988, de 14 de abril de 2020, e a Lei nº 10.522, de 19 de julho de 2002, para instituir modalidade de transação tributária vinculada à capacidade efetiva de pagamento, criar o Bônus de Conformidade Corrente para contribuintes adimplentes, instituir o Cadastro Nacional de Grandes Devedores Contumazes da Dívida Ativa e estabelecer regras céleres de cobrança e constrição patrimonial, e dá outras providências.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659238",
+      "autores": [
+        {
+          "nome": "Mauricio Neves",
+          "partido": "PP",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203998",
+      "extra": {
+        "indexacao": "alteração; Lei federal; Transação tributária; Devedor contumaz; Dívida ativa; cobrança; Regularidade fiscal; Pessoa jurídica"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659243",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "PDL 1250/2026",
+      "ementa": "Susta os efeitos da Portaria nº 1.249/PRES, de 27 de setembro de 2004, da Presidência da Fundação Nacional do Índio, que constituiu o grupo técnico de identificação e delimitação da Terra Indígena Kapôt Nh?nore.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659243",
+      "autores": [
+        {
+          "nome": "Rodolfo Nogueira",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204018",
+      "extra": {
+        "indexacao": "sustação; Portaria; Fundação Nacional dos Povos Indígenas (Funai); Grupo técnico de trabalho; identificação; Demarcação de terra; Terras indígenas"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659286",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 318/2026",
+      "ementa": "Altera a Lei Complementar nº 206, de 16 de maio de 2024, e a Lei Complementar nº 212, de 13 de janeiro de 2025, para permitir a prorrogação das medidas de alívio financeiro e a remissão parcial de dívidas a entes federativos afetados por calamidade pública reconhecida pelo Congresso Nacional, mediante proposta do Poder Executivo federal.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659286",
+      "autores": [
+        {
+          "nome": "Afonso Hamm",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204102",
+      "extra": {
+        "indexacao": "alteração; Lei complementar; prorrogação; Pagamento; Remissão da dívida; Ente federado; Calamidade pública; Fundo público; Contrato de refinanciamento de dívida; Programa de Pleno Pagamento de Dívidas dos Estados (Propag); Ministério da Fazenda; Benefício fiscal; Tributação"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659310",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5958/2026",
+      "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659310",
+      "autores": [
+        {
+          "nome": "Eros Biondini",
+          "partido": "PL",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204135",
+      "extra": {
+        "indexacao": "alteração; Lei federal; Programa de Combate à Intimidação Sistemática - Bullying; Instituição de ensino; Canal de denúncia; Aluno; Vítima; Bullying; Denúncia anônima; medida de proteção; Assistência psicológica; responsabilização"
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659340",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5959/2026",
+      "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor) para dispor sobre a obrigatoriedade de destaque visual do montante total de juros e do Custo Efetivo Total em contratos de crédito e financiamento.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659340",
+      "autores": [
+        {
+          "nome": "Kim Kataguiri",
+          "partido": "MISSÃO",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204323",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "camara:2659342",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5960/2026",
+      "ementa": "Institui a Política Nacional de Arborização Urbana, estabelece diretrizes para a compatibilização e o convívio seguro da vegetação com as redes de distribuição de energia elétrica, cria o Sistema Nacional de Informações sobre Arborização Urbana, e dá outras providências.",
+      "data": "2026-11-24",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2659342",
+      "autores": [
+        {
+          "nome": "Gilberto Nascimento",
+          "partido": "PODE",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204327",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "senado:9136256",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5948/2026",
+      "ementa": "Confere ao Município de Itapiranga, no Estado de Santa Catarina, o título de Berço Nacional da Oktoberfest.",
+      "data": "2026-11-24",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176536",
+      "autores": [
+        {
+          "nome": "Jorge Seif",
+          "partido": "PL",
+          "uf": "SC"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a47feaba-500a-4011-af0e-3f9f16968aad",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176536
+      }
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185200",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PDL",
+      "titulo": "Projeto de Decreto Legislativo nº 27 de 2026",
+      "ementa": "APROVA a indicação dos nomes que especifica para a composição do Conselho Estadual dos Direitos Humanos.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185200",
+      "autores": [
+        {
+          "nome": "CE - Comissão Especial",
+          "partido": "PSDB",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185200/pdl._n.o_27.2026_conselho_direitos_humanos.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185242",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 640 de 2026",
+      "ementa": "DECLARA como Patrimônio Cultural de Natureza Imaterial do Estado do Amazonas a Feira da Panair, localizada no bairro de Educandos, no Município de Manaus.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185242",
+      "autores": [
+        {
+          "nome": "Rozenha",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185242/047004.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185243",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 641 de 2026",
+      "ementa": "ALTERA a Lei nº 7.044, de 3 de setembro de 2024, que estabelece diretrizes para conscientização da população sobre os riscos do Uso do Transporte Clandestino e Priorização do Transporte Seguro no Estado do Amazonas, para incluir o transporte fluvial intermunicipal de passageiros e ampliar as ações de conscientização.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185243",
+      "autores": [
+        {
+          "nome": "Rozenha",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185243/047060.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185244",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 642 de 2026",
+      "ementa": "ALTERA a Lei nº 6.767, de 10 de janeiro de 2024, que institui diretrizes de estímulo ao empreendedorismo feminino, para incluir\nobjetivos de inclusão digital das empreendedoras e de acesso a novos mercados.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185244",
+      "autores": [
+        {
+          "nome": "Rozenha",
+          "partido": "PSD",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185244/047188.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185245",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 643 de 2026",
+      "ementa": "DISPÕE sobre as medidas de proteção e segurança aos profissionais do sistema público de saúde do Estado do Amazonas.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185245",
+      "autores": [
+        {
+          "nome": "Wanderley Monteiro",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185245/047288..pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185248",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 644 de 2026",
+      "ementa": "Altera a Lei nº 4.457, de 12 de abril de 2017, para incluir o tratamento ambientalmente adequado de lixiviados entre os objetivos da Política Estadual de\nResíduos Sólidos do Amazonas.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185248",
+      "autores": [
+        {
+          "nome": "Daniel Almeida",
+          "partido": "AVANTE",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185248/047473.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
+  },
+  {
+    "item": {
+      "id": "aleam:materia:185249",
+      "fonte": "aleam",
+      "nivel": "estadual",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei Ordinária nº 645 de 2026",
+      "ementa": "Dispõe sobre a obrigatoriedade de tampas fixas em garrafas PET de bebidas comercializadas no âmbito do Estado do Amazonas.",
+      "data": "2026-11-24",
+      "url": "https://sapl.al.am.leg.br/materia/185249",
+      "autores": [
+        {
+          "nome": "Daniel Almeida",
+          "partido": "AVANTE",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185249/047476.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-24"
   },
   {
     "item": {

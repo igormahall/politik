@@ -3,10 +3,10 @@
   "nome": "Internação e prisão domiciliar de Bolsonaro",
   "inicio": "2026-11-20",
   "ativo": true,
-  "ultima_novidade": "2026-11-23",
+  "ultima_novidade": "2026-11-24",
   "palavras_chave": ["Bolsonaro internado", "Hospital DF Star", "prisão domiciliar de Bolsonaro", "tornozeleira de Bolsonaro"],
-  "resumo_ate_aqui": "Jair Bolsonaro, que cumpre prisão domiciliar, está internado desde sexta-feira (20), no Hospital DF Star, em Brasília. O boletim médico de domingo (22) diz que ele segue na UTI, estável e sem previsão de alta; na segunda-feira (23), segundo apenas o g1, a equipe médica disse que o tratamento segue clínico e que nova cirurgia está descartada enquanto houver melhora. Moraes autorizou a retirada da tornozeleira durante a internação.",
-  "explica_do_zero": "Jair Bolsonaro foi condenado a 27 anos e três meses de prisão no processo da trama golpista e cumpre pena em prisão domiciliar, segundo apenas a Agência Brasil. Na sexta-feira (20), passou mal e foi levado ao Hospital DF Star, em Brasília, com dores e distensão abdominal.\n\nNo sábado (21), Moraes autorizou os filhos e a enteada a visitá-lo durante a internação. No domingo (22), o boletim médico informou que ele segue na UTI, estável, com diagnóstico de abdômen agudo obstrutivo e sem previsão de alta. Moraes também autorizou a retirada da tornozeleira durante a internação.\n\nNa segunda-feira (23), segundo apenas o g1, a equipe médica disse que o tratamento segue clínico por enquanto, e que nova cirurgia está descartada enquanto houver melhora. Segundo apenas o g1, o quadro inclui obstrução intestinal e pneumonia.",
+  "resumo_ate_aqui": "Jair Bolsonaro, que cumpre prisão domiciliar, está internado desde sexta-feira (20), no Hospital DF Star, em Brasília. O boletim médico de domingo (22) diz que ele segue na UTI, estável e sem previsão de alta; na segunda-feira (23), segundo apenas o g1, a equipe médica disse que o tratamento segue clínico e que nova cirurgia está descartada enquanto houver melhora. Moraes autorizou a retirada da tornozeleira durante a internação. Em 24 de novembro, segundo apenas a Folha, o boletim médico registrou melhora do quadro, mas sem previsão de alta.",
+  "explica_do_zero": "Jair Bolsonaro foi condenado a 27 anos e três meses de prisão no processo da trama golpista e cumpre pena em prisão domiciliar, segundo apenas a Agência Brasil. Na sexta-feira (20), passou mal e foi levado ao Hospital DF Star, em Brasília, com dores e distensão abdominal.\n\nNo sábado (21), Moraes autorizou os filhos e a enteada a visitá-lo durante a internação. No domingo (22), o boletim médico informou que ele segue na UTI, estável, com diagnóstico de abdômen agudo obstrutivo e sem previsão de alta. Moraes também autorizou a retirada da tornozeleira durante a internação.\n\nNa segunda-feira (23), segundo apenas o g1, a equipe médica disse que o tratamento segue clínico por enquanto, e que nova cirurgia está descartada enquanto houver melhora. Segundo apenas o g1, o quadro inclui obstrução intestinal e pneumonia.\n\nNo dia 24, segundo apenas a Folha, o boletim médico informou que o quadro de obstrução intestinal melhorou, mas segue sem previsão de alta.",
   "linha_do_tempo": [
     {
       "data": "2026-11-20",
@@ -58,6 +58,12 @@
       "fontes": [
         {"nome": "g1", "url": "https://g1.globo.com/politica/noticia/2026/11/23/bolsonaro-continuara-internado-na-uti-por-dores-abdominais-e-pneumonia-medicos-descartam-cirurgia-neste-momento.ghtml"}
       ],
+      "fonte_unica": true
+    },
+    {
+      "data": "2026-11-24",
+      "fato": "Segundo apenas a Folha, o boletim médico divulgado no dia 24 diz que Bolsonaro teve melhora do quadro de obstrução intestinal, mas segue sem previsão de alta.",
+      "fontes": [{"nome": "Folha de S.Paulo", "url": "https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/11/bolsonaro-tem-melhora-em-quadro-de-obstrucao-intestinal-mas-segue-sem-previsao-de-alta.shtml"}],
       "fonte_unica": true
     }
   ]
