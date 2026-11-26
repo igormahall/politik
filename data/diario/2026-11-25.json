@@ -1,0 +1,43 @@
+{
+  "data": "2026-11-25",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "O governo deve renovar por mais 30 dias o subsídio ao diesel, e os subsídios aos combustíveis somam cerca de R$ 75 bilhões neste ano. O governo também liberou R$ 3,43 bilhões do Orçamento, e a previsão de déficit deste ano subiu.",
+      "aviso_fonte_unica": "A liberação de R$ 3,43 bilhões e a alta do déficit previsto vêm só da Agência Brasil.",
+      "nome_curto": "Pacote de ajuste fiscal",
+      "linha_capa": "Subsídio ao diesel deve ser renovado; combustíveis somam cerca de R$ 75 bi"
+    },
+    {
+      "slug": "caso-master",
+      "novo_hoje": "Um dia depois de Nunes Marques ser sorteado relator, a defesa de Vorcaro pediu que ele deixe o caso. No mesmo dia, o diretor-geral da PF disse que STF e PGR já têm todo o material para as investigações.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Defesa de Vorcaro quer Nunes Marques fora da ação; PF diz que STF tem o material"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "Especialistas ouvidos pela Câmara divergiram sobre reduzir a maioridade penal, em audiência pública.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Redução da maioridade penal",
+      "linha_capa": "Especialistas divergem em audiência na Câmara sobre a proposta"
+    },
+    {
+      "slug": "presidencia-do-senado-2027",
+      "novo_hoje": "Alcolumbre se reuniu com a bancada feminina do Senado e se comprometeu com propostas para ampliar a presença de mulheres na política.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Disputa pela presidência do Senado",
+      "linha_capa": "Alcolumbre recebe senadoras e se compromete a ampliar presença feminina"
+    }
+  ],
+  "fichas": [
+    "camara:2659242",
+    "camara:2651337:tram:3",
+    "camara:2655570:tram:19",
+    "camara:2653179:tram:6"
+  ],
+  "mundo": [
+    "mundo:2026-11-25:1",
+    "mundo:2026-11-25:2"
+  ]
+}
