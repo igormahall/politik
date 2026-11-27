@@ -6,6 +6,8 @@ teto_destaques = 20
 # os projetos locais iam para a fila e expiravam: de 07/11 a 26/11 nenhuma ficha local saiu.
 vagas_locais = 5
 pendente_max_dias = 2
+# ALEAM e CMM despejam dezenas de matérias numa semana e só têm 5 vagas por dia: com 2 dias, a fila expirava sem ficha
+pendente_max_dias_local = 7
 teto_noticias = 60
 teto_mundo = 80
 inatividade_tema_dias = 30

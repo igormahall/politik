@@ -229,3 +229,16 @@ def test_vagas_locais_alternam_entre_aleam_e_cmm():
     sel, _ = filtrar(D, federais + aleam + cmm, [], CFG, [])
     locais = [i.id for i in sel["destaques"] if not i.id.startswith("camara:")]
     assert locais == ["aleam:0", "aleam:1", "aleam:2", "cmm:0", "cmm:1"]
+
+
+def test_pendente_local_dura_mais_que_o_federal():
+    # 5 vagas por dia não dão conta das semanas cheias da ALEAM e da CMM: com 2 dias, a fila expirava sem ficha
+    velho = "2026-10-25"  # 3 dias antes de D: passa do prazo federal, cabe no local
+    pend = [
+        {"item": item(id="camara:x").to_dict(), "primeira_vez": velho},
+        {"item": item(id="cmm:x", fonte="cmm", nivel="municipal").to_dict(), "primeira_vez": velho},
+        {"item": item(id="aleam:y", fonte="aleam", nivel="estadual").to_dict(), "primeira_vez": "2026-10-20"},
+    ]
+    sel, _ = filtrar(D, [], pend, CFG, [])
+    assert [i.id for i in sel["destaques"]] == ["cmm:x"]
+    assert sorted(i.id for i in sel["menores"]) == ["aleam:y", "camara:x"]

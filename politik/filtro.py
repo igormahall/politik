@@ -112,7 +112,10 @@ def filtrar(
 
     for p in pendentes:
         it = Item.from_dict(p["item"])
-        if _idade(data, p["primeira_vez"]) > cfg["pendente_max_dias"]:
+        prazo = cfg["pendente_max_dias"]
+        if it.fonte in LOCAL:
+            prazo = cfg.get("pendente_max_dias_local", prazo)
+        if _idade(data, p["primeira_vez"]) > prazo:
             menores.append(it)
         else:
             candidatos.append((it, p["primeira_vez"]))

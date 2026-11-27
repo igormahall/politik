@@ -28,8 +28,9 @@ processa. O GitHub Actions então roda:
    fonte indisponível, como antes. Se a base aberta também falhar, a reserva final é a
    [lista de legislação federal do Senado](https://legis.senado.leg.br/dadosabertos/legislacao/lista): só leis,
    decretos e MPs (sem portarias), pela data de assinatura, olhando 5 dias para trás e sem repetir o que já saiu.
-2. `filtrar`: separa destaques (até 20, com 5 vagas garantidas para ALEAM e Câmara de Manaus; etapas burocráticas
-   de tramitação vão para os menores e cada projeto tem no máximo uma tramitação por dia), notícias (até 60, em
+2. `filtrar`: separa destaques (até 20, com 5 vagas garantidas para ALEAM e Câmara de Manaus, alternando as duas; etapas burocráticas
+   de tramitação vão para os menores e cada projeto tem no máximo uma tramitação por dia; o que não cabe espera na
+   fila 2 dias, ou 7 se for da ALEAM ou da CMM), notícias (até 60, em
    rodízio entre os veículos), itens do Mundo (até 80, em rodízio entre as
    organizações) e itens menores → `data/selecionados/<dia>.json` (guarda todos os itens do dia; é o registro
    bruto que fica no histórico). A tramitação de um projeto apresentado no mesmo dia não vira uma segunda ficha.
