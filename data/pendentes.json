@@ -1,6 +1,179 @@
 [
   {
     "item": {
+      "id": "cmm:pacote:2026-11-23:executivo",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Pacote de 13 projetos de lei do Executivo Municipal sobre a estrutura da Prefeitura (PL 871 a 883/2026)",
+      "ementa": "Projetos enviados juntos pelo Executivo Municipal e registrados na CMM em 23/11/2026; cada um está em extra.projetos. PL 871/2026: DISPÕE sobre a estrutura organizacional da Casa Civil e dá outras providências. Mensagem n. 108/2026. | PL 872/2026: DISPÕE sobre a Estrutura Organizacional da Secretaria Municipal de Infraestrutura (Seminf), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n.109/2026. | PL 873/2026: DISPÕE sobre a estrutura organizacional da Casa Militar e dá outras providências. Mensagem n. 50/2026 | PL 874/2026: ALTERA a Lei n. 3.480, de 01 de abril de 2025, que dispõe sobre o funcionamento e a estrutura organizacional do Poder Executivo Municipal e dá outras providências. Mensagem n. 48/2026. | PL 875/2026: DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Educação (Semed), suas finalidades e competências, fixa seu quadro de cargos comissionados, cria Funções Gratificadas da Educação e dá outras providências. Mensagem n. 51/2026. | PL 876/2026: ALTERA a Lei n. 2.428, de 07 de maio de 2019, dispõe sobre a estrutura organizacional do Instituto Municipal de Mobilidade Urbana (IMMU) e dá outras providências. Mensagem n. 54/2026. | PL 877/2026: DISPÕE sobre a estrutura da Fundação Municipal de Cultura, Turismo e Eventos (Manauscult), entidade da Administração Indireta do Poder Executivo Municipal, e dá outras providências. Mensagem n. 55/2026. | PL 878/2026: DISPÕE sobre a estrutura organizacional do Gabinete do Vice-Prefeito e dá outras providências. Mensagem 52/2026. | PL 879/2026: DISPÕE sobre a estrutura organizacional da Fundação Municipal dos Direitos da Pessoa Idosa (FMDPI) e dá outras providências. Mensagem n. 53/2026. | PL 880/2026: DISPÕE Sobre a Estrutura de Organizacional da Secretaria Municipal de Administração e Gestão (Semad), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n. 56/2026. | PL 881/2026: DISPÕE sobre a organização do Conselho Municipal de Gestão Estratégica (CMGE) e dá outras providências. Mensagem 57/2026. | PL 882/2026: DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Segurança Pública e Defesa Social (Semseg) e dá outras providências. Mensagem n. 58/2026. | PL 883/2026: ALTERA a Lei Municipal n. 1.015, de 14 de julho de 2006, e dá outras providências. Mensagem 59/2026",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53183",
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53183/pl_874_2026_exe__mun_mens._48_2026_altera_a_lei_3480_estrutura_organizacional_do_poder_executivo.pdf",
+      "autores": [
+        {
+          "nome": "Executivo Municipal",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "extra": {
+        "projetos": [
+          {
+            "titulo": "PL 871/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional da Casa Civil e dá outras providências. Mensagem n. 108/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53180",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53180/pl_871_2026_exe__mun_mens._108_2026_estrutura_organizacional_da_casa_civil.pdf"
+          },
+          {
+            "titulo": "PL 872/2026",
+            "ementa": "DISPÕE sobre a Estrutura Organizacional da Secretaria Municipal de Infraestrutura (Seminf), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n.109/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53181",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53181/pl_872_2026_exe__mun_mens._109_2026_estrutura_organizacional_da_seminf.pdf"
+          },
+          {
+            "titulo": "PL 873/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional da Casa Militar e dá outras providências. Mensagem n. 50/2026",
+            "url": "https://sapl.cmm.am.gov.br/materia/53182",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53182/pl_873_2026_exe__mun_mens._50_2026_estrutura_organizacional_da_casa_militar.pdf"
+          },
+          {
+            "titulo": "PL 874/2026",
+            "ementa": "ALTERA a Lei n. 3.480, de 01 de abril de 2025, que dispõe sobre o funcionamento e a estrutura organizacional do Poder Executivo Municipal e dá outras providências. Mensagem n. 48/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53183",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53183/pl_874_2026_exe__mun_mens._48_2026_altera_a_lei_3480_estrutura_organizacional_do_poder_executivo.pdf"
+          },
+          {
+            "titulo": "PL 875/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Educação (Semed), suas finalidades e competências, fixa seu quadro de cargos comissionados, cria Funções Gratificadas da Educação e dá outras providências. Mensagem n. 51/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53184",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53184/pl_875_2026_exe__mun_mens._51_2026_estrutura_organizacional_da_semed.pdf"
+          },
+          {
+            "titulo": "PL 876/2026",
+            "ementa": "ALTERA a Lei n. 2.428, de 07 de maio de 2019, dispõe sobre a estrutura organizacional do Instituto Municipal de Mobilidade Urbana (IMMU) e dá outras providências. Mensagem n. 54/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53185",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53185/pl_876_2026_exe__mun_mens._54_2026_estrutura_organizacional_do_immu.pdf"
+          },
+          {
+            "titulo": "PL 877/2026",
+            "ementa": "DISPÕE sobre a estrutura da Fundação Municipal de Cultura, Turismo e Eventos (Manauscult), entidade da Administração Indireta do Poder Executivo Municipal, e dá outras providências. Mensagem n. 55/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53186",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53186/pl_877_2026_exe__mun_mens._55_2026_estrutura_organizacional_da_manauscult.pdf"
+          },
+          {
+            "titulo": "PL 878/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional do Gabinete do Vice-Prefeito e dá outras providências. Mensagem 52/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53187",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53187/pl_878_2026_exe__mun_mens._52_2026_estrutura_organizacional_do_gabinete_do_vice-prefeito.pdf"
+          },
+          {
+            "titulo": "PL 879/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional da Fundação Municipal dos Direitos da Pessoa Idosa (FMDPI) e dá outras providências. Mensagem n. 53/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53188",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53188/pl_879_2026_exe__mun_mens._53_2026_estrutura_organizacional_da_dmdpi.pdf"
+          },
+          {
+            "titulo": "PL 880/2026",
+            "ementa": "DISPÕE Sobre a Estrutura de Organizacional da Secretaria Municipal de Administração e Gestão (Semad), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n. 56/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53189",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53189/pl_880_2026_exe__mun_mens._56_2026_estrutura_organizacional_da_semad.pdf"
+          },
+          {
+            "titulo": "PL 881/2026",
+            "ementa": "DISPÕE sobre a organização do Conselho Municipal de Gestão Estratégica (CMGE) e dá outras providências. Mensagem 57/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53190",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53190/pl_881_2026_exe__mun_mens._57_2026_estrutura_organizacional_do_cmge.pdf"
+          },
+          {
+            "titulo": "PL 882/2026",
+            "ementa": "DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Segurança Pública e Defesa Social (Semseg) e dá outras providências. Mensagem n. 58/2026.",
+            "url": "https://sapl.cmm.am.gov.br/materia/53191",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53191/pl_882_2026_exe__mun_mens._58_2026_estrutura_organizacional_da_semseg.pdf"
+          },
+          {
+            "titulo": "PL 883/2026",
+            "ementa": "ALTERA a Lei Municipal n. 1.015, de 14 de julho de 2006, e dá outras providências. Mensagem 59/2026",
+            "url": "https://sapl.cmm.am.gov.br/materia/53192",
+            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53192/pl_883_2026_exe__mun_mens._59_2026_altera_a_lei_1.015.pdf"
+          }
+        ]
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53179",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 870 de 2026",
+      "ementa": "AUTORIZA o Poder Executivo Municipal a desafetar e alienar bem imóvel municipal definido como via pública do Loteamento Parque das Laranjeiras — Etapa Especial, Bairro Flores. Mensagem n. 107/2026.",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53179",
+      "autores": [
+        {
+          "nome": "Executivo Municipal",
+          "partido": null,
+          "uf": null
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53179/pl_870_2026_exe__mun_mens._107_2026_desafetacao_e_alienacao_flores.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53193",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 884 de 2026",
+      "ementa": "INSTITUI o Programa “Filhos da Terra”, que estabelece as diretrizes municipais para o incentivo e a valorização de artistas, grupos e manifestações culturais locais no Município de Manaus, e dá outras providências.",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53193",
+      "autores": [
+        {
+          "nome": "RAIFF MATOS",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53193/pl_884_2026_raiff_matos_programa_filhos_da_terra.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53194",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 885 de 2026",
+      "ementa": "Projeto de Lei nº 174/2026, de autoria do Vereador Diego Afonso, que “Institui no âmbito do Município de Manaus/AM o programa ‘Brinquedoteca nas UBS’ e dá outras providências”.",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53194",
+      "autores": [
+        {
+          "nome": "PROF.ª JACQUELINE",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
       "id": "camara:2649804:tram:7",
       "fonte": "camara",
       "nivel": "federal",
