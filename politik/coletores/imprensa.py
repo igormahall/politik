@@ -25,9 +25,11 @@ def carregar_feeds(caminho: Path = CONFIG) -> list[dict]:
     return tomllib.loads(caminho.read_text(encoding="utf-8"))["feed"]
 
 
-def parse_feed(veiculo: str, secao: str, conteudo: bytes, data: str) -> list[Item]:
+def parse_feed(veiculo: str, secao: str, conteudo: bytes, data: str, categorias: list[str] | None = None) -> list[Item]:
     itens = []
     for e in feedparser.parse(conteudo).entries:
+        if categorias and not {t.get("term", "") for t in e.get("tags", [])} & set(categorias):
+            continue  # feed geral do veículo: só as categorias pedidas
         quando = e.get("published_parsed") or e.get("updated_parsed")
         if not quando or not e.get("link"):
             continue
@@ -67,7 +69,7 @@ def coletar(data: str) -> list[Item]:
             try:
                 r = cliente.get(f["url"])
                 r.raise_for_status()
-                novos = parse_feed(f["veiculo"], f["secao"], r.content, data)
+                novos = parse_feed(f["veiculo"], f["secao"], r.content, data, f.get("categorias"))
                 if f["texto_completo"]:
                     for it in novos:
                         try:

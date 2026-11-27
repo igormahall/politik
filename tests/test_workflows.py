@@ -119,7 +119,7 @@ def test_skill_e_guia_cobrem_o_mundo():
 
 def test_traducao_tem_folga_de_turnos_para_o_mundo():
     args = _passo(_wf("diario.yml"), "diario", "claude")["with"]["claude_args"]
-    assert "--max-turns 80" in args
+    assert "--max-turns 120" in args
 
 
 def test_lista_de_coletados_nao_pode_ser_editada_pelo_claude():

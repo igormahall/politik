@@ -28,3 +28,12 @@ def test_config_tem_linhas_diferentes_e_amazonas():
     assert len({f["veiculo"] for f in feeds}) >= 9
     assert sum(f["secao"] == "amazonas" for f in feeds) >= 2
     assert all(f["texto_completo"] is False or f["veiculo"].startswith("agencia") for f in feeds)
+
+
+def test_feed_geral_filtrado_por_categoria():
+    todos = parse_feed("oeste", "politica", load_bytes("feed.xml"), DIA)
+    so_eleicoes = parse_feed(
+        "oeste", "politica", load_bytes("feed.xml"), DIA, ["Polícia Federal", "Violência política"]
+    )
+    assert 0 < len(so_eleicoes) < len(todos)
+    assert parse_feed("oeste", "politica", load_bytes("feed.xml"), DIA, ["Categoria que não existe"]) == []

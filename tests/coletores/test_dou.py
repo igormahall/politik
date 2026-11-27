@@ -77,11 +77,66 @@ def test_sem_inlabs_usa_a_base_aberta_so_com_o_dia(sem_inlabs):
     assert str(pedidos[1].url) == ZIP_DO_MES
 
 
+def _legislacao(por_dia: dict | None = None, status: int = 200, pedidos: list | None = None) -> httpx.Client:
+    """Imita a API de legislação do Senado: {"AAAAMMDD": [documentos]}."""
+
+    def h(r: httpx.Request) -> httpx.Response:
+        if pedidos is not None:
+            pedidos.append(r)
+        if status != 200:
+            return httpx.Response(status)
+        if r.url.path.endswith("/lista"):
+            docs = (por_dia or {}).get(r.url.params["data"], [])
+            return httpx.Response(200, json={"ListaDocumento": {"documentos": {"documento": docs} if docs else ""}})
+        cod = r.url.path.rsplit("/", 1)[1]
+        ident = {"urlDocumento": f"https://normas.leg.br/?urn=x;{cod}"}
+        return httpx.Response(200, json={"DetalheDocumento": {"documentos": {"documento": [{"identificacao": ident}]}}})
+
+    return httpx.Client(transport=httpx.MockTransport(h))
+
+
+def _norma(cod, tipo="LEI-n", nome="Lei nº 15.555 de 26/11/2026", ementa="Altera o Estatuto da Criança."):
+    return {
+        "id": cod,
+        "tipo": tipo,
+        "descricao": "Lei Numerada",
+        "normaNome": nome,
+        "ementa": ementa,
+        "dataassinatura": "26/11/2026",
+    }
+
+
 def test_base_aberta_ainda_sem_o_dia(sem_inlabs):
     with pytest.raises(FonteIndisponivel, match="2026-10-29"):
-        coletar("2026-10-29", base_aberta=_base_aberta())
+        coletar("2026-10-29", base_aberta=_base_aberta(), legislacao=_legislacao(status=502))
 
 
 def test_base_aberta_sem_o_arquivo_do_mes(sem_inlabs):
     with pytest.raises(FonteIndisponivel, match="INLABS sem credenciais"):
-        coletar("2026-10-28", base_aberta=_base_aberta(listagem="<p>nada</p>"))
+        coletar("2026-10-28", base_aberta=_base_aberta(listagem="<p>nada</p>"), legislacao=_legislacao(status=502))
+
+
+def test_sem_inlabs_e_sem_base_aberta_usa_a_legislacao_do_senado(sem_inlabs, tmp_data):
+    # 20–27/11/2026: INLABS em manutenção e base aberta com 502; o DOU sumiu do boletim por uma semana
+    por_dia = {
+        "20261126": [_norma("1"), _norma("2", tipo="DEC-n", nome="Decreto nº 13.175 de 26/11/2026")],
+        "20261124": [_norma("3", tipo="LCP", nome="Lei Complementar nº 239 de 24/11/2026")],
+    }
+    itens = coletar("2026-11-26", base_aberta=_base_aberta(listagem="<p>nada</p>"), legislacao=_legislacao(por_dia))
+    assert [i.id for i in itens] == ["dou:leg:1", "dou:leg:2", "dou:leg:3"]  # a janela pega o que entrou atrasado
+    assert [i.sigla_tipo for i in itens] == ["LEI", "DECRETO", "LEI COMPLEMENTAR"]
+    assert all(i.fonte == "dou" and i.categoria == "norma" and i.data == "2026-11-26" for i in itens)
+    assert itens[0].url == "https://normas.leg.br/?urn=x;1"
+
+
+def test_legislacao_nao_repete_norma_de_boletim_anterior(sem_inlabs, tmp_data):
+    from politik.armazenamento import escrever_json
+
+    escrever_json(tmp_data / "selecionados" / "2026-11-25.json", {"destaques": [{"id": "dou:leg:3"}], "menores": []})
+    por_dia = {"20261126": [_norma("1")], "20261124": [_norma("3", tipo="LCP")]}
+    itens = coletar("2026-11-26", base_aberta=_base_aberta(listagem="<p>nada</p>"), legislacao=_legislacao(por_dia))
+    assert [i.id for i in itens] == ["dou:leg:1"]
+
+
+def test_legislacao_sem_normas_no_periodo_nao_e_falha(sem_inlabs, tmp_data):
+    assert coletar("2026-11-22", base_aberta=_base_aberta(listagem="<p>nada</p>"), legislacao=_legislacao({})) == []

@@ -69,7 +69,9 @@ texto_completo = false
 
 [[feed]]
 veiculo = "oeste"
-url = "https://revistaoeste.com/politica/feed/"
+# o feed da seção deu 404 a partir de 18/11/2026; o geral traz tudo, então só entram as categorias de política
+url = "https://revistaoeste.com/feed/"
+categorias = ["Política", "Últimas de Política"]
 secao = "politica"
 texto_completo = false
 
@@ -81,14 +83,22 @@ texto_completo = false
 
 [[feed]]
 veiculo = "acritica"
-url = "https://www.acritica.com/rss"
+url = "https://www.acritica.com/feed/" # /rss redireciona para cá
 secao = "amazonas"
 texto_completo = false
 
 # d24am fora: o feed responde 403 a todo acesso vindo do GitHub Actions (bloqueio por IP, out–nov/2026)
 
+# amazonasatual fora: 403 a todo acesso vindo do GitHub Actions desde 12/11/2026 (de outro IP responde 200)
+
 [[feed]]
-veiculo = "amazonasatual"
-url = "https://amazonasatual.com.br/feed/"
+veiculo = "emtempo"
+url = "https://emtempo.com.br/category/politica/feed/"
+secao = "amazonas"
+texto_completo = false
+
+[[feed]]
+veiculo = "amazonas1"
+url = "https://amazonas1.com.br/politica/feed/"
 secao = "amazonas"
 texto_completo = false

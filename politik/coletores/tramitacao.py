@@ -67,14 +67,24 @@ def parse_situacao_senado(item_id: str, processo: dict, data: str) -> Item | Non
     )
 
 
+# Em 18/11 a API da Câmara não respondia: ~150 processos x 30 s de espera passaram do limite de 60 min do
+# job, duas vezes, e o boletim só saiu às 15h. Depois de tantas falhas de conexão seguidas, a casa é dada
+# como fora do ar.
+FALHAS_SEGUIDAS_MAX = 3
+
+
 @registrar("tramitacao")
 def coletar(data: str) -> list[Item]:
     itens = []
     erros: list[Exception] = []
+    seguidas: dict[str, int] = {}
     ids = acompanhados(data)
     with httpx.Client(timeout=30, headers={"Accept": "application/json"}) as c:
         for iid in ids:
             casa, cod = iid.split(":")[:2]
+            if seguidas.get(casa, 0) >= FALHAS_SEGUIDAS_MAX:
+                erros.append(httpx.ConnectError(f"{casa} fora do ar; processo {cod} não consultado"))
+                continue
             try:  # um processo com erro (502 do Senado em 10/11) não pode apagar os outros
                 if casa == "camara":
                     r = c.get(f"{CAMARA}/proposicoes/{cod}/tramitacoes", params={"dataInicio": data, "dataFim": data})
@@ -85,7 +95,12 @@ def coletar(data: str) -> list[Item]:
                     r.raise_for_status()
                     if it := parse_situacao_senado(iid, r.json(), data):
                         itens.append(it)
-            except httpx.HTTPError as e:
+                seguidas[casa] = 0
+            except httpx.TransportError as e:  # sem conexão: conta para o disjuntor
+                seguidas[casa] = seguidas.get(casa, 0) + 1
+                erros.append(e)
+            except httpx.HTTPError as e:  # a casa respondeu (502 de um processo): não é queda geral
+                seguidas[casa] = 0
                 erros.append(e)
     if ids and len(erros) == len(ids):
         raise erros[0]  # tudo falhou: a fonte está fora do ar e o boletim deve avisar

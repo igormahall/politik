@@ -1,14 +1,17 @@
 import io
+import json
 import os
 import re
 import unicodedata
 import xml.etree.ElementTree as ET
 import zipfile
+from datetime import date, timedelta
 from html import unescape
 from urllib.parse import urljoin
 
 import httpx
 
+from politik.armazenamento import data_dir
 from politik.coletores import FonteIndisponivel, registrar
 from politik.modelos import Item
 
@@ -17,6 +20,21 @@ URL_DOWNLOAD = "https://inlabs.in.gov.br/index.php?p={data}&dl={data}-DO1.zip"
 # reserva: a base aberta da Imprensa Nacional (um zip por mês e seção; durante a manutenção do INLABS
 # em outubro de 2026, atualizado todo dia)
 URL_BASE_ABERTA = "https://www.in.gov.br/acesso-a-informacao/dados-abertos/base-de-dados"
+# segunda reserva: a lista de legislação federal do Senado (por data de assinatura). Não traz portarias nem atos
+# menores, só as normas que importam (leis, decretos, MPs). Em 20–27/11/2026 o INLABS estava em manutenção e a
+# base aberta respondia 502: sem esta reserva o DOU sumiu do boletim por uma semana.
+URL_LEGISLACAO = "https://legis.senado.leg.br/dadosabertos/legislacao"
+# o Senado cataloga com atraso (a LC 239, de 24/11, só entrou no dia 25) e há feriados e fins de semana no meio:
+# olha alguns dias para trás; o que já saiu num boletim anterior não se repete
+JANELA_LEGISLACAO = 5
+TIPOS_LEGISLACAO = {
+    "LEI-n": "LEI",
+    "LCP": "LEI COMPLEMENTAR",
+    "DEC-n": "DECRETO",
+    "MPV": "MEDIDA PROVISORIA",
+    "EMC": "EMENDA CONSTITUCIONAL",
+    "DLG": "DECRETO LEGISLATIVO",
+}
 MESES = "Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro".split()
 
 
@@ -98,14 +116,76 @@ def _da_base_aberta(data: str, cliente: httpx.Client) -> list[Item]:
     return itens
 
 
+def _documentos(dados: dict, raiz: str) -> list[dict]:
+    docs = (dados.get(raiz) or {}).get("documentos") or {}
+    docs = docs.get("documento", []) if isinstance(docs, dict) else []
+    return [docs] if isinstance(docs, dict) else docs
+
+
+def _ja_noticiados(data: str, dias: int = 10) -> set[str]:
+    """ids de normas que já passaram por boletins anteriores (a janela se sobrepõe de um dia para o outro)."""
+    ids: set[str] = set()
+    hoje = date.fromisoformat(data)
+    for n in range(1, dias + 1):
+        p = data_dir() / "selecionados" / f"{(hoje - timedelta(days=n)).isoformat()}.json"
+        if p.exists():
+            sel = json.loads(p.read_text(encoding="utf-8"))
+            ids |= {i["id"] for k in ("destaques", "menores") for i in sel.get(k, []) if i["id"].startswith("dou:leg:")}
+    return ids
+
+
+def _da_legislacao(data: str, cliente: httpx.Client) -> list[Item]:
+    hoje = date.fromisoformat(data)
+    vistos = _ja_noticiados(data)
+    itens = []
+    with cliente:
+        for n in range(JANELA_LEGISLACAO):
+            dia = hoje - timedelta(days=n)
+            r = cliente.get(f"{URL_LEGISLACAO}/lista", params={"data": dia.strftime("%Y%m%d")})
+            r.raise_for_status()
+            for d in _documentos(r.json(), "ListaDocumento"):
+                iid = f"dou:leg:{d['id']}"
+                if iid in vistos or any(i.id == iid for i in itens):
+                    continue
+                url = f"https://legis.senado.leg.br/norma/{d['id']}"
+                try:  # o link do texto vem do detalhe; sem ele, fica o da busca de normas
+                    det = cliente.get(f"{URL_LEGISLACAO}/{d['id']}")
+                    det.raise_for_status()
+                    url = _documentos(det.json(), "DetalheDocumento")[0]["identificacao"]["urlDocumento"] or url
+                except (httpx.HTTPError, IndexError, KeyError, ValueError):
+                    pass
+                itens.append(
+                    Item(
+                        id=iid,
+                        fonte="dou",
+                        nivel="federal",
+                        categoria="norma",
+                        sigla_tipo=TIPOS_LEGISLACAO.get(d.get("tipo", ""), _sem_acento(d.get("descricao", "")).upper()),
+                        titulo=d.get("normaNome", ""),
+                        ementa=d.get("ementa", ""),
+                        data=data,
+                        url=url,
+                        extra={"assinatura": d.get("dataassinatura", ""), "via": "legislação do Senado"},
+                    )
+                )
+    return itens
+
+
 @registrar("dou")
-def coletar(data: str, base_aberta: httpx.Client | None = None) -> list[Item]:
+def coletar(data: str, base_aberta: httpx.Client | None = None, legislacao: httpx.Client | None = None) -> list[Item]:
     try:
         return _do_inlabs(data)
     except (FonteIndisponivel, httpx.HTTPError, zipfile.BadZipFile) as e:
         falha_inlabs = e
-    cliente = base_aberta or httpx.Client(timeout=300, follow_redirects=True, headers={"User-Agent": "Mozilla/5.0"})
+    cliente = base_aberta or httpx.Client(
+        timeout=httpx.Timeout(300, connect=30), follow_redirects=True, headers={"User-Agent": "Mozilla/5.0"}
+    )
     try:
         return _da_base_aberta(data, cliente)
     except (FonteIndisponivel, httpx.HTTPError, zipfile.BadZipFile) as e:
-        raise FonteIndisponivel(f"{falha_inlabs}; {e}") from e
+        falha_base = e
+    cliente = legislacao or httpx.Client(timeout=30, headers={"Accept": "application/json"})
+    try:
+        return _da_legislacao(data, cliente)
+    except (httpx.HTTPError, ValueError, KeyError) as e:
+        raise FonteIndisponivel(f"{falha_inlabs}; {falha_base}; legislação do Senado: {e}") from e

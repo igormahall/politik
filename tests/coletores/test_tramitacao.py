@@ -64,3 +64,29 @@ def test_tramitacao_falha_se_todos_os_processos_falham(tmp_data, monkeypatch):
     monkeypatch.setattr(tramitacao.httpx, "Client", lambda **kw: real(transport=transporte, **kw))
     with pytest.raises(httpx.HTTPStatusError):
         tramitacao.coletar("2026-10-28")
+
+
+def test_camara_fora_do_ar_para_depois_de_poucas_tentativas(tmp_data, monkeypatch):
+    # 18/11: a Câmara não respondia e ~150 processos x 30 s estouraram o limite do job
+    import httpx
+
+    from politik.coletores import tramitacao
+
+    for n in range(10):
+        _ficha(tmp_data, f"camara:{n}", "2026-10-28")
+    _ficha(tmp_data, "senado:1", "2026-10-28")
+    proc = load("senado_processo.json")[0]
+    tentativas = []
+
+    def responder(req):
+        if "camara" in req.url.host:
+            tentativas.append(req.url.path)
+            raise httpx.ConnectTimeout("timed out", request=req)
+        return httpx.Response(200, json=proc)
+
+    transporte = httpx.MockTransport(responder)
+    real = httpx.Client
+    monkeypatch.setattr(tramitacao.httpx, "Client", lambda **kw: real(transport=transporte, **kw))
+    itens = tramitacao.coletar("2026-10-28")
+    assert len(tentativas) == tramitacao.FALHAS_SEGUIDAS_MAX
+    assert [it.id for it in itens] == ["senado:1:sit:2026-10-28"]  # o Senado segue normal

@@ -79,7 +79,10 @@ jobs:
           echo "D=$D" >> "$GITHUB_ENV"
 
       - name: Coletar
-        run: python -m politik coletar --data "$D"
+        # 18/11: a Câmara fora do ar travou a coleta até o limite do job (60 min), duas vezes. Com o teto aqui, a
+        # falha aparece cedo e a repescagem das 8h13 ainda chega a tempo. -u: o log mostra até onde a coleta foi.
+        timeout-minutes: 25
+        run: python -u -m politik coletar --data "$D"
         env:
           INLABS_EMAIL: ${{ secrets.INLABS_EMAIL }}
           INLABS_SENHA: ${{ secrets.INLABS_SENHA }}
@@ -105,7 +108,7 @@ jobs:
           # o Claude só lê data/ e editorial/ e só escreve em data/
           claude_args: |
             --model claude-haiku-5-5
-            --max-turns 80
+            --max-turns 120
             --allowedTools "Read(data/**),Read(editorial/**),Edit(data/**),Glob,Grep"
 
       - name: Guardar a conversa do Claude (diagnóstico)
