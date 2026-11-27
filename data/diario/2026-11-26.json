@@ -1,0 +1,45 @@
+{
+  "data": "2026-11-26",
+  "temas": [
+    {
+      "slug": "pacote-de-ajuste-fiscal-2027",
+      "novo_hoje": "A Comissão Mista de Orçamento aprovou o relatório preliminar do Orçamento de 2027, com corte de cerca de R$ 2,09 bilhões em despesas do Executivo para atender emendas parlamentares. O ministro Dario Durigan disse que vai discutir com Lula novas medidas fiscais.",
+      "aviso_fonte_unica": "A intenção de Durigan de discutir novas medidas com Lula vem só do g1.",
+      "nome_curto": "Pacote de ajuste fiscal",
+      "linha_capa": "Comissão do Congresso aprova corte de R$ 2,09 bi no Orçamento de 2027"
+    },
+    {
+      "slug": "nova-chefia-da-fazenda-2027",
+      "novo_hoje": "O Palácio do Planalto confirmou que Luiz Carlos Trabuco Cappi, presidente do Conselho de Administração do Bradesco, vai comandar o Ministério da Fazenda a partir de 2027.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Novo comando da economia",
+      "linha_capa": "Planalto confirma Trabuco para a Fazenda no novo mandato de Lula"
+    }
+  ],
+  "fichas": [
+    "senado:9127383:sit:2026-11-24",
+    "camara:votacao:2332174:2026-11-24",
+    "camara:votacao:2253448:2026-11-24",
+    "camara:votacao:606005:2026-11-24",
+    "camara:2653536:tram:7",
+    "camara:2653536:tram:8",
+    "camara:votacao:949156:2026-11-25",
+    "camara:votacao:2335264:2026-11-25",
+    "camara:votacao:2394518:2026-11-25",
+    "camara:votacao:2647427:2026-11-25",
+    "senado:9118955:sit:2026-11-24",
+    "camara:2652037:tram:10",
+    "camara:2652156:tram:10",
+    "camara:2652936:tram:10",
+    "camara:2653971:tram:10",
+    "camara:2649418:tram:7",
+    "camara:2649753:tram:7",
+    "camara:2649761:tram:7",
+    "camara:2649799:tram:7",
+    "camara:2649801:tram:7"
+  ],
+  "mundo": [
+    "mundo:2026-11-26:1",
+    "mundo:2026-11-26:2"
+  ]
+}
