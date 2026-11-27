@@ -6,7 +6,7 @@ from politik.coletores import registrar
 from politik.modelos import Autor, Item
 
 BASE = "https://dadosabertos.camara.leg.br/api/v2"
-SIGLAS_COM_AUTORES = {"PL", "PLP", "PEC", "MPV", "PDL", "PLN", "REQ"}
+SIGLAS_COM_AUTORES = {"PL", "PLP", "PEC", "MPV", "PDL", "PLN", "REQ", "RIC"}
 
 
 def parse_proposicoes(json: dict) -> list[Item]:
@@ -116,9 +116,9 @@ def _autores(cliente: httpx.Client, pid: str, cache: dict) -> list[Autor]:
     return autores
 
 
-def _detalhar(cliente: httpx.Client, it: Item) -> None:
+def _detalhar(cliente: httpx.Client, it: Item, pid: str | None = None) -> None:
     """Indexação (assunto em palavras-chave) e inteiro teor: a ementa muitas vezes só cita a lei alterada."""
-    r = cliente.get(f"{BASE}/proposicoes/{it.id.split(':')[1]}")
+    r = cliente.get(f"{BASE}/proposicoes/{pid or it.id.split(':')[1]}")
     if r.status_code != 200:
         return  # é complemento: sem ele a ficha sai só com a ementa, como antes
     d = r.json()["dados"]
@@ -148,4 +148,18 @@ def coletar(data: str, cliente: httpx.Client | None = None) -> list[Item]:
         r = cliente.get(f"{BASE}/votacoes/{v.id.split(':')[-1]}")
         if r.status_code == 200:
             detalhes[v.id] = r.json()["dados"]
-    return itens + agrupar_votacoes(votos, detalhes)
+    votacoes = agrupar_votacoes(votos, detalhes)
+    # votação vinha sem autor nem assunto: de 10 a 26/11, 68 fichas de votação diziam "autor não informado"
+    for v in votacoes:
+        if v.extra.get("proposicao"):
+            completar_com_projeto(cliente, v, str(v.extra["proposicao"]), cache)
+    return itens + votacoes
+
+
+def completar_com_projeto(cliente: httpx.Client, it: Item, pid: str, cache: dict) -> None:
+    """Autores, indexação e inteiro teor do projeto de origem (para votações e tramitações)."""
+    try:
+        it.autores = _autores(cliente, pid, cache)
+        _detalhar(cliente, it, pid)
+    except (httpx.HTTPError, ValueError, KeyError):
+        pass  # é complemento: sem ele a ficha sai como antes

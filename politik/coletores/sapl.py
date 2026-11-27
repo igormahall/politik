@@ -1,10 +1,11 @@
 import ssl
+from datetime import date, timedelta
 from pathlib import Path
 
 import certifi
 import httpx
 
-from politik.coletores import registrar
+from politik.coletores import ja_vistos, registrar
 from politik.modelos import Autor, Item
 
 CASAS = {
@@ -12,6 +13,10 @@ CASAS = {
     "cmm": ("https://sapl.cmm.am.gov.br", "municipal"),
 }
 SIGLAS_COM_AUTORES = {"PL", "PLC", "PEC", "PDL", "PLO", "PLE"}
+# ALEAM e CMM cadastram matérias com dias de atraso, com a data de apresentação original: consultar só o dia
+# deixou de fora 14 matérias de cada casa em 03–26/11 (entre elas mensagens e um veto do governador).
+# A janela pega o que entrou atrasado; o que já passou por um boletim ou está na fila não volta.
+JANELA_DIAS = 7
 # desde 04/11/2026 o servidor da Câmara de Manaus não envia o certificado intermediário (Sectigo DV R36)
 INTERMEDIARIO = Path(__file__).resolve().parents[2] / "config" / "sectigo-dv-r36.pem"
 
@@ -104,22 +109,21 @@ def coletar_casa(casa: str, data: str, cliente: httpx.Client | None = None) -> l
     cliente = cliente or httpx.Client(timeout=30, headers={"Accept": "application/json"}, verify=_ssl())
     base, _ = CASAS[casa]
     tipos = parse_tipos({"results": _resultados(cliente, f"{base}/api/materia/tipomaterialegislativa/?page_size=100")})
-    materias = parse_materias(
-        casa,
-        {
-            "results": _resultados(
-                cliente, f"{base}/api/materia/materialegislativa/?data_apresentacao={data}&page_size=100"
-            )
-        },
-        tipos,
+    inicio = (date.fromisoformat(data) - timedelta(days=JANELA_DIAS)).isoformat()
+    vistos = ja_vistos(data, (f"{casa}:",))
+    url_materias = (
+        f"{base}/api/materia/materialegislativa/?data_apresentacao__gte={inicio}"
+        f"&data_apresentacao__lte={data}&page_size=100"
     )
+    materias = [
+        m for m in parse_materias(casa, {"results": _resultados(cliente, url_materias)}, tipos) if m.id not in vistos
+    ]
     cache: dict = {}
     for m in materias:
         if m.sigla_tipo in SIGLAS_COM_AUTORES:
             m.autores = _autores(cliente, base, m.id.split(":")[-1], cache)
-    normas = parse_normas(
-        casa, {"results": _resultados(cliente, f"{base}/api/norma/normajuridica/?data={data}&page_size=100")}
-    )
+    url_normas = f"{base}/api/norma/normajuridica/?data__gte={inicio}&data__lte={data}&page_size=100"
+    normas = [n for n in parse_normas(casa, {"results": _resultados(cliente, url_normas)}) if n.id not in vistos]
     return materias + normas
 
 

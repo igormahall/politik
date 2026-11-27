@@ -90,3 +90,28 @@ def test_pln_e_req_buscam_autor():
     from politik.coletores.camara import SIGLAS_COM_AUTORES
 
     assert {"PLN", "REQ"} <= SIGLAS_COM_AUTORES
+
+
+def test_votacao_e_tramitacao_recebem_autor_e_assunto_do_projeto():
+    # 10–26/11: 68 fichas de votação e 38 de tramitação diziam "autor não informado"
+    import httpx
+
+    from politik.coletores.camara import completar_com_projeto
+    from tests.helpers import item
+
+    def responder(req):
+        if req.url.path.endswith("/proposicoes/55/autores"):
+            return httpx.Response(
+                200, json={"dados": [{"tipo": "Órgão do Poder Executivo", "nome": "Poder Executivo"}]}
+            )
+        if req.url.path.endswith("/proposicoes/55"):
+            return httpx.Response(200, json={"dados": {"keywords": "Arcabouço fiscal", "urlInteiroTeor": "https://t"}})
+        return httpx.Response(504)
+
+    cliente = httpx.Client(transport=httpx.MockTransport(responder))
+    v = item("camara:votacao:55:2026-11-24", categoria="votacao", sigla_tipo="VOTACAO", extra={"proposicao": 55})
+    completar_com_projeto(cliente, v, "55", {})
+    assert v.autores == [Autor("Poder Executivo")] and v.extra["indexacao"] == "Arcabouço fiscal"
+    falha = item("camara:votacao:9:2026-11-24", categoria="votacao")
+    completar_com_projeto(httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(504))), falha, "9", {})
+    assert falha.autores == []

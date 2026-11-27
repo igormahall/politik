@@ -5,6 +5,7 @@ import httpx
 
 from politik.armazenamento import data_dir, ler_json
 from politik.coletores import registrar
+from politik.coletores.camara import completar_com_projeto
 from politik.modelos import Item
 
 CAMARA = "https://dadosabertos.camara.leg.br/api/v2"
@@ -78,6 +79,7 @@ def coletar(data: str) -> list[Item]:
     itens = []
     erros: list[Exception] = []
     seguidas: dict[str, int] = {}
+    autores_cache: dict = {}
     ids = acompanhados(data)
     with httpx.Client(timeout=30, headers={"Accept": "application/json"}) as c:
         for iid in ids:
@@ -89,7 +91,13 @@ def coletar(data: str) -> list[Item]:
                 if casa == "camara":
                     r = c.get(f"{CAMARA}/proposicoes/{cod}/tramitacoes", params={"dataInicio": data, "dataFim": data})
                     r.raise_for_status()
-                    itens += parse_tramitacoes_camara(iid, r.json(), data)
+                    novos = parse_tramitacoes_camara(iid, r.json(), data)
+                    if novos:  # tramitação vinha sem autor: 38 fichas "autor não informado" em 10–26/11
+                        completar_com_projeto(c, novos[0], cod, autores_cache)
+                        for it in novos[1:]:
+                            it.autores, it.extra = novos[0].autores, {**novos[0].extra, **it.extra}
+                            it.url_documento = it.url_documento or novos[0].url_documento
+                    itens += novos
                 else:
                     r = c.get(f"{SENADO}/{cod}")
                     r.raise_for_status()

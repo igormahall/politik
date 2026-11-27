@@ -29,3 +29,35 @@ def test_parse_filiacao_atual():
 
 def test_parse_filiacao_vazia():
     assert parse_filiacao({"results": []}) is None
+
+
+def test_janela_pega_materia_cadastrada_atrasada_sem_repetir_a_ja_vista(tmp_data):
+    # 03–26/11: 14 matérias de cada casa foram cadastradas dias depois, com a data original, e nunca entraram
+    import httpx
+
+    from politik.armazenamento import escrever_json
+    from politik.coletores.sapl import coletar_casa
+
+    escrever_json(
+        tmp_data / "selecionados" / "2026-11-25.json", {"destaques": [], "menores": [{"id": "aleam:materia:1"}]}
+    )
+    pedidos = []
+
+    def materia(mid, dia):
+        return {"id": mid, "tipo": 1, "__str__": f"PL {mid}/2026", "ementa": "Ementa", "data_apresentacao": dia}
+
+    def responder(req):
+        pedidos.append(req.url)
+        vazio = {"next": None}
+        if "tipomaterialegislativa" in req.url.path:
+            return httpx.Response(200, json={"results": [{"id": 1, "sigla": "MSGOV"}], "pagination": {"links": vazio}})
+        if "materialegislativa" in req.url.path:
+            res = [materia(1, "2026-11-20"), materia(2, "2026-11-21"), materia(3, "2026-11-26")]
+            return httpx.Response(200, json={"results": res, "pagination": {"links": vazio}})
+        return httpx.Response(200, json={"results": [], "pagination": {"links": vazio}})
+
+    itens = coletar_casa("aleam", "2026-11-26", httpx.Client(transport=httpx.MockTransport(responder)))
+    assert [i.id for i in itens] == ["aleam:materia:2", "aleam:materia:3"]
+    consulta = next(u for u in pedidos if "materialegislativa" in u.path and "tipo" not in u.path)
+    assert consulta.params["data_apresentacao__gte"] == "2026-11-19"
+    assert consulta.params["data_apresentacao__lte"] == "2026-11-26"

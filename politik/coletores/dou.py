@@ -1,5 +1,4 @@
 import io
-import json
 import os
 import re
 import unicodedata
@@ -11,8 +10,7 @@ from urllib.parse import urljoin
 
 import httpx
 
-from politik.armazenamento import data_dir
-from politik.coletores import FonteIndisponivel, registrar
+from politik.coletores import FonteIndisponivel, ja_vistos, registrar
 from politik.modelos import Item
 
 URL_LOGIN = "https://inlabs.in.gov.br/logar.php"
@@ -122,21 +120,9 @@ def _documentos(dados: dict, raiz: str) -> list[dict]:
     return [docs] if isinstance(docs, dict) else docs
 
 
-def _ja_noticiados(data: str, dias: int = 10) -> set[str]:
-    """ids de normas que já passaram por boletins anteriores (a janela se sobrepõe de um dia para o outro)."""
-    ids: set[str] = set()
-    hoje = date.fromisoformat(data)
-    for n in range(1, dias + 1):
-        p = data_dir() / "selecionados" / f"{(hoje - timedelta(days=n)).isoformat()}.json"
-        if p.exists():
-            sel = json.loads(p.read_text(encoding="utf-8"))
-            ids |= {i["id"] for k in ("destaques", "menores") for i in sel.get(k, []) if i["id"].startswith("dou:leg:")}
-    return ids
-
-
 def _da_legislacao(data: str, cliente: httpx.Client) -> list[Item]:
     hoje = date.fromisoformat(data)
-    vistos = _ja_noticiados(data)
+    vistos = ja_vistos(data, ("dou:leg:",), dias=10)
     itens = []
     with cliente:
         for n in range(JANELA_LEGISLACAO):
