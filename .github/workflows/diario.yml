@@ -54,7 +54,7 @@ jobs:
     timeout-minutes: 60
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy2.outputs.page_url }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -150,6 +150,15 @@ jobs:
       - id: deploy
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
         continue-on-error: true
+      # 23–25/11: "No artifacts named github-pages" 0,2 s depois do upload (atraso da API do GitHub). Sem o site do
+      # dia, os links das fichas no Telegram davam 404 até o deploy seguinte. Uma segunda tentativa, um pouco depois.
+      - name: Esperar para tentar o site de novo
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - id: deploy2
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        continue-on-error: true
 
       - name: Enviar no Telegram
         if: always() && steps.validar.outcome == 'success'
@@ -162,9 +171,12 @@ jobs:
         if: always() && steps.validar.outcome == 'success'
         continue-on-error: true # o carrossel nunca derruba o boletim nem o commit do histórico
         timeout-minutes: 10
+        # 23/11: o apt-get do --with-deps travou num espelho do Ubuntu e consumiu os 10 minutos. Teto por tentativa e
+        # uma segunda chance; sem as dependências do sistema, o Chromium ainda pode rodar com as que o runner já tem.
         run: |
           pip install -e .[carrossel]
-          playwright install --with-deps chromium
+          timeout 180 playwright install --with-deps chromium || timeout 180 playwright install --with-deps chromium \
+            || timeout 120 playwright install chromium
           python -m politik carrossel --data "$D" --saida carrossel_build
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
