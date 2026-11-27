@@ -90,8 +90,9 @@ def _uma_tramitacao_por_projeto(candidatos: list[tuple[Item, str]]) -> tuple[lis
 
 
 def _com_vagas_locais(candidatos: list[tuple[Item, str]], teto: int, vagas: int) -> list[tuple[Item, str]]:
-    """Reserva até `vagas` lugares para ALEAM e CMM; o resto segue a prioridade normal."""
-    locais = [c for c in candidatos if c[0].fonte in LOCAL][:vagas]
+    """Reserva até `vagas` lugares para ALEAM e CMM, alternando as casas; o resto segue a prioridade normal."""
+    # a ALEAM (estadual) vem antes da CMM na prioridade: sem alternar, uma fila dela deixava a CMM sem vaga
+    locais = _rodizio([c for c in candidatos if c[0].fonte in LOCAL], vagas, chave=lambda c: c[0].fonte)
     outros = [c for c in candidatos if c not in locais][: teto - len(locais)]
     escolhidos = {id(c) for c in locais + outros}
     return [c for c in candidatos if id(c) in escolhidos] + [c for c in candidatos if id(c) not in escolhidos]

@@ -219,3 +219,13 @@ def test_noticias_em_rodizio_entre_veiculos():
     sel, _ = filtrar(D, g1 + am, [], CFG, [])
     assert len(sel["noticias"]) == CFG["teto_noticias"]
     assert sum(i.fonte == "imprensa:acritica" for i in sel["noticias"]) == 5
+
+
+def test_vagas_locais_alternam_entre_aleam_e_cmm():
+    # 27/11: 17 matérias da ALEAM (estadual, prioridade maior) na fila tomariam as 5 vagas e a CMM nunca entraria
+    aleam = [item(id=f"aleam:{n}", fonte="aleam", nivel="estadual") for n in range(17)]
+    cmm = [item(id=f"cmm:{n}", fonte="cmm", nivel="municipal") for n in range(4)]
+    federais = [item(id=f"camara:{n}") for n in range(CFG["teto_destaques"])]
+    sel, _ = filtrar(D, federais + aleam + cmm, [], CFG, [])
+    locais = [i.id for i in sel["destaques"] if not i.id.startswith("camara:")]
+    assert locais == ["aleam:0", "aleam:1", "aleam:2", "cmm:0", "cmm:1"]
