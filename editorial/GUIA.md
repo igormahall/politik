@@ -42,6 +42,10 @@ O Politik existe para que **quem não é da área do direito** entenda o que o p
   - **títulos iguais são proibidos** no mesmo dia: vários projetos sobre o mesmo assunto (ex.: quatro pedidos
     para suspender a mesma portaria) se distinguem pelo que cada um tem de próprio, ou pelo autor no fim
     ("…, propõe Dep. Fulano (PL–MG)");
+  - lei com nome conhecido é chamada pelo nome, não pelo assunto genérico: "Lei Complementar 200" é o
+    **arcabouço fiscal**, "Lei 11.340" é a **Lei Maria da Penha**. E a etapa decisiva entra no título quando é
+    ela a notícia: "Mudança no arcabouço fiscal vai à sanção", não "Texto dá ao governo novos instrumentos";
+  - nunca "(1 de 2)", "Outra proposta…", "Mais um pedido…": cada título se sustenta sozinho;
   - o título nunca fala da falta de informação ("…, mas a fonte não diz o que muda"): diga o que se sabe
     (o assunto da lei alterada) e deixe a lacuna para `o_que_muda`.
   - Bom: "Divórcio pode ser decidido logo no início do processo".
@@ -67,6 +71,10 @@ O Politik existe para que **quem não é da área do direito** entenda o que o p
 - **fontes**: pelo menos o link do item; inclua `url_documento` quando houver.
 
 ## 4. Votações
+
+Itens do DOU com `extra.assinatura` (vêm da lista de legislação do Senado, reserva do Diário Oficial) podem ter
+sido assinados dias antes: se a data for anterior ao dia do boletim, diga quando ("sancionada em 24/11") e use
+como fonte o link do item, com o nome "Diário Oficial da União".
 
 Itens de `votacao` já vêm agrupados por projeto: `titulo`/`ementa` são do **projeto votado** e
 `extra.votacoes` lista as etapas votadas no dia. A ficha explica **o projeto** e diz, em `situacao`,
@@ -95,6 +103,9 @@ No máximo ~5 itens com importância 1 por dia.
   Não crie tema para notícia isolada, crime comum sem agente público, esporte ou entretenimento.
 - **slug** em kebab-case ("caso-master"). **palavras_chave** específicas: nomes próprios,
   instituições, apelidos do caso ("Banco Master", "Vorcaro"). Nada genérico ("banco", "governo").
+  Nada que apareça em atos de rotina: o nome do presidente da Câmara ou do Senado ("Hugo Motta" está em todo
+  despacho da Mesa) e nomes de ministério ("Ministério da Fazenda" está em centenas de portarias) puxam para o
+  topo itens que não têm nada a ver com o tema. Prefira o fato: "reeleição de Motta", "Trabuco na Fazenda".
 - **linha_do_tempo**: um fato por entrada, em ordem de data, cada um com fontes.
 - **resumo_ate_aqui**: 2 a 3 frases com o estado atual da história.
 - **explica_do_zero**: até ~6 parágrafos curtos, do começo, só com fatos da linha do tempo.

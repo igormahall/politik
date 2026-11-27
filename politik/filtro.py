@@ -13,6 +13,8 @@ def classificar(item: Item, cfg: dict, temas: list[dict]) -> Literal["destaque",
         return item.categoria
     if item.categoria == "votacao" and item.extra.get("proposicao", True) is None and not casa_tema(item, temas):
         return "menor"  # votação sem projeto identificado não diz nada ao leitor
+    if item.categoria == "tramitacao" and normalizar(item.titulo).startswith(tuple(cfg.get("tramitacao_rotina", []))):
+        return "menor"  # etapa burocrática: não é notícia nem quando o projeto é de um tema
     if casa_tema(item, temas) or item.categoria in cfg["destaque_categorias"]:
         return "destaque"
     ementa = normalizar(item.ementa)
@@ -41,11 +43,11 @@ def prioridade(item: Item, temas: list[dict]) -> int:
     return {"federal": 4, "estadual": 5, "municipal": 6}[item.nivel]
 
 
-def _rodizio(itens: list[Item], teto: int) -> list[Item]:
+def _rodizio(itens: list[Item], teto: int, chave=lambda it: it.extra.get("organizacao", "")) -> list[Item]:
     """Um de cada organização por vez, na ordem de chegada: nenhuma toma o teto sozinha."""
     filas: dict[str, list[Item]] = {}
     for it in itens:
-        filas.setdefault(it.extra.get("organizacao", ""), []).append(it)
+        filas.setdefault(chave(it), []).append(it)
     saida = []
     while len(saida) < teto and any(filas.values()):
         for fila in filas.values():
@@ -71,6 +73,28 @@ def _sem_repeticao(candidatos: list[tuple[Item, str]], temas: list[dict]) -> tup
         fonte_da_vez.setdefault(_chave_ementa(it), it.fonte)
     manter = [c for c in candidatos if not _chave_ementa(c[0]) or fonte_da_vez[_chave_ementa(c[0])] == c[0].fonte]
     return manter, [it for it, pv in candidatos if (it, pv) not in manter]
+
+
+def _uma_tramitacao_por_projeto(candidatos: list[tuple[Item, str]]) -> tuple[list, list[Item]]:
+    """Várias etapas do mesmo projeto no dia viram uma ficha só: fica a última (em 25/11, 15 etapas do PLP 299/2026)."""
+    ultima: dict[str, Item] = {}
+    for it, _ in candidatos:
+        if it.categoria == "tramitacao":
+            ultima[it.extra.get("item_origem") or it.id] = it  # a API devolve as etapas em ordem
+    manter = [
+        c
+        for c in candidatos
+        if c[0].categoria != "tramitacao" or ultima[c[0].extra.get("item_origem") or c[0].id] is c[0]
+    ]
+    return manter, [it for it, pv in candidatos if (it, pv) not in manter]
+
+
+def _com_vagas_locais(candidatos: list[tuple[Item, str]], teto: int, vagas: int) -> list[tuple[Item, str]]:
+    """Reserva até `vagas` lugares para ALEAM e CMM; o resto segue a prioridade normal."""
+    locais = [c for c in candidatos if c[0].fonte in LOCAL][:vagas]
+    outros = [c for c in candidatos if c not in locais][: teto - len(locais)]
+    escolhidos = {id(c) for c in locais + outros}
+    return [c for c in candidatos if id(c) in escolhidos] + [c for c in candidatos if id(c) not in escolhidos]
 
 
 def _idade(data: str, primeira_vez: str) -> int:
@@ -115,16 +139,23 @@ def filtrar(
     # o mesmo ato chega por mais de uma fonte (MP no DOU, na Câmara e no Senado): fica o de maior prioridade
     candidatos, repetidas = _sem_repeticao(candidatos, temas)
     menores += repetidas
+    candidatos, repetidas = _uma_tramitacao_por_projeto(candidatos)
+    menores += repetidas
 
     # sort é estável: pendentes (que vêm antes) ganham empates
     candidatos.sort(key=lambda c: prioridade(c[0], temas))
     teto = cfg["teto_destaques"]
+    candidatos = _com_vagas_locais(candidatos, teto, cfg.get("vagas_locais", 0))
     destaques = [it for it, _ in candidatos[:teto]]
     novos_pendentes = [{"item": it.to_dict(), "primeira_vez": pv} for it, pv in candidatos[teto:]]
 
+    # rodízio entre veículos, com as de tema primeiro dentro de cada um: cortar na ordem dos feeds (ou pôr todas
+    # as de tema antes) deixava os do Amazonas, os últimos da lista e quase nunca de tema federal, sempre de fora
     noticias.sort(key=lambda it: 0 if casa_tema(it, temas) else 1)
-    menores += noticias[cfg["teto_noticias"] :]
-    noticias = noticias[: cfg["teto_noticias"]]
+    escolhidas = _rodizio(noticias, cfg["teto_noticias"], chave=lambda it: it.fonte)
+    ids = {it.id for it in escolhidas}
+    menores += [it for it in noticias if it.id not in ids]
+    noticias = escolhidas
 
     selecionados = {
         "data": data,

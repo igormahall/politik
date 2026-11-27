@@ -2,6 +2,9 @@
 # (aparecem no site com a ementa original, sem passar pelo Claude).
 
 teto_destaques = 20
+# Vagas garantidas para ALEAM e Câmara de Manaus. Sem isso a Câmara dos Deputados enchia as 20 vagas todo dia,
+# os projetos locais iam para a fila e expiravam: de 07/11 a 26/11 nenhuma ficha local saiu.
+vagas_locais = 5
 pendente_max_dias = 2
 teto_noticias = 60
 teto_mundo = 80
@@ -10,7 +13,7 @@ inatividade_tema_dias = 30
 # Câmara e Senado
 destaque_siglas_federal = ["PL", "PLP", "PEC", "MPV", "PDL", "PLN", "PLS"]
 # ALEAM e Câmara de Manaus (siglas do SAPL)
-destaque_siglas_local = ["PL", "PLC", "PEC", "PDL", "PRL", "VET", "MSGOV", "PLO", "PLE"]
+destaque_siglas_local = ["PL", "PLC", "PEC", "PDL", "PRL", "VET", "VETO", "MSGOV", "PLO", "PLE"]  # a CMM usa VETO
 destaque_categorias = ["votacao", "tramitacao"]
 dou_destaque_tipos = ["LEI", "LEI COMPLEMENTAR", "DECRETO", "MEDIDA PROVISORIA", "EMENDA CONSTITUCIONAL"]
 norma_sapl_destaque = true
@@ -19,6 +22,16 @@ norma_sapl_destaque = true
 # (homenagens, nomes de rua etc.), a não ser que casem com um tema ativo.
 # Créditos ao orçamento ("Abre ao Orçamento Fiscal da União...") são remanejamentos de rotina: em 09/11
 # sete deles ocuparam sete das 20 vagas e empurraram a Câmara de Manaus para o dia seguinte.
-menores_termos_ementa = ["titulo de cidadao", "titulo honorifico", "medalha", "comenda", "denomina", "da denominacao",
+menores_termos_ementa = ["titulo de cidada", "diploma de cidada", "titulo honorifico", "medalha", "comenda", "denomina ", "da denominacao",
                          "utilidade publica", "mocao de", "voto de aplauso", "voto de pesar", "inclui no calendario",
-                         "abre ao orcamento", "abre aos orcamentos"]
+                         "abre ao orcamento", "abre aos orcamentos",
+                         # outorga e renovação de rádio e TV (16–18/11: até 9 das 20 vagas)
+                         "aprova o ato que outorga", "aprova o ato que renova"]
+
+# Etapas burocráticas de tramitação (comparadas com o começo da situação, sem acento) vão para os menores,
+# mesmo quando o projeto é de um tema: em 26/11 cinco "Distribuição" às comissões e dois despachos ocuparam
+# 7 das 20 vagas, e o nome do presidente da Câmara no despacho casava com o tema da eleição da Mesa.
+tramitacao_rotina = ["distribuicao", "aguardando deliberacao", "aguardando providencias internas",
+                     "aguardando despacho", "aguardando autorizacao do despacho", "aguardando parecer",
+                     "aguardando elaboracao do parecer", "aguardando encaminhamento", "aguardando designacao",
+                     "aguardando recebimento de emendas", "apresentacao de requerimento", "recebimento"]

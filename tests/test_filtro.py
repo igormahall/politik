@@ -149,3 +149,73 @@ def test_credito_ao_orcamento_vai_para_menores():
     plns = item(id="camara:2", sigla_tipo="PLN", ementa="Abre aos Orçamentos Fiscal e da Seguridade Social da União...")
     ldo = item(id="camara:3", sigla_tipo="PLN", ementa="Altera a Lei de Diretrizes Orçamentárias de 2026.")
     assert [classificar(i, CFG, []) for i in (pln, plns, ldo)] == ["menor", "menor", "destaque"]
+
+
+def test_vagas_locais_garantidas_mesmo_com_a_camara_lotando_o_teto():
+    teto = CFG["teto_destaques"]
+    federais = [item(id=f"camara:{n}") for n in range(teto + 10)]
+    locais = [item(id=f"cmm:{n}", fonte="cmm", nivel="municipal") for n in range(8)]
+    sel, pend = filtrar(D, federais + locais, [], CFG, [])
+    ids = [i.id for i in sel["destaques"]]
+    assert len(ids) == teto
+    assert sum(i.startswith("cmm:") for i in ids) == CFG["vagas_locais"]
+    assert ids[0] == "camara:0"  # a ordem de prioridade continua valendo dentro das escolhidas
+
+
+def test_sem_itens_locais_as_vagas_voltam_para_o_federal():
+    itens = [item(id=f"camara:{n}") for n in range(CFG["teto_destaques"] + 3)]
+    sel, _ = filtrar(D, itens, [], CFG, [])
+    assert len(sel["destaques"]) == CFG["teto_destaques"]
+
+
+def test_etapa_burocratica_vai_para_menores_mesmo_casando_tema():
+    tema = {"slug": "mesa", "palavras_chave": ["Hugo Motta"]}
+    it = item(
+        id="camara:1:tram:10",
+        categoria="tramitacao",
+        sigla_tipo="TRAMITACAO",
+        titulo="Distribuição",
+        ementa="Aprovação pelo Presidente, Dep. Hugo Motta, ad referendum da Mesa",
+    )
+    assert classificar(it, CFG, [tema]) == "menor"
+    sancao = item(
+        id="camara:1:tram:11", categoria="tramitacao", sigla_tipo="TRAMITACAO", titulo="Aguardando Remessa à Sanção"
+    )
+    assert classificar(sancao, CFG, []) == "destaque"
+
+
+def test_varias_etapas_do_mesmo_projeto_viram_uma_ficha():
+    etapas = [
+        item(
+            id=f"camara:9:tram:{n}",
+            categoria="tramitacao",
+            sigla_tipo="TRAMITACAO",
+            titulo="Aprovada",
+            extra={"item_origem": "camara:9"},
+        )
+        for n in range(15)
+    ]
+    sel, _ = filtrar(D, etapas, [], CFG, [])
+    assert [i.id for i in sel["destaques"]] == ["camara:9:tram:14"]
+    assert len(sel["menores"]) == 14
+
+
+def test_veto_da_cmm_e_destaque():
+    assert classificar(item(fonte="cmm", nivel="municipal", sigla_tipo="VETO"), CFG, []) == "destaque"
+
+
+def test_programa_denominado_nao_e_homenagem():
+    pl = item(fonte="cmm", nivel="municipal", ementa="INSTITUI o Programa de Saúde Bucal, denominado Sorria Manaus")
+    assert classificar(pl, CFG, []) == "destaque"
+    assert (
+        classificar(item(fonte="aleam", nivel="estadual", ementa="Concede o Título de Cidadã do Amazonas"), CFG, [])
+        == "menor"
+    )
+
+
+def test_noticias_em_rodizio_entre_veiculos():
+    g1 = [item(id=f"g{k}", categoria="noticia", fonte="imprensa:g1", sigla_tipo="NOTICIA") for k in range(80)]
+    am = [item(id=f"a{k}", categoria="noticia", fonte="imprensa:acritica", sigla_tipo="NOTICIA") for k in range(5)]
+    sel, _ = filtrar(D, g1 + am, [], CFG, [])
+    assert len(sel["noticias"]) == CFG["teto_noticias"]
+    assert sum(i.fonte == "imprensa:acritica" for i in sel["noticias"]) == 5
