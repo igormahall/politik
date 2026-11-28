@@ -1,388 +1,6 @@
 [
   {
     "item": {
-      "id": "cmm:pacote:2026-11-23:executivo",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Pacote de 13 projetos de lei do Executivo Municipal sobre a estrutura da Prefeitura (PL 871 a 883/2026)",
-      "ementa": "Projetos enviados juntos pelo Executivo Municipal e registrados na CMM em 23/11/2026; cada um está em extra.projetos. PL 871/2026: DISPÕE sobre a estrutura organizacional da Casa Civil e dá outras providências. Mensagem n. 108/2026. | PL 872/2026: DISPÕE sobre a Estrutura Organizacional da Secretaria Municipal de Infraestrutura (Seminf), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n.109/2026. | PL 873/2026: DISPÕE sobre a estrutura organizacional da Casa Militar e dá outras providências. Mensagem n. 50/2026 | PL 874/2026: ALTERA a Lei n. 3.480, de 01 de abril de 2025, que dispõe sobre o funcionamento e a estrutura organizacional do Poder Executivo Municipal e dá outras providências. Mensagem n. 48/2026. | PL 875/2026: DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Educação (Semed), suas finalidades e competências, fixa seu quadro de cargos comissionados, cria Funções Gratificadas da Educação e dá outras providências. Mensagem n. 51/2026. | PL 876/2026: ALTERA a Lei n. 2.428, de 07 de maio de 2019, dispõe sobre a estrutura organizacional do Instituto Municipal de Mobilidade Urbana (IMMU) e dá outras providências. Mensagem n. 54/2026. | PL 877/2026: DISPÕE sobre a estrutura da Fundação Municipal de Cultura, Turismo e Eventos (Manauscult), entidade da Administração Indireta do Poder Executivo Municipal, e dá outras providências. Mensagem n. 55/2026. | PL 878/2026: DISPÕE sobre a estrutura organizacional do Gabinete do Vice-Prefeito e dá outras providências. Mensagem 52/2026. | PL 879/2026: DISPÕE sobre a estrutura organizacional da Fundação Municipal dos Direitos da Pessoa Idosa (FMDPI) e dá outras providências. Mensagem n. 53/2026. | PL 880/2026: DISPÕE Sobre a Estrutura de Organizacional da Secretaria Municipal de Administração e Gestão (Semad), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n. 56/2026. | PL 881/2026: DISPÕE sobre a organização do Conselho Municipal de Gestão Estratégica (CMGE) e dá outras providências. Mensagem 57/2026. | PL 882/2026: DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Segurança Pública e Defesa Social (Semseg) e dá outras providências. Mensagem n. 58/2026. | PL 883/2026: ALTERA a Lei Municipal n. 1.015, de 14 de julho de 2006, e dá outras providências. Mensagem 59/2026",
-      "data": "2026-11-23",
-      "url": "https://sapl.cmm.am.gov.br/materia/53183",
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53183/pl_874_2026_exe__mun_mens._48_2026_altera_a_lei_3480_estrutura_organizacional_do_poder_executivo.pdf",
-      "autores": [
-        {
-          "nome": "Executivo Municipal",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "extra": {
-        "projetos": [
-          {
-            "titulo": "PL 871/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional da Casa Civil e dá outras providências. Mensagem n. 108/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53180",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53180/pl_871_2026_exe__mun_mens._108_2026_estrutura_organizacional_da_casa_civil.pdf"
-          },
-          {
-            "titulo": "PL 872/2026",
-            "ementa": "DISPÕE sobre a Estrutura Organizacional da Secretaria Municipal de Infraestrutura (Seminf), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n.109/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53181",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53181/pl_872_2026_exe__mun_mens._109_2026_estrutura_organizacional_da_seminf.pdf"
-          },
-          {
-            "titulo": "PL 873/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional da Casa Militar e dá outras providências. Mensagem n. 50/2026",
-            "url": "https://sapl.cmm.am.gov.br/materia/53182",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53182/pl_873_2026_exe__mun_mens._50_2026_estrutura_organizacional_da_casa_militar.pdf"
-          },
-          {
-            "titulo": "PL 874/2026",
-            "ementa": "ALTERA a Lei n. 3.480, de 01 de abril de 2025, que dispõe sobre o funcionamento e a estrutura organizacional do Poder Executivo Municipal e dá outras providências. Mensagem n. 48/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53183",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53183/pl_874_2026_exe__mun_mens._48_2026_altera_a_lei_3480_estrutura_organizacional_do_poder_executivo.pdf"
-          },
-          {
-            "titulo": "PL 875/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Educação (Semed), suas finalidades e competências, fixa seu quadro de cargos comissionados, cria Funções Gratificadas da Educação e dá outras providências. Mensagem n. 51/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53184",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53184/pl_875_2026_exe__mun_mens._51_2026_estrutura_organizacional_da_semed.pdf"
-          },
-          {
-            "titulo": "PL 876/2026",
-            "ementa": "ALTERA a Lei n. 2.428, de 07 de maio de 2019, dispõe sobre a estrutura organizacional do Instituto Municipal de Mobilidade Urbana (IMMU) e dá outras providências. Mensagem n. 54/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53185",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53185/pl_876_2026_exe__mun_mens._54_2026_estrutura_organizacional_do_immu.pdf"
-          },
-          {
-            "titulo": "PL 877/2026",
-            "ementa": "DISPÕE sobre a estrutura da Fundação Municipal de Cultura, Turismo e Eventos (Manauscult), entidade da Administração Indireta do Poder Executivo Municipal, e dá outras providências. Mensagem n. 55/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53186",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53186/pl_877_2026_exe__mun_mens._55_2026_estrutura_organizacional_da_manauscult.pdf"
-          },
-          {
-            "titulo": "PL 878/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional do Gabinete do Vice-Prefeito e dá outras providências. Mensagem 52/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53187",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53187/pl_878_2026_exe__mun_mens._52_2026_estrutura_organizacional_do_gabinete_do_vice-prefeito.pdf"
-          },
-          {
-            "titulo": "PL 879/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional da Fundação Municipal dos Direitos da Pessoa Idosa (FMDPI) e dá outras providências. Mensagem n. 53/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53188",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53188/pl_879_2026_exe__mun_mens._53_2026_estrutura_organizacional_da_dmdpi.pdf"
-          },
-          {
-            "titulo": "PL 880/2026",
-            "ementa": "DISPÕE Sobre a Estrutura de Organizacional da Secretaria Municipal de Administração e Gestão (Semad), suas finalidades e competências, fixa seu quadro de cargos comissionados e dá outras providências. Mensagem n. 56/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53189",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53189/pl_880_2026_exe__mun_mens._56_2026_estrutura_organizacional_da_semad.pdf"
-          },
-          {
-            "titulo": "PL 881/2026",
-            "ementa": "DISPÕE sobre a organização do Conselho Municipal de Gestão Estratégica (CMGE) e dá outras providências. Mensagem 57/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53190",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53190/pl_881_2026_exe__mun_mens._57_2026_estrutura_organizacional_do_cmge.pdf"
-          },
-          {
-            "titulo": "PL 882/2026",
-            "ementa": "DISPÕE sobre a estrutura organizacional da Secretaria Municipal de Segurança Pública e Defesa Social (Semseg) e dá outras providências. Mensagem n. 58/2026.",
-            "url": "https://sapl.cmm.am.gov.br/materia/53191",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53191/pl_882_2026_exe__mun_mens._58_2026_estrutura_organizacional_da_semseg.pdf"
-          },
-          {
-            "titulo": "PL 883/2026",
-            "ementa": "ALTERA a Lei Municipal n. 1.015, de 14 de julho de 2006, e dá outras providências. Mensagem 59/2026",
-            "url": "https://sapl.cmm.am.gov.br/materia/53192",
-            "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53192/pl_883_2026_exe__mun_mens._59_2026_altera_a_lei_1.015.pdf"
-          }
-        ]
-      }
-    },
-    "primeira_vez": "2026-11-27"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53179",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 870 de 2026",
-      "ementa": "AUTORIZA o Poder Executivo Municipal a desafetar e alienar bem imóvel municipal definido como via pública do Loteamento Parque das Laranjeiras — Etapa Especial, Bairro Flores. Mensagem n. 107/2026.",
-      "data": "2026-11-23",
-      "url": "https://sapl.cmm.am.gov.br/materia/53179",
-      "autores": [
-        {
-          "nome": "Executivo Municipal",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53179/pl_870_2026_exe__mun_mens._107_2026_desafetacao_e_alienacao_flores.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-27"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53193",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 884 de 2026",
-      "ementa": "INSTITUI o Programa “Filhos da Terra”, que estabelece as diretrizes municipais para o incentivo e a valorização de artistas, grupos e manifestações culturais locais no Município de Manaus, e dá outras providências.",
-      "data": "2026-11-23",
-      "url": "https://sapl.cmm.am.gov.br/materia/53193",
-      "autores": [
-        {
-          "nome": "RAIFF MATOS",
-          "partido": "PL",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53193/pl_884_2026_raiff_matos_programa_filhos_da_terra.pdf",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-27"
-  },
-  {
-    "item": {
-      "id": "cmm:materia:53194",
-      "fonte": "cmm",
-      "nivel": "municipal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei nº 885 de 2026",
-      "ementa": "Projeto de Lei nº 174/2026, de autoria do Vereador Diego Afonso, que “Institui no âmbito do Município de Manaus/AM o programa ‘Brinquedoteca nas UBS’ e dá outras providências”.",
-      "data": "2026-11-23",
-      "url": "https://sapl.cmm.am.gov.br/materia/53194",
-      "autores": [
-        {
-          "nome": "PROF.ª JACQUELINE",
-          "partido": "UNIÃO",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": null,
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-27"
-  },
-  {
-    "item": {
-      "id": "camara:2649804:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deCultura;Previdência, Assistência Social, Infância, Adolescência e Família eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2649804",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199004",
-      "extra": {
-        "item_origem": "camara:2649804"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2649934:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "À Comissão deConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Prioridade (Art. 151, II, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2649934",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199033",
-      "extra": {
-        "item_origem": "camara:2649934"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2649984:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deDefesa dos Direitos das Pessoas com Deficiência eConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2649984",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204349",
-      "extra": {
-        "item_origem": "camara:2649984"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2649998:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deDefesa dos Direitos das Pessoas com Deficiência eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2649998",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204330",
-      "extra": {
-        "item_origem": "camara:2649998"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651096:tram:8",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deSegurança Pública e Combate ao Crime Organizado;Defesa dos Direitos da Mulher eConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651096",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204297",
-      "extra": {
-        "item_origem": "camara:2651096"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651110:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deCultura eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651110",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198390",
-      "extra": {
-        "item_origem": "camara:2651110"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651185:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões dePrevidência, Assistência Social, Infância, Adolescência e Família;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651185",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198482",
-      "extra": {
-        "item_origem": "camara:2651185"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651186:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões dePrevidência, Assistência Social, Infância, Adolescência e Família eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651186",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199685",
-      "extra": {
-        "item_origem": "camara:2651186"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651217:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deSaúde eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651217",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204324",
-      "extra": {
-        "item_origem": "camara:2651217"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651219:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deEducação;Defesa dos Direitos da Mulher;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651219",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198572",
-      "extra": {
-        "item_origem": "camara:2651219"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "camara:2651239:tram:7",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "Distribuição",
-      "ementa": "Às Comissões deTrabalho eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
-      "data": "2026-11-25",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2651239",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199455",
-      "extra": {
-        "item_origem": "camara:2651239"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
       "id": "camara:2651261:tram:7",
       "fonte": "camara",
       "nivel": "federal",
@@ -491,25 +109,6 @@
       "url_documento": null,
       "extra": {
         "item_origem": "camara:2655699"
-      }
-    },
-    "primeira_vez": "2026-11-25"
-  },
-  {
-    "item": {
-      "id": "senado:9118955:sit:2026-11-25",
-      "fonte": "senado",
-      "nivel": "federal",
-      "categoria": "tramitacao",
-      "sigla_tipo": "TRAMITACAO",
-      "titulo": "APROVADO PARECER NA COMISSÃO",
-      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre Estados Partes do Mercosul e Estados Associados, assinado em Assunção, em 20 de julho de 2022.",
-      "data": "2026-11-25",
-      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176152",
-      "autores": [],
-      "url_documento": null,
-      "extra": {
-        "item_origem": "senado:9118955"
       }
     },
     "primeira_vez": "2026-11-25"
@@ -672,417 +271,6 @@
       }
     },
     "primeira_vez": "2026-11-26"
-  },
-  {
-    "item": {
-      "id": "camara:2659076",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5946/2026",
-      "ementa": "Altera as Leis n°s 14.182, de 2021, 9.648, de 1998, 10.438, de 2002, e 9.991, de 2000, para tratar da conexão de centrais hidrelétricas contratadas, do despacho centralizado de aproveitamentos de até 50MW e da destinação facultativa de recursos de pesquisa e desenvolvimento à Conta de Desenvolvimento Energético.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659076",
-      "autores": [
-        {
-          "nome": "Carlos Zarattini",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203690",
-      "extra": {
-        "indexacao": "alteração; Lei de Privatização da Eletrobras (2021); Lei federal; Lei do Setor Elétrico (2002); Lei do Desenvolvimento do Setor Elétrico (2000); conexão; Usina hidrelétrica; Aproveitamento hidrelétrico; Geração de energia elétrica; Leilão de Reserva de Capacidade; Agência Nacional de Energia Elétrica (ANEEL); Operador Nacional do Sistema Elétrico (ONS); Despacho centralizado; Sistema Interligado Nacional (SIN); Conta de Desenvolvimento Energético (CDE); investimento; pesquisa e desenvolvimento"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659079",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PDL",
-      "titulo": "PDL 1249/2026",
-      "ementa": "Susta os efeitos da Portaria MJSP nº 1.262, de 19 de novembro de 2026, que declara de posse permanente dos povos indígenas Mebêngôkre e Yudjá a Terra Indígena Kapôt Nhinore, localizada nos Estados de Mato Grosso e Pará.\n\n ",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659079",
-      "autores": [
-        {
-          "nome": "Coronel Fernanda",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203693",
-      "extra": {
-        "indexacao": "sustação; Portaria; Ministério da Justiça e Segurança Pública; Posse permanente; Terras indígenas; Indígenas; Mato Grosso; Pará (Estado)"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659098",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5947/2026",
-      "ementa": "Dispõe sobre a obrigatoriedade de implantação de sistemas de monitoramento e integração tecnológica com as forças de segurança pública nos contratos de concessão de rodovias federais.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659098",
-      "autores": [
-        {
-          "nome": "Bebeto",
-          "partido": "PP",
-          "uf": "RJ"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203732",
-      "extra": {
-        "indexacao": "obrigatoriedade; Videomonitoramento; Rodovia federal; integração; Órgão de segurança pública; Polícia Rodoviária Federal (PRF); Agência Nacional de Transportes Terrestres (ANTT); Edital; Licitação; Contrato de concessão"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659109",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5949/2026",
-      "ementa": "Acrescenta o art. 26-I à Lei nº 8.080, de 19 de setembro de 1990, para instituir a Política Nacional Permanente de Telessaúde na Amazônia Legal, no âmbito do Sistema Único de Saúde.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659109",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203754",
-      "extra": {
-        "indexacao": "alteração; Lei Orgânica da Saúde (1990); política pública; Telessaúde; Amazônia Legal; Sistema Único de Saúde (SUS); ampliação; acesso; População indígena; População ribeirinha; Comunidade isolada; Assistência à saúde; diretrizes"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659110",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5950/2026",
-      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023, para incluir as particularidades geográficas e logísticas da Amazônia Legal entre os critérios de seleção e concessão da Bolsa-Atleta.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659110",
-      "autores": [
-        {
-          "nome": "Sidney Leite",
-          "partido": "PSD",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203755",
-      "extra": {
-        "indexacao": "alteração; Lei Geral do Esporte (2023); critério; concessão; Bolsa-Atleta; Amazônia Legal; Logística; deslocamento; treinamento; Competição esportiva; Igualdade de oportunidade; Atleta; Amazonas"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659111",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5951/2026",
-      "ementa": "Altera a Lei nº 6.538, de 22 de junho de 1978, para modernizar procedimentos de documentação, comprovação de postagem e entrega e disponibilização de informações no âmbito dos serviços postais.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659111",
-      "autores": [],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203756",
-      "extra": {
-        "indexacao": "alteração; Lei dos Serviços Postais (1978); modernização; Serviços postais; Documento eletrônico; comprovação eletrônica; rastreabilidade"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659112",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5952/2026",
-      "ementa": "Revoga a Lei nº 13.645, de 4 de abril de 2018, que institui o Dia Nacional do Desafio.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659112",
-      "autores": [
-        {
-          "nome": "Sidney Leite",
-          "partido": "PSD",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203757",
-      "extra": {
-        "indexacao": "Revogação; Lei federal; Dia Nacional do Desafio; Campanha educativa; Atividade física; Esporte"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659113",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5953/2026",
-      "ementa": "Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659113",
-      "autores": [
-        {
-          "nome": "Sidney Leite",
-          "partido": "PSD",
-          "uf": "AM"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203758",
-      "extra": {
-        "indexacao": "alteração; Lei federal; avaliação; Relevância social; Data comemorativa; critério; criação; Feriado; Transparência pública"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659137",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5955/2026",
-      "ementa": "Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659137",
-      "autores": [
-        {
-          "nome": "Rubens Pereira Júnior",
-          "partido": "PT",
-          "uf": "MA"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203788",
-      "extra": {
-        "indexacao": "bloqueio; Telefone celular; Identificação Internacional de Equipamento Móvel (IMEI); Roubo; Furto; extravio; Boletim de ocorrência policial; Órgão de segurança pública; Operadora de telefonia móvel; Multa administrativa; Receptação de aparelho de telefonia móvel, celular ou smartphone"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659237",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5956/2026",
-      "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659237",
-      "autores": [
-        {
-          "nome": "Célio Studart",
-          "partido": "PSD",
-          "uf": "CE"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203996",
-      "extra": {
-        "indexacao": "alteração; Lei Antifumo (1996); obrigatoriedade; Mensagem de advertência; Embalagem do produto; Produto fumígeno; Tabaco; Prejuízo; Saúde animal; Animal doméstico"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659238",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5957/2026",
-      "ementa": "Altera a Lei nº 13.988, de 14 de abril de 2020, e a Lei nº 10.522, de 19 de julho de 2002, para instituir modalidade de transação tributária vinculada à capacidade efetiva de pagamento, criar o Bônus de Conformidade Corrente para contribuintes adimplentes, instituir o Cadastro Nacional de Grandes Devedores Contumazes da Dívida Ativa e estabelecer regras céleres de cobrança e constrição patrimonial, e dá outras providências.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659238",
-      "autores": [
-        {
-          "nome": "Mauricio Neves",
-          "partido": "PP",
-          "uf": "SP"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203998",
-      "extra": {
-        "indexacao": "alteração; Lei federal; Transação tributária; Devedor contumaz; Dívida ativa; cobrança; Regularidade fiscal; Pessoa jurídica"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659243",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PDL",
-      "titulo": "PDL 1250/2026",
-      "ementa": "Susta os efeitos da Portaria nº 1.249/PRES, de 27 de setembro de 2004, da Presidência da Fundação Nacional do Índio, que constituiu o grupo técnico de identificação e delimitação da Terra Indígena Kapôt Nh?nore.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659243",
-      "autores": [
-        {
-          "nome": "Rodolfo Nogueira",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204018",
-      "extra": {
-        "indexacao": "sustação; Portaria; Fundação Nacional dos Povos Indígenas (Funai); Grupo técnico de trabalho; identificação; Demarcação de terra; Terras indígenas"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659286",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PLP",
-      "titulo": "PLP 318/2026",
-      "ementa": "Altera a Lei Complementar nº 206, de 16 de maio de 2024, e a Lei Complementar nº 212, de 13 de janeiro de 2025, para permitir a prorrogação das medidas de alívio financeiro e a remissão parcial de dívidas a entes federativos afetados por calamidade pública reconhecida pelo Congresso Nacional, mediante proposta do Poder Executivo federal.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659286",
-      "autores": [
-        {
-          "nome": "Afonso Hamm",
-          "partido": null,
-          "uf": null
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204102",
-      "extra": {
-        "indexacao": "alteração; Lei complementar; prorrogação; Pagamento; Remissão da dívida; Ente federado; Calamidade pública; Fundo público; Contrato de refinanciamento de dívida; Programa de Pleno Pagamento de Dívidas dos Estados (Propag); Ministério da Fazenda; Benefício fiscal; Tributação"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659310",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5958/2026",
-      "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659310",
-      "autores": [
-        {
-          "nome": "Eros Biondini",
-          "partido": "PL",
-          "uf": "MG"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204135",
-      "extra": {
-        "indexacao": "alteração; Lei federal; Programa de Combate à Intimidação Sistemática - Bullying; Instituição de ensino; Canal de denúncia; Aluno; Vítima; Bullying; Denúncia anônima; medida de proteção; Assistência psicológica; responsabilização"
-      }
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659340",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5959/2026",
-      "ementa": "Altera a Lei nº 8.078, de 11 de setembro de 1990 (Código de Defesa do Consumidor) para dispor sobre a obrigatoriedade de destaque visual do montante total de juros e do Custo Efetivo Total em contratos de crédito e financiamento.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659340",
-      "autores": [
-        {
-          "nome": "Kim Kataguiri",
-          "partido": "MISSÃO",
-          "uf": "SP"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204323",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "camara:2659342",
-      "fonte": "camara",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5960/2026",
-      "ementa": "Institui a Política Nacional de Arborização Urbana, estabelece diretrizes para a compatibilização e o convívio seguro da vegetação com as redes de distribuição de energia elétrica, cria o Sistema Nacional de Informações sobre Arborização Urbana, e dá outras providências.",
-      "data": "2026-11-24",
-      "url": "https://www.camara.leg.br/propostas-legislativas/2659342",
-      "autores": [
-        {
-          "nome": "Gilberto Nascimento",
-          "partido": "PODE",
-          "uf": "SP"
-        }
-      ],
-      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204327",
-      "extra": {}
-    },
-    "primeira_vez": "2026-11-24"
-  },
-  {
-    "item": {
-      "id": "senado:9136256",
-      "fonte": "senado",
-      "nivel": "federal",
-      "categoria": "proposicao",
-      "sigla_tipo": "PL",
-      "titulo": "PL 5948/2026",
-      "ementa": "Confere ao Município de Itapiranga, no Estado de Santa Catarina, o título de Berço Nacional da Oktoberfest.",
-      "data": "2026-11-24",
-      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176536",
-      "autores": [
-        {
-          "nome": "Jorge Seif",
-          "partido": "PL",
-          "uf": "SC"
-        }
-      ],
-      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/a47feaba-500a-4011-af0e-3f9f16968aad",
-      "extra": {
-        "tipoDocumento": "Projeto de Lei Ordinária",
-        "situacaoAtual": "AGUARDANDO DESPACHO",
-        "codigoMateria": 176536
-      }
-    },
-    "primeira_vez": "2026-11-24"
   },
   {
     "item": {
@@ -2842,72 +2030,545 @@
   },
   {
     "item": {
-      "id": "aleam:materia:185200",
-      "fonte": "aleam",
-      "nivel": "estadual",
+      "id": "camara:2660383",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5993/2026",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660383",
+      "autores": [
+        {
+          "nome": "Rubens Pereira Júnior",
+          "partido": "PT",
+          "uf": "MA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206364",
+      "extra": {
+        "indexacao": "alteração; Lei de Licitações e Contratos Administrativos (2021); Contratação direta; Dispensa de licitação; Inexigibilidade de licitação; Recursos didáticos; Livro didático; condição; complementaridade; ausência; contrato; duplicação; fornecimento; Programa Nacional do Livro e do Material Didático (PNLD); justificativa; quantidade; Estudante; Professor; Transparência ativa; Comunicação; Tribunal de contas; declaração; Ordenador de despesa"
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660396",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5994/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660396",
+      "autores": [
+        {
+          "nome": "Capitão Alden",
+          "partido": "PL",
+          "uf": "BA"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206390",
+      "extra": {
+        "indexacao": "alteração; Código Penal (1940); Código de Processo Penal (1941); Código Civil (2002); crime; Legítima defesa; Prisão em flagrante; Legítima defesa presumida; Invasão de propriedade; Dispositivo de segurança; Propriedade particular; Sentença condenatória; Responsabilidade civil; Reparação do dano"
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660404",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5995/2026",
+      "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660404",
+      "autores": [
+        {
+          "nome": "Airton Faleiro",
+          "partido": "PT",
+          "uf": "PA"
+        },
+        {
+          "nome": "Alexandre Lindenmeyer",
+          "partido": "PT",
+          "uf": "RS"
+        },
+        {
+          "nome": "Alfredinho",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Benedita da Silva",
+          "partido": "PT",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Carlos Veras",
+          "partido": "PT",
+          "uf": "PE"
+        },
+        {
+          "nome": "Carlos Zarattini",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Carol Dartora",
+          "partido": "PT",
+          "uf": "PR"
+        },
+        {
+          "nome": "Daniel Almeida",
+          "partido": "PCdoB",
+          "uf": "BA"
+        },
+        {
+          "nome": "Denise Pessôa",
+          "partido": "PT",
+          "uf": "RS"
+        },
+        {
+          "nome": "Fernando Mineiro",
+          "partido": "PT",
+          "uf": "RN"
+        },
+        {
+          "nome": "Gilmar Machado",
+          "partido": "PT",
+          "uf": "MG"
+        },
+        {
+          "nome": "Glauber Braga",
+          "partido": "PSOL",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Helder Salomão",
+          "partido": "PT",
+          "uf": "ES"
+        },
+        {
+          "nome": "Ivoneide Caetano",
+          "partido": "PT",
+          "uf": "BA"
+        },
+        {
+          "nome": "João Daniel",
+          "partido": "PT",
+          "uf": "SE"
+        },
+        {
+          "nome": "Jorge Solla",
+          "partido": "PT",
+          "uf": "BA"
+        },
+        {
+          "nome": "Joseildo Ramos",
+          "partido": "PT",
+          "uf": "BA"
+        },
+        {
+          "nome": "Juliana Cardoso",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Kiko Celeguim",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Lindbergh Farias",
+          "partido": "PT",
+          "uf": "RJ"
+        },
+        {
+          "nome": "Marcon",
+          "partido": "PT",
+          "uf": "RS"
+        },
+        {
+          "nome": "Maria do Rosário",
+          "partido": "PT",
+          "uf": "RS"
+        },
+        {
+          "nome": "Nilto Tatto",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Padre João",
+          "partido": "PT",
+          "uf": "MG"
+        },
+        {
+          "nome": "Paulão",
+          "partido": "PT",
+          "uf": "AL"
+        },
+        {
+          "nome": "Paulo Guedes",
+          "partido": "PT",
+          "uf": "MG"
+        },
+        {
+          "nome": "Paulo Teixeira",
+          "partido": "PT",
+          "uf": "SP"
+        },
+        {
+          "nome": "Rogério Correia",
+          "partido": "PT",
+          "uf": "MG"
+        },
+        {
+          "nome": "Valmir Assunção",
+          "partido": "PT",
+          "uf": "BA"
+        },
+        {
+          "nome": "Vander Loubet",
+          "partido": "PT",
+          "uf": "MS"
+        },
+        {
+          "nome": "Waldenor Pereira",
+          "partido": "PT",
+          "uf": "BA"
+        },
+        {
+          "nome": "Welter",
+          "partido": "PT",
+          "uf": "PR"
+        },
+        {
+          "nome": "Zeca Dirceu",
+          "partido": "PT",
+          "uf": "PR"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206416",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660437",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5996/2026",
+      "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660437",
+      "autores": [
+        {
+          "nome": "Kim Kataguiri",
+          "partido": "MISSÃO",
+          "uf": "SP"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206462",
+      "extra": {
+        "indexacao": "alteração; Lei da Soberania Popular (1998); Deliberação; Aumento salarial; Subsídio (remuneração); Indenização (vantagem pecuniária); Verba indenizatória; Deputado federal; Senador; obrigatoriedade; Plebiscito; Decreto legislativo; Apoiamento; transparência"
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660442",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5997/2026",
+      "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660442",
+      "autores": [
+        {
+          "nome": "Silas Câmara",
+          "partido": "REPUBLICANOS",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206471",
+      "extra": {
+        "indexacao": "proibição; compartilhamento; Impulsionamento de conteúdo; Exposição de imagem; Vídeo; Fotografia; Vítima; Agressão; Tortura; obrigações; Plataforma digital; Provedor de aplicações; Rede social digital; Princípio da dignidade da pessoa humana; Superexposição nociva; Exploração midiática"
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660450",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 5998/2026",
+      "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660450",
+      "autores": [
+        {
+          "nome": "Afonso Motta",
+          "partido": "PDT",
+          "uf": "RS"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206516",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660453",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PLP",
+      "titulo": "PLP 323/2026",
+      "ementa": "Altera a Lei Complementar nº 210, de 25 de novembro de 2024, para dispor sobre a contribuição das emendas parlamentares ao equilíbrio fiscal.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660453",
+      "autores": [
+        {
+          "nome": "André Janones",
+          "partido": "REDE",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206531",
+      "extra": {
+        "indexacao": "alteração; Lei complementar; Emenda; Ajuste fiscal; Equilíbrio fiscal; Lei de Responsabilidade Fiscal (2000); percentual; Dotação orçamentária; Meta fiscal; Despesa discricionária; Ações e Serviços Públicos de Saúde (ASPS)"
+      }
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660464",
+      "fonte": "camara",
+      "nivel": "federal",
       "categoria": "proposicao",
       "sigla_tipo": "PDL",
-      "titulo": "Projeto de Decreto Legislativo nº 27 de 2026",
-      "ementa": "APROVA a indicação dos nomes que especifica para a composição do Conselho Estadual dos Direitos Humanos.",
-      "data": "2026-11-24",
-      "url": "https://sapl.al.am.leg.br/materia/185200",
+      "titulo": "PDL 1291/2026",
+      "ementa": "Aprova o texto do Acordo Internacional sobre o Azeite e as Azeitonas de Mesa de 2015, e o texto da alteração do Artigo 36 deste Acordo, aprovada em Madri, em 25 de junho de 2024.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660464",
       "autores": [
         {
-          "nome": "CE - Comissão Especial",
-          "partido": "PSDB",
-          "uf": "AM"
+          "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+          "partido": null,
+          "uf": null
         }
       ],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185200/pdl._n.o_27.2026_conselho_direitos_humanos.pdf",
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206597",
       "extra": {}
     },
-    "primeira_vez": "2026-11-24"
+    "primeira_vez": "2026-11-27"
   },
   {
     "item": {
-      "id": "aleam:materia:185242",
-      "fonte": "aleam",
-      "nivel": "estadual",
+      "id": "camara:2660478",
+      "fonte": "camara",
+      "nivel": "federal",
       "categoria": "proposicao",
       "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei Ordinária nº 640 de 2026",
-      "ementa": "DECLARA como Patrimônio Cultural de Natureza Imaterial do Estado do Amazonas a Feira da Panair, localizada no bairro de Educandos, no Município de Manaus.",
-      "data": "2026-11-24",
-      "url": "https://sapl.al.am.leg.br/materia/185242",
+      "titulo": "PL 5999/2026",
+      "ementa": "Altera a Lei nº 14.113, de 25 de dezembro de 2020, que regulamenta o Fundeb, para incluir a implementação do ensino de história e cultura afro-brasileira e indígena entre as condicionalidades da complementação da União na modalidade VAAR.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660478",
       "autores": [
         {
-          "nome": "Rozenha",
-          "partido": "PSD",
-          "uf": "AM"
+          "nome": "Dandara",
+          "partido": "PT",
+          "uf": "MG"
         }
       ],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185242/047004.pdf",
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206772",
       "extra": {}
     },
-    "primeira_vez": "2026-11-24"
+    "primeira_vez": "2026-11-27"
   },
   {
     "item": {
-      "id": "aleam:materia:185243",
-      "fonte": "aleam",
-      "nivel": "estadual",
+      "id": "camara:2660479",
+      "fonte": "camara",
+      "nivel": "federal",
       "categoria": "proposicao",
       "sigla_tipo": "PL",
-      "titulo": "Projeto de Lei Ordinária nº 641 de 2026",
-      "ementa": "ALTERA a Lei nº 7.044, de 3 de setembro de 2024, que estabelece diretrizes para conscientização da população sobre os riscos do Uso do Transporte Clandestino e Priorização do Transporte Seguro no Estado do Amazonas, para incluir o transporte fluvial intermunicipal de passageiros e ampliar as ações de conscientização.",
-      "data": "2026-11-24",
-      "url": "https://sapl.al.am.leg.br/materia/185243",
+      "titulo": "PL 6000/2026",
+      "ementa": "Dispõe sobre o reconhecimento dos terreiros e demais espaços tradicionais de matriz africana como espaços de promoção da saúde comunitária e sobre a cooperação com o Sistema Único de Saúde.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660479",
       "autores": [
         {
-          "nome": "Rozenha",
-          "partido": "PSD",
-          "uf": "AM"
+          "nome": "Dandara",
+          "partido": "PT",
+          "uf": "MG"
         }
       ],
-      "url_documento": "http://sapl.al.am.leg.br/media/sapl/public/materialegislativa/2026/185243/047060.pdf",
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206773",
       "extra": {}
     },
-    "primeira_vez": "2026-11-24"
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660480",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6001/2026",
+      "ementa": "Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660480",
+      "autores": [
+        {
+          "nome": "Dandara",
+          "partido": "PT",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206774",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660485",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6002/2026",
+      "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660485",
+      "autores": [
+        {
+          "nome": "Dandara",
+          "partido": "PT",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206780",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660486",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6003/2026",
+      "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660486",
+      "autores": [
+        {
+          "nome": "Dandara",
+          "partido": "PT",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206783",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660488",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6006/2026",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660488",
+      "autores": [
+        {
+          "nome": "Nikolas Ferreira",
+          "partido": "PL",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206785",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "camara:2660498",
+      "fonte": "camara",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6007/2026",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "data": "2026-11-27",
+      "url": "https://www.camara.leg.br/propostas-legislativas/2660498",
+      "autores": [
+        {
+          "nome": "Nikolas Ferreira",
+          "partido": "PL",
+          "uf": "MG"
+        }
+      ],
+      "url_documento": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206798",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "senado:9141063",
+      "fonte": "senado",
+      "nivel": "federal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "PL 6005/2026",
+      "ementa": "Institui medidas de prevenção e proteção da saúde dos trabalhadores contra a exposição ao calor excessivo e altera a Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943.",
+      "data": "2026-11-27",
+      "url": "https://www25.senado.leg.br/web/atividade/materias/-/materia/176628",
+      "autores": [
+        {
+          "nome": "Jader Barbalho",
+          "partido": "MDB",
+          "uf": "PA"
+        }
+      ],
+      "url_documento": "https://legis.senado.gov.br/sdleg-getter/dadosabertos/documento/d4265ae5-a5b5-4e57-93b9-46713cb2aadd",
+      "extra": {
+        "tipoDocumento": "Projeto de Lei Ordinária",
+        "situacaoAtual": "AGUARDANDO DESPACHO",
+        "codigoMateria": 176628
+      }
+    },
+    "primeira_vez": "2026-11-27"
   },
   {
     "item": {
@@ -3296,6 +2957,52 @@
   },
   {
     "item": {
+      "id": "cmm:materia:53193",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 884 de 2026",
+      "ementa": "INSTITUI o Programa “Filhos da Terra”, que estabelece as diretrizes municipais para o incentivo e a valorização de artistas, grupos e manifestações culturais locais no Município de Manaus, e dá outras providências.",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53193",
+      "autores": [
+        {
+          "nome": "RAIFF MATOS",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53193/pl_884_2026_raiff_matos_programa_filhos_da_terra.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53194",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 885 de 2026",
+      "ementa": "Projeto de Lei nº 174/2026, de autoria do Vereador Diego Afonso, que “Institui no âmbito do Município de Manaus/AM o programa ‘Brinquedoteca nas UBS’ e dá outras providências”.",
+      "data": "2026-11-23",
+      "url": "https://sapl.cmm.am.gov.br/materia/53194",
+      "autores": [
+        {
+          "nome": "PROF.ª JACQUELINE",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": null,
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
       "id": "cmm:materia:53196",
       "fonte": "cmm",
       "nivel": "municipal",
@@ -3454,5 +3161,97 @@
       "extra": {}
     },
     "primeira_vez": "2026-11-26"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53203",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 892 de 2026",
+      "ementa": "INSTITUI a Política Municipal de Educação Financeira, Consumo Consciente e Prevenção ao Superendividamento no âmbito do município de Manaus e dá outras providências.",
+      "data": "2026-11-27",
+      "url": "https://sapl.cmm.am.gov.br/materia/53203",
+      "autores": [
+        {
+          "nome": "RAIFF MATOS",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53203/pl_892_2026_raiff_matos_educacao_financeira_superendividamento.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53204",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 893 de 2026",
+      "ementa": "INSTITUI diretrizes para a capacitação continuada dos professores da rede pública municipal de ensino em robótica, letramento digital e tecnologia educacional, e dá outras providências.",
+      "data": "2026-11-27",
+      "url": "https://sapl.cmm.am.gov.br/materia/53204",
+      "autores": [
+        {
+          "nome": "RAIFF MATOS",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53204/pl_893_2026_raiff_matos_ensino_de_robotica_letramento_digital.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53205",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 894 de 2026",
+      "ementa": "EQUIPARA as pessoas com fissura labiopalatina, malformações craniofaciais e doença renal crônica à condição de pessoa com deficiência para fins de \r\npolíticas públicas, prioridades e direitos de competência municipal no âmbito do município de Manaus e dá outras providências.",
+      "data": "2026-11-27",
+      "url": "https://sapl.cmm.am.gov.br/materia/53205",
+      "autores": [
+        {
+          "nome": "RAIFF MATOS",
+          "partido": "PL",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53205/pl_894_2026_raiff_matos_fissura_labiopalatina_pessoa_com_deficiencia_fins_de_politicas_publicas.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
+  },
+  {
+    "item": {
+      "id": "cmm:materia:53206",
+      "fonte": "cmm",
+      "nivel": "municipal",
+      "categoria": "proposicao",
+      "sigla_tipo": "PL",
+      "titulo": "Projeto de Lei nº 895 de 2026",
+      "ementa": "ALTERA a Lei nº 3.245, de 26 de dezembro de 2023, que institui a Campanha Permanente de Inclusão Digital Destinada à Pessoa Idosa, para incluir ações \r\nde segurança digital e prevenção de golpes e fraudes eletrônicas no Município de Manaus.",
+      "data": "2026-11-27",
+      "url": "https://sapl.cmm.am.gov.br/materia/53206",
+      "autores": [
+        {
+          "nome": "SAIMON BESSA",
+          "partido": "UNIÃO",
+          "uf": "AM"
+        }
+      ],
+      "url_documento": "http://sapl.cmm.am.gov.br/media/sapl/public/materialegislativa/2026/53206/pl_895_2026_saimon_bessa_altera_a_lei_3.245_campanha_de_inclusao_digital_pessoa_idosa.pdf",
+      "extra": {}
+    },
+    "primeira_vez": "2026-11-27"
   }
 ]

@@ -1,0 +1,63 @@
+{
+  "data": "2026-11-27",
+  "temas": [
+    {
+      "slug": "caso-master",
+      "novo_hoje": "O Dep. Junio Amaral (PL–MG) apresentou à Câmara um pedido de informações ao Ministério da Justiça sobre o afastamento de delegados da PF que coordenavam a investigação do caso Master. O pedido também quer saber os critérios usados no relatório enviado ao STF.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Caso Master",
+      "linha_capa": "Deputado pede explicações sobre afastamento de delegados da PF"
+    },
+    {
+      "slug": "saida-de-flavio-bolsonaro-do-pais",
+      "novo_hoje": "O ministro Flávio Dino suspendeu, em caráter liminar, a tramitação das 14 emendas de Flávio Bolsonaro ao Orçamento de 2027, que somam R$ 79,3 milhões. Ele pediu ao Senado que explique se a saída do senador do país foi autorizada ou se ele está em missão oficial.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Flávio Bolsonaro nos EUA",
+      "linha_capa": "Dino suspende emendas de senador fora do país e pede explicação ao Senado"
+    },
+    {
+      "slug": "nova-chefia-da-fazenda-2027",
+      "novo_hoje": "O dólar caiu quase 4% e fechou a R$ 5,51, no dia seguinte ao anúncio de Luiz Carlos Trabuco para a Fazenda. O presidente da Câmara, Hugo Motta (Republicanos–PB), elogiou a escolha e se colocou à disposição para construir uma agenda econômica.",
+      "aviso_fonte_unica": "A declaração de Hugo Motta sobre Trabuco vem só da Agência Câmara.",
+      "nome_curto": "Novo ministro da Fazenda",
+      "linha_capa": "Dólar cai quase 4% e fecha a R$ 5,51 após escolha de Trabuco"
+    },
+    {
+      "slug": "maioridade-penal",
+      "novo_hoje": "A comissão especial da Câmara marcou para terça-feira (1º de dezembro) a discussão e a votação do parecer do relator Mendonça Filho (PL–PE). Em 25 de novembro, Guilherme Derrite (PP–SP) havia sido colocado como relator por duas semanas, no lugar de Mendonça Filho.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Maioridade penal",
+      "linha_capa": "Comissão da Câmara vota na terça parecer sobre idade penal de 16 anos"
+    },
+    {
+      "slug": "proibicao-das-bets",
+      "novo_hoje": "O governo federal informou que 86.176 sites, páginas e perfis foram tirados do ar ou tiveram remoção determinada por publicidade ilegal de bets desde a proibição. O balanço diz que as ações alcançaram 74,7 milhões de usuários, membros e seguidores de canais com irregularidades.",
+      "aviso_fonte_unica": null,
+      "nome_curto": "Proibição das bets",
+      "linha_capa": "Governo diz ter tirado do ar mais de 86 mil sites e perfis de apostas"
+    }
+  ],
+  "fichas": [
+    "dou:leg:44462499",
+    "dou:leg:44472717",
+    "camara:2649934:tram:7",
+    "camara:2651096:tram:8",
+    "camara:2651239:tram:7",
+    "camara:2660444",
+    "dou:leg:44472648",
+    "camara:2649804:tram:7",
+    "camara:2649984:tram:7",
+    "camara:2649998:tram:7",
+    "camara:2651110:tram:7",
+    "camara:2651185:tram:7",
+    "camara:2651186:tram:7",
+    "camara:2651217:tram:7",
+    "camara:2651219:tram:7",
+    "aleam:materia:185200",
+    "aleam:materia:185242",
+    "aleam:materia:185243",
+    "cmm:pacote:2026-11-23:executivo",
+    "cmm:materia:53179"
+  ],
+  "mundo": []
+}
